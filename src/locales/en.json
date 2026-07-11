@@ -10,14 +10,7 @@
       "twitterDescription": "Call of Duty Black Ops II wiki: PS5/PS4 port, Zombies maps, Easter eggs, weapons, multiplayer classes, DLC and guides."
     }
   },
-  "nav": {
-    "guides": "Guides",
-    "crafting": "Crafting",
-    "items": "Items",
-    "biomes": "Biomes",
-    "building": "Building",
-    "support": "Support"
-  },
+  "nav": {},
   "common": {
     "home": "Home",
     "more": "More",
