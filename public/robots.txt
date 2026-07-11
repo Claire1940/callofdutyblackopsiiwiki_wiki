@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+
+# Disallow legal/utility pages from being indexed focus
+Disallow: /privacy-policy
+Disallow: /terms-of-service
+
+Sitemap: https://www.callofdutyblackopsiiwiki.wiki/sitemap.xml

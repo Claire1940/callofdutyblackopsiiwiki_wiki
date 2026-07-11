@@ -1,13 +1,13 @@
 {
   "seo": {
     "home": {
-      "title": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-      "description": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, endings, and survival tips for the surreal voxel sandbox adventure on Steam.",
-      "keywords": "Lucid Blocks, Lucid Blocks wiki, crafting, biomes, achievements, survival, Steam",
-      "ogTitle": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-      "ogDescription": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, endings, and survival tips for the surreal voxel sandbox adventure on Steam.",
-      "twitterTitle": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-      "twitterDescription": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, and survival tips for the surreal voxel sandbox on Steam."
+      "title": "Call of Duty Black Ops II - Zombies, Maps & PS5",
+      "description": "Call of Duty Black Ops II covering the PS5 and PS4 port, campaign endings, Zombies maps, Easter eggs, weapons, multiplayer classes, DLC and guides.",
+      "keywords": "Call of Duty Black Ops II, BO2, PS5, Zombies, maps, weapons, campaign, Easter eggs, DLC",
+      "ogTitle": "Call of Duty Black Ops II - Zombies, Maps & PS5",
+      "ogDescription": "Call of Duty Black Ops II covering the PS5 and PS4 port, campaign endings, Zombies maps, Easter eggs, weapons, multiplayer classes, DLC and guides.",
+      "twitterTitle": "Call of Duty Black Ops II - Zombies, Maps & PS5",
+      "twitterDescription": "Call of Duty Black Ops II wiki: PS5/PS4 port, Zombies maps, Easter eggs, weapons, multiplayer classes, DLC and guides."
     }
   },
   "nav": {
@@ -34,27 +34,28 @@
     "articlesComingSoon": "Articles coming soon"
   },
   "hero": {
-    "badge": "Surreal Voxel Survival Sandbox",
-    "title": "Lucid Blocks Wiki",
-    "description": "Explore dreamlike biomes, fuse items with Apotheosis, build freely, and survive strange creatures in this surreal open-world sandbox on Steam.",
-    "getFreeCodesCTA": "Explore Crafting Guide",
-    "playOnSteamCTA": "Play on Steam",
+    "badge": "Branching Near-Future FPS",
+    "title": "Call of Duty Black Ops II Wiki",
+    "description": "Explore the branching 1980s and 2025 campaign, Pick 10 multiplayer, scorestreaks, Zombies maps, Easter eggs, weapons, DLC, and the 2026 PS4/PS5 release.",
+    "keywords": "Call of Duty Black Ops II, BO2, PS5, PS4, Zombies, maps, weapons, campaign endings, Easter eggs, DLC",
+    "getFreeCodesCTA": "View PS5 Guide",
+    "playOnSteamCTA": "Play on PlayStation",
     "stats": {
       "stat1": {
-        "value": "1,325",
-        "label": "Players Online"
+        "value": "4.83/5",
+        "label": "Player Rating"
       },
       "stat2": {
-        "value": "1,986",
-        "label": "Peak CCU"
+        "value": "20K+",
+        "label": "Player Ratings"
       },
       "stat3": {
-        "value": "97%",
-        "label": "Positive Reviews"
+        "value": "Jul 9, 2026",
+        "label": "PS4/PS5 Release"
       },
       "stat4": {
-        "value": "Mar 12, 2026",
-        "label": "Release Date"
+        "value": "Up to 18",
+        "label": "Online Players"
       }
     }
   },
@@ -785,26 +786,26 @@
     ]
   },
   "cta": {
-    "title": "Ready to Explore Lucid Blocks?",
-    "description": "Join the Lucid Blocks community on Discord for guides, updates, and discussions!",
-    "joinCommunity": "Join Discord",
+    "title": "Ready to Play Call of Duty Black Ops II?",
+    "description": "Join the Black Ops II community on Reddit for guides, updates, and discussions!",
+    "joinCommunity": "Join Reddit",
     "joinGame": "Play on Steam"
   },
   "footer": {
-    "title": "Lucid Blocks Wiki",
-    "description": "Your complete resource hub for Lucid Blocks crafting, biomes, creatures, achievements, and survival guides.",
+    "title": "Call of Duty Black Ops II Wiki",
+    "description": "Your complete resource hub for Call of Duty Black Ops II campaign, Zombies, multiplayer, weapons, maps, DLC, and Easter eggs.",
     "resources": "Resources",
     "community": "Community",
     "legal": "Legal",
-    "discord": "Discord",
-    "twitter": "X / Twitter",
-    "steamCommunity": "Steam Community",
+    "reddit": "Reddit",
+    "youtube": "YouTube",
     "steamStore": "Steam Store",
+    "playstation": "PlayStation",
     "about": "About",
     "privacy": "Privacy Policy",
     "terms": "Terms of Service",
     "copyrightNotice": "Copyright",
-    "copyright": "© 2026 Lucid Blocks Wiki. Not affiliated with the developers of Lucid Blocks.",
+    "copyright": "© 2026 Call of Duty Black Ops II Wiki. Not affiliated with Activision.",
     "disclaimer": "Unofficial fan-made resource website."
   },
   "pages": {
