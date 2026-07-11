@@ -7,28 +7,28 @@ export const dynamic = 'force-static'
 
 const BASE_URL = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.callofdutyblackopsiiwiki.wiki'
 
-// 内容类型优先级配置
+// 内容类型优先级配置（与 navigation.ts 的 CONTENT_TYPES 一一对应）
 const contentTypePriority: Record<string, number> = {
-	'guides': 0.9,
-	'crafting': 0.9,
-	'biomes': 0.8,
-	'creatures': 0.8,
-	'items': 0.8,
-	'achievements': 0.7,
-	'lore': 0.7,
-	'support': 0.6,
+	'guide': 0.9,
+	'campaign': 0.9,
+	'multiplayer': 0.9,
+	'zombies': 0.9,
+	'platforms': 0.8,
+	'editions': 0.8,
+	'dlc': 0.8,
+	'legacy': 0.7,
 }
 
-// 内容更新频率配置
+// 内容更新频率配置（与 navigation.ts 的 CONTENT_TYPES 一一对应）
 const contentTypeChangeFrequency: Record<string, 'daily' | 'weekly' | 'monthly'> = {
-	'guides': 'weekly',
-	'crafting': 'weekly',
-	'biomes': 'weekly',
-	'creatures': 'weekly',
-	'items': 'weekly',
-	'achievements': 'monthly',
-	'lore': 'monthly',
-	'support': 'monthly',
+	'guide': 'weekly',
+	'campaign': 'monthly',
+	'multiplayer': 'weekly',
+	'zombies': 'weekly',
+	'platforms': 'monthly',
+	'editions': 'monthly',
+	'dlc': 'monthly',
+	'legacy': 'monthly',
 }
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {

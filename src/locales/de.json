@@ -1,12 +1,2095 @@
 {
+  "seo": {
+    "home": {
+      "title": "Call of Duty Black Ops II - Zombies, Karten & PS5",
+      "description": "Call of Duty Black Ops II umfasst den PS5- und PS4-Port, Kampagnenenden, Zombies-Karten, Easter Eggs, Waffen, Mehrspieler-Klassen, DLCs und Guides.",
+      "keywords": "Call of Duty Black Ops II, BO2, PS5, Zombies, Karten, Waffen, Kampagne, Easter Eggs, DLC",
+      "ogTitle": "Call of Duty Black Ops II - Zombies, Karten & PS5",
+      "ogDescription": "Call of Duty Black Ops II umfasst den PS5- und PS4-Port, Kampagnenenden, Zombies-Karten, Easter Eggs, Waffen, Mehrspieler-Klassen, DLCs und Guides.",
+      "twitterTitle": "Call of Duty Black Ops II - Zombies, Karten & PS5",
+      "twitterDescription": "Call of Duty Black Ops II Wiki: PS5/PS4-Port, Zombies-Karten, Easter Eggs, Waffen, Mehrspieler-Klassen, DLCs und Guides."
+    }
+  },
   "nav": {
-    "guide": "Anleitung",
+    "guide": "Guide",
     "campaign": "Kampagne",
     "multiplayer": "Mehrspieler",
     "zombies": "Zombies",
     "platforms": "Plattformen",
     "editions": "Editionen",
     "dlc": "DLC",
-    "legacy": "Vermächtnis"
+    "legacy": "Legacy"
+  },
+  "common": {
+    "home": "Startseite",
+    "more": "Mehr",
+    "playNow": "Auf Steam spielen",
+    "switchLanguage": "Sprache wechseln",
+    "switchTheme": "Design wechseln",
+    "lightMode": "Heller Modus",
+    "darkMode": "Dunkler Modus",
+    "notFound": "Seite nicht gefunden",
+    "notFoundDescription": "Die gesuchte Seite existiert nicht.",
+    "backToHome": "Zurück zur Startseite",
+    "relatedArticles": "Ähnliche Artikel",
+    "readMore": "Mehr lesen",
+    "articlesComingSoon": "Artikel erscheinen bald"
+  },
+  "hero": {
+    "badge": "FPS mit verzweigter Story in der nahen Zukunft",
+    "title": "Call of Duty Black Ops II Wiki",
+    "description": "Erkunde die verzweigte Kampagne der 1980er und 2025, den Pick-10-Mehrspieler, Scorestreaks, Zombies-Karten, Easter Eggs, Waffen, DLCs und die PS4/PS5-Veröffentlichung 2026.",
+    "keywords": "Call of Duty Black Ops II, BO2, PS5, PS4, Zombies, Karten, Waffen, Kampagnenenden, Easter Eggs, DLC",
+    "getFreeCodesCTA": "PS5-Guide anzeigen",
+    "playOnSteamCTA": "Auf PlayStation spielen",
+    "stats": {
+      "stat1": {
+        "value": "4,83/5",
+        "label": "Spielerbewertung"
+      },
+      "stat2": {
+        "value": "20K+",
+        "label": "Spielerbewertungen"
+      },
+      "stat3": {
+        "value": "9. Juli 2026",
+        "label": "PS4/PS5-Release"
+      },
+      "stat4": {
+        "value": "Bis zu 18",
+        "label": "Online-Spieler"
+      }
+    }
+  },
+  "gameFeature": {
+    "title": "Call of Duty Black Ops II Gameplay",
+    "description": "Erlebe die verzweigte Kampagne der 1980er und 2025, Pick-10-Mehrspieler-Klassen, Punkteserien und rundenbasierten Zombies-Modus auf TranZit, Mob of the Dead, Buried und Origins."
+  },
+  "tools": {
+    "title": "Call of Duty Black Ops II",
+    "titleHighlight": "Guides",
+    "subtitle": "Alles, was du für die Kampagne, Zombies, den Mehrspieler-Modus, Waffen, Karten und DLCs brauchst",
+    "cards": [
+      {
+        "icon": "Warenkorb",
+        "title": "Plattformen & Kaufberatung",
+        "description": "PS5-, PS4-, Xbox- und PC-Versionen, Kompatibilität und DLC-Zugang"
+      },
+      {
+        "icon": "Buch",
+        "title": "Einsteiger-Guide",
+        "description": "Erster Modus, Steuerung, Pick-10-Klassen und Zombies-Überleben"
+      },
+      {
+        "icon": "Totenkopf",
+        "title": "Zombies-Karten & Easter Eggs",
+        "description": "TranZit, Mob of the Dead, Buried, Origins und Haupt-Quests"
+      },
+      {
+        "icon": "Fadenkreuz",
+        "title": "Waffen-Tier-Liste",
+        "description": "Rangliste für Sturmgewehre, MPs, Scharfschützengewehre, Schrotflinten und mehr"
+      },
+      {
+        "icon": "Flagge",
+        "title": "Kampagnen-Walkthrough",
+        "description": "Alle 11 Missionen, Eingreiftrupp-Aufgaben, Entscheidungen und Enden"
+      },
+      {
+        "icon": "Schild",
+        "title": "Beste Klassen & Extras",
+        "description": "Pick-10-Loadouts, Extras, Wildcards und Punkteserien"
+      },
+      {
+        "icon": "Karte",
+        "title": "Karten & Modi",
+        "description": "Launch- und DLC-Karten, Layouts, Routen und Spielmodi"
+      },
+      {
+        "icon": "Paket",
+        "title": "DLC & Season Pass",
+        "description": "Revolution, Uprising, Vengeance, Apocalypse und Season Pass"
+      }
+    ]
+  },
+  "modules": {
+    "platformsAndBuyingGuide": {
+      "eyebrow": "Plattformen & Editionen",
+      "title": "Call of Duty Black Ops II Plattformen und Kaufberatung",
+      "subtitle": "Wo man Black Ops II kaufen und spielen kann",
+      "intro": "Call of Duty: Black Ops II ist über die digitale Veröffentlichung von 2026 auf modernen PlayStation-Konsolen, auf Xbox über Abwärtskompatibilität und auf PC über Steam erhältlich. Das Hauptspiel umfasst die Kampagne, den Mehrspieler-Modus und Zombies, während zusätzliche Zombies- und Mehrspieler-Karten über separate DLC-Pakete oder den Season Pass verkauft werden.",
+      "items": [
+        {
+          "platform": "PlayStation 5",
+          "howToBuy": "Kaufen Sie das digitale PS4- und PS5-Produkt im PlayStation Store.",
+          "version": "Offizielle PS5-kompatible Veröffentlichung am 9. Juli 2026 gestartet.",
+          "onlineRequirements": "PlayStation Plus und ein Activision-Konto sind für den Online-Mehrspieler-Modus erforderlich. Lokales Spiel unterstützt ein oder zwei Spieler.",
+          "includedContent": "Das ursprüngliche Kampagnen-, Mehrspieler- und Zombies-Erlebnis. Revolution, Uprising, Vengeance, Apocalypse und Nuketown Zombies sind über den separaten Season Pass erhältlich.",
+          "importantNotes": "Dies ist eine Veröffentlichung des ursprünglichen Black Ops II-Erlebnisses und kein neues Remake. Cross-Plattform-Multiplayer wird nicht unterstützt."
+        },
+        {
+          "platform": "PlayStation 4",
+          "howToBuy": "Kaufe das digitale PS4- und PS5-Produkt im PlayStation Store.",
+          "version": "Offizielle PS4-Veröffentlichung am 9. Juli 2026.",
+          "onlineRequirements": "PlayStation Plus und ein Activision-Konto sind für den Online-Multiplayer erforderlich. Lokales Spiel unterstützt ein oder zwei Spieler.",
+          "includedContent": "Kampagne, Multiplayer und die ursprünglichen Zombies-Inhalte. Zusätzliche Kartenpakete und Zombies-Karten erfordern den Season Pass oder den Kauf einzelner DLCs.",
+          "importantNotes": "Online-Spiel unterstützt bis zu 18 Spieler. Cross-Plattform-Multiplayer wird nicht unterstützt."
+        },
+        {
+          "platform": "Xbox Series X|S",
+          "howToBuy": "Kaufe die digitale Xbox 360-Version im Xbox Store. Die Xbox Series X kann auch eine kompatible physische Xbox 360-Disc verwenden, während die Xbox Series S eine digitale Lizenz benötigt.",
+          "version": "Die Xbox 360-Veröffentlichung läuft über die Xbox-Abwärtskompatibilität.",
+          "onlineRequirements": "Online-Konsolen-Multiplayer erfordert ein Xbox Game Pass-Abonnement, das den Zugriff auf Online-Multiplayer beinhaltet.",
+          "includedContent": "Kampagne, Multiplayer und Zombies sind im Basisspiel enthalten. Der Season Pass und einzelne DLC-Pakete bleiben separate Käufe.",
+          "importantNotes": "Das Spiel läuft in der Xbox 360-abwärtskompatiblen Umgebung und nicht als native Series X|S-Version."
+        },
+        {
+          "platform": "Xbox One",
+          "howToBuy": "Kaufe die digitale Xbox 360-Version oder lege eine kompatible physische Black Ops II-Disc ein.",
+          "version": "Unterstützt durch Xbox One-Abwärtskompatibilität seit April 2017.",
+          "onlineRequirements": "Online-Konsolen-Multiplayer erfordert ein Xbox Game Pass-Abonnement, das den Zugriff auf Online-Multiplayer beinhaltet.",
+          "includedContent": "Die vollständigen Kampagnen-, Multiplayer- und Zombies-Modi des Basisspiels. DLC-Karten erfordern einen separaten Erwerb.",
+          "importantNotes": "Zuvor erworbene kompatible digitale Xbox 360-Inhalte können über dasselbe Xbox-Konto heruntergeladen werden."
+        },
+        {
+          "platform": "PC",
+          "howToBuy": "Kaufe und installiere das Spiel über Steam.",
+          "version": "Ursprüngliche Windows PC-Veröffentlichung.",
+          "onlineRequirements": "Steam und eine Internetverbindung sind zur Aktivierung erforderlich. Breitband-Internet wird für den Multiplayer benötigt, während der Steam-Offline-Modus nach der Aktivierung für unterstützte Einzelspieler-Inhalte genutzt werden kann.",
+          "includedContent": "Das Steam-Basisspiel bietet Zugriff auf die Kernkomponenten Kampagne, Multiplayer und Zombies. DLC-Kartenpakete und der Season Pass werden separat verkauft.",
+          "importantNotes": "Die Mindestanforderungen umfassen Windows Vista SP2 oder Windows 7, 2 GB RAM auf 32-Bit-Systemen oder 4 GB auf 64-Bit-Systemen, eine DirectX 9-kompatible Grafikkarte und etwa 16 GB Speicherplatz."
+        }
+      ]
+    },
+    "beginnerGuide": {
+      "eyebrow": "Erste Schritte",
+      "title": "Call of Duty: Black Ops II – Einsteiger-Guide",
+      "subtitle": "Black Ops II – Einsteiger-Guide",
+      "intro": "Black Ops II enthält eine entscheidungsbasierte Kampagne, einen kompetitiven Multiplayer und rundenbasierte Zombies. Beginne mit einem Modus, lerne die grundlegende Bewegung und Ökonomie und füge dann fortgeschrittene Systeme wie Nimm-10-Klassen, Scorestreaks, Extras und Pack-a-Punch hinzu.",
+      "steps": [
+        {
+          "title": "Wähle deinen ersten Modus",
+          "summary": "Wähle Kampagne, Multiplayer oder Zombies aus, je nachdem, was du zuerst lernen möchtest.",
+          "details": [
+            "Wähle die Kampagne auf dem Schwierigkeitsgrad Rekrut, um Bewegung, Zielen, Ausrüstung und Waffenhandhabung zu lernen.",
+            "Wähle Team-Deathmatch im Multiplayer für einen einfachen Modus, der sich auf das Eliminieren des gegnerischen Teams konzentriert.",
+            "Wähle Stadt-Überleben in Zombies für ein kompaktes Übungsgebiet oder TranZit für das vollständige Busrouten-Erlebnis."
+          ],
+          "quickTip": "Die Kampagne ist der einfachste Ort, um die Steuerung anzupassen, ohne gegen andere Spieler anzutreten."
+        },
+        {
+          "title": "Steuerung und Sichtbarkeit konfigurieren",
+          "summary": "Stelle eine angenehme Empfindlichkeit ein und mache wichtige visuelle und akustische Informationen leicht erkennbar.",
+          "details": [
+            "Übe das Visieren über das Visier, Feuern, Nachladen, Sprinten, Springen, Ducken, Hinlegen und den Einsatz von Ausrüstung.",
+            "Beginne mit einer niedrigen oder mittleren Blick-Empfindlichkeit und erhöhe sie schrittweise, wenn sich das Drehen zu langsam anfühlt.",
+            "Passe die Helligkeit an, bis dunkle Bereiche sichtbar bleiben, ohne dass helle Umgebungen ausgewaschen erscheinen.",
+            "Verwende Kopfhörer oder klares Stereo-Audio, um Schritte, Schüsse und Zombies in der Nähe zu identifizieren."
+          ],
+          "quickTip": "Ändere jeweils nur eine Einstellung und teste sie für eine komplette Mission oder ein ganzes Match, bevor du sie erneut änderst."
+        },
+        {
+          "title": "Schließe die Kampagne sorgfältig ab",
+          "summary": "Entscheidungen in der Kampagne, optionale Ziele und Strike Force-Missionen können spätere Ereignisse beeinflussen.",
+          "details": [
+            "Folge der Zielmarkierung, aber durchsuche nahegelegene Räume nach alternativen Waffen und sammelbaren Informationen.",
+            "Überprüfe vor jeder Mission das verfügbare Loadout und nimm Waffen mit, die für die erwartete Reichweite geeignet sind.",
+            "Achte auf wichtige Entscheidungen, da sich das Schicksal der Charaktere und das Ende ändern können.",
+            "Schließe verfügbare Strike Force-Missionen ab, bevor sie ablaufen, da ihre Ergebnisse die weitere Geschichte beeinflussen."
+          ],
+          "quickTip": "Nutze Deckung und kontrollierte Feuerstöße, anstatt kontinuierlich auf weit entfernte Gegner zu schießen."
+        },
+        {
+          "title": "Lerne die Multiplayer-Ziele",
+          "summary": "Abschüsse sind nützlich, aber objektive Aktionen bringen ebenfalls Punkte und helfen dabei, Scorestreak-Belohnungen freizuschalten.",
+          "details": [
+            "Beginne mit Team-Deathmatch, Abschuss bestätigt oder Herrschaft, bevor du zu Modi mit begrenzten Leben wechselst.",
+            "Behalte die Minimap im Auge, um die Positionen von Verbündeten, feindliches Feuer und offene Wege zu erkennen.",
+            "Erringe Ziele, sammle Marken und unterstütze Teamkameraden, um den Scorestreak-Fortschritt schneller aufzubauen.",
+            "Sterben setzt den Fortschritt zum nächsten Scorestreak zurück, aber bereits verdiente Belohnungen bleiben verfügbar, bis sie eingesetzt werden."
+          ],
+          "quickTip": "Bewege dich zwischen Deckungspunkten und überprüfe gängige Türöffnungen, bevor du offene Bereiche betrittst."
+        },
+        {
+          "title": "Erstelle eine einfache Pick 10-Klasse",
+          "summary": "Klasseneditor schaltet sich ab Multiplayer-Level 4 frei und ermöglicht es dir, zehn Zuweisungspunkte für Waffen, Aufsätze, Perks und Ausrüstung auszugeben.",
+          "details": [
+            "Beginne mit einer Primärwaffe, einem nützlichen Aufsatz, drei Perks und einer kleinen Menge an Ausrüstung.",
+            "Wähle ein Sturmgewehr für ausgewogene Kämpfe auf mittlere Distanz oder eine MP für Bewegungen im Nahkampf.",
+            "Rüste keine Sekundärwaffe oder zusätzliche Ausrüstung aus, es sei denn, sie unterstützt deinen beabsichtigten Spielstil.",
+            "Nutze Wildcards erst später, wenn du verstehst, welcher zusätzliche Aufsatz oder Perk den zusätzlichen Pick 10-Punkt wert ist."
+          ],
+          "quickTip": "Eine einfache Klasse mit weniger spezialisierten Gegenständen ist leichter zu erlernen als eine Klasse, die um mehrere Wildcards herum aufgebaut ist."
+        },
+        {
+          "title": "Zombies-Punkte und Überleben verstehen",
+          "summary": "Schaden und Abschüsse bringen Punkte, die für Türen, Waffen, Perks, die Mystery Box und Pack-a-Punch ausgegeben werden können.",
+          "details": [
+            "Nutze die frühen Runden, um Punkte zu verdienen, bevor du jede verfügbare Tür öffnest.",
+            "Kaufe eine zuverlässige Wandwaffe, damit Munition leichter zu ersetzen bleibt.",
+            "Priorisiere Jugger-Nog, wenn die Map Zugang dazu bietet, und lege dann eine sichere Laufroute fest.",
+            "Bleib in offenen Bereichen in Bewegung und bilde eine Zombies-Gruppe („Train“), anstatt dich umzingeln zu lassen.",
+            "Pack-a-Punch kostet 5.000 Punkte, nachdem die Maschine auf der ausgewählten Map freigeschaltet wurde."
+          ],
+          "quickTip": "Lass am Ende einer Runde einen langsamen Zombie am Leben, wenn dein Team Zeit braucht, um Ausrüstung zu kaufen oder ein Ziel abzuschließen."
+        },
+        {
+          "title": "Fortschritt ohne Verschwendung von Freischaltungen",
+          "summary": "Spielerlevel schalten Ausrüstung frei, während individuelle Waffen-Erfahrung Aufsätze und Tarnungs-Herausforderungen freischaltet.",
+          "details": [
+            "Benutze ein oder zwei Waffen konsequent, bis deren nützlichste Aufsätze freigeschaltet sind.",
+            "Teste neue Waffen in Matches mit weniger Druck, bevor du sie in einer kompetitiven Klasse einsetzt.",
+            "Wähle Scorestreaks, die du regelmäßig erreichen kannst, anstatt nur die teuersten Belohnungen auszuwählen.",
+            "Nach Erreichen der Höchststufe setzt Prestige den Großteil des normalen Fortschritts zurück, bietet aber langfristige Belohnungen."
+          ],
+          "quickTip": "Zuverlässige, kostengünstige Scorestreaks sind für Anfänger nützlicher als Belohnungen, die nur selten verfügbar werden."
+        }
+      ]
+    },
+    "zombiesMapsAndEasterEggs": {
+      "eyebrow": "Zombies",
+      "title": "Call of Duty Black Ops II Zombies Maps und Easter Eggs",
+      "subtitle": "Zombies-Karten, Easter Eggs und baubare Objekte",
+      "intro": "Black Ops II Zombies erweitert die große TranZit-Busroute um vertikale Wolkenkratzer, die Insel Alcatraz, eine unterirdische Westernstadt und ein Schlachtfeld aus dem Ersten Weltkrieg. Jede DLC-Karte führt neue Bewegungssysteme, baubare Ausrüstung und eine längere kooperative Quest ein.",
+      "maps": [
+        {
+          "name": "TranZit",
+          "contentAccess": "Im Hauptspiel als Teil von Green Run enthalten.",
+          "setting": "Eine postapokalyptische Busroute, die das Busdepot, den Diner, die Farm, das Kraftwerk und die Stadt verbindet.",
+          "mainObjectives": [
+            "Nutze den Bus oder gefährliche Nebelpfade, um zwischen den Orten zu reisen.",
+            "Schalte den Strom im Kraftwerk ein.",
+            "Baue Ausrüstung aus Teilen, die auf der gesamten Route zu finden sind.",
+            "Bereite die Funkmasten für die „Turm von Babal“-Quest vor."
+          ],
+          "packAPunch": "Öffne den Banktresor in der Stadt, halte die versteckte Tür des Kraftwerks mit einer Turbine unter Strom und betrete das unterirdische Labor unter der Bank.",
+          "wonderWeapons": [
+            "Thrustodyne Aeronautics Modell 23, gemeinhin als Jetgun bezeichnet"
+          ],
+          "buildables": [
+            "Turbine",
+            "Zombieschild",
+            "Geschütz",
+            "Elektro-Falle",
+            "Jetgun",
+            "Navcard-Tisch"
+          ],
+          "mainQuest": "„Turm von Babal“ bietet separate Wege für Maxis und Richtofen, bei denen es darum geht, den Sendemast mit Strom zu versorgen und zu aktivieren.",
+          "recommendedFor": "Spieler, die bereit sind, die Navigation auf großen Karten, das Finden von Bauteilen und koordinierte Ziele zu erlernen."
+        },
+        {
+          "name": "Nuketown Zombies",
+          "contentAccess": "Separat erhältlich und im Black Ops II Season Pass enthalten.",
+          "setting": "Eine kompakte Atomtest-Siedlung, basierend auf der klassischen Nuketown-Mehrspielerkarte.",
+          "mainObjectives": [
+            "Überlebe in einem kleinen Areal mit begrenzten Fluchtwegen.",
+            "Achte auf herabstürzende Maschinen, wenn Extras und Pack-a-Punch während des Spiels eintreffen.",
+            "Passe dich der zufälligen Reihenfolge an, in der die Maschinen erscheinen."
+          ],
+          "packAPunch": "Die Maschine landet im Laufe der Runden in einer zufälligen Reihenfolge zusammen mit den Extra-Maschinen auf der Karte.",
+          "wonderWeapons": [
+            "Strahlenkanone",
+            "Strahlenkanone Mark II, wenn der kompatible DLC-Inhalt installiert ist"
+          ],
+          "buildables": [],
+          "mainQuest": "Nuketown Zombies enthält keine vollständige, mehrstufige Haupt-Easter-Egg-Quest.",
+          "recommendedFor": "Neue Spieler, die Bewegung, Munitionsverwaltung und das grundlegende Überleben von Runden üben möchten."
+        },
+        {
+          "name": "Die Rise",
+          "contentAccess": "Im Revolution-DLC-Paket und Season Pass enthalten.",
+          "setting": "Eingestürzte Wolkenkratzer in einer zerstörten chinesischen Stadt, verbunden durch Aufzüge, Dächer und gefährliche Abgründe.",
+          "mainObjectives": [
+            "Schalte den Strom im Hauptgebäudekomplex ein.",
+            "Nutze Aufzüge und Sprünge von Dächern, um dich zwischen den getrennten Bereichen zu bewegen.",
+            "Baue den Sliquifier und den Trample-Steam.",
+            "Koordiniere die Dachsymbole und Türme für die Hauptquest."
+          ],
+          "packAPunch": "Pack-a-Punch befindet sich in einem Aufzug, was von den Spielern erfordert, die Position des Aufzugs im Auge zu behalten und zu vermeiden, eingeschlossen zu werden, wenn er sich bewegt.",
+          "wonderWeapons": [
+            "Sliquifier"
+          ],
+          "buildables": [
+            "Sliquifier",
+            "Trampel-Dampf",
+            "Navcard-Tisch"
+          ],
+          "mainQuest": "High Maintenance bietet Maxis- und Richtofen-Pfade und erfordert ein koordiniertes Team aus vier Spielern.",
+          "recommendedFor": "Erfahrene Spieler, die mit vertikaler Fortbewegung, engen Wegen und Absturzgefahren vertraut sind."
+        },
+        {
+          "name": "Mob of the Dead",
+          "contentAccess": "Enthalten im Uprising-DLC-Paket und Season Pass.",
+          "setting": "Die Insel Alcatraz in den 1930er Jahren mit vier inhaftierten Gangstern, die in einem sich wiederholenden übernatürlichen Kreislauf gefangen sind.",
+          "mainObjectives": [
+            "Begib dich ins Afterlife (Jenseits), um Geräte mit Strom zu versorgen und unzugängliche Bereiche zu öffnen.",
+            "Sammle Flugzeugteile im gesamten Gefängnis.",
+            "Baue das Flugzeug auf dem Dach und fliege zur Golden Gate Bridge.",
+            "Wiederhole den Fluchtzyklus und schließe die finale Konfrontation ab."
+          ],
+          "packAPunch": "Baue das Flugzeug und fliege zur Golden Gate Bridge, wo sich die Pack-a-Punch-Maschine befindet.",
+          "wonderWeapons": [
+            "Blundergat",
+            "Acid Gat"
+          ],
+          "buildables": [
+            "Fluchtflugzeug Icarus",
+            "Zombie-Schild",
+            "Acid-Gat-Kit"
+          ],
+          "mainQuest": "Pop Goes the Weasel folgt den wiederholten Fluchtversuchen der Gefangenen und endet mit der Wahl, den Kreislauf fortzusetzen oder zu durchbrechen.",
+          "recommendedFor": "Spieler, die eine storyfokussierte Karte mit Afterlife-Rätseln, dichter Atmosphäre und einer strukturierten kooperativen Quest suchen."
+        },
+        {
+          "name": "Buried",
+          "contentAccess": "Enthalten im Vengeance-DLC-Paket und Season Pass.",
+          "setting": "Eine unterirdische Westernstadt mit einem Saloon, einer Bank, einem Gerichtsgebäude, einem Spukhaus und einem Heckenlabyrinth.",
+          "mainObjectives": [
+            "Befreie Arthur aus seiner Zelle und benutze Süßigkeiten oder Alkohol, um seine Handlungen zu steuern.",
+            "Nutze Arthur, um Barrieren zu durchbrechen, Objekte zu bewegen und bei Bauobjekten zu helfen.",
+            "Durchquere das Spukhaus und das Labyrinth.",
+            "Koordiniere Schalter, Ziele und zeitkritische Aufgaben für die Hauptquest."
+          ],
+          "packAPunch": "Reise durch das Spukhaus, durchquere das Heckenlabyrinth und steige unter den Pavillon hinab.",
+          "wonderWeapons": [
+            "Paralyzer",
+            "Time Bomb",
+            "Ray Gun Mark II"
+          ],
+          "buildables": [
+            "Trampel-Dampf",
+            "Turbine",
+            "Subsurface-Resonator",
+            "Head-Chopper",
+            "Navcard-Tisch"
+          ],
+          "mainQuest": "Mined Games enthält Maxis- und Richtofen-Pfade und erfordert das koordinierte Lösen von Rätseln durch vier Spieler.",
+          "recommendedFor": "Spieler, die fortgeschrittene Bauobjekte und Easter Eggs auf einer Karte mit großzügigen Bank- und Bewegungsoptionen kennenlernen möchten."
+        },
+        {
+          "name": "Origins",
+          "contentAccess": "Enthalten im Apocalypse-DLC-Paket und Season Pass.",
+          "setting": "Ein alternatives Schlachtfeld des Ersten Weltkriegs mit Schützengräben, riesigen Robotern, einer Ausgrabungsstätte und antiken unterirdischen Kammern.",
+          "mainObjectives": [
+            "Aktiviere alle sechs Generatoren.",
+            "Sammle Grammophonplatten und öffne die Elementartunnel.",
+            "Baue und verbessere die vier Elementarstäbe.",
+            "Schließe die Schritte der „Little Lost Girl“-Quest ab, während du Angriffe der Panzer Soldat überlebst."
+          ],
+          "packAPunch": "Aktiviere alle sechs Generatoren, um Pack-a-Punch an der Ausgrabungsstätte freizuschalten.",
+          "wonderWeapons": [
+            "Stab des Eises",
+            "Stab des Feuers",
+            "Stab des Windes",
+            "Stab des Blitzes"
+          ],
+          "buildables": [
+            "Zombieschild",
+            "Maxis-Drohne",
+            "Elementarstäbe",
+            "G-Strike-Signalgranaten"
+          ],
+          "mainQuest": "„Little Lost Girl“ kombiniert verbesserte Stäbe, Roboterzugang, spezielle Nahkampfherausforderungen und koordinierte finale Ziele.",
+          "recommendedFor": "Fortgeschrittene Teams, bereit für die systemlastigste und zielorientierteste Black Ops II Zombies-Map."
+        }
+      ]
+    },
+    "weaponsTierList": {
+      "eyebrow": "Mehrspieler-Meta",
+      "title": "Call of Duty Black Ops II Waffen-Tier-Liste",
+      "subtitle": "Black Ops II Waffen-Tier-Liste",
+      "intro": "Die beste Black Ops II-Waffe hängt von der Kartengröße und dem Spielstil ab. S-Tier-Waffen bieten außergewöhnliche Leistung in ihrer vorgesehenen Rolle, A-Tier-Optionen bleiben mit überschaubaren Nachteilen sehr wettbewerbsfähig und B-Tier-Waffen sind verlässliche Optionen, die eine spezialisiertere Positionierung erfordern.",
+      "tiers": [
+        {
+          "tier": "S",
+          "label": "Top-Tier-Auswahl",
+          "description": "Waffen mit außergewöhnlichem Schaden, Handling oder Rolleneffizienz in gängigen Mehrspieler-Situationen.",
+          "weapons": [
+            {
+              "name": "AN-94",
+              "class": "Sturmgewehr",
+              "strengths": "Die ersten beiden Schüsse feuern schneller als die restlichen Schüsse, was eine kraftvolle Eröffnungssalve mit kontrollierbarem Rückstoß erzeugt.",
+              "weaknesses": "Dauerfeuer wird nach den ersten Schüssen langsamer, sodass verfehlte Eröffnungsschüsse den Vorteil verringern.",
+              "idealRange": "Mittel bis lang",
+              "playstyle": "Kontrollierte Feuerstöße, Lane-Kontrolle und präzise Zielverteidigung."
+            },
+            {
+              "name": "M8A1",
+              "class": "Sturmgewehr",
+              "strengths": "Schnelle Vier-Schuss-Salven, geringer Rückstoß und exzellente Genauigkeit können Ziele schnell eliminieren, wenn die gesamte Salve trifft.",
+              "weaknesses": "Eine verfehlte Salve führt zu einer Verzögerung vor der nächsten Schussfolge und erschwert hektische Kämpfe auf kurze Distanz.",
+              "idealRange": "Mittel bis lang",
+              "playstyle": "Präzises Zielen, Head-Glitch-Positionen und kontrollierte Map-Lanes."
+            },
+            {
+              "name": "MSMC",
+              "class": "Maschinenpistole",
+              "strengths": "Hoher Schaden auf kurze Distanz, starke Mobilität und kontrollierbarer Rückstoß machen sie hocheffektiv für aggressives Movement.",
+              "weaknesses": "Der Schaden fällt auf Distanz spürbar ab und das Magazin verzeiht weniger Fehler bei Kämpfen gegen mehrere Spieler.",
+              "idealRange": "Kurz bis mittel",
+              "playstyle": "Flankieren, Rushen von Zielen und schnelle Nahkampfgefechte."
+            },
+            {
+              "name": "R870 MCS",
+              "class": "Schrotflinte",
+              "strengths": "Zuverlässiges One-Shot-Potenzial im Nahbereich und eine starke effektive Reichweite für eine Vorderschaftrepetierflinte.",
+              "weaknesses": "Ein Fehlschuss macht den Benutzer während der Repetier-Animation verwundbar.",
+              "idealRange": "Nah",
+              "playstyle": "Säubern von Räumen, Eckenkontrolle und Verteidigung von Zielen auf kurzen Wegen."
+            },
+            {
+              "name": "DSR 50",
+              "class": "Scharfschützengewehr",
+              "strengths": "Starke One-Shot-Fähigkeit und starke Leistung beim Halten langer Sichtlinien.",
+              "weaknesses": "Langsames Anvisieren und Repetiergeschwindigkeit bestrafen Fehlschüsse und aggressive Bewegungen im Nahbereich.",
+              "idealRange": "Fern",
+              "playstyle": "Defensives Sniping, Überwachung und Abschüsse auf langen Wegen."
+            }
+          ]
+        },
+        {
+          "tier": "A",
+          "label": "Starke kompetitive Waffen",
+          "description": "Hocheffektive Waffen mit einer nennenswerten Einschränkung in Handhabung, Munition oder Beständigkeit.",
+          "weapons": [
+            {
+              "name": "SCAR-H",
+              "class": "Sturmgewehr",
+              "strengths": "Hoher Schaden und eine verlässliche Reichweite ermöglichen es, Kämpfe mit weniger präzisen Schüssen zu gewinnen.",
+              "weaknesses": "Ein 20-Schuss-Magazin und spürbarer Rückstoß erfordern eine sorgfältige Munitionskontrolle.",
+              "idealRange": "Mittel bis fern",
+              "playstyle": "Methodische Bewegung, kontrollierte Feuerstöße und defensive Gefechte."
+            },
+            {
+              "name": "FAL OSW",
+              "class": "Sturmgewehr",
+              "strengths": "Hoher halbautomatischer Schaden belohnt präzise Folgeschüsse und eine disziplinierte Abzugsgeschwindigkeit.",
+              "weaknesses": "Wiederholtes Feuern kann den Rückstoß erhöhen, während Fehlschüsse im Nahbereich schwerer auszugleichen sind.",
+              "idealRange": "Mittel bis fern",
+              "playstyle": "Präzisionsschießen und kontrollierte Abdeckung von Wegen."
+            },
+            {
+              "name": "PDW-57",
+              "class": "Maschinenpistole",
+              "strengths": "Ein großes 50-Schuss-Magazin unterstützt dauerhaften Druck, mehrere Eliminierungen und aggressives Zielspiel.",
+              "weaknesses": "Geringerer Schaden auf größere Distanz macht sie weniger effektiv gegen präzise Sturmgewehre.",
+              "idealRange": "Nah bis mittel",
+              "playstyle": "Kontinuierliches Rushen, Druck auf das Zielobjekt und längere Kämpfe im Nahbereich."
+            },
+            {
+              "name": "Skorpion EVO",
+              "class": "Maschinenpistole",
+              "strengths": "Extrem hohe Feuerrate sorgt für eine herausragende Eliminierungsgeschwindigkeit im Nahbereich.",
+              "weaknesses": "Schneller Munitionsverbrauch und stärkerer Rückstoß verringern den Nutzen außerhalb von Nahkämpfen.",
+              "idealRange": "Sehr nah",
+              "playstyle": "Schnelles Flankieren, Kämpfe aus der Hüfte und Innenraumkämpfe."
+            },
+            {
+              "name": "LSAT",
+              "class": "Leichtes Maschinengewehr",
+              "strengths": "Stabiler Rückstoß, ein großes Magazin und verlässlicher Schaden auf Distanz machen es effektiv für Dauerfeuer.",
+              "weaknesses": "Langsames Zielen, Bewegen und Nachladen erschweren das Neupositionieren.",
+              "idealRange": "Mittel bis lang",
+              "playstyle": "Unterstützungsfeuer, Objektverteidigung und das Sichern von Sichtlinien."
+            },
+            {
+              "name": "KSG",
+              "class": "Schrotflinte",
+              "strengths": "Feuert ein präzises Flintenlaufgeschoss mit One-Shot-Potenzial auf Distanzen außerhalb der normalen Schrotflintenreichweite.",
+              "weaknesses": "Das einzelne Projektil erfordert präzises Zielen und Fehlschüsse werden hart bestraft.",
+              "idealRange": "Nah bis mittel",
+              "playstyle": "Präzises Schrotflintenspiel und sorgfältig gezielte Kontrolle von Durchgängen."
+            },
+            {
+              "name": "Ballista",
+              "class": "Scharfschützengewehr",
+              "strengths": "Schnelleres Handling und Repetieren als bei der DSR 50 unterstützen einen mobileren Scharfschützenstil.",
+              "weaknesses": "Ihr kleinerer, zuverlässiger One-Shot-Bereich erfordert eine bessere Präzision am Oberkörper.",
+              "idealRange": "Mittel bis lang",
+              "playstyle": "Aggressives Scharfschützenspiel, schnelle Neupositionierung und schnelle Folgeschüsse."
+            }
+          ]
+        },
+        {
+          "tier": "B",
+          "label": "Zuverlässig und spezialisiert",
+          "description": "Nützliche Waffen, die effektiv bleiben, wenn sie mit der richtigen Reichweite, Aufsätzen und dem passenden Spielstil kombiniert werden.",
+          "weapons": [
+            {
+              "name": "M27",
+              "class": "Sturmgewehr",
+              "strengths": "Sehr geringer Rückstoß und eine übersichtliche Visierung machen es zu einem der am einfachsten zu kontrollierenden Gewehre.",
+              "weaknesses": "Geringerer Schaden pro Schuss kann zu langsameren Eliminierungen gegen stärkere Gewehre führen.",
+              "idealRange": "Mittel bis lang",
+              "playstyle": "Anfängerfreundliche Präzision, Unterstützungsfeuer und konstante Zielverfolgung auf Distanz."
+            },
+            {
+              "name": "MP7",
+              "class": "Maschinenpistole",
+              "strengths": "Berechenbarer Rückstoß, gutes Handling und eine angenehme Feuerrate machen sie auf verschiedenen Distanzen verlässlich.",
+              "weaknesses": "Ihr fehlt die Nahkampfstärke der MSMC und die extreme Feuerrate der Skorpion EVO.",
+              "idealRange": "Nah bis mittel",
+              "playstyle": "Mobiles Allzweck-Spiel und kontrolliertes Flankieren."
+            },
+            {
+              "name": "HAMR",
+              "class": "Leichtes Maschinengewehr",
+              "strengths": "Eine hohe anfängliche Feuerrate, hoher Schaden und ein großes Magazin sorgen für hervorragenden Anfangsdruck.",
+              "weaknesses": "Seine Feuerrate ändert sich bei Dauerfeuer und das schwere Handling verlangsamt aggressive Bewegungen.",
+              "idealRange": "Mittel",
+              "playstyle": "Verteidigung im Visier, Sperrfeuer und das Halten von Zielen."
+            },
+            {
+              "name": "MK 48",
+              "class": "Leichtes Maschinengewehr",
+              "strengths": "Hoher Fernschaden und ein großer Munitionsvorrat unterstützen lange Verteidigungsgefechte.",
+              "weaknesses": "Langsame Bewegung, Zielerfassung und Nachladegeschwindigkeit erfordern, dass der Benutzer Positionen im Voraus vorbereitet.",
+              "idealRange": "Mittel bis lang",
+              "playstyle": "Verteidigung langer Wege und dauerhafte Teamunterstützung."
+            },
+            {
+              "name": "B23R",
+              "class": "Pistole",
+              "strengths": "Schnelle Drei-Schuss-Salven können nahe Feinde schnell eliminieren, wenn die gesamte Salve trifft.",
+              "weaknesses": "Salvenrückstoß und häufiger Munitionsverbrauch machen wiederholte Schüsse auf Distanz unbeständig.",
+              "idealRange": "Nah",
+              "playstyle": "Notfall-Zweitwaffeneinsatz und schnelle Abschlüsse im Nahbereich."
+            },
+            {
+              "name": "Tac-45",
+              "class": "Pistole",
+              "strengths": "Hoher halbautomatischer Schaden macht sie zu einer starken Ersatzwaffe im Nahbereich.",
+              "weaknesses": "Ihr kleineres Magazin erfordert präzise Schüsse und sorgfältiges Timing beim Nachladen.",
+              "idealRange": "Nah",
+              "playstyle": "Zuverlässiger Zweitwaffeneinsatz, das Erledigen geschwächter Gegner und Leichtgewicht-Klassen."
+            }
+          ]
+        }
+      ]
+    },
+    "campaignWalkthroughAndEndings": {
+      "eyebrow": "Kampagnen-Leitfaden",
+      "title": "Call of Duty Black Ops II Kampagnen-Walkthrough und Endsequenzen",
+      "subtitle": "Folge allen 11 Story-Missionen und fünf Strike Force-Missionen. Verfolge die Entscheidungen, die über das Schicksal von Alex Mason, Karma, Raul Menendez und den Zweiten Kalten Krieg entscheiden.",
+      "intro": "Die Kampagne umfasst 11 erforderliche Story-Missionen und fünf optionale Strike Force-Missionen. Jede Mission bietet 10 optionale Herausforderungen, während die 11 Story-Missionen zusätzlich jeweils drei Geheimdaten enthalten. Erfolg oder Misserfolg in Strike Force bleibt Teil der aktiven Handlung, und die abschließende Montage kombiniert mehrere unabhängige Entscheidungen, anstatt nur einen einzigen Endschalter zu verwenden.",
+      "missions": [
+        {
+          "step": 1,
+          "category": "Hauptmission",
+          "name": "Pyrrhussieg",
+          "setting": "Angola, 1986",
+          "playableCharacter": "Alex Mason",
+          "keyObjectives": [
+            "Kämpfe an der Seite von Jonas Savimbis Truppen.",
+            "Erreiche den Fluss und geh an Bord des feindlichen Kahns.",
+            "Rette Frank Woods und entkomme aus der Kampfzone."
+          ],
+          "storyChoice": "Hier wird kein wesentlicher Handlungsstrang für das Ende entschieden.",
+          "challengeSummary": "10 optionale Herausforderungen mit Fokus auf stationäre Waffen, Fahrzeugzerstörung und Nahkampf.",
+          "intel": 3
+        },
+        {
+          "step": 2,
+          "category": "Hauptmission",
+          "name": "Celerium",
+          "setting": "Myanmar, 2025",
+          "playableCharacter": "David Mason",
+          "keyObjectives": [
+            "Mit dem Wingsuit in das Cordis Die-Forschungsgebiet fliegen.",
+            "Infiltriere die unterirdische Anlage.",
+            "Birg das Celerium-Gerät und evakuiere den überlebenden Forscher."
+          ],
+          "storyChoice": "Führt die Technologie hinter Menendez' geplantem Cyberangriff ein.",
+          "challengeSummary": "10 optionale Herausforderungen, die Wingsuit-Kämpfe, Interaktionen mit dem Zugangs-Kit, Drohnen und automatisierte Verteidigungen beinhalten.",
+          "intel": 3
+        },
+        {
+          "step": 3,
+          "category": "Hauptmission",
+          "name": "Alte Wunden",
+          "setting": "Afghanistan, 1986",
+          "playableCharacter": "Alex Mason",
+          "keyObjectives": [
+            "Reite mit den Mudschahedin gegen sowjetische Truppen.",
+            "Zerstöre gepanzerte Ziele und Luftziele während des Angriffs.",
+            "Nimm Lev Kravchenko gefangen und verhöre ihn."
+          ],
+          "storyChoice": "Das Widerstehen der Zahlen-Konditionierung während Kravchenkos Verhör enthüllt, dass Menendez Kontakte in der CIA hat.",
+          "challengeSummary": "10 optionale Herausforderungen rund um den Kampf zu Pferd, Werfer-Präzision und das Zerstören von feindlichen Fahrzeugen.",
+          "intel": 3
+        },
+        {
+          "step": 4,
+          "category": "Hauptmission",
+          "name": "Zeit und Schicksal",
+          "setting": "Nicaragua, 1986",
+          "playableCharacter": "Raul Menendez und Alex Mason",
+          "keyObjectives": [
+            "Kämpfe dich als Menendez während des Angriffs auf sein Zuhause durch das Dorf.",
+            "Stürme das Menendez-Anwesen als Mason und Woods.",
+            "Durchsuche das Anwesen nach Beweisen und überlebe die finale Konfrontation."
+          ],
+          "storyChoice": "Das Finden des CIA-Memorandums im Anwesen liefert weitere Beweise für Menendez' Verbindungen zum Geheimdienst.",
+          "challengeSummary": "10 optionale Herausforderungen, die den Amoklauf von Menendez, das Säubern des Anwesens und den Einsatz alternativer Waffen abdecken.",
+          "intel": 3
+        },
+        {
+          "step": 5,
+          "category": "Hauptmission",
+          "name": "Gefallener Engel",
+          "setting": "Lahore, Pakistan, 2025",
+          "playableCharacter": "David Mason",
+          "keyObjectives": [
+            "Bewege dich mit Harper durch die überflutete Stadt.",
+            "Benutze Überwachungsausrüstung, um das Treffen von Menendez aufzuzeichnen.",
+            "Entkomme im SOC-T-Fahrzeug aus der Stadt."
+          ],
+          "storyChoice": "Das Aufzeichnen des gesamten Gesprächs enthüllt Zhaos geheimes Treffen und hilft, die Eingreiftrupp-Mission „Versand“ freizuschalten.",
+          "challengeSummary": "10 optionale Herausforderungen basierend auf Überwachung, SOC-T-Fahren, Drohnenvermeidung und Fahrzeugkampf.",
+          "intel": 3
+        },
+        {
+          "step": 6,
+          "category": "Hauptmission",
+          "name": "Karma",
+          "setting": "Colossus, Kaimaninseln, 2025",
+          "playableCharacter": "David Mason",
+          "keyObjectives": [
+            "Infiltriere das schwimmende Resort und identifiziere Karma.",
+            "Erreiche Chloe Lynch, bevor die Truppen von Menendez sie wegbringen.",
+            "Stoppe DeFalco oder setze die Kampagne mit der gefangengenommenen Karma fort."
+          ],
+          "storyChoice": "Das Töten von DeFalco vor seiner Flucht hält Karma in Sicherheit; ein Scheitern schaltet die optionale Rettungsmission „Zweite Chance“ frei.",
+          "challengeSummary": "10 optionale Herausforderungen mit Fokus auf Infiltrationswerkzeuge, schnelle Verfolgung, Präzisionsschießen und den Schutz von Zivilisten.",
+          "intel": 3
+        },
+        {
+          "step": 7,
+          "category": "Hauptmission",
+          "name": "Leiden mit mir",
+          "setting": "Panama, 1989",
+          "playableCharacter": "Frank Woods",
+          "keyObjectives": [
+            "Nimm Manuel Noriega fest.",
+            "Kämpfe dich durch Panama-Stadt und erreiche die Zielposition.",
+            "Gib den finalen Scharfschützenschuss ab und erlebe Menendez' Falle."
+          ],
+          "storyChoice": "Schieße der vermummten Zielperson in die Beine statt in den Kopf, damit Alex Mason überlebt und im Epilog von 2025 zurückkehrt.",
+          "challengeSummary": "10 optionale Herausforderungen rund um Scharfschützenpräzision, Bewegung auf Dächern und waffenspezifische Eliminierungen.",
+          "intel": 3
+        },
+        {
+          "step": 8,
+          "category": "Hauptmission",
+          "name": "Achilles' Schleier",
+          "setting": "Socotra, Jemen, 2025",
+          "playableCharacter": "Farid",
+          "keyObjectives": [
+            "Bleibe undercover bei Cordis Die.",
+            "Kämpfe dich durch die Kundgebung und hilf der JSOC, Menendez gefangen zu nehmen.",
+            "Entscheide, ob Farid auf Harper schießt oder versucht, Menendez zu erschießen."
+          ],
+          "storyChoice": "Wenn Farid auf Harper schießt, bleibt er am Leben, was erforderlich ist, um Karma während des späteren Angriffs auf die USS Barack Obama zu beschützen.",
+          "challengeSummary": "10 optionale Herausforderungen rund um Undercover-Kampf, VTOL-Unterstützung, Nahkampfwaffen und die Entscheidung bezüglich Farid.",
+          "intel": 3
+        },
+        {
+          "step": 9,
+          "category": "Hauptmission",
+          "name": "Odysseus",
+          "setting": "USS Barack Obama, 2025",
+          "playableCharacter": "David Mason und Raul Menendez",
+          "keyObjectives": [
+            "Verteidige den Flugzeugträger, nachdem Salazar sich als Menendez' Maulwurf entpuppt.",
+            "Beschütze Karma, wenn sie noch lebt und Farid überlebt hat.",
+            "Hindere Menendez daran, die Kontrolle über die Drohnenflotte zu übernehmen."
+          ],
+          "storyChoice": "Wenn man als Menendez Admiral Briggs verwundet, anstatt ihn zu töten, ermöglicht dies Briggs, bei der Verteidigung des Flugzeugträgers zu helfen.",
+          "challengeSummary": "10 optionale Herausforderungen rund um Flugzeugträger-Verteidigung, Sicherheitssysteme, Nahkampf und die Entscheidung bezüglich Briggs.",
+          "intel": 3
+        },
+        {
+          "step": 10,
+          "category": "Hauptmission",
+          "name": "Cordis Die",
+          "setting": "Los Angeles, 2025",
+          "playableCharacter": "David Mason",
+          "keyObjectives": [
+            "Kämpfe dich durch den Drohnenangriff auf Los Angeles.",
+            "Beschütze den Konvoi des Präsidenten und räume blockierte Routen frei.",
+            "Eskortiere Präsidentin Bosworth in Sicherheit."
+          ],
+          "storyChoice": "Der Ausgang der Mission steht fest, aber überlebende Verbündete und Strike-Force-Ergebnisse beeinflussen den größeren Krieg, der darum herum dargestellt wird.",
+          "challengeSummary": "10 optionale Herausforderungen mit Fokus auf Jet-Unterstützung, Konvoi-Verteidigung, Fahrzeug-Ausschaltungen und schnelles Ausschalten von Zielen.",
+          "intel": 3
+        },
+        {
+          "step": 11,
+          "category": "Hauptmission",
+          "name": "Der Jüngste Tag",
+          "setting": "Haiti, 2025",
+          "playableCharacter": "David Mason",
+          "keyObjectives": [
+            "Stürme die Sendeanlage von Cordis Die.",
+            "Deaktiviere die Verteidigungsanlagen und kämpfe dich durch den Kontrollkomplex.",
+            "Stelle Menendez und entscheide, ob du ihn exekutierst oder gefangen nimmst."
+          ],
+          "storyChoice": "Die Exekution von Menendez macht ihn zu einem Märtyrer und löst einen weltweiten Aufstand von Cordis Die aus; ihn gefangen zu nehmen führt zu unterschiedlichen Ausgängen, basierend auf Karmas Schicksal.",
+          "challengeSummary": "10 optionale Herausforderungen rund um Luftabwehr, Scharfschützenschüsse, Drohnenzerstörung und die finale Verfolgung.",
+          "intel": 3
+        },
+        {
+          "step": 12,
+          "category": "Eingreiftrupp-Mission",
+          "name": "FOB Spectre",
+          "setting": "Indien, 2025",
+          "playableCharacter": "JSOC Strike Force",
+          "keyObjectives": [
+            "Verteidigen Sie den vorgeschobenen Stützpunkt gegen SDC-Kräfte.",
+            "Wechseln Sie zwischen Infanterie, Geschützen, CLAWs und Lufteinheiten.",
+            "Halten Sie die wichtigen Verteidigungspunkte einsatzbereit, bis der Angriff endet."
+          ],
+          "storyChoice": "Ein Erfolg schwächt die SDC-Kampagne und trägt zu dem Weg bei, der den Zweiten Kalten Krieg beendet.",
+          "challengeSummary": "10 optionale Herausforderungen basierend auf Einheitenwechsel, Verteidigungsabschüssen und dem Erhalt strategischer Einheiten.",
+          "intel": 0
+        },
+        {
+          "step": 13,
+          "category": "Strike-Force-Mission",
+          "name": "Schiffswrack",
+          "setting": "Singapur, 2025",
+          "playableCharacter": "JSOC Strike Force",
+          "keyObjectives": [
+            "Greifen Sie das SDC-kontrollierte Hafengebiet an.",
+            "Erobern und halten Sie die markierten Kontrollpunkte.",
+            "Nutzen Sie Boden- und Lufteinheiten, um die feindliche Operation zu stoppen."
+          ],
+          "storyChoice": "Ein Erfolg verringert den militärischen Druck der SDC und zählt für das günstige geopolitische Ende.",
+          "challengeSummary": "10 optionale Herausforderungen mit Schwerpunkt auf Zieleroberung, Drohnensteuerung und dem koordinierten Einsatz verschiedener Einheitentypen.",
+          "intel": 0
+        },
+        {
+          "step": 14,
+          "category": "Strike-Force-Mission",
+          "name": "I.E.D.",
+          "setting": "Afghanistan, 2025",
+          "playableCharacter": "JSOC Strike Force",
+          "keyObjectives": [
+            "Schützen Sie den Konvoi während der Fahrt durch feindliches Gebiet.",
+            "Spüren Sie Hinterhalte, Sprengstoffe und feindliche Fahrzeuge auf und zerstören Sie diese.",
+            "Erhalten Sie genügend Konvoi-Fahrzeuge am Leben, um das Ziel zu erreichen."
+          ],
+          "storyChoice": "Ein Erfolg schwächt die SDC weiter und bringt den Weg zu einer Allianz zwischen den Vereinigten Staaten und China voran.",
+          "challengeSummary": "10 optionale Herausforderungen konzentriert auf das Überleben des Konvois, schnelle Bedrohungseliminierung und den effizienten Einsatz von Drohnen und Infanterie.",
+          "intel": 0
+        },
+        {
+          "step": 15,
+          "category": "Strike-Force-Mission",
+          "name": "Zweite Chance",
+          "setting": "Jemen, 2025",
+          "playableCharacter": "JSOC Strike Force",
+          "keyObjectives": [
+            "Lokalisieren Sie Chloe Lynch, nachdem DeFalco sie in Karma gefangen genommen hat.",
+            "Kämpfen Sie sich durch die Rettungszone, bevor die Zeit abläuft.",
+            "Sichern Sie Karma und schließen Sie die Extraktion ab."
+          ],
+          "storyChoice": "Diese Mission erscheint nur, wenn DeFalco mit Karma entkommt; ein Erfolg stellt den Handlungsstrang wieder her, in dem Karma am Leben bleibt.",
+          "challengeSummary": "10 optionale Herausforderungen konzentriert auf zeitgesteuerte Suche, Überwachung, Rettungskampf und Extraktionsverteidigung.",
+          "intel": 0
+        },
+        {
+          "step": 16,
+          "category": "Strike-Force-Mission",
+          "name": "Dispatch",
+          "setting": "Pakistan, 2025",
+          "playableCharacter": "JSOC Strike Force",
+          "keyObjectives": [
+            "Greifen Sie die SDC-Kommandozentrale an.",
+            "Dringe durch den Verteidigungsperimeter vor.",
+            "Finde und eliminiere den Vorsitzenden Tian Zhao."
+          ],
+          "storyChoice": "Das Abschließen von Absendung eliminiert Zhao und ermöglicht es China und den Vereinigten Staaten, sich gegen Menendez zu verbünden.",
+          "challengeSummary": "10 optionale Herausforderungen, die auf koordinierten Angriffen, automatisierten Einheiten und der Eliminierung von Prioritätszielen basieren.",
+          "intel": 0
+        },
+        {
+          "step": 17,
+          "category": "Weg zum Ende",
+          "name": "Günstiger Weg zum Ende",
+          "setting": "Schlüsselentscheidungen im Verlauf der Kampagne",
+          "playableCharacter": "Mehrere",
+          "keyObjectives": [
+            "Schließe FOB Spectre, Schiffswrack, Sprengsatz und Absendung erfolgreich ab.",
+            "Rette Karma in Karma oder Zweite Chance, und halte Farid am Leben, indem du Harper in Achillesschild erschießt.",
+            "Schieße Alex Mason in Leide mit mir in die Beine, verwunde Briggs in Odysseus und nimm Menendez in Jüngster Tag gefangen."
+          ],
+          "storyChoice": "Dieser Weg hält Mason und Karma am Leben, bewahrt die Führung des Flugzeugträgers, verhindert, dass Menendez zum Märtyrer wird, und beendet den Zweiten Kalten Krieg durch ein Bündnis zwischen den Vereinigten Staaten und China.",
+          "challengeSummary": "Kampagnen-Herausforderungen sind optional; das Ende wird durch Story-Entscheidungen und Strike-Force-Ergebnisse bestimmt.",
+          "intel": 0
+        },
+        {
+          "step": 18,
+          "category": "Mögliche Enden",
+          "name": "Hauptvarianten des Endes",
+          "setting": "Epilog 2025",
+          "playableCharacter": "David Mason",
+          "keyObjectives": [
+            "Menendez hingerichtet: Seine aufgezeichnete Botschaft entfacht einen weltweiten Aufstand von Cordis Die.",
+            "Menendez gefangen genommen und Karma am Leben: Karma stoppt den Cyberangriff, während Menendez inhaftiert bleibt.",
+            "Menendez gefangen genommen und Karma tot: Der Cyberangriff ist erfolgreich, Menendez entkommt, tötet Woods und stirbt an Josefinas Grab.",
+            "Alex Mason am Leben: Er kehrt zu Woods und David zurück; Alex Mason tot: David besucht sein Grab und setzt sich zur Ruhe.",
+            "Strike-Force-Erfolg und Zhao eliminiert: China und die Vereinigten Staaten bilden eine Allianz."
+          ],
+          "storyChoice": "Die finale Montage kombiniert die unabhängigen Ausgänge für Menendez, Karma, Alex Mason, Admiral Briggs und die Strike-Force-Kampagne.",
+          "challengeSummary": "Story erneut spielen kann Entscheidungen ändern, aber das Zurückspulen zu einer früheren Mission ersetzt den späteren Kampagnenfortschritt ab diesem Punkt.",
+          "intel": 0
+        }
+      ]
+    },
+    "bestClassesAndPerks": {
+      "eyebrow": "Multiplayer-Klassen",
+      "title": "Call of Duty Black Ops II – Beste Klassen und Extras",
+      "subtitle": "Nutze vollständige 10-Punkte-Builds für Rushing, Fernkampf-Lanes, objektbasierte Modi, Stealth und Einsteiger. Jede Klasse trennt die Klasseneditor-Optionen von den Punkteserie-Empfehlungen.",
+      "intro": "Black Ops II ersetzt feste Klassenslots durch Nimm 10: Waffen, Aufsätze, Extras, Ausrüstung und Wildcards verbrauchen jeweils Punkte, bis die Klasse 10 erreicht. Punkteserien werden separat ausgewählt, weshalb sie als rollenbasierte Empfehlungen und nicht als Teil der Nimm 10-Gesamtsumme angezeigt werden.",
+      "classLabels": {
+        "primary": "Primärwaffe",
+        "attachments": "Aufsätze",
+        "secondary": "Sekundärwaffe",
+        "perks": "Extras",
+        "wildcards": "Wildcards",
+        "lethal": "Tödlich",
+        "tactical": "Taktik",
+        "scorestreaks": "Punkteserien",
+        "pick10": "Nimm 10",
+        "points": "Punkte",
+        "whyItWorks": "Warum es funktioniert"
+      },
+      "classes": [
+        {
+          "name": "Nahkampf-Rusher",
+          "playstyle": "Schneller Einstieg, Flankendruck und rasche Feuergefechte",
+          "primary": "MSMC",
+          "attachments": [
+            "Ergonomischer Griff",
+            "Schnelles Magazin"
+          ],
+          "secondary": "Keine",
+          "perks": {
+            "perk1": [
+              "Leichtgewicht"
+            ],
+            "perk2": [
+              "Zähigkeit"
+            ],
+            "perk3": [
+              "Gewandtheit",
+              "Extrembedingungen"
+            ]
+          },
+          "wildcards": [
+            "Extra 3 Gier"
+          ],
+          "lethal": "Semtex",
+          "tactical": "Erschütterungsgranate",
+          "pick10Count": 10,
+          "scorestreaks": [
+            "Drohne",
+            "Hellstorm-Rakete",
+            "Blitzschlag"
+          ],
+          "whyItWorks": "Leichtgewicht und Extrembedingungen halten die Klasse in Bewegung, Zähigkeit verringert das Verziehen beim Zielen in direkten Gefechten, und der Ergonomische Griff plus Gewandtheit verkürzen die Zeit zwischen Sprinten und Feuern."
+        },
+        {
+          "name": "Sturmgewehr für hohe Reichweite",
+          "playstyle": "Wege blockieren, geschützte Feuerstellungen ausschalten und durch Deckungen schießen",
+          "primary": "AN-94",
+          "attachments": [
+            "Ergonomischer Griff",
+            "Schaft",
+            "Vollmantelgeschoss"
+          ],
+          "secondary": "Keine",
+          "perks": {
+            "perk1": [
+              "Kugelsichere Weste"
+            ],
+            "perk2": [
+              "Zähigkeit"
+            ],
+            "perk3": [
+              "Gewandtheit"
+            ]
+          },
+          "wildcards": [
+            "Primär-Spezialist"
+          ],
+          "lethal": "Semtex",
+          "tactical": "EMP-Granate",
+          "pick10Count": 10,
+          "scorestreaks": [
+            "Drohne",
+            "Konter-Drohne",
+            "Blitzschlag"
+          ],
+          "whyItWorks": "Die AN-94 unterstützt kontrollierte Feuerstöße, der Schaft sorgt für Mobilität beim Zielen, Vollmantelgeschosse verbessern den Schaden durch dünne Deckungen und EMP-Granaten deaktivieren Ausrüstung vor dem Vorrücken."
+        },
+        {
+          "name": "Objektiv-Anker",
+          "playstyle": "Flaggen und Hardpoints verteidigen und dabei Sprengstoffe sowie taktische Ausrüstung überstehen",
+          "primary": "M8A1",
+          "attachments": [
+            "Reflex-Visier",
+            "Schaft"
+          ],
+          "secondary": "Keine",
+          "perks": {
+            "perk1": [
+              "Kugelsichere Weste"
+            ],
+            "perk2": [
+              "Zähigkeit"
+            ],
+            "perk3": [
+              "Taktikmaske",
+              "Pionier"
+            ]
+          },
+          "wildcards": [
+            "Perk 3 Gier"
+          ],
+          "lethal": "Semtex",
+          "tactical": "Trophy-System",
+          "pick10Count": 10,
+          "scorestreaks": [
+            "Drohne",
+            "Guardian",
+            "Geschütz"
+          ],
+          "whyItWorks": "Kugelsichere Weste und Taktikmaske reduzieren gängige Werkzeuge zur Zieleroberung, Pionier deckt feindliche Ausrüstung auf, das Trophy-System blockiert ankommende Projektile und Semtex hilft beim Räumen eines umkämpften Ziels."
+        },
+        {
+          "name": "Stealth-Flankierer",
+          "playstyle": "Bleiben Sie von der Minimap fern, bewegen Sie sich am Rand der Karte und greifen Sie von hinten an.",
+          "primary": "PDW-57",
+          "attachments": [
+            "Schalldämpfer",
+            "Schnelles Magazin"
+          ],
+          "secondary": "Keine",
+          "perks": {
+            "perk1": [
+              "Geist"
+            ],
+            "perk2": [
+              "Zähigkeit"
+            ],
+            "perk3": [
+              "Totenstille",
+              "Wachsamkeit"
+            ]
+          },
+          "wildcards": [
+            "Perk 3 Gier"
+          ],
+          "lethal": "C4",
+          "tactical": "EMP-Granate",
+          "pick10Count": 10,
+          "scorestreaks": [
+            "Drohne",
+            "Konter-Drohne",
+            "Orbitalsatellit"
+          ],
+          "whyItWorks": "Geist verbirgt einen sich bewegenden Spieler vor Drohnen-Scans, der Schalldämpfer hält Schüsse von der Minimap fern, Totenstille reduziert Schrittgeräusche und Wachsamkeit macht feindliche Bewegungen in der Nähe besser hörbar."
+        },
+        {
+          "name": "Einsteigerfreundlicher Allrounder",
+          "playstyle": "Einfache Rückstoßkontrolle, ein klares Visierbild und zuverlässige Ausrüstung",
+          "primary": "MTAR",
+          "attachments": [
+            "Reflexvisier",
+            "Schnellzieh-Griff",
+            "Schnelles Magazin"
+          ],
+          "secondary": "Keine",
+          "perks": {
+            "perk1": [
+              "Kugelsichere Weste"
+            ],
+            "perk2": [
+              "Zähigkeit"
+            ],
+            "perk3": [
+              "Gewandtheit"
+            ]
+          },
+          "wildcards": [
+            "Primär-Waffenspezialist"
+          ],
+          "lethal": "Semtex",
+          "tactical": "Erschütterungsgranate",
+          "pick10Count": 10,
+          "scorestreaks": [
+            "UAV",
+            "Hunter-Killer-Drohne",
+            "Vorratspaket"
+          ],
+          "whyItWorks": "Die MTAR ist über gängige Kampfdistanzen hinweg flexibel, das Reflexvisier ist leicht ablesbar, Schnelles Ziehen verbessert die Reaktionsgeschwindigkeit und das Schnelle Magazin reduziert die Ausfallzeit nach einem Kampf. Die kostengünstigen Punkteserien bieten häufige Belohnungen, ohne eine lange Serie zu erfordern."
+        },
+        {
+          "name": "Suchen und Zerstören - Sturmgewehr",
+          "playstyle": "Runden mit nur einem Leben, vorsichtige Laufwege und schnelle Präzision beim ersten Schuss",
+          "primary": "M8A1",
+          "attachments": [
+            "Schnelles Ziehen",
+            "Schalldämpfer"
+          ],
+          "secondary": "Keine",
+          "perks": {
+            "perk1": [
+              "Geist"
+            ],
+            "perk2": [
+              "Zähigkeit"
+            ],
+            "perk3": [
+              "Totenstille",
+              "Bewusstsein"
+            ]
+          },
+          "wildcards": [
+            "Extra 3 Gier"
+          ],
+          "lethal": "Semtex",
+          "tactical": "EMP-Granate",
+          "pick10Count": 10,
+          "scorestreaks": [
+            "UAV",
+            "Blitzschlag",
+            "Tarn-Heli"
+          ],
+          "whyItWorks": "Schnelles Ziehen unterstützt schnelle Reaktionen, Schalldämpfer und Totenstille reduzieren die Informationen, die der Feind erhält, und Bewusstsein hilft dabei, nahegelegene Bewegungen während ruhiger Runden mit nur einem Leben zu identifizieren."
+        }
+      ]
+    },
+    "multiplayerMapsAndModes": {
+      "eyebrow": "Karten und Modi",
+      "title": "Call of Duty Black Ops II Mehrspieler-Karten und -Modi",
+      "subtitle": "Vergleiche die 14 Launch-Karten, Nuketown 2025 und alle 16 DLC-Karten nach Kampffluss und wichtigen Laufwegen. Überprüfe die Regeln und Prioritäten der am häufigsten gespielten objektiven und kompetitiven Modi.",
+      "intro": "Das Kartendesign von Black Ops II reicht von winzigen Nahkampf-Arenen wie Hijacked bis hin zu offenen Sturmgewehr-Karten wie Turbine. Die DLC-Saison fügt vier Gruppen von jeweils vier Mehrspieler-Karten hinzu, darunter neu aufgelegte Versionen von Firing Range, Summit, Stadium und Courtyard.",
+      "filters": [
+        {
+          "label": "Alle",
+          "value": "alle"
+        },
+        {
+          "label": "Hauptspiel",
+          "value": "Hauptspiel"
+        },
+        {
+          "label": "Bonus",
+          "value": "Bonus-Mehrspieler-Karte"
+        },
+        {
+          "label": "Revolution",
+          "value": "Revolution-DLC"
+        },
+        {
+          "label": "Uprising",
+          "value": "Uprising-DLC"
+        },
+        {
+          "label": "Vengeance",
+          "value": "Vengeance-DLC"
+        },
+        {
+          "label": "Apocalypse",
+          "value": "Apocalypse-DLC"
+        },
+        {
+          "label": "Modi",
+          "value": "Modus"
+        }
+      ],
+      "mapLabels": {
+        "location": "Ort",
+        "combatProfile": "Kampfprofil",
+        "keyRoutes": "Hauptrouten",
+        "modeFit": "Ideal für"
+      },
+      "maps": [
+        {
+          "kind": "Karte",
+          "name": "Aftermath",
+          "contentSet": "Basisspiel",
+          "location": "Zerstörtes Los Angeles",
+          "combatProfile": "Mittlere Stadtkarte mit einer Mischung aus Nah- und Mittelstreckenkämpfen.",
+          "keyRoutes": [
+            "Zentrale zerstörte Straße",
+            "Parkhaus",
+            "Nebengebäude und Gassen"
+          ],
+          "modeFit": [
+            "Team-Deathmatch",
+            "Herrschaft",
+            "Stellung"
+          ]
+        },
+        {
+          "kind": "Karte",
+          "name": "Cargo",
+          "contentSet": "Basisspiel",
+          "location": "Frachthafen von Singapur",
+          "combatProfile": "Containergassen sorgen für Nahkämpfe, während offene Sichtlinien am Dock Gewehre begünstigen.",
+          "keyRoutes": [
+            "Container-Labyrinth",
+            "Lagerhaus-Flanke",
+            "Erhöhte Kran- und Laufstegpositionen"
+          ],
+          "modeFit": [
+            "Herrschaft",
+            "Stellung",
+            "Suchen & Zerstören"
+          ]
+        },
+        {
+          "kind": "Karte",
+          "name": "Carrier",
+          "contentSet": "Basisspiel",
+          "location": "Chinesischer Flugzeugträger",
+          "combatProfile": "Eine große Deckkarte mit offenen, langen Wegen und engeren Innenrouten.",
+          "keyRoutes": [
+            "Flugdeck",
+            "Hangar und untere Innenräume",
+            "Seitliche Deckpassagen"
+          ],
+          "modeFit": [
+            "Team-Deathmatch",
+            "Herrschaft",
+            "Suchen & Zerstören"
+          ]
+        },
+        {
+          "kind": "Karte",
+          "name": "Drone",
+          "contentSet": "Basisspiel",
+          "location": "Dschungel-Drohnenanlage in Myanmar",
+          "combatProfile": "Eine mittlere Karte, die Labor-Innenräume, Dschungelpfade und Höhenunterschiede kombiniert.",
+          "keyRoutes": [
+            "Zentrale Anlage",
+            "Klippenroute",
+            "Dschungel- und Betriebsgebäude-Flanke"
+          ],
+          "modeFit": [
+            "Herrschaft",
+            "Stellung",
+            "Suchen & Zerstören"
+          ]
+        },
+        {
+          "kind": "Karte",
+          "name": "Express",
+          "contentSet": "Basisspiel",
+          "location": "Schnellzug-Terminal in Los Angeles",
+          "combatProfile": "Symmetrische Bahnsteige ermöglichen schnelle Rotationen und starkes zentrales Kreuzfeuer.",
+          "keyRoutes": [
+            "Zentrale Gleise",
+            "Schalterhalle",
+            "Überführung und äußere Bahnsteige"
+          ],
+          "modeFit": [
+            "Suchen & Zerstören",
+            "Flaggeneroberung",
+            "Stellung"
+          ]
+        },
+        {
+          "kind": "Karte",
+          "name": "Hijacked",
+          "contentSet": "Basisspiel",
+          "location": "Luxusyacht",
+          "combatProfile": "Sehr kleine, schnelle Karte, die von Nahkämpfen und häufigem Spawndruck dominiert wird.",
+          "keyRoutes": [
+            "Hauptdeck",
+            "Obere Kabinen",
+            "Unterer Maschinenraum-Durchgang"
+          ],
+          "modeFit": [
+            "Team-Deathmatch",
+            "Stellung",
+            "Herrschaft"
+          ]
+        },
+        {
+          "kind": "Karte",
+          "name": "Meltdown",
+          "contentSet": "Basisspiel",
+          "location": "Atomkraftwerk in Pakistan",
+          "combatProfile": "Mittelgroße bis große Wege verbinden industrielle Innenräume und offene Reaktorbereiche.",
+          "keyRoutes": [
+            "Zentrale Straße",
+            "Kühlturmseite",
+            "Kontrollgebäude und Versorgungswege"
+          ],
+          "modeFit": [
+            "Herrschaft",
+            "Suchen & Zerstören",
+            "Capture the Flag"
+          ]
+        },
+        {
+          "kind": "Karte",
+          "name": "Overflow",
+          "contentSet": "Hauptspiel",
+          "location": "Vom Hochwasser beschädigtes Peschawar",
+          "combatProfile": "Dichte Straßen und zerstörte Gebäude sorgen für Gefechte auf kurze bis mittlere Distanz.",
+          "keyRoutes": [
+            "Zentraler Brückenbereich",
+            "Marktstraße",
+            "Seitengassen und Innenräume"
+          ],
+          "modeFit": [
+            "Team-Deathmatch",
+            "Stellung",
+            "Abschuss bestätigt"
+          ]
+        },
+        {
+          "kind": "Karte",
+          "name": "Plaza",
+          "contentSet": "Hauptspiel",
+          "location": "Schwimmendes Resort im Indischen Ozean",
+          "combatProfile": "Ein Nachtleben-Szenario mit engen Innenräumen, offenen Innenhöfen und schnellen Flankenwegen.",
+          "keyRoutes": [
+            "Zentraler Club",
+            "Außenhof",
+            "Nebenräume und Servicegänge"
+          ],
+          "modeFit": [
+            "Stellung",
+            "Herrschaft",
+            "Suchen & Zerstören"
+          ]
+        },
+        {
+          "kind": "Karte",
+          "name": "Raid",
+          "contentSet": "Hauptspiel",
+          "location": "Villa in den Hollywood Hills",
+          "combatProfile": "Ausgewogenes Drei-Wege-Layout mit klaren Sichtlinien und wichtigen Zielbereichen.",
+          "keyRoutes": [
+            "Zentraler Innenhof",
+            "Poolbereich",
+            "Einfahrt und Garagenseite"
+          ],
+          "modeFit": [
+            "Stellung",
+            "Suchen & Zerstören",
+            "Capture the Flag"
+          ]
+        },
+        {
+          "kind": "Karte",
+          "name": "Slums",
+          "contentSet": "Hauptspiel",
+          "location": "Stadtviertel in Panama-Stadt",
+          "combatProfile": "Kompakte Drei-Wege-Karte um einen gefährlichen, offenen Innenhof.",
+          "keyRoutes": [
+            "Zentraler Brunnen",
+            "Hauptstraße",
+            "Seitengebäude und schmale Gasse"
+          ],
+          "modeFit": [
+            "Stellung",
+            "Herrschaft",
+            "Suchen & Zerstören"
+          ]
+        },
+        {
+          "kind": "Karte",
+          "name": "Standoff",
+          "contentSet": "Basisspiel",
+          "location": "Grenzstadt in Kirgisistan",
+          "combatProfile": "Mittlere Drei-Wege-Karte mit starken Gebäude-Fenstern und offenen Straßenkreuzungen.",
+          "keyRoutes": [
+            "Zentrale Straße",
+            "Haus- und Traktor-Seite",
+            "Garagen- und Hintergassen-Seite"
+          ],
+          "modeFit": [
+            "Herrschaft",
+            "Suchen & Zerstören",
+            "Capture the Flag"
+          ]
+        },
+        {
+          "kind": "Karte",
+          "name": "Turbine",
+          "contentSet": "Basisspiel",
+          "location": "Windpark im Jemen",
+          "combatProfile": "Eine der größten Launch-Karten, die Gewehre und Scharfschützen in offenem Gelände bevorzugt.",
+          "keyRoutes": [
+            "Abgestürztes Flugzeug (Zentrum)",
+            "Klippenpfad",
+            "Windturbinen- und Höhlenrouten"
+          ],
+          "modeFit": [
+            "Team-Deathmatch",
+            "Herrschaft",
+            "Suchen & Zerstören"
+          ]
+        },
+        {
+          "kind": "Karte",
+          "name": "Yemen",
+          "contentSet": "Basisspiel",
+          "location": "Klippenstadt auf Sokotra",
+          "combatProfile": "Vertikaler Häuserkampf mit Dächern, Innenräumen und schmalen Marktgassen.",
+          "keyRoutes": [
+            "Zentraler Markt",
+            "Obere Dächer",
+            "Klippen- und Unterstraßenrouten"
+          ],
+          "modeFit": [
+            "Stellung",
+            "Herrschaft",
+            "Suchen & Zerstören"
+          ]
+        },
+        {
+          "kind": "Karte",
+          "name": "Nuketown 2025",
+          "contentSet": "Bonus-Mehrspieler-Karte",
+          "location": "Futuristische Mustersiedlung",
+          "combatProfile": "Extrem kleine, symmetrische Karte für ununterbrochene Nahkämpfe.",
+          "keyRoutes": [
+            "Bus- und Lkw-Zentrum",
+            "Zwei Häuser",
+            "Hinterhöfe und seitliche Durchgänge"
+          ],
+          "modeFit": [
+            "Team-Deathmatch",
+            "Herrschaft",
+            "Stellung"
+          ]
+        },
+        {
+          "kind": "Karte",
+          "name": "Downhill",
+          "contentSet": "Revolution DLC",
+          "location": "Skigebiet in den französischen Alpen",
+          "combatProfile": "Verschneite, mittlere Karte mit Lodge-Innenräumen, offenen Hängen und gefährlichen Gondeln.",
+          "keyRoutes": [
+            "Skihütte",
+            "Abfahrtshang",
+            "Gondel-Übergang"
+          ],
+          "modeFit": [
+            "Herrschaft",
+            "Stellung",
+            "Team-Deathmatch"
+          ]
+        },
+        {
+          "kind": "Karte",
+          "name": "Hydro",
+          "contentSet": "Revolution DLC",
+          "location": "Wasserkraftwerk in Pakistan",
+          "combatProfile": "Drei Hauptwege mit einem zentralen Überlauf, der zur tödlichen Flutrinne werden kann.",
+          "keyRoutes": [
+            "Zentraler Überlauf",
+            "Kontrollraum-Seite",
+            "Äußerer Damm und Wartungsweg"
+          ],
+          "modeFit": [
+            "Herrschaft",
+            "Stellung",
+            "Suchen & Zerstören"
+          ]
+        },
+        {
+          "kind": "Karte",
+          "name": "Mirage",
+          "contentSet": "Revolution DLC",
+          "location": "Durch Sandstürme beschädigtes Resort in der Wüste Gobi",
+          "combatProfile": "Lange Sichtlinien im Freien kombiniert mit engen Hotelzimmern und sandbedeckten Innenhöfen.",
+          "keyRoutes": [
+            "Zentrales Resort",
+            "Innenhof und Dünen",
+            "Obere Räume und Seitenhallen"
+          ],
+          "modeFit": [
+            "Team-Deathmatch",
+            "Herrschaft",
+            "Suchen & Zerstören"
+          ]
+        },
+        {
+          "kind": "Karte",
+          "name": "Grind",
+          "contentSet": "Revolution DLC",
+          "location": "Venice Beach Skatepark",
+          "combatProfile": "Geschwungene Rampen und Bowls bieten ungewöhnliche Deckung und schnelle Kämpfe auf kurze bis mittlere Distanz.",
+          "keyRoutes": [
+            "Zentrale Bowl",
+            "Halfpipe-Gasse",
+            "Pro-Shop und äußere Rampen"
+          ],
+          "modeFit": [
+            "Stellung",
+            "Herrschaft",
+            "Abschuss bestätigt"
+          ]
+        },
+        {
+          "kind": "Karte",
+          "name": "Magma",
+          "contentSet": "Uprising DLC",
+          "location": "Japanisches Dorf nach Vulkanausbruch",
+          "combatProfile": "Lava teilt die Karte und zwingt Spieler über Brücken, durch Straßen und Innenräume.",
+          "keyRoutes": [
+            "Von Lava durchschnittene Hauptstraße",
+            "Route an den Gleisen",
+            "Dorfgebäude"
+          ],
+          "modeFit": [
+            "Herrschaft",
+            "Stellung",
+            "Suchen & Zerstören"
+          ]
+        },
+        {
+          "kind": "Karte",
+          "name": "Encore",
+          "contentSet": "Uprising DLC",
+          "location": "Verlassenes Londoner Musikfestival",
+          "combatProfile": "Kämpfe auf kurze Distanz auf und hinter der Bühne werden durch längere Sichtlinien in den Außenbereichen ausgeglichen.",
+          "keyRoutes": [
+            "Hauptbühne",
+            "Backstage-Korridore",
+            "Äußeres Festivalgelände"
+          ],
+          "modeFit": [
+            "Stellung",
+            "Team-Deathmatch",
+            "Herrschaft"
+          ]
+        },
+        {
+          "kind": "Karte",
+          "name": "Vertigo",
+          "contentSet": "Uprising DLC",
+          "location": "Hochhaus-Labor in Indien",
+          "combatProfile": "Mehrstufige Kämpfe mit offenen Kanten, Innenlaboren und schnellen vertikalen Übergängen.",
+          "keyRoutes": [
+            "Zentrales Labor",
+            "Obere Plattform",
+            "Unterer Wartungsweg"
+          ],
+          "modeFit": [
+            "Suchen & Zerstören",
+            "Stellung",
+            "Team-Deathmatch"
+          ]
+        },
+        {
+          "kind": "Karte",
+          "name": "Studio",
+          "contentSet": "Uprising DLC",
+          "location": "Hollywood-Studiogelände",
+          "combatProfile": "Ein Remake von Firing Range mit kompakten Wegen, erhöhten Schlüsselpositionen und Themen-Sets.",
+          "keyRoutes": [
+            "Zentrale Trailer und Sets",
+            "Turmposition",
+            "Studiogelände-Gebäude"
+          ],
+          "modeFit": [
+            "Herrschaft",
+            "Stellung",
+            "Team-Deathmatch"
+          ]
+        },
+        {
+          "kind": "Karte",
+          "name": "Cove",
+          "contentSet": "Vengeance DLC",
+          "location": "Abgelegene Insel im Indischen Ozean",
+          "combatProfile": "Kämpfe auf einer kleinen Insel um ein abgestürztes Flugzeug mit offenen Stränden und Deckung durch Felsen.",
+          "keyRoutes": [
+            "Flugzeugwrack",
+            "Küstenflanke",
+            "Felsiger Innenpfad"
+          ],
+          "modeFit": [
+            "Team-Deathmatch",
+            "Abschuss bestätigt",
+            "Herrschaft"
+          ]
+        },
+        {
+          "kind": "Karte",
+          "name": "Detour",
+          "contentSet": "Vengeance DLC",
+          "location": "Zerstörte Hängebrücke",
+          "combatProfile": "Lange Sichtlinien auf der oberen Fahrbahn liegen über engeren unteren Wartungswegen.",
+          "keyRoutes": [
+            "Obere Fahrbahn",
+            "Untere Brückenebene",
+            "Deckung durch Fahrzeuge und Stützsäulen"
+          ],
+          "modeFit": [
+            "Herrschaft",
+            "Suchen & Zerstören",
+            "Team-Deathmatch"
+          ]
+        },
+        {
+          "kind": "Karte",
+          "name": "Rush",
+          "contentSet": "Vengeance-DLC",
+          "location": "Paintball-Parcours",
+          "combatProfile": "Schnelle Nahkampf-Arena mit dichter Deckung, kurzen Wegen und hohem Druck auf die Ziele.",
+          "keyRoutes": [
+            "Zentrales Paintball-Feld",
+            "Speedball-Gasse",
+            "Shop und Waldseite"
+          ],
+          "modeFit": [
+            "Stellung",
+            "Herrschaft",
+            "Abschuss bestätigt"
+          ]
+        },
+        {
+          "kind": "Karte",
+          "name": "Uplink",
+          "contentSet": "Vengeance-DLC",
+          "location": "Gebirgsanlage in Myanmar",
+          "combatProfile": "Ein Remake von Summit mit einem zentralen Kontrollgebäude, Laufstegen und gefährlichen Klippenrändern.",
+          "keyRoutes": [
+            "Zentraler Kontrollraum",
+            "Seitlicher Laufsteg",
+            "Unterer Außenbereich und Klippenpfad"
+          ],
+          "modeFit": [
+            "Suchen & Zerstören",
+            "Herrschaft",
+            "Capture the Flag"
+          ]
+        },
+        {
+          "kind": "Karte",
+          "name": "Pod",
+          "contentSet": "Apocalypse-DLC",
+          "location": "Verlassene Klippen-Siedlung in Taiwan",
+          "combatProfile": "Mehrstöckige Pods ermöglichen schnelle Kämpfe in Innenräumen und exponierte Rotationen über die Dächer.",
+          "keyRoutes": [
+            "Pod-Dächer",
+            "Innenräume",
+            "Äußerer Klippenweg"
+          ],
+          "modeFit": [
+            "Stellung",
+            "Herrschaft",
+            "Team-Deathmatch"
+          ]
+        },
+        {
+          "kind": "Karte",
+          "name": "Frost",
+          "contentSet": "Apocalypse-DLC",
+          "location": "Verschneite europäische Stadt",
+          "combatProfile": "Ein zugefrorener Kanal trennt die beiden Hälften und bietet Überquerungsmöglichkeiten auf mehreren Ebenen.",
+          "keyRoutes": [
+            "Gefrorener Kanal",
+            "Zentrale Brücke",
+            "Gebäude an beiden Ufern"
+          ],
+          "modeFit": [
+            "Herrschaft",
+            "Suchen und Zerstören",
+            "Capture the Flag"
+          ]
+        },
+        {
+          "kind": "Karte",
+          "name": "Takeoff",
+          "contentSet": "Apocalypse DLC",
+          "location": "Startgelände im Pazifischen Ozean",
+          "combatProfile": "Ein Remake von Stadium, das enge Ecken, Kämpfe in Innenräumen und offene zentrale Bereiche kombiniert.",
+          "keyRoutes": [
+            "Zentraler Startbereich",
+            "Innenkorridore",
+            "Äußere Plattform-Lanes"
+          ],
+          "modeFit": [
+            "Stellung",
+            "Herrschaft",
+            "Team-Deathmatch"
+          ]
+        },
+        {
+          "kind": "Karte",
+          "name": "Dig",
+          "contentSet": "Apocalypse DLC",
+          "location": "Archäologische Ausgrabungsstätten in Afghanistan",
+          "combatProfile": "Ein Remake von Courtyard mit zwei wichtigen Engstellen, erhöhten Plattformen und Kämpfen im offenen Zentrum.",
+          "keyRoutes": [
+            "Offenes Ausgrabungszentrum",
+            "Erhöhte Ruinen",
+            "Seitengänge zwischen den Ausgrabungsstätten"
+          ],
+          "modeFit": [
+            "Herrschaft",
+            "Stellung",
+            "Team-Deathmatch"
+          ]
+        },
+        {
+          "kind": "Modus",
+          "name": "Team-Deathmatch",
+          "contentSet": "Kern-Mehrspieler-Modus",
+          "location": "Alle unterstützten Mehrspieler-Karten",
+          "combatProfile": "Zwei Teams verdienen Punkte durch Eliminierungen; Kartenkontrolle und Spawn-Bewusstsein entscheiden die meisten Partien.",
+          "keyRoutes": [
+            "Zentrale Lanes kontrollieren",
+            "Team-Spawns schützen",
+            "Drohnen-Informationen zum Rotieren nutzen"
+          ],
+          "modeFit": [
+            "Schnelle öffentliche Spiele",
+            "Waffen-Leveln",
+            "Allgemeine Übung"
+          ]
+        },
+        {
+          "kind": "Modus",
+          "name": "Herrschaft",
+          "contentSet": "Kern-Mehrspieler-Modus",
+          "location": "Drei Eroberungspunkte: A, B und C",
+          "combatProfile": "Teams erobern Flaggen und sammeln Punkte, während sie diese halten, wodurch die zentrale B-Flagge meist zum Fokuspunkt wird.",
+          "keyRoutes": [
+            "Sichern Sie die Heimflagge",
+            "Kämpfen Sie um B",
+            "Vermeiden Sie das Drehen der Spawns ohne Plan"
+          ],
+          "modeFit": [
+            "Objektiv-Klassen",
+            "Trophy-Systeme",
+            "Gebietskontroll-Scorestreaks"
+          ]
+        },
+        {
+          "kind": "Modus",
+          "name": "Suchen & Zerstören",
+          "contentSet": "Kern-Mehrspieler-Modus",
+          "location": "Zwei Bombenplätze",
+          "combatProfile": "Rundenbasierter Modus mit einem Leben, bei dem Angreifer eine Bombe legen und Verteidiger diese schützen oder entschärfen.",
+          "keyRoutes": [
+            "Laufwege für den Rundenbeginn lernen",
+            "Übergänge zu den Bombenplätzen überwachen",
+            "Informationen und Leben bewahren"
+          ],
+          "modeFit": [
+            "Stealth-Klassen",
+            "Totenstille",
+            "Koordinierte Teams"
+          ]
+        },
+        {
+          "kind": "Modus",
+          "name": "Stellung",
+          "contentSet": "Kern-Mehrspieler-Modus",
+          "location": "Rotierende Zielzonen",
+          "combatProfile": "Teams punkten durch das Besetzen einer Stellung, die sich in einer festgelegten Abfolge bewegt.",
+          "keyRoutes": [
+            "Rotieren Sie, bevor die Stellung wechselt",
+            "Nahegelegene Spawns halten",
+            "Ausrüstung nutzen, um besetzte Stellungen zu stürmen"
+          ],
+          "modeFit": [
+            "Kompetitives Spiel",
+            "Objektiv-Punkte",
+            "Koordinierte Rotationen"
+          ]
+        },
+        {
+          "kind": "Modus",
+          "name": "Capture the Flag",
+          "contentSet": "Kern-Mehrspieler-Modus",
+          "location": "Zwei Team-Basen",
+          "combatProfile": "Stehlen Sie die feindliche Flagge und bringen Sie sie zurück, während sich die eigene Flagge sicher in der Basis befindet.",
+          "keyRoutes": [
+            "Eine Eskort-Route bilden",
+            "Rücklaufwege abschneiden",
+            "Das Mittelfeld vor einem Flaggen-Run kontrollieren"
+          ],
+          "modeFit": [
+            "Mobile MP-Klassen",
+            "Team-Kommunikation",
+            "Spawn-Kontrolle"
+          ]
+        },
+        {
+          "kind": "Modus",
+          "name": "Abschuss bestätigt",
+          "contentSet": "Standard-Mehrspieler-Modus",
+          "location": "Alle unterstützten Mehrspieler-Karten",
+          "combatProfile": "Eliminierte Spieler lassen Marken fallen; das Einsammeln gegnerischer Marken bestätigt Punkte und das Einsammeln verbündeter Marken verweigert sie.",
+          "keyRoutes": [
+            "Kämpfe in der Nähe von nutzbarer Deckung",
+            "Sammle Marken von Teamkameraden auf",
+            "Vermeide es, Marken auf offenen Laufwegen liegenzulassen"
+          ],
+          "modeFit": [
+            "Aggressive Spielweise",
+            "Verdienen von Punkteserien",
+            "Kleine und mittlere Karten"
+          ]
+        },
+        {
+          "kind": "Modus",
+          "name": "Liga-Spiele",
+          "contentSet": "Kompetitiver Mehrspieler",
+          "location": "Regelbasierte kompetitive Playlists",
+          "combatProfile": "Skill-basiertes Matchmaking teilt Spieler in kompetitive Divisionen ein und nutzt strukturiertere Regeln als normale öffentliche Spiele.",
+          "keyRoutes": [
+            "Nutze rollenbasierte Klassen",
+            "Koordiniere Rotationen zu den Zielen",
+            "Lerne kompetitive Karten- und Modus-Setups"
+          ],
+          "modeFit": [
+            "Ranglisten-Wettkampf",
+            "Teamstrategie",
+            "CODcasting und Gameplay im E-Sports-Stil"
+          ]
+        }
+      ]
+    },
+    "dlcAndSeasonPassGuide": {
+      "eyebrow": "DLC-Guide",
+      "title": "Call of Duty: Black Ops II DLC- und Season Pass-Guide",
+      "subtitle": "Vergleiche Revolution, Uprising, Vengeance und Apocalypse, einschließlich jeder Mehrspieler-Karte, Zombies-Karte und jedem Bonusgegenstand. Erfahre, wie die Inhalte auf PlayStation, Xbox und Steam bereitgestellt werden.",
+      "intro": "Der Season Pass enthält alle vier großen DLC-Packs, Nuketown Zombies und die Visitenkarte „The Deuce“, während das Hauptspiel weiterhin benötigt wird. Revolution fügt die Peacekeeper und den Modus „Gedreht“ hinzu, Uprising fügt Mob of the Dead hinzu, Vengeance fügt Buried und die Strahlenkanone Mark II hinzu und Apocalypse schließt die Saison mit Origins ab.",
+      "labels": {
+        "category": "Kategorie",
+        "multiplayerMaps": "Mehrspieler-Karten",
+        "zombiesContent": "Zombies-Inhalte",
+        "extraContent": "Extras",
+        "baseGameRequired": "Hauptspiel erforderlich",
+        "availabilityNotes": "Verfügbarkeit",
+        "yes": "Ja"
+      },
+      "packs": [
+        {
+          "row": "Season Pass-Übersicht",
+          "category": "Bundle",
+          "multiplayerMaps": "16 Karten in vier DLC-Packs",
+          "zombiesContent": "Die Rise, Mob of the Dead, Buried, Origins und Nuketown Zombies",
+          "extraContent": "Die exklusive Visitenkarte „The Deuce“; Revolution enthält außerdem die Peacekeeper-MP und den Modus „Gedreht“",
+          "baseGameRequired": true,
+          "availabilityNotes": "Der Season Pass gewährt Zugriff auf Revolution, Uprising, Vengeance und Apocalypse. Einzelne Packs können je nach Plattform auch separat erworben werden."
+        },
+        {
+          "row": "Revolution",
+          "category": "DLC-Pack 1",
+          "multiplayerMaps": [
+            "Downhill",
+            "Hydro",
+            "Mirage",
+            "Grind"
+          ],
+          "zombiesContent": "Die Rise plus der „Gezinkt“-Zombies-Modus",
+          "extraContent": "Peacekeeper-MP mit eigenen Waffenherausforderungen",
+          "baseGameRequired": true,
+          "availabilityNotes": "Im Season Pass enthalten und auch als eigenständiges Pack in unterstützten Stores aufgeführt."
+        },
+        {
+          "row": "Uprising",
+          "category": "DLC-Pack 2",
+          "multiplayerMaps": [
+            "Magma",
+            "Encore",
+            "Vertigo",
+            "Studio"
+          ],
+          "zombiesContent": "Mob of the Dead, angesiedelt in Alcatraz, inklusive der Jenseits-Mechanik (Purgatory)",
+          "extraContent": "Studio ist eine Neuinterpretation von Firing Range aus dem ursprünglichen Black Ops",
+          "baseGameRequired": true,
+          "availabilityNotes": "Im Season Pass enthalten und auch als eigenständiges Pack in unterstützten Stores aufgeführt."
+        },
+        {
+          "row": "Vengeance",
+          "category": "DLC-Pack 3",
+          "multiplayerMaps": [
+            "Cove",
+            "Detour",
+            "Rush",
+            "Uplink"
+          ],
+          "zombiesContent": "Buried, angesiedelt in einer unterirdischen Bergbaustadt im Wilden Westen",
+          "extraContent": "Die Ray Gun Mark II wird in Buried und den anderen Black Ops II Zombies-Maps verfügbar, wenn man Vengeance besitzt",
+          "baseGameRequired": true,
+          "availabilityNotes": "Im Season Pass enthalten und auch als eigenständiges Pack in unterstützten Stores aufgeführt."
+        },
+        {
+          "row": "Apocalypse",
+          "category": "DLC-Pack 4",
+          "multiplayerMaps": [
+            "Pod",
+            "Frost",
+            "Takeoff",
+            "Dig"
+          ],
+          "zombiesContent": "Origins, eine Dieselpunk-Zombies-Map aus der Ära des Ersten Weltkriegs mit den ursprünglichen vier Helden",
+          "extraContent": "Takeoff ist eine Neuauflage von Stadium und Dig eine Neuauflage von Courtyard",
+          "baseGameRequired": true,
+          "availabilityNotes": "Im Season Pass enthalten und auch als eigenständiges Pack in unterstützten Stores aufgeführt."
+        },
+        {
+          "row": "PlayStation 4 und PlayStation 5",
+          "category": "Plattform",
+          "multiplayerMaps": "Der Season Pass liefert alle vier DLC-Map-Packs für die PS4/PS5-Veröffentlichung",
+          "zombiesContent": "Alle vier DLC-Zombies-Maps plus Nuketown Zombies",
+          "extraContent": "Die Visitenkarte „The Deuce“",
+          "baseGameRequired": true,
+          "availabilityNotes": "Die PS4/PS5-Version und ihr Season Pass wurden am 9. Juli 2026 veröffentlicht. Der Online-Multiplayer erfordert PlayStation Plus, und plattformübergreifender Multiplayer mit Xbox oder PC wird nicht unterstützt."
+        },
+        {
+          "row": "Xbox One und Xbox Series X|S",
+          "category": "Plattform",
+          "multiplayerMaps": "Vier abwärtskompatible Xbox 360-Map-Packs",
+          "zombiesContent": "Alle Season-Pass-Zombies-Inhalte plus Nuketown Zombies",
+          "extraContent": "Die Visitenkarte „The Deuce“",
+          "baseGameRequired": true,
+          "availabilityNotes": "Die Store-Seite des Xbox Season Pass listet die Unterstützung für Xbox One und Xbox Series X|S auf. Season-Pass-Inhalte werden über den In-Game-Store von Black Ops II heruntergeladen."
+        },
+        {
+          "row": "Steam-PC",
+          "category": "Plattform",
+          "multiplayerMaps": "Revolution, Uprising, Vengeance und Apocalypse sind auf der DLC-Seite von Black Ops II aufgelistet",
+          "zombiesContent": "Jedes Pack enthält die dazugehörige Zombies-Karte; Nuketown Zombies ist ebenfalls separat aufgeführt",
+          "extraContent": "Revolution enthält die Peacekeeper; Vengeance beinhaltet den Zugriff auf die Strahlenkanone Mark II auf allen Zombies-Karten von Black Ops II",
+          "baseGameRequired": true,
+          "availabilityNotes": "Steam verwaltet die Packs als herunterladbare Inhalte für Black Ops II. Installiere das Hauptspiel und die erworbenen DLCs über dasselbe Steam-Konto."
+        }
+      ]
+    }
+  },
+  "faq": {
+    "title": "Call of Duty Black Ops II",
+    "titleHighlight": "FAQ",
+    "subtitle": "Schnelle Antworten zu Plattformen, Modi und Inhalten von Call of Duty Black Ops II",
+    "questions": [
+      {
+        "question": "Auf welchen Plattformen ist Call of Duty Black Ops II verfügbar?",
+        "answer": "Call of Duty Black Ops II ist über die digitale Veröffentlichung von 2026 auf PS5 und PS4, über Abwärtskompatibilität auf Xbox Series X|S und Xbox One sowie auf PC über Steam verfügbar."
+      },
+      {
+        "question": "Unterstützt Call of Duty Black Ops II plattformübergreifenden Multiplayer?",
+        "answer": "Nein. Call of Duty Black Ops II unterstützt keinen plattformübergreifenden Multiplayer. Beim Online-Spiel werden Spieler derselben Plattformfamilie zusammengebracht, und die PS4/PS5-Version unterstützt bis zu 18 Online-Spieler."
+      },
+      {
+        "question": "Welche Modi sind in Call of Duty Black Ops II enthalten?",
+        "answer": "Call of Duty Black Ops II enthält die verzweigte Kampagne, den kompetitiven Multiplayer mit dem „Nimm 10“-System und Punktserien sowie den rundenbasierten Zombies-Modus. Zusätzliche Karten erscheinen über DLC-Packs und den Season Pass."
+      },
+      {
+        "question": "Ist die PlayStation-Veröffentlichung von Call of Duty Black Ops II im Jahr 2026 ein Remake?",
+        "answer": "Nein. Die PlayStation-Veröffentlichung von 2026 ist ein Port des ursprünglichen Call of Duty Black Ops II-Erlebnisses, kein Remake. Die Kerninhalte von Kampagne, Multiplayer und Zombies bleiben gleich."
+      },
+      {
+        "question": "Benötige ich PlayStation Plus für den Multiplayer von Call of Duty Black Ops II?",
+        "answer": "Ja. Für den Online-Multiplayer von Call of Duty Black Ops II auf PlayStation sind ein PlayStation Plus-Abonnement und ein Activision-Konto erforderlich. Das lokale Spiel unterstützt auch ohne dieses ein oder zwei Spieler."
+      },
+      {
+        "question": "Welche DLCs sind für Call of Duty Black Ops II verfügbar?",
+        "answer": "Die DLCs für Call of Duty Black Ops II umfassen die Map-Packs Revolution, Uprising, Vengeance und Apocalypse. Jedes davon fügt Multiplayer-Karten und Zombies-Inhalte hinzu, und der Season Pass bündelt sie alle."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Bereit, Call of Duty Black Ops II zu spielen?",
+    "description": "Tritt der Black Ops II-Community auf Reddit bei, um Guides, Updates und Diskussionen zu finden!",
+    "joinCommunity": "Reddit beitreten",
+    "joinGame": "Auf Steam spielen"
+  },
+  "footer": {
+    "title": "Call of Duty Black Ops II-Wiki",
+    "description": "Deine komplette Anlaufstelle für die Kampagne, Zombies, den Multiplayer, Waffen, Karten, DLCs und Easter Eggs von Call of Duty Black Ops II.",
+    "resources": "Ressourcen",
+    "community": "Community",
+    "legal": "Rechtliches",
+    "reddit": "Reddit",
+    "youtube": "YouTube",
+    "steamStore": "Steam-Shop",
+    "playstation": "PlayStation",
+    "about": "Über",
+    "privacy": "Datenschutzerklärung",
+    "terms": "Nutzungsbedingungen",
+    "copyrightNotice": "Copyright",
+    "copyright": "© 2026 Call of Duty Black Ops II Wiki. Nicht mit Activision verbunden.",
+    "disclaimer": "Inoffizielle, von Fans erstellte Ressourcen-Website."
+  },
+  "pages": {
+    "guide": {
+      "title": "Call of Duty Black Ops II Guides",
+      "description": "Einsteigerfreundliche Call of Duty Black Ops II Guides zu Steuerung, Systemanforderungen, Installationsgröße, Kampagnenlänge und der Spielzeit für das gesamte Spiel.",
+      "metaTitle": "Call of Duty Black Ops II Guides – Steuerung, Systemanforderungen & Einsteiger-Tipps",
+      "metaDescription": "Starte stark durch mit Call of Duty Black Ops II Guides zu Steuerung, PC-Systemanforderungen, Installationsgröße, Kampagnenlänge und der Spielzeit für jeden Modus.",
+      "categoryLabel": "SPIEL-GUIDES",
+      "whatIs": "Was sind Guides?",
+      "whatIsDescription": "Grundlegende Call of Duty Black Ops II Guides, die Steuerung, Systemanforderungen der Plattformen, Installationsgröße, Gesamtspielzeit und alles abdecken, was ein neuer Spieler vor der ersten Mission wissen muss.",
+      "why": "Warum mit Guides beginnen?",
+      "whySteps": {
+        "step1Title": "Richtig einrichten",
+        "step1Description": "Bestätige Systemanforderungen, Installationsgröße sowie Controller- oder Tastaturbelegung, bevor du in den Einsatz ziehst",
+        "step2Title": "Plane deine Zeit",
+        "step2Description": "Kenne die Kampagnenlänge und die Spielzeit für Kampagne, Mehrspieler und Zombies, um jede Sitzung planen zu können",
+        "step3Title": "Lerne die Steuerung",
+        "step3Description": "Meistere Zielen, Bewegung und die Navigation im Nimm-10-Menü ab deinem allerersten Match"
+      },
+      "featured": "Vorgestellt & Essenziell",
+      "all": "Alle Guides"
+    },
+    "campaign": {
+      "title": "Call of Duty Black Ops II Kampagne",
+      "description": "Komplette Komplettlösung der Call of Duty Black Ops II Kampagne mit allen 11 Missionen, Eingreiftrupp-Einsätzen, verzweigten Entscheidungen, der Missionsliste und jedem Ende.",
+      "metaTitle": "Call of Duty Black Ops II Kampagne – Komplettlösung, Missionen & Enden",
+      "metaDescription": "Vollständige Komplettlösung der Call of Duty Black Ops II Kampagne, die alle 11 Missionen, Eingreiftrupp-Einsätze, die Missionsliste, Entscheidungen für das beste Ende und die Kampagnenlänge abdeckt.",
+      "categoryLabel": "KAMPAGNEN-KOMPLETTLÖSUNG",
+      "whatIs": "Was ist die Kampagne?",
+      "whatIsDescription": "Die Call of Duty Black Ops II Kampagne umfasst 11 Missionen in zwei Zeitlinien (1986 und 2025) mit verzweigten Story-Entscheidungen, Eingreiftrupp-Einsätzen und mehreren Enden, die durch deine Entscheidungen beeinflusst werden.",
+      "why": "Warum der Komplettlösung folgen?",
+      "whySteps": {
+        "step1Title": "Verfolge jede Mission",
+        "step1Description": "Nutze die vollständige Missionsliste, um durch alle 11 Story-Missionen und optionalen Eingreiftrupp-Einsätze zu navigieren",
+        "step2Title": "Triff die richtigen Entscheidungen",
+        "step2Description": "Erfahre, welche Entscheidungen das beste Ende freischalten und wie du Story-Fehlschläge verhinderst",
+        "step3Title": "Effizient durchspielen",
+        "step3Description": "Plane basierend auf der Kampagnenlänge, um Informationen zu sammeln, Eingreiftrupp-Missionen zu gewinnen und jedes Ziel in einem strukturierten Durchgang zu erreichen"
+      },
+      "featured": "Vorgestellt & Essenziell",
+      "all": "Alle Kampagnen-Guides"
+    },
+    "multiplayer": {
+      "title": "Call of Duty Black Ops II Mehrspieler",
+      "description": "Meistere den Call of Duty Black Ops II Mehrspieler mit Pick-10-Klassen, 4-Spieler-Splitscreen, lokalen und Online-Modi, dem Serverstatus für 2026 und der aktuellen Spieleranzahl.",
+      "metaTitle": "Call of Duty Black Ops II Mehrspieler - Pick 10, Splitscreen & Online",
+      "metaDescription": "Dominiere den Call of Duty Black Ops II Mehrspieler mit Pick-10-Klassen-Builds, 4-Spieler-Splitscreen-Setup, lokalem und Online-Spiel, dem Online-Status für 2026 und der Spieleranzahl.",
+      "categoryLabel": "MEHRSPIELER",
+      "whatIs": "Was ist der Mehrspieler-Modus?",
+      "whatIsDescription": "Der Call of Duty Black Ops II Mehrspieler bietet den Pick-10-Klasseneditor, Punkteserien, klassische Modi wie Team-Deathmatch und Stellung sowie Splitscreen für bis zu 4 Spieler und Online-Matchmaking.",
+      "why": "Warum den Mehrspieler-Modus spielen?",
+      "whySteps": {
+        "step1Title": "Erstelle Pick-10-Klassen",
+        "step1Description": "Verteile zehn Ausrüstungspunkte auf Waffen, Aufsätze, Extras und Wildcards, um sie an deinen Spielstil anzupassen",
+        "step2Title": "Spiele mit Freunden",
+        "step2Description": "Richte lokal einen 4-Spieler-Splitscreen ein oder tretet gemeinsam dem Online-Matchmaking bei",
+        "step3Title": "Bleibe 2026 online",
+        "step3Description": "Überprüfe die aktuelle Spieleranzahl und den Serverstatus, um aktive Lobbys auf jeder Plattform zu finden"
+      },
+      "featured": "Empfohlen & Essenziell",
+      "all": "Alle Mehrspieler-Guides"
+    },
+    "zombies": {
+      "title": "Call of Duty Black Ops II Zombies",
+      "description": "Überlebe Call of Duty Black Ops II Zombies mit vollständigen Map-Guides für TranZit, Buried, Mob of the Dead und Origins sowie Extras, Pack-a-Punch und Easter-Egg-Anleitungen.",
+      "metaTitle": "Call of Duty Black Ops II Zombies - Maps, TranZit, Buried & Easter Eggs",
+      "metaDescription": "Meistere Call of Duty Black Ops II Zombies mit Map-Guides für TranZit, Buried und jede DLC-Map, Pack-a-Punch-Routen, Extras und vollständigen Easter-Egg-Quest-Anleitungen.",
+      "categoryLabel": "ZOMBIE-MODUS",
+      "whatIs": "Was ist der Zombie-Modus?",
+      "whatIsDescription": "Call of Duty Black Ops II Zombies ist ein rundenbasierter Koop-Überlebensmodus. Verdiene Punkte, öffne Bereiche, kaufe Extras, verbessere Waffen am Pack-a-Punch und stelle dich der charakteristischen Easter-Egg-Quest jeder Map.",
+      "why": "Warum den Zombie-Modus spielen?",
+      "whySteps": {
+        "step1Title": "Lerne die Maps kennen",
+        "step1Description": "Studiere die Layouts von TranZit, Buried und den DLC-Maps, einschließlich baubarer Objekte, Extra-Standorten und Pack-a-Punch",
+        "step2Title": "Überlebe hohe Runden",
+        "step2Description": "Kontrolliere die Horde, verwalte deine Munition und erreiche Runde 50 und darüber hinaus mit bewährten Strategien",
+        "step3Title": "Schließe Easter Eggs ab",
+        "step3Description": "Folge Schritt-für-Schritt-Easter-Egg-Guides, um die Hauptstory-Quest und Belohnungen jeder Map freizuschalten"
+      },
+      "featured": "Empfohlen & Essenziell",
+      "all": "Alle Zombie-Guides"
+    },
+    "platforms": {
+      "title": "Call of Duty Black Ops II Plattformen",
+      "description": "Spiele Call of Duty Black Ops II auf jeder Plattform: PS5- und PS4-Portierungsdetails für 2026, PC-Steam-Einrichtung, Xbox 360, Abwärtskompatibilität und plattformübergreifende Unterstützung.",
+      "metaTitle": "Call of Duty Black Ops II Plattformen - PS5, PS4, PC & Xbox 360",
+      "metaDescription": "Finde heraus, wo du Call of Duty Black Ops II auf PS5, PS4, PC Steam und Xbox 360 spielen kannst, mit Portierungsdetails, Abwärtskompatibilität und Infos zum plattformübergreifenden Mehrspieler-Modus.",
+      "categoryLabel": "PLATTFORMEN",
+      "whatIs": "Welche Plattformen unterstützen es?",
+      "whatIsDescription": "Call of Duty Black Ops II ist auf PS5 und PS4 über den Port von 2026, auf dem PC über Steam und in der ursprünglichen Xbox 360-Version erhältlich, jeweils mit unterschiedlicher Leistung, Steuerung und Online-Funktionen.",
+      "why": "Warum Plattformen vergleichen?",
+      "whySteps": {
+        "step1Title": "Wähle deine Konsole",
+        "step1Description": "Vergleiche die PS5- und PS4-Portierung mit PC Steam und Xbox 360, um das beste Erlebnis zu wählen",
+        "step2Title": "Kompatibilität prüfen",
+        "step2Description": "Verstehe die Abwärtskompatibilität und was die PlayStation-Portierung von 2026 gegenüber dem Original verbessert",
+        "step3Title": "Kenne die Grenzen",
+        "step3Description": "Überprüfe die plattformübergreifende Multiplayer-Unterstützung und die plattformspezifische Leistung vor dem Kauf"
+      },
+      "featured": "Vorgestellt & Unverzichtbar",
+      "all": "Alle Plattform-Guides"
+    },
+    "editions": {
+      "title": "Call of Duty Black Ops II Editionen",
+      "description": "Vergleiche jede Edition von Call of Duty Black Ops II: Digital Deluxe, Hardened Edition und Standard, mit Bonusinhalten, Season Pass und Kaufempfehlungen.",
+      "metaTitle": "Call of Duty Black Ops II Editionen - Digital Deluxe vs. Hardened",
+      "metaDescription": "Vergleiche die Call of Duty Black Ops II Digital Deluxe Edition, Hardened Edition und Standard, um die richtige Version mit Bonus-Maps, Season Pass und Sammlerstücken zu wählen.",
+      "categoryLabel": "EDITIONEN",
+      "whatIs": "Was sind die Editionen?",
+      "whatIsDescription": "Call of Duty Black Ops II erschien in verschiedenen Editionen, darunter das Standardspiel, die sammelbare Hardened Edition und die Digital Deluxe Edition, die Bonus-Maps, den Season Pass und exklusive Extras bündelt.",
+      "why": "Warum Editionen vergleichen?",
+      "whySteps": {
+        "step1Title": "Passe dein Budget an",
+        "step1Description": "Wiege das Standardspiel gegen die Hardened und Digital Deluxe Edition ab, um das richtige Preis-Leistungs-Verhältnis zu finden",
+        "step2Title": "Maximiere deine Inhalte",
+        "step2Description": "Sieh nach, welche Editionen Nuketown Zombies, den Season Pass und exklusive Bonus-Multiplayer-Maps enthalten",
+        "step3Title": "Kaufe mit Vertrauen",
+        "step3Description": "Nutze den Kauf-Guide, um die Edition zu wählen, die am besten zu deiner Spielweise in Multiplayer, Zombies und DLCs passt"
+      },
+      "featured": "Vorgestellt & Unverzichtbar",
+      "all": "Alle Editions-Guides"
+    },
+    "dlc": {
+      "title": "Call of Duty Black Ops II DLC",
+      "description": "Jedes Call of Duty Black Ops II DLC-Pack erklärt: Revolution, Uprising, Vengeance, Apocalypse, der Season Pass und alle enthaltenen Multiplayer- und Zombies-Maps.",
+      "metaTitle": "Call of Duty Black Ops II DLC - Revolution, Uprising, Vengeance & Apocalypse",
+      "metaDescription": "Erkunde alle Call of Duty Black Ops II DLC-Map-Packs, einschließlich Revolution, Uprising, Vengeance und Apocalypse, plus den Season Pass und jede Zombies-Map, die sie hinzufügen.",
+      "categoryLabel": "DLC-MAP-PACKS",
+      "whatIs": "Was ist der DLC?",
+      "whatIsDescription": "Der DLC für Call of Duty Black Ops II umfasst vier große Map-Packs (Revolution, Uprising, Vengeance, Apocalypse) und den Season Pass, die jeweils neue Multiplayer-Maps, Zombies-Maps und Waffen hinzufügen.",
+      "why": "Warum den DLC holen?",
+      "whySteps": {
+        "step1Title": "Erweitere den Multiplayer",
+        "step1Description": "Schalte neue Multiplayer-Maps wie Magma, Encore und Studio in den vier DLC-Packs frei",
+        "step2Title": "Spiele mehr Zombies",
+        "step2Description": "Füge Zombies-Maps wie Die Rise, Mob of the Dead, Buried und Origins hinzu",
+        "step3Title": "Sparen mit dem Season Pass",
+        "step3Description": "Nutze den Season Pass, um alle vier Map-Packs zu einem günstigeren Gesamtpreis zu erwerben"
+      },
+      "featured": "Vorgestellt & Unverzichtbar",
+      "all": "Alle DLC-Guides"
+    },
+    "legacy": {
+      "title": "Call of Duty Black Ops II Vermächtnis",
+      "description": "Das Call of Duty Black Ops II Vermächtnis: Veröffentlichungsdatum, Rezensionen, warum es das beste ist, ob es sich 2026 noch lohnt und die aktive Reddit-Community.",
+      "metaTitle": "Call of Duty Black Ops II Vermächtnis – Veröffentlichung, Rezensionen & Fazit 2026",
+      "metaDescription": "Erkunde das Call of Duty Black Ops II Vermächtnis, einschließlich des Veröffentlichungsdatums 2012, Rezensionen, warum Fans es als das beste bezeichnen, der Reddit-Community und ob es sich 2026 noch lohnt.",
+      "categoryLabel": "REZENSIONEN & VERMÄCHTNIS",
+      "whatIs": "Was ist das Vermächtnis?",
+      "whatIsDescription": "Call of Duty Black Ops II erschien 2012 und baute durch seine verzweigte Kampagne, den Pick-10-Mehrspieler und den Zombie-Modus ein bleibendes Vermächtnis auf, mit einer aktiven Community, die es auch 2026 noch spielt und diskutiert.",
+      "why": "Warum ist das Vermächtnis wichtig?",
+      "whySteps": {
+        "step1Title": "Den Hype verstehen",
+        "step1Description": "Lies Rezensionen und Community-Meinungen dazu, warum viele Fans Black Ops II als das beste Call of Duty bezeichnen",
+        "step2Title": "Die Geschichte verfolgen",
+        "step2Description": "Erfahre mehr über das ursprüngliche Veröffentlichungsdatum und wie sich das Spiel zum PS5- und PS4-Port von 2026 entwickelt hat",
+        "step3Title": "Entscheidung für 2026",
+        "step3Description": "Wäge die Spielermeinungen und die Reddit-Community ab, um zu entscheiden, ob es sich heute noch lohnt"
+      },
+      "featured": "Vorgestellt & Essenziell",
+      "all": "Alle Vermächtnis-Guides"
+    }
   }
 }
