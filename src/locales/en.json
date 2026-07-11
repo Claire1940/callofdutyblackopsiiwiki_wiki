@@ -53,728 +53,520 @@
     }
   },
   "gameFeature": {
-    "title": "Lucid Blocks Gameplay",
-    "description": "Explore surreal biomes, fuse items with Apotheosis, and survive strange creatures in this dreamlike voxel sandbox on Steam."
+    "title": "Call of Duty Black Ops II Gameplay",
+    "description": "Experience the branching 1980s and 2025 campaign, Pick 10 multiplayer classes, Scorestreaks, and round-based Zombies across TranZit, Mob of the Dead, Buried, and Origins."
   },
   "tools": {
-    "title": "Lucid Blocks",
-    "titleHighlight": "Resources",
-    "subtitle": "Everything you need to explore, craft, and survive in Lucid Blocks",
+    "title": "Call of Duty Black Ops II",
+    "titleHighlight": "Guides",
+    "subtitle": "Everything you need for the campaign, Zombies, multiplayer, weapons, maps, and DLC",
     "cards": [
+      {
+        "icon": "ShoppingCart",
+        "title": "Platforms & Buying Guide",
+        "description": "PS5, PS4, Xbox, and PC versions, compatibility, and DLC access"
+      },
       {
         "icon": "BookOpen",
         "title": "Beginner Guide",
-        "description": "First steps, exploration, and early progression"
+        "description": "First mode, controls, Pick 10 classes, and Zombies survival"
       },
       {
-        "icon": "Sparkles",
-        "title": "Apotheosis Crafting",
-        "description": "Freeform fusion system and early recipes"
+        "icon": "Skull",
+        "title": "Zombies Maps & Easter Eggs",
+        "description": "TranZit, Mob of the Dead, Buried, Origins, and main quests"
       },
       {
-        "icon": "Hammer",
-        "title": "Tools and Weapons",
-        "description": "Frost Pick, Azrael, Hookshot, and more"
-      },
-      {
-        "icon": "Package",
-        "title": "Storage and Inventory",
-        "description": "Cache Cubes, Cabinets, and Qualia storage"
-      },
-      {
-        "icon": "Home",
-        "title": "Qualia and Base Building",
-        "description": "Personal Qualia and home base setup"
-      },
-      {
-        "icon": "Eye",
-        "title": "World Regions",
-        "description": "Fog Meadow, Essence Morass, and more"
-      },
-      {
-        "icon": "AlertTriangle",
-        "title": "Creatures and Enemies",
-        "description": "Manikins, spiders, and how to survive"
-      },
-      {
-        "icon": "ArrowRight",
-        "title": "Mobility Gear",
-        "description": "Hookshot, Glider Glove, Bee Glider"
-      },
-      {
-        "icon": "TrendingUp",
-        "title": "Farming and Growth",
-        "description": "Seed progression and material farming"
-      },
-      {
-        "icon": "Star",
-        "title": "Best Early Unlocks",
-        "description": "Priority upgrades for the first hour"
-      },
-      {
-        "icon": "ClipboardCheck",
-        "title": "Achievement Tracker",
-        "description": "All 19 Steam achievements and conditions"
-      },
-      {
-        "icon": "MessageCircle",
-        "title": "Singleplayer FAQ",
-        "description": "Platform, price, co-op, and language questions"
-      },
-      {
-        "icon": "Gamepad2",
-        "title": "Steam Deck and Controller",
-        "description": "Proton 9.0.4 setup and controller tips"
-      },
-      {
-        "icon": "Settings",
-        "title": "Settings and Accessibility",
-        "description": "Hide hands, Vulkan, and display options"
-      },
-      {
-        "icon": "Clock",
-        "title": "Updates and Patch Notes",
-        "description": "Recent fixes and roadmap notes"
-      },
-      {
-        "icon": "Shield",
-        "title": "Crash Fix",
-        "description": "Vulkan check, logs path, and bug reporting"
+        "icon": "Crosshair",
+        "title": "Weapons Tier List",
+        "description": "Ranked assault rifles, SMGs, snipers, shotguns, and more"
       }
     ]
   },
   "modules": {
-    "lucidBlocksBeginnerGuide": {
-      "title": "Lucid Blocks Beginner Guide",
-      "displayType": "steps",
-      "intro": "Start by learning how exploration, fusion, and progression connect. Lucid Blocks rewards experimentation, so early progress comes from gathering unusual materials, testing combinations, and unlocking your personal Qualia.",
-      "steps": [
-        {
-          "title": "Explore Before You Commit",
-          "description": "Walk outward, mine common blocks, and keep any strange drops you find. Early progress is less about fixed quests and more about discovering what materials can become."
-        },
-        {
-          "title": "Unlock Your Personal Qualia Early",
-          "description": "Your personal Qualia is one of the most important early milestones. It gives you a reliable place to regroup and build around."
-        },
-        {
-          "title": "Use Osmium for Fast Early Progress",
-          "description": "Osmium is one of the most useful early materials. A popular early route is combining Osmium with sticks to make a Frost Pick for fast mining."
-        },
-        {
-          "title": "Record Good Fusions",
-          "description": "Keep track of successful combinations in your journal. Lucid Blocks has many possible fusion paths, so writing down useful results saves a lot of time."
-        }
-      ],
-      "quickTips": [
-        "Apotheosis does not require a fixed recipe list.",
-        "Infinite world generation means moving higher or deeper can reveal completely different materials.",
-        "Movement tools and utility gear become a major quality-of-life boost once you start unlocking them.",
-        "Getting lost early is normal, but useful tools, storage, and movement options snowball fast once your first good fusions start working."
-      ]
-    },
-    "lucidBlocksApotheosisCrafting": {
-      "title": "Lucid Blocks Apotheosis Crafting",
-      "displayType": "cards",
-      "intro": "Apotheosis is the game's unrestricted fusion system. Instead of memorizing a traditional recipe book, you combine materials, watch the result, and build your own crafting knowledge over time.",
-      "cards": [
-        {
-          "name": "Freeform Fusion",
-          "description": "Apotheosis lets you fuse together different items without needing to follow a fixed recipe list."
-        },
-        {
-          "name": "Multiple Useful Outcomes",
-          "description": "Different materials often push toward certain results. Community discoveries show that similar inputs can still lead to practical tools, storage, or combat upgrades."
-        },
-        {
-          "name": "Journal-First Crafting",
-          "description": "The best way to learn Apotheosis is to track your successful combinations. Your journal quickly becomes your own crafting reference."
-        },
-        {
-          "name": "Community-Tested Early Fusions",
-          "description": "Popular early examples include Osmium plus Stick for a Frost Pick, Stick plus Tungsten Appendage for Azrael, and Azrael plus Magnetite for the Tendril Rapier."
-        }
-      ],
-      "milestones": [
-        "Fuse an item",
-        "Fuse a vermin",
-        "Fuse a divine artifact"
-      ]
-    },
-    "lucidBlocksToolsAndWeapons": {
-      "title": "Lucid Blocks Tools and Weapons",
-      "displayType": "itemCards",
-      "intro": "Lucid Blocks mixes official utility gear with community-discovered early weapons. The best setup is usually a blend of fast mining, safe traversal, and one dependable combat option.",
+    "platformsAndBuyingGuide": {
+      "eyebrow": "Platforms & Editions",
+      "title": "Call of Duty Black Ops II Platforms and Buying Guide",
+      "subtitle": "Where to Buy and Play Black Ops II",
+      "intro": "Call of Duty: Black Ops II is available on modern PlayStation consoles through its 2026 digital release, on Xbox through backward compatibility, and on PC through Steam. The core game includes Campaign, Multiplayer, and Zombies, while additional Zombies and Multiplayer maps are sold through separate DLC packs or the Season Pass.",
       "items": [
         {
-          "name": "Frost Pick",
-          "type": "Mining Tool",
-          "description": "A fast and affordable early pick made from Osmium and Stick. Players use it to speed up early material gathering."
+          "platform": "PlayStation 5",
+          "howToBuy": "Purchase the digital PS4 and PS5 product from the PlayStation Store.",
+          "version": "Official PS5-compatible release launched on July 9, 2026.",
+          "onlineRequirements": "PlayStation Plus and an Activision account are required for online Multiplayer. Local play supports one or two players.",
+          "includedContent": "The original Campaign, Multiplayer, and Zombies experience. Revolution, Uprising, Vengeance, Apocalypse, and Nuketown Zombies are available through the separate Season Pass.",
+          "importantNotes": "This is a release of the original Black Ops II experience rather than a new remake. Cross-platform Multiplayer is not supported."
         },
         {
-          "name": "Azrael",
-          "type": "Starter Weapon",
-          "description": "A practical early weapon route crafted from Stick and Tungsten Appendage."
+          "platform": "PlayStation 4",
+          "howToBuy": "Purchase the digital PS4 and PS5 product from the PlayStation Store.",
+          "version": "Official PS4 release launched on July 9, 2026.",
+          "onlineRequirements": "PlayStation Plus and an Activision account are required for online Multiplayer. Local play supports one or two players.",
+          "includedContent": "Campaign, Multiplayer, and the original Zombies content. Additional map packs and Zombies maps require the Season Pass or individual DLC purchases.",
+          "importantNotes": "Online play supports up to 18 players. Cross-platform Multiplayer is not supported."
         },
         {
-          "name": "Tendril Rapier",
-          "type": "Upgraded Weapon",
-          "description": "A stronger follow-up made by combining Azrael with Magnetite. It is one of the most useful early-mid combat paths shared by players."
+          "platform": "Xbox Series X|S",
+          "howToBuy": "Buy the digital Xbox 360 version from the Xbox Store. Xbox Series X can also use a compatible physical Xbox 360 disc, while Xbox Series S requires a digital license.",
+          "version": "The Xbox 360 release runs through Xbox backward compatibility.",
+          "onlineRequirements": "Online console Multiplayer requires an Xbox Game Pass plan that includes online Multiplayer access.",
+          "includedContent": "Campaign, Multiplayer, and Zombies are included in the base game. The Season Pass and individual DLC packs remain separate purchases.",
+          "importantNotes": "The game runs inside the Xbox 360 backward-compatible environment rather than as a native Series X|S version."
         },
         {
-          "name": "Hookshot",
-          "type": "Mobility Tool",
-          "description": "An official traversal item that greatly improves movement and vertical exploration."
+          "platform": "Xbox One",
+          "howToBuy": "Buy the digital Xbox 360 version or insert a compatible physical Black Ops II disc.",
+          "version": "Supported through Xbox One backward compatibility since April 2017.",
+          "onlineRequirements": "Online console Multiplayer requires an Xbox Game Pass plan that includes online Multiplayer access.",
+          "includedContent": "The complete base-game Campaign, Multiplayer, and Zombies modes. DLC maps require separate ownership.",
+          "importantNotes": "Previously purchased compatible Xbox 360 digital content can be downloaded through the same Xbox account."
         },
         {
-          "name": "Bee Glider",
-          "type": "Mobility Tool",
-          "description": "An official movement item that helps cover space more safely and efficiently."
-        },
-        {
-          "name": "Ball Wand",
-          "type": "Utility Weapon",
-          "description": "An official ranged utility item that expands your combat and puzzle options."
-        },
-        {
-          "name": "Scuba Diving Gear",
-          "type": "Traversal Gear",
-          "description": "An official utility item for reaching areas that would otherwise slow down exploration."
-        },
-        {
-          "name": "Explosives",
-          "type": "Utility Damage",
-          "description": "Officially highlighted as part of the core toolset and useful for breaking through threats or obstacles."
+          "platform": "PC",
+          "howToBuy": "Purchase and install the game through Steam.",
+          "version": "Original Windows PC release.",
+          "onlineRequirements": "Steam and an internet connection are required for activation. Broadband internet is required for Multiplayer, while Steam Offline Mode can be used for supported single-player content after activation.",
+          "includedContent": "The Steam base game provides access to the core Campaign, Multiplayer, and Zombies components. DLC map packs and the Season Pass are sold separately.",
+          "importantNotes": "Minimum requirements include Windows Vista SP2 or Windows 7, 2 GB of RAM on 32-bit systems or 4 GB on 64-bit systems, a DirectX 9-compatible graphics card, and approximately 16 GB of storage."
         }
       ]
     },
-    "lucidBlocksStorageAndInventory": {
-      "title": "Lucid Blocks Storage and Inventory",
-      "displayType": "solutionCards",
-      "intro": "Inventory pressure starts early in Lucid Blocks, so building storage should be one of your first goals. Several real player-tested solutions already stand out.",
-      "solutions": [
-        {
-          "name": "Cache Cube",
-          "role": "Chest-Like Storage",
-          "description": "Cache Cubes are one of the earliest practical storage answers and are treated by players as the game's main chest-style container."
-        },
-        {
-          "name": "Cabinet",
-          "role": "Simple Base Storage",
-          "description": "Cabinets are another confirmed storage option. A shared early recipe uses 1 Cut Wood and 1 String."
-        },
-        {
-          "name": "Personal Qualia",
-          "role": "Long-Term Storage Hub",
-          "description": "Once unlocked, your personal Qualia becomes a natural place to organize materials, craft in peace, and expand your base setup."
-        },
-        {
-          "name": "Journal Tracking",
-          "role": "Inventory Efficiency",
-          "description": "Recording useful combinations in your journal reduces wasted materials and makes inventory management much easier."
-        }
-      ],
-      "managementTips": [
-        "Prioritize one dependable storage option before hoarding rare drops.",
-        "Build around your personal Qualia once it becomes available.",
-        "Keep crafting materials, combat tools, and movement gear separated so upgrades are easier to plan.",
-        "Use your journal as part of inventory management, not just crafting discovery."
-      ]
-    },
-    "lucidBlocksQualiaAndBaseBuilding": {
-      "title": "Lucid Blocks Qualia and Base Building",
-      "displayType": "cards",
-      "intro": "Qualia is one of the most important progression milestones in Lucid Blocks. It gives you a personal space to regroup, store materials, and gradually turn exploration progress into a real home base.",
-      "cards": [
-        {
-          "name": "Personal Qualia",
-          "description": "Unlocking a Qualia is an early milestone that gives you a more reliable place to return to while exploring the wider world."
-        },
-        {
-          "name": "Storage-First Building",
-          "description": "Many players start using their Qualia as a storage hub before turning it into a larger base with organized crafting and building space."
-        },
-        {
-          "name": "Creative Home Building",
-          "description": "Lucid Blocks supports creative building, and players are already using Qualia spaces to make houses and personalized layouts."
-        },
-        {
-          "name": "Progression Hub",
-          "description": "A strong base helps you separate exploration loot, crafting materials, seeds, tools, and mobility gear so your next upgrades are easier to plan."
-        }
-      ],
-      "highlights": [
-        "Enter a qualia",
-        "Store materials safely",
-        "Expand from utility to decoration",
-        "Use base space to support crafting and farming"
-      ]
-    },
-    "lucidBlocksWorldRegions": {
-      "title": "Lucid Blocks World Regions",
-      "displayType": "regionCards",
-      "intro": "Lucid Blocks uses infinite world generation, so players keep discovering new environments and structures. A few named places are already showing up in achievements and community discussions.",
-      "regions": [
-        {
-          "name": "Fog Meadow",
-          "type": "Community-Noted Area",
-          "description": "Fog Meadow is already known among players as a tense area associated with hidden threats and dangerous encounters."
-        },
-        {
-          "name": "Tiamana Leyline",
-          "type": "Discovery Landmark",
-          "description": "The tiamana leyline is important enough to have its own achievement milestone, making it one of the clearest named world discoveries so far."
-        },
-        {
-          "name": "Clonaqualia",
-          "type": "Build Space",
-          "description": "Players are already using Clonaqualia as a place to build houses, store materials, and experiment with more permanent layouts."
-        },
-        {
-          "name": "Essence Morass",
-          "type": "Farming Area",
-          "description": "Essence Morass is being shared by players as a useful farming location, especially for fighting slimes and gaining experience."
-        }
-      ]
-    },
-    "lucidBlocksCreaturesAndEnemies": {
-      "title": "Lucid Blocks Creatures and Enemies",
-      "displayType": "creatureCards",
-      "intro": "Lucid Blocks mixes surreal creatures with real danger. Official descriptions and community posts point to a world full of strange life, hostile threats, and a few standout encounters players remember quickly.",
-      "creatures": [
-        {
-          "name": "Manikins",
-          "role": "Hostile Enemy",
-          "description": "Manikins are one of the officially named foes in the world and part of the game's surreal threat roster."
-        },
-        {
-          "name": "Squishy Gels",
-          "role": "Hostile Enemy",
-          "description": "Squishy gels are another officially named enemy type and help define the game's strange biological style."
-        },
-        {
-          "name": "Higher-Dimensional Beings",
-          "role": "Hostile Enemy",
-          "description": "These beings are presented as part of the world's more abstract and unsettling enemy lineup."
-        },
-        {
-          "name": "Colossal Spiders",
-          "role": "Major Threat",
-          "description": "Spiders are one of the most immediately feared enemies in community discussions and are clearly a memorable danger."
-        },
-        {
-          "name": "Bubblebear",
-          "role": "Named Creature",
-          "description": "Bubblebear is notable enough to have its own achievement, which makes it one of the clearest named creature encounters in the game."
-        },
-        {
-          "name": "Cute Vermin",
-          "role": "Interactable Creature",
-          "description": "Vermin are not only part of fusion progression, they can also be renamed, giving them a more personal role than standard enemies."
-        },
-        {
-          "name": "Blasphemous Creature",
-          "role": "Elite Threat",
-          "description": "The blasphemous creature is tied to a dedicated combat achievement, marking it as a significant enemy encounter."
-        }
-      ]
-    },
-    "lucidBlocksMobilityGear": {
-      "title": "Lucid Blocks Mobility Gear",
-      "displayType": "itemCards",
-      "intro": "Movement upgrades are one of the biggest quality-of-life jumps in Lucid Blocks. Once you unlock your first traversal tools, exploration becomes faster, safer, and much more rewarding.",
-      "items": [
-        {
-          "name": "Hookshot",
-          "type": "Traversal Tool",
-          "description": "The hookshot is one of the clearest movement milestones in the game and has its own dedicated achievement."
-        },
-        {
-          "name": "Glider Glove",
-          "type": "Air Mobility",
-          "description": "The glider glove opens up much smoother travel and is another major progression milestone with its own achievement."
-        },
-        {
-          "name": "Bee Glider",
-          "type": "Traversal Tool",
-          "description": "Bee gliders are officially highlighted as part of the game's movement toolkit for covering space more efficiently."
-        },
-        {
-          "name": "Ball Wand",
-          "type": "Utility Gear",
-          "description": "Ball wands are one of the officially highlighted special tools and expand how you move through or interact with the world."
-        },
-        {
-          "name": "Scuba Diving Gear",
-          "type": "Exploration Gear",
-          "description": "Scuba diving gear is officially listed as part of the core utility set for reaching areas that would otherwise be harder to explore."
-        },
-        {
-          "name": "Explosives",
-          "type": "Utility Damage",
-          "description": "Explosives are both officially highlighted and linked to an achievement milestone, making them part of the game's core utility progression."
-        }
-      ],
-      "unlockMilestones": [
-        "Command a hookshot",
-        "Fly with the glider glove",
-        "Brandish a projectile wand",
-        "Brandish an explosive"
-      ]
-    },
-    "lucidBlocksFarmingAndGrowth": {
-      "title": "Lucid Blocks Farming and Growth",
-      "displayType": "mixedCards",
-      "intro": "Growth is part of real progression in Lucid Blocks. Farming is not only about planting and harvesting, but also about setting up repeatable material routes that keep your tools, weapons, and crafting options flowing.",
-      "sections": [
-        {
-          "name": "Seed Progression",
-          "description": "Planting and fertilizing seeds is a real milestone in the game, and harvesting a fully-grown nut is part of the same growth path."
-        },
-        {
-          "name": "Material Farming",
-          "description": "A practical early farming loop is creating Mercury Capsules, which spawn small slimes that drop Tendrils and goo for repeatable crafting materials."
-        },
-        {
-          "name": "Tool Sustain",
-          "description": "Resource farming becomes much stronger once you can consistently gather Osmium, glass shards, plants, and slime materials for follow-up crafts."
-        },
-        {
-          "name": "Base Routine",
-          "description": "The best farming setup supports more than food. It should feed your storage, movement tools, weapon upgrades, and future fusion experiments."
-        }
-      ],
-      "growthMilestones": [
-        "Fertilize a seed",
-        "Harvest a fully-grown nut",
-        "Create repeatable material loops",
-        "Turn farming into long-term progression"
-      ]
-    },
-    "lucidBlocksBestEarlyUnlocks": {
-      "title": "Lucid Blocks Best Early Unlocks",
-      "displayType": "priorityCards",
-      "intro": "The strongest early unlocks are the ones that improve safety, storage, and movement. In Lucid Blocks, a few practical upgrades can make the entire rest of the game much smoother.",
-      "priorities": [
-        {
-          "name": "Personal Qualia",
-          "priority": "Essential",
-          "description": "As soon as you get access to your personal Qualia, your run becomes much more stable. It acts as a reliable hub for storage, building, and regrouping."
-        },
-        {
-          "name": "Frost Pick",
-          "priority": "Very High",
-          "description": "A fast and cheap early mining tool made from Osmium and Stick. It is one of the most useful upgrades for accelerating early resource collection."
-        },
-        {
-          "name": "Cache Cube",
-          "priority": "Very High",
-          "description": "Storage pressure starts early, so getting your first dependable chest-style container is a major quality-of-life upgrade."
-        },
-        {
-          "name": "Hookshot",
-          "priority": "High",
-          "description": "The hookshot is one of the clearest movement milestones in the game and quickly makes exploration faster and safer."
-        },
-        {
-          "name": "Glider Glove",
-          "priority": "High",
-          "description": "The glider glove adds another major mobility boost and makes long-distance movement far more efficient."
-        },
-        {
-          "name": "Projectile Wand or Bombs",
-          "priority": "High",
-          "description": "A ranged tool or explosive option gives you a safer answer to dangerous enemies and trial-style encounters."
-        }
-      ]
-    },
-    "lucidBlocksAchievementTracker": {
-      "title": "Lucid Blocks Achievement Tracker",
-      "displayType": "achievementGrid",
-      "intro": "Lucid Blocks currently has 19 Steam achievements, and they naturally split into exploration, crafting, mobility, combat, and growth progression.",
-      "groups": [
-        {
-          "name": "Exploration",
-          "achievements": [
-            {
-              "title": "Angel α",
-              "description": "Enter a qualia."
-            },
-            {
-              "title": "Angel γ",
-              "description": "Discover a tiamana leyline."
-            },
-            {
-              "title": "Angel δ",
-              "description": "Overcome a tiamana challenge."
-            },
-            {
-              "title": "Angel ε",
-              "description": "Hidden achievement."
-            }
-          ]
-        },
-        {
-          "name": "Crafting and Summoning",
-          "achievements": [
-            {
-              "title": "Apotheosis α",
-              "description": "Fuse an item."
-            },
-            {
-              "title": "Apotheosis β",
-              "description": "Fuse a vermin."
-            },
-            {
-              "title": "Apotheosis γ",
-              "description": "Fuse a divine artifact."
-            },
-            {
-              "title": "Archangel β",
-              "description": "Summon your faith."
-            }
-          ]
-        },
-        {
-          "name": "Mobility and Utility",
-          "achievements": [
-            {
-              "title": "Virtue α",
-              "description": "Fly with the glider glove."
-            },
-            {
-              "title": "Virtue β",
-              "description": "Command a hookshot."
-            },
-            {
-              "title": "Archangel α",
-              "description": "Brandish a projectile wand."
-            },
-            {
-              "title": "Archangel γ",
-              "description": "Brandish an explosive."
-            }
-          ]
-        },
-        {
-          "name": "Combat and Creatures",
-          "achievements": [
-            {
-              "title": "Bubblebear Massacre",
-              "description": "Defeat innocent bubblebears."
-            },
-            {
-              "title": "Archangel δ",
-              "description": "Eliminate a blasphemous creature."
-            },
-            {
-              "title": "Angel β",
-              "description": "Die."
-            },
-            {
-              "title": "Dominion γ",
-              "description": "Rename a cute vermin."
-            }
-          ]
-        },
-        {
-          "name": "Growth and Farming",
-          "achievements": [
-            {
-              "title": "Dominion α",
-              "description": "Fertilize a seed."
-            },
-            {
-              "title": "Dominion β",
-              "description": "Harvest a fully-grown nut."
-            },
-            {
-              "title": "Dominion δ",
-              "description": "Hidden achievement."
-            }
-          ]
-        }
-      ]
-    },
-    "lucidBlocksSingleplayerAndPlatformFAQ": {
-      "title": "Lucid Blocks Singleplayer and Platform FAQ",
-      "displayType": "accordion",
-      "intro": "These are the core platform and access questions players keep asking before buying Lucid Blocks.",
-      "faqs": [
-        {
-          "question": "Is Lucid Blocks singleplayer?",
-          "answer": "Yes. Lucid Blocks is a singleplayer game."
-        },
-        {
-          "question": "Is multiplayer or co-op planned?",
-          "answer": "No. Multiplayer is not planned for release or future updates."
-        },
-        {
-          "question": "Where can I play Lucid Blocks?",
-          "answer": "It is currently available on Steam for Windows."
-        },
-        {
-          "question": "How much does Lucid Blocks cost?",
-          "answer": "$9.99 on Steam."
-        },
-        {
-          "question": "Does Lucid Blocks support controllers?",
-          "answer": "Yes, but controller play is not recommended because the menus are not designed around it."
-        },
-        {
-          "question": "Does Lucid Blocks work on Steam Deck?",
-          "answer": "Yes. Proton 9.0 or 9.0.4 is the commonly recommended setup for Steam Deck."
-        },
-        {
-          "question": "Does Lucid Blocks work on Linux?",
-          "answer": "Yes. Proton 9.0 is reported to work well for Linux and Steam Deck."
-        },
-        {
-          "question": "Will Mac or Android be supported?",
-          "answer": "They may be supported in the future, but they are not current launch platforms."
-        },
-        {
-          "question": "Does Lucid Blocks have translations?",
-          "answer": "No. There are currently no translations planned."
-        },
-        {
-          "question": "Will Lucid Blocks keep getting updates?",
-          "answer": "Yes. Some content updates are planned after release, but they are not intended to continue on an indefinite regular schedule."
-        }
-      ]
-    },
-    "lucidBlocksSteamDeckAndController": {
-      "title": "Lucid Blocks Steam Deck and Controller",
-      "displayType": "accordion",
-      "intro": "Lucid Blocks can run on Steam Deck, but the default setup may need adjustment. Keyboard and mouse remains the smoother option for menus and general play.",
-      "faqs": [
-        {
-          "question": "Does Lucid Blocks work on Steam Deck?",
-          "answer": "Yes. Proton 9.0 works well, and Proton 9.0.4 is a commonly shared fix for Steam Deck issues."
-        },
-        {
-          "question": "What should I do if Steam Deck controls are not working?",
-          "answer": "Force compatibility and switch the game to Proton 9.0.4. The default configuration may not accept controller input correctly."
-        },
-        {
-          "question": "Does Lucid Blocks support controllers?",
-          "answer": "Yes, but controller play is not recommended because the game's menus are not designed around it."
-        },
-        {
-          "question": "Is Linux support possible?",
-          "answer": "Yes. Proton 9.0 is reported to work well for Linux and Steam Deck."
-        },
-        {
-          "question": "What is the best input setup?",
-          "answer": "Keyboard and mouse is the smoothest option for menu navigation and general moment-to-moment play."
-        }
-      ]
-    },
-    "lucidBlocksSettingsAndAccessibility": {
-      "title": "Lucid Blocks Settings and Accessibility",
-      "displayType": "settingCards",
-      "intro": "Lucid Blocks already has a few practical settings and compatibility notes that matter immediately when players first launch the game.",
-      "settings": [
-        {
-          "name": "Display Settings",
-          "type": "Comfort Option",
-          "description": "Display Settings includes an option that lets players hide the on-screen hands."
-        },
-        {
-          "name": "Graphics Compatibility",
-          "type": "System Requirement",
-          "description": "Vulkan support is required for the graphics to render properly. Systems without Vulkan can run into crashes and severe graphical glitches."
-        },
-        {
-          "name": "Input Preference",
-          "type": "Control Setup",
-          "description": "Controller support exists, but keyboard and mouse gives a smoother experience because menus are not built around controller use."
-        },
-        {
-          "name": "Language Support",
-          "type": "Localization",
-          "description": "The current setup is English-only, and no translations are planned right now."
-        }
-      ]
-    },
-    "lucidBlocksUpdatesAndPatchNotes": {
-      "title": "Lucid Blocks Updates and Patch Notes",
-      "displayType": "timeline",
-      "intro": "Lucid Blocks is already receiving quick post-launch fixes and small usability updates.",
-      "entries": [
-        {
-          "title": "Update 2.8.2",
-          "type": "UI Update",
-          "description": "Renamed \"awaken\" to \"exit\" in the main menu."
-        },
-        {
-          "title": "Small Patch for Start-Up Crashes",
-          "type": "Hotfix",
-          "description": "A dedicated patch was released for players whose game was crashing on launch."
-        },
-        {
-          "title": "Post-Launch Content Support",
-          "type": "Roadmap Note",
-          "description": "Some content updates are planned after release, but they are not intended to continue on an indefinite regular schedule."
-        }
-      ]
-    },
-    "lucidBlocksCrashFixAndTroubleshooting": {
-      "title": "Lucid Blocks Crash Fix and Troubleshooting",
-      "displayType": "steps",
-      "intro": "Most immediate launch and crash issues should be checked in a simple order: patch level, graphics support, platform compatibility, and logs.",
+    "beginnerGuide": {
+      "eyebrow": "Getting Started",
+      "title": "Call of Duty Black Ops II Beginner Guide",
+      "subtitle": "Black Ops II Beginner Guide",
+      "intro": "Black Ops II contains a choice-driven Campaign, competitive Multiplayer, and round-based Zombies. Start with one mode, learn its basic movement and economy, and then add advanced systems such as Pick 10 classes, Scorestreaks, perks, and Pack-a-Punch.",
       "steps": [
         {
-          "title": "Install the Latest Crash Hotfix",
-          "description": "If the game is crashing on start, update first and test again with the latest start-up crash patch."
+          "title": "Choose Your First Mode",
+          "summary": "Select Campaign, Multiplayer, or Zombies based on what you want to learn first.",
+          "details": [
+            "Choose Campaign on Recruit difficulty to learn movement, aiming, equipment, and weapon handling.",
+            "Choose Team Deathmatch in Multiplayer for a simple mode focused on eliminating the opposing team.",
+            "Choose Town Survival in Zombies for a compact practice area, or TranZit for the complete bus-route experience."
+          ],
+          "quickTip": "Campaign is the easiest place to adjust controls without competing against other players."
         },
         {
-          "title": "Check Vulkan Support",
-          "description": "Lucid Blocks requires Vulkan support. Systems without Vulkan can suffer from crashes or major rendering problems."
+          "title": "Configure Controls and Visibility",
+          "summary": "Set a comfortable sensitivity and make important visual and audio information easy to notice.",
+          "details": [
+            "Practice aiming down sights, firing, reloading, sprinting, jumping, crouching, going prone, and using equipment.",
+            "Begin with a low or medium look sensitivity and raise it gradually when turning starts to feel too slow.",
+            "Adjust brightness until dark areas remain visible without making bright environments appear washed out.",
+            "Use headphones or clear stereo audio to identify footsteps, gunfire, and nearby Zombies."
+          ],
+          "quickTip": "Change one setting at a time and test it for a full mission or match before changing it again."
         },
         {
-          "title": "Use Proton 9.0.4 on Steam Deck",
-          "description": "If Steam Deck input or launch behavior is broken, force compatibility and switch to Proton 9.0.4."
+          "title": "Complete the Campaign Carefully",
+          "summary": "Campaign decisions, optional objectives, and Strike Force missions can change later events.",
+          "details": [
+            "Follow the objective marker, but search nearby rooms for alternate weapons and collectible intelligence.",
+            "Review the available loadout before each mission and bring weapons suited to the expected range.",
+            "Pay attention to major decisions because character outcomes and the ending can change.",
+            "Complete available Strike Force missions before they expire because their results affect the wider story."
+          ],
+          "quickTip": "Use cover and controlled bursts instead of firing continuously at distant enemies."
         },
         {
-          "title": "Collect Crash Logs",
-          "description": "Open Windows Run, paste %APPDATA%, go to lucid blocks/logs, and gather the .txt files for troubleshooting."
+          "title": "Learn Multiplayer Objectives",
+          "summary": "Kills are useful, but objective actions also award score and help unlock Scorestreak rewards.",
+          "details": [
+            "Start with Team Deathmatch, Kill Confirmed, or Domination before moving into modes with limited lives.",
+            "Watch the minimap for friendly positions, recent enemy fire, and open routes.",
+            "Capture objectives, collect tags, and assist teammates to build Scorestreak progress faster.",
+            "Dying resets progress toward the next Scorestreak, but rewards already earned remain available until used."
+          ],
+          "quickTip": "Move between cover points and check common doorways before entering open areas."
         },
         {
-          "title": "Report the Issue Properly",
-          "description": "Share the logs and device details through the official Discord bug-reports forum or on the Steam community page."
+          "title": "Build a Simple Pick 10 Class",
+          "summary": "Create-a-Class unlocks at Multiplayer Level 4 and lets you spend ten allocation points on weapons, attachments, perks, and equipment.",
+          "details": [
+            "Begin with one primary weapon, one useful attachment, three perks, and a small amount of equipment.",
+            "Choose an assault rifle for balanced medium-range fights or an SMG for close-range movement.",
+            "Do not equip a secondary weapon or extra equipment unless it supports your intended playstyle.",
+            "Use Wildcards later when you understand which extra attachment or perk is worth the additional Pick 10 point."
+          ],
+          "quickTip": "A simple class with fewer specialized items is easier to learn than a class built around several Wildcards."
+        },
+        {
+          "title": "Understand Zombies Points and Survival",
+          "summary": "Damage and kills earn points that can be spent on doors, weapons, perks, the Mystery Box, and Pack-a-Punch.",
+          "details": [
+            "Use early rounds to earn points before opening every available door.",
+            "Buy a dependable wall weapon so ammunition remains easier to replace.",
+            "Prioritize Jugger-Nog when the map provides access to it, then establish a safe movement route.",
+            "Keep moving in open areas and group Zombies into a train rather than allowing them to surround you.",
+            "Pack-a-Punch costs 5,000 points after the machine has been unlocked on the selected map."
+          ],
+          "quickTip": "Leave one slow Zombie alive near the end of a round when your team needs time to buy equipment or complete an objective."
+        },
+        {
+          "title": "Progress Without Wasting Unlocks",
+          "summary": "Player levels unlock equipment, while individual weapon experience unlocks attachments and camouflage challenges.",
+          "details": [
+            "Use one or two weapons consistently until their most useful attachments are unlocked.",
+            "Test new weapons in lower-pressure matches before placing them in a competitive class.",
+            "Choose Scorestreaks that you can earn regularly instead of selecting only the most expensive rewards.",
+            "After reaching the level cap, Prestige resets most normal progression while providing long-term progression rewards."
+          ],
+          "quickTip": "Reliable low-cost Scorestreaks are more useful to a beginner than rewards that rarely become available."
+        }
+      ]
+    },
+    "zombiesMapsAndEasterEggs": {
+      "eyebrow": "Zombies",
+      "title": "Call of Duty Black Ops II Zombies Maps and Easter Eggs",
+      "subtitle": "Zombies Maps, Easter Eggs, and Buildables",
+      "intro": "Black Ops II Zombies expands from the large TranZit bus route into vertical skyscrapers, Alcatraz Island, an underground western town, and a World War I battlefield. Each DLC map introduces new movement systems, buildable equipment, and a longer cooperative quest.",
+      "maps": [
+        {
+          "name": "TranZit",
+          "contentAccess": "Included with the base game as part of Green Run.",
+          "setting": "A post-apocalyptic bus route connecting the Bus Depot, Diner, Farm, Power Station, and Town.",
+          "mainObjectives": [
+            "Use the bus or dangerous fog routes to travel between locations.",
+            "Turn on the power at the Power Station.",
+            "Build equipment from parts found throughout the route.",
+            "Prepare the radio towers for the Tower of Babble quest."
+          ],
+          "packAPunch": "Open the Town bank vault, keep the hidden power-station door energized with a Turbine, and enter the underground laboratory below the bank.",
+          "wonderWeapons": [
+            "Thrustodyne Aeronautics Model 23, commonly called the Jet Gun"
+          ],
+          "buildables": [
+            "Turbine",
+            "Zombie Shield",
+            "Turret",
+            "Electric Trap",
+            "Jet Gun",
+            "Navcard Table"
+          ],
+          "mainQuest": "Tower of Babble offers separate Maxis and Richtofen paths centered on powering and activating the transmission tower.",
+          "recommendedFor": "Players ready to learn large-map navigation, buildable parts, and coordinated objectives."
+        },
+        {
+          "name": "Nuketown Zombies",
+          "contentAccess": "Available separately and included with the Black Ops II Season Pass.",
+          "setting": "A compact nuclear-test neighborhood based on the classic Nuketown Multiplayer map.",
+          "mainObjectives": [
+            "Survive in a small area with limited escape routes.",
+            "Listen for falling machines as perks and Pack-a-Punch arrive during the match.",
+            "Adapt to the random order in which the machines appear."
+          ],
+          "packAPunch": "The machine descends onto the map in a random sequence alongside the perk machines as rounds advance.",
+          "wonderWeapons": [
+            "Ray Gun",
+            "Ray Gun Mark II when the compatible DLC content is installed"
+          ],
+          "buildables": [],
+          "mainQuest": "Nuketown Zombies does not contain a full multi-step main Easter egg quest.",
+          "recommendedFor": "New players practicing movement, ammunition management, and basic round survival."
+        },
+        {
+          "name": "Die Rise",
+          "contentAccess": "Included in the Revolution DLC pack and Season Pass.",
+          "setting": "Collapsed skyscrapers in a ruined Chinese city, connected by elevators, rooftops, and dangerous vertical drops.",
+          "mainObjectives": [
+            "Turn on the power inside the main building complex.",
+            "Use elevators and rooftop jumps to move between separated areas.",
+            "Build the Sliquifier and Trample Steam.",
+            "Coordinate the rooftop symbols and towers for the main quest."
+          ],
+          "packAPunch": "Pack-a-Punch travels on an elevator, requiring players to monitor elevator positions and avoid being trapped when it moves.",
+          "wonderWeapons": [
+            "Sliquifier"
+          ],
+          "buildables": [
+            "Sliquifier",
+            "Trample Steam",
+            "Navcard Table"
+          ],
+          "mainQuest": "High Maintenance has Maxis and Richtofen paths and requires a coordinated four-player team.",
+          "recommendedFor": "Experienced players comfortable with vertical movement, narrow routes, and fall hazards."
+        },
+        {
+          "name": "Mob of the Dead",
+          "contentAccess": "Included in the Uprising DLC pack and Season Pass.",
+          "setting": "Alcatraz Island during the 1930s, featuring four imprisoned mobsters trapped in a repeating supernatural cycle.",
+          "mainObjectives": [
+            "Enter Afterlife to power devices and open inaccessible areas.",
+            "Collect plane parts throughout the prison.",
+            "Build the plane on the roof and fly to the Golden Gate Bridge.",
+            "Repeat the escape cycle and complete the final confrontation."
+          ],
+          "packAPunch": "Build and fly the plane to the Golden Gate Bridge, where the Pack-a-Punch machine is located.",
+          "wonderWeapons": [
+            "Blundergat",
+            "Acid Gat"
+          ],
+          "buildables": [
+            "Icarus escape plane",
+            "Zombie Shield",
+            "Acid Gat Kit"
+          ],
+          "mainQuest": "Pop Goes the Weasel follows the prisoners' repeated escape attempts and ends with a choice between continuing or breaking the cycle.",
+          "recommendedFor": "Players seeking a story-focused map with Afterlife puzzles, strong atmosphere, and a structured cooperative quest."
+        },
+        {
+          "name": "Buried",
+          "contentAccess": "Included in the Vengeance DLC pack and Season Pass.",
+          "setting": "An underground Old West town containing a saloon, bank, courthouse, haunted mansion, and hedge maze.",
+          "mainObjectives": [
+            "Free Arthur from his cell and use candy or booze to control his actions.",
+            "Use Arthur to break barriers, move objects, and assist with buildables.",
+            "Pass through the haunted mansion and maze.",
+            "Coordinate switches, targets, and time-sensitive tasks for the main quest."
+          ],
+          "packAPunch": "Travel through the haunted mansion, cross the hedge maze, and descend beneath the gazebo.",
+          "wonderWeapons": [
+            "Paralyzer",
+            "Time Bomb",
+            "Ray Gun Mark II"
+          ],
+          "buildables": [
+            "Trample Steam",
+            "Turbine",
+            "Subsurface Resonator",
+            "Head Chopper",
+            "Navcard Table"
+          ],
+          "mainQuest": "Mined Games contains Maxis and Richtofen paths and requires coordinated four-player puzzle solving.",
+          "recommendedFor": "Players learning advanced buildables and Easter eggs on a map with generous banking and movement options."
+        },
+        {
+          "name": "Origins",
+          "contentAccess": "Included in the Apocalypse DLC pack and Season Pass.",
+          "setting": "An alternate World War I battlefield with trenches, giant robots, an excavation site, and ancient underground chambers.",
+          "mainObjectives": [
+            "Activate all six generators.",
+            "Collect gramophone records and open the elemental tunnels.",
+            "Build and upgrade the four Elemental Staffs.",
+            "Complete the Little Lost Girl quest steps while surviving Panzer Soldat attacks."
+          ],
+          "packAPunch": "Activate all six generators to unlock Pack-a-Punch at the Excavation Site.",
+          "wonderWeapons": [
+            "Staff of Ice",
+            "Staff of Fire",
+            "Staff of Wind",
+            "Staff of Lightning"
+          ],
+          "buildables": [
+            "Zombie Shield",
+            "Maxis Drone",
+            "Elemental Staffs",
+            "G-Strike beacons"
+          ],
+          "mainQuest": "Little Lost Girl combines upgraded staffs, robot access, special melee challenges, and coordinated final objectives.",
+          "recommendedFor": "Advanced teams ready for the most system-heavy and objective-focused Black Ops II Zombies map."
+        }
+      ]
+    },
+    "weaponsTierList": {
+      "eyebrow": "Multiplayer Meta",
+      "title": "Call of Duty Black Ops II Weapons Tier List",
+      "subtitle": "Black Ops II Weapons Tier List",
+      "intro": "The best Black Ops II weapon depends on map size and playstyle. S-tier weapons deliver exceptional performance in their intended role, A-tier choices remain highly competitive with manageable drawbacks, and B-tier weapons are dependable options that require more specialized positioning.",
+      "tiers": [
+        {
+          "tier": "S",
+          "label": "Top-Tier Choices",
+          "description": "Weapons with exceptional damage, handling, or role efficiency across common Multiplayer situations.",
+          "weapons": [
+            {
+              "name": "AN-94",
+              "class": "Assault Rifle",
+              "strengths": "The first two rounds fire faster than the remaining shots, creating a powerful opening burst with manageable recoil.",
+              "weaknesses": "Sustained fire becomes slower after the initial rounds, so missed opening shots reduce its advantage.",
+              "idealRange": "Medium to long",
+              "playstyle": "Controlled bursts, lane control, and accurate objective defense."
+            },
+            {
+              "name": "M8A1",
+              "class": "Assault Rifle",
+              "strengths": "Fast four-round bursts, low recoil, and excellent accuracy can eliminate targets quickly when the full burst connects.",
+              "weaknesses": "Missing a burst creates a delay before the next shot sequence and makes close-range panic fights difficult.",
+              "idealRange": "Medium to long",
+              "playstyle": "Precision aiming, head-glitch positions, and controlled map lanes."
+            },
+            {
+              "name": "MSMC",
+              "class": "Submachine Gun",
+              "strengths": "High close-range damage, strong mobility, and controllable recoil make it highly effective for aggressive movement.",
+              "weaknesses": "Damage falls noticeably at distance and the magazine is less forgiving during fights against multiple players.",
+              "idealRange": "Close to medium",
+              "playstyle": "Flanking, objective rushing, and fast close-quarters engagements."
+            },
+            {
+              "name": "R870 MCS",
+              "class": "Shotgun",
+              "strengths": "Reliable close-range one-shot potential and strong effective reach for a pump-action shotgun.",
+              "weaknesses": "A missed shot leaves the user exposed during the pump animation.",
+              "idealRange": "Close",
+              "playstyle": "Room clearing, corner control, and short-route objective defense."
+            },
+            {
+              "name": "DSR 50",
+              "class": "Sniper Rifle",
+              "strengths": "Powerful one-shot capability and strong performance when holding long sightlines.",
+              "weaknesses": "Slow aiming and bolt-cycling speed punish missed shots and aggressive close-range movement.",
+              "idealRange": "Long",
+              "playstyle": "Defensive sniping, overwatch, and long-lane picks."
+            }
+          ]
+        },
+        {
+          "tier": "A",
+          "label": "Strong Competitive Weapons",
+          "description": "Highly effective weapons with one notable handling, ammunition, or consistency limitation.",
+          "weapons": [
+            {
+              "name": "SCAR-H",
+              "class": "Assault Rifle",
+              "strengths": "High damage and dependable range allow it to win fights with fewer accurate shots.",
+              "weaknesses": "A 20-round magazine and noticeable recoil require careful ammunition control.",
+              "idealRange": "Medium to long",
+              "playstyle": "Methodical movement, controlled bursts, and defensive engagements."
+            },
+            {
+              "name": "FAL OSW",
+              "class": "Assault Rifle",
+              "strengths": "Heavy semi-automatic damage rewards accurate follow-up shots and disciplined trigger speed.",
+              "weaknesses": "Repeated firing can increase recoil, while missed shots are harder to recover from at close range.",
+              "idealRange": "Medium to long",
+              "playstyle": "Precision shooting and controlled lane coverage."
+            },
+            {
+              "name": "PDW-57",
+              "class": "Submachine Gun",
+              "strengths": "A large 50-round magazine supports sustained pressure, multiple eliminations, and aggressive objective play.",
+              "weaknesses": "Lower damage at longer ranges makes it less effective against accurate assault rifles.",
+              "idealRange": "Close to medium",
+              "playstyle": "Continuous rushing, objective pressure, and extended close-range fights."
+            },
+            {
+              "name": "Skorpion EVO",
+              "class": "Submachine Gun",
+              "strengths": "Extremely high fire rate creates outstanding close-range elimination speed.",
+              "weaknesses": "Rapid ammunition consumption and stronger recoil reduce its value outside close quarters.",
+              "idealRange": "Very close",
+              "playstyle": "Fast flanking, hip-fire engagements, and indoor combat."
+            },
+            {
+              "name": "LSAT",
+              "class": "Light Machine Gun",
+              "strengths": "Stable recoil, a large magazine, and dependable ranged damage make it effective for sustained fire.",
+              "weaknesses": "Slow aiming, movement, and reload speeds make repositioning difficult.",
+              "idealRange": "Medium to long",
+              "playstyle": "Support fire, objective defense, and locking down sightlines."
+            },
+            {
+              "name": "KSG",
+              "class": "Shotgun",
+              "strengths": "Fires a precise slug with one-shot potential at distances beyond normal shotgun range.",
+              "weaknesses": "The single projectile demands accurate aim and missed shots are heavily punished.",
+              "idealRange": "Close to medium",
+              "playstyle": "Precision shotgun play and carefully aimed doorway control."
+            },
+            {
+              "name": "Ballista",
+              "class": "Sniper Rifle",
+              "strengths": "Faster handling and bolt cycling than the DSR 50 support a more mobile sniping style.",
+              "weaknesses": "Its smaller reliable one-shot area requires better upper-body accuracy.",
+              "idealRange": "Medium to long",
+              "playstyle": "Aggressive sniping, quick repositioning, and fast follow-up shots."
+            }
+          ]
+        },
+        {
+          "tier": "B",
+          "label": "Reliable and Specialized",
+          "description": "Useful weapons that remain effective when matched with the correct range, attachments, and playstyle.",
+          "weapons": [
+            {
+              "name": "M27",
+              "class": "Assault Rifle",
+              "strengths": "Very low recoil and clear iron sights make it one of the easiest rifles to control.",
+              "weaknesses": "Lower per-shot damage can result in slower eliminations against stronger rifles.",
+              "idealRange": "Medium to long",
+              "playstyle": "Beginner-friendly accuracy, support fire, and consistent ranged tracking."
+            },
+            {
+              "name": "MP7",
+              "class": "Submachine Gun",
+              "strengths": "Predictable recoil, good handling, and a comfortable fire rate make it dependable at several ranges.",
+              "weaknesses": "It lacks the close-range power of the MSMC and the extreme fire rate of the Skorpion EVO.",
+              "idealRange": "Close to medium",
+              "playstyle": "Mobile all-purpose play and controlled flanking."
+            },
+            {
+              "name": "HAMR",
+              "class": "Light Machine Gun",
+              "strengths": "A fast opening fire rate, strong damage, and a large magazine provide excellent initial pressure.",
+              "weaknesses": "Its fire rate changes during sustained fire and its heavy handling slows aggressive movement.",
+              "idealRange": "Medium",
+              "playstyle": "Pre-aimed defense, suppressive fire, and holding objectives."
+            },
+            {
+              "name": "MK 48",
+              "class": "Light Machine Gun",
+              "strengths": "Strong ranged damage and a large ammunition supply support long defensive engagements.",
+              "weaknesses": "Slow movement, aiming, and reload speed require the user to prepare positions in advance.",
+              "idealRange": "Medium to long",
+              "playstyle": "Long-lane defense and sustained team support."
+            },
+            {
+              "name": "B23R",
+              "class": "Pistol",
+              "strengths": "Rapid three-round bursts can eliminate nearby enemies quickly when the full burst connects.",
+              "weaknesses": "Burst recoil and frequent ammunition use make repeated distant shots inconsistent.",
+              "idealRange": "Close",
+              "playstyle": "Emergency secondary use and fast close-range finishes."
+            },
+            {
+              "name": "Tac-45",
+              "class": "Pistol",
+              "strengths": "High semi-automatic damage makes it a powerful backup weapon at close range.",
+              "weaknesses": "Its smaller magazine requires accurate shots and careful reload timing.",
+              "idealRange": "Close",
+              "playstyle": "Reliable secondary use, finishing damaged enemies, and lightweight classes."
+            }
+          ]
         }
       ]
     }
   },
   "faq": {
-    "title": "Frequently Asked",
-    "titleHighlight": "Questions",
-    "subtitle": "Everything you need to know about Lucid Blocks",
+    "title": "Call of Duty Black Ops II",
+    "titleHighlight": "FAQ",
+    "subtitle": "Quick answers about Call of Duty Black Ops II platforms, modes, and content",
     "questions": [
       {
-        "question": "Is Lucid Blocks a singleplayer game?",
-        "answer": "Yes. Lucid Blocks is a singleplayer-only game with no multiplayer or co-op planned."
+        "question": "What platforms is Call of Duty Black Ops II available on?",
+        "answer": "Call of Duty Black Ops II is available on PS5 and PS4 through the 2026 digital release, on Xbox Series X|S and Xbox One through backward compatibility, and on PC through Steam."
       },
       {
-        "question": "What is the Apotheosis system in Lucid Blocks?",
-        "answer": "Apotheosis is Lucid Blocks' freeform fusion crafting system. Instead of following fixed recipes, you combine materials and discover your own crafting paths."
+        "question": "Does Call of Duty Black Ops II support cross-platform multiplayer?",
+        "answer": "No. Call of Duty Black Ops II does not support cross-platform multiplayer. Online play matches players on the same platform family, and the PS4/PS5 release supports up to 18 online players."
       },
       {
-        "question": "Where can I play Lucid Blocks?",
-        "answer": "Lucid Blocks is currently available on Steam for Windows. Linux and Steam Deck support is available through Proton 9.0."
+        "question": "What modes are included in Call of Duty Black Ops II?",
+        "answer": "Call of Duty Black Ops II includes the branching Campaign, competitive Multiplayer with Pick 10 classes and Scorestreaks, and round-based Zombies. Additional maps arrive through DLC packs and the Season Pass."
       },
       {
-        "question": "How much does Lucid Blocks cost?",
-        "answer": "Lucid Blocks costs $9.99 on Steam."
+        "question": "Is the 2026 Call of Duty Black Ops II PlayStation release a remake?",
+        "answer": "No. The 2026 PlayStation release is a port of the original Call of Duty Black Ops II experience, not a remake. The core Campaign, Multiplayer, and Zombies content remains the same."
       },
       {
-        "question": "Does Lucid Blocks support controllers?",
-        "answer": "Yes, but controller play is not recommended because the menus are not designed around it. Keyboard and mouse is the smoother option."
+        "question": "Do I need PlayStation Plus for Call of Duty Black Ops II multiplayer?",
+        "answer": "Yes. Online Multiplayer in Call of Duty Black Ops II on PlayStation requires a PlayStation Plus subscription and an Activision account. Local play supports one or two players without it."
       },
       {
-        "question": "Will Lucid Blocks receive updates?",
-        "answer": "Yes. Some content updates are planned after release, but they are not intended to continue on an indefinite regular schedule."
+        "question": "What DLC is available for Call of Duty Black Ops II?",
+        "answer": "Call of Duty Black Ops II DLC includes the Revolution, Uprising, Vengeance, and Apocalypse map packs. Each adds Multiplayer maps and Zombies content, and the Season Pass bundles them together."
       }
     ]
   },
@@ -803,121 +595,121 @@
   },
   "pages": {
     "guides": {
-      "title": "Lucid Blocks Guides",
-      "description": "Complete gameplay guides from beginner basics to advanced Apotheosis strategies. Master survival and crafting.",
-      "metaTitle": "Lucid Blocks Guides - Beginner to Advanced Strategies",
-      "metaDescription": "Complete Lucid Blocks guides covering beginner tips, Apotheosis system, survival strategies, and expert tactics for mastering the surreal sandbox.",
+      "title": "Call of Duty Black Ops II Guides",
+      "description": "Complete gameplay guides from beginner basics to advanced multiplayer, Zombies, and campaign strategies.",
+      "metaTitle": "Call of Duty Black Ops II Guides - Beginner to Advanced Strategies",
+      "metaDescription": "Complete Call of Duty Black Ops II guides covering beginner tips, Pick 10 classes, Zombies survival, campaign endings, and expert multiplayer tactics.",
       "categoryLabel": "GAME GUIDES",
       "whatIs": "What are Guides?",
-      "whatIsDescription": "Comprehensive guides covering gameplay mechanics, survival strategies, and the Apotheosis crafting system. Learn everything from first steps to advanced techniques.",
+      "whatIsDescription": "Comprehensive guides covering Campaign missions, multiplayer modes, Zombies maps, weapons, and DLC. Learn everything from first steps to advanced techniques.",
       "why": "Why read guides?",
       "whySteps": {
         "step1Title": "Learn Core Mechanics",
-        "step1Description": "Understand the Apotheosis system and avoid common beginner mistakes",
+        "step1Description": "Understand Pick 10 classes, Scorestreaks, and Pack-a-Punch to avoid common beginner mistakes",
         "step2Title": "Fast Progression",
-        "step2Description": "Follow proven paths to survive and thrive in the surreal world",
+        "step2Description": "Follow proven paths to win multiplayer matches and survive high Zombies rounds",
         "step3Title": "Master Strategies",
-        "step3Description": "Develop advanced tactics for exploration and crafting"
+        "step3Description": "Develop advanced tactics for campaign endings, Easter eggs, and competitive play"
       },
       "featured": "Featured & Essential",
       "all": "All Guides"
     },
     "crafting": {
-      "title": "Lucid Blocks Crafting",
-      "description": "Master the Apotheosis fusion system with essence mechanics, recipes, and crafting strategies for powerful items.",
-      "metaTitle": "Lucid Blocks Crafting - Apotheosis System & Recipes",
-      "metaDescription": "Master Lucid Blocks Apotheosis crafting system. Learn essence mechanics, fusion recipes, and strategies for creating powerful tools and weapons.",
-      "categoryLabel": "CRAFTING SYSTEM",
-      "whatIs": "What is Crafting?",
-      "whatIsDescription": "The Apotheosis system is a unique essence-driven fusion mechanic where you combine up to six items to discover new recipes. No fixed crafting menus—experimentation is key.",
-      "why": "Why master crafting?",
+      "title": "Call of Duty Black Ops II Classes & Loadouts",
+      "description": "Master the Pick 10 create-a-class system with weapon attachments, perks, wildcards, equipment, and scorestreak combinations.",
+      "metaTitle": "Call of Duty Black Ops II Classes & Loadouts - Pick 10 Guide",
+      "metaDescription": "Master Call of Duty Black Ops II Pick 10 classes with loadout guides for rushing, long-range, objective, and beginner-friendly multiplayer play.",
+      "categoryLabel": "PICK 10 LOADOUTS",
+      "whatIs": "What is a Pick 10 Class?",
+      "whatIsDescription": "Pick 10 lets you spend ten allocation points on weapons, attachments, perks, equipment, and wildcards. No fixed slots means you can build exactly the loadout your playstyle needs.",
+      "why": "Why plan your class?",
       "whySteps": {
-        "step1Title": "Unlock Powerful Items",
-        "step1Description": "Discover essential tools, weapons, and mobility gear through fusion",
-        "step2Title": "Understand Essences",
-        "step2Description": "Learn how item essences combine to create predictable results",
-        "step3Title": "Optimize Resources",
-        "step3Description": "Use dilution mechanics to maximize output from cheap materials"
+        "step1Title": "Match Your Playstyle",
+        "step1Description": "Choose assault rifles, SMGs, snipers, or shotguns based on your preferred range",
+        "step2Title": "Optimize Perks",
+        "step2Description": "Combine perks and wildcards to cover your loadout's weaknesses",
+        "step3Title": "Pick Scorestreaks",
+        "step3Description": "Select Scorestreaks you can earn regularly instead of only the most expensive rewards"
       },
       "featured": "Featured & Essential",
-      "all": "All Crafting Guides"
+      "all": "All Loadout Guides"
     },
     "items": {
-      "title": "Lucid Blocks Items",
-      "description": "Detailed item guides covering tools, weapons, mobility gear, and storage solutions with crafting recipes and usage tips.",
-      "metaTitle": "Lucid Blocks Items - Tools, Weapons & Gear Guide",
-      "metaDescription": "Complete item database for Lucid Blocks including tools, weapons, mobility gear, and storage. Learn how to craft and use every item effectively.",
-      "categoryLabel": "ITEMS & EQUIPMENT",
-      "whatIs": "What are Items?",
-      "whatIsDescription": "Comprehensive guides for tools, weapons, mobility gear, and functional items. Learn crafting recipes, usage strategies, and optimal combinations.",
-      "why": "Why check item guides?",
+      "title": "Call of Duty Black Ops II Weapons",
+      "description": "Detailed weapon guides covering assault rifles, SMGs, LMGs, sniper rifles, shotguns, and pistols with stats and usage tips.",
+      "metaTitle": "Call of Duty Black Ops II Weapons - Stats, Tier List & Guide",
+      "metaDescription": "Complete Call of Duty Black Ops II weapon database including assault rifles, SMGs, snipers, shotguns, and pistols with tier rankings and usage tips.",
+      "categoryLabel": "WEAPONS & GEAR",
+      "whatIs": "What are Weapons?",
+      "whatIsDescription": "Comprehensive guides for every weapon class with damage, range, fire rate, attachments, and unlock levels. Learn how to use each gun effectively.",
+      "why": "Why compare weapons?",
       "whySteps": {
-        "step1Title": "Learn Crafting Recipes",
-        "step1Description": "Discover how to craft essential tools and weapons using Apotheosis",
-        "step2Title": "Optimize Equipment",
-        "step2Description": "Choose the best items for your playstyle and progression stage",
-        "step3Title": "Improve Survival",
-        "step3Description": "Equip mobility gear and weapons to navigate the dangerous world"
+        "step1Title": "Find Your Main",
+        "step1Description": "Identify the strongest weapons for your preferred range and mode",
+        "step2Title": "Build Around Strengths",
+        "step2Description": "Choose attachments and perks that amplify each weapon's role",
+        "step3Title": "Counter the Meta",
+        "step3Description": "Learn how to handle the most common multiplayer threats"
       },
       "featured": "Featured & Essential",
-      "all": "All Items"
+      "all": "All Weapons"
     },
     "biomes": {
-      "title": "Lucid Blocks Biomes",
-      "description": "Explore world regions, environmental features, resource locations, and survival tips for each biome.",
-      "metaTitle": "Lucid Blocks Biomes - World Regions & Exploration",
-      "metaDescription": "Explore Lucid Blocks biomes including Tiamana Leylines, Fog Meadow, and surreal regions. Find resources, avoid dangers, and navigate the infinite world.",
-      "categoryLabel": "WORLD REGIONS",
-      "whatIs": "What are Biomes?",
-      "whatIsDescription": "Guides to different world regions, environmental features, resource distribution, and danger zones. Learn what to expect and how to prepare for each area.",
-      "why": "Why explore biomes?",
+      "title": "Call of Duty Black Ops II Maps",
+      "description": "Explore multiplayer and Zombies maps with layouts, engagement ranges, routes, and mode-specific tips.",
+      "metaTitle": "Call of Duty Black Ops II Maps - Multiplayer & Zombies Layouts",
+      "metaDescription": "Explore Call of Duty Black Ops II multiplayer maps and Zombies maps including Nuketown 2025, TranZit, and DLC layouts with routes and tips.",
+      "categoryLabel": "MAPS & LAYOUTS",
+      "whatIs": "What are Maps?",
+      "whatIsDescription": "Guides to multiplayer maps and Zombies maps with layouts, sightlines, spawn points, routes, and recommended modes for each location.",
+      "why": "Why study maps?",
       "whySteps": {
-        "step1Title": "Find Resources",
-        "step1Description": "Locate rare materials and essences specific to each region",
-        "step2Title": "Avoid Dangers",
-        "step2Description": "Understand environmental hazards and hostile creatures",
-        "step3Title": "Plan Exploration",
-        "step3Description": "Prepare the right tools and gear for each biome type"
+        "step1Title": "Learn Routes",
+        "step1Description": "Memorize flanks, sightlines, and high-traffic engagement zones",
+        "step2Title": "Pick the Right Mode",
+        "step2Description": "Match map layouts to the modes they play best",
+        "step3Title": "Survive Zombies",
+        "step3Description": "Master Zombies map layouts, Pack-a-Punch, and training routes"
       },
       "featured": "Featured & Essential",
-      "all": "All Biomes"
+      "all": "All Maps"
     },
     "building": {
-      "title": "Lucid Blocks Building",
-      "description": "Master Qualia personal dimensions, base building, storage management, and creative construction techniques.",
-      "metaTitle": "Lucid Blocks Building - Qualia & Base Construction",
-      "metaDescription": "Master Lucid Blocks building with Qualia personal dimensions, base construction, storage solutions, and creative building techniques.",
-      "categoryLabel": "BUILDING & BASES",
-      "whatIs": "What is Building?",
-      "whatIsDescription": "Guides to the Qualia personal dimension system, base construction, storage management, and creative building. Learn to create your safe haven in the surreal world.",
-      "why": "Why build bases?",
+      "title": "Call of Duty Black Ops II Zombies",
+      "description": "Master Zombies survival with map guides, perks, Pack-a-Punch, buildables, wonder weapons, and Easter egg quests.",
+      "metaTitle": "Call of Duty Black Ops II Zombies - Maps, Perks & Easter Eggs",
+      "metaDescription": "Master Call of Duty Black Ops II Zombies with map guides for TranZit, Mob of the Dead, Buried, and Origins plus perks, Pack-a-Punch, and Easter eggs.",
+      "categoryLabel": "ZOMBIES MODE",
+      "whatIs": "What is Zombies?",
+      "whatIsDescription": "Round-based cooperative survival against undead waves. Earn points, open areas, buy perks, upgrade with Pack-a-Punch, and complete Easter egg quests.",
+      "why": "Why play Zombies?",
       "whySteps": {
-        "step1Title": "Create Safe Spaces",
-        "step1Description": "Establish secure bases for storage and crafting operations",
-        "step2Title": "Manage Resources",
-        "step2Description": "Organize materials efficiently with storage solutions",
-        "step3Title": "Unlock Qualia",
-        "step3Description": "Access personal pocket dimensions for ultimate convenience"
+        "step1Title": "Learn the Economy",
+        "step1Description": "Earn and spend points on doors, weapons, perks, and upgrades",
+        "step2Title": "Survive High Rounds",
+        "step2Description": "Train Zombies, manage ammo, and reach round 50 and beyond",
+        "step3Title": "Complete Quests",
+        "step3Description": "Solve Easter eggs and unlock each map's main storyline"
       },
       "featured": "Featured & Essential",
-      "all": "All Building Guides"
+      "all": "All Zombies Guides"
     },
     "support": {
-      "title": "Lucid Blocks Support",
-      "description": "Technical support, platform compatibility, performance optimization, and troubleshooting for common issues.",
-      "metaTitle": "Lucid Blocks Support - Technical Help & Fixes",
-      "metaDescription": "Get technical support for Lucid Blocks including Steam Deck setup, crash fixes, performance optimization, and platform compatibility guides.",
-      "categoryLabel": "TECHNICAL SUPPORT",
+      "title": "Call of Duty Black Ops II Support",
+      "description": "Platform compatibility, buying guides, online requirements, DLC availability, and troubleshooting for common issues.",
+      "metaTitle": "Call of Duty Black Ops II Support - Platforms, DLC & Fixes",
+      "metaDescription": "Get support for Call of Duty Black Ops II including PS5 and PS4 setup, Xbox backward compatibility, Steam requirements, DLC, and Season Pass help.",
+      "categoryLabel": "PLATFORM SUPPORT",
       "whatIs": "What is Support?",
-      "whatIsDescription": "Technical guides covering platform compatibility, performance optimization, crash fixes, and common issues. Get help with Steam Deck, multiplayer questions, and settings.",
+      "whatIsDescription": "Guides covering platform compatibility, buying options, online requirements, DLC availability, and common troubleshooting for PS5, PS4, Xbox, and PC.",
       "why": "Why check support?",
       "whySteps": {
-        "step1Title": "Fix Technical Issues",
-        "step1Description": "Resolve crashes, performance problems, and compatibility issues",
-        "step2Title": "Optimize Performance",
-        "step2Description": "Configure settings for best experience on your platform",
-        "step3Title": "Platform Compatibility",
-        "step3Description": "Learn about Steam Deck, controller support, and system requirements"
+        "step1Title": "Buy the Right Version",
+        "step1Description": "Confirm compatibility before purchasing on your platform",
+        "step2Title": "Access Online Play",
+        "step2Description": "Set up the accounts and subscriptions needed for multiplayer",
+        "step3Title": "Resolve Issues",
+        "step3Description": "Solve DLC access, installation, and connectivity problems"
       },
       "featured": "Featured & Essential",
       "all": "All Support Articles"
