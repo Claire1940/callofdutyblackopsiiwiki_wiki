@@ -1,0 +1,168 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, BookOpen } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Call of Duty Black Ops II: PS5 Port & Gameplay Guide",
+  description: "Explore the Call of Duty Black Ops II 2026 PS5 release, campaign endings, multiplayer meta, and essential Zombies survival tactics.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/ff7a1a?text=Black+Ops+II+Guide",
+  date: "2026-07-12",
+  author: "call of duty black ops ii Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Call of Duty Black Ops II** is now officially available on **PS5 and PS4** as of July 2026.
+- Master the **Pick 10 system** in Multiplayer to dominate matches with custom loadouts.
+- Navigate complex **Zombies maps** like Origins and Mob of the Dead using optimized strategies.
+- Campaign outcomes are determined by **branching choices** and Strike Force mission success.
+</Callout>
+
+<Section icon={Map} title="PS5 Port and Platform Overview">
+
+The 2026 release of Call of Duty Black Ops II on PlayStation 5 brings the classic experience to modern hardware. This version is a faithful port, maintaining the original mechanics while ensuring compatibility with current console systems.
+
+**Video Highlights:**
+- Official reveal of the original BO2 experience.
+- Overview of core gameplay modes.
+- Insight into the iconic atmosphere of the title.
+
+<YouTubeEmbed videoId="x3tedlWs1XY" title="Call of Duty Black Ops II Official Reveal Trailer" />
+
+| Platform | Buying Method | Online Requirements |
+| :--- | :--- | :--- |
+| **PS5 / PS4** | Digital Store | PS Plus required |
+| **Xbox Series** | Backward Compatibility | Game Pass / Subscription |
+| **PC (Steam)** | Steam Store | Internet connection |
+
+<Callout type="success" title="Performance Note">
+The PS5 version supports up to 18 players in online multiplayer, ensuring the original competitive feel is preserved. Cross-platform play is not supported.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Multiplayer Meta and Loadouts">
+
+Success in multiplayer relies on the Pick 10 system. You have 10 points to spend on weapons, attachments, perks, and equipment. Balancing these choices is key to adapting to different map sizes and engagement ranges.
+
+| Weapon Class | Top-Tier Pick | Key Strength |
+| :--- | :--- | :--- |
+| **Assault Rifle** | AN-94 | Exceptional opening burst damage |
+| **SMG** | MSMC | High mobility and close-range power |
+| **Shotgun** | R870 MCS | Reliable one-shot potential |
+| **Sniper** | DSR 50 | High damage for long-range lanes |
+
+<CardGrid cols={3}>
+  <Card title="Rusher Setup">
+    - Perk: Lightweight
+    - Perk: Toughness
+    - Focus: Fast movement
+  </Card>
+  <Card title="Anchor Setup">
+    - Perk: Flak Jacket
+    - Perk: Tactical Mask
+    - Focus: Objective survival
+  </Card>
+  <Card title="Stealth Setup">
+    - Perk: Ghost
+    - Perk: Dead Silence
+    - Focus: Minimap avoidance
+  </Card>
+</CardGrid>
+
+<Callout type="tip">
+Always match your Scorestreaks to your skill level. Reliable, low-cost streaks like the UAV are often more valuable than high-tier rewards you rarely earn.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Campaign Walkthrough and Choices">
+
+The campaign features 11 main missions and 5 Strike Force missions. Your decisions significantly impact the fates of key characters like Alex Mason and Raul Menendez.
+
+<Steps>
+  <Step num="1" title="Strategic Choices">
+    Pay attention to major narrative branches. Saving Karma or keeping Farid alive requires specific actions in missions like *Achilles' Veil*.
+  </Step>
+  <Step num="2" title="Strike Force Missions">
+    Complete these optional missions as they appear. Success here is essential for achieving the most favorable global ending.
+  </Step>
+  <Step num="3" title="Final Confrontation">
+    Your decision in *Judgment Day* dictates whether Menendez becomes a martyr or is contained, leading to vastly different epilogue scenes.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Campaign Intel">
+Searching for intel items in each mission provides deep lore context. Don't rush through the levels; explore side rooms for hidden intelligence.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Zombies Survival Tactics">
+
+Zombies mode requires efficient point management and map awareness. Whether you are playing the bus route in *TranZit* or the complex *Origins* battlefield, the core principles remain the same.
+
+| Objective | Strategy |
+| :--- | :--- |
+| **Early Rounds** | Maximize points by using wall weapons |
+| **Perks** | Prioritize Jugger-Nog for survivability |
+| **Movement** | Train zombies in open areas to avoid being cornered |
+| **Pack-a-Punch** | Unlock early for essential damage scaling |
+
+<Checklist
+  id="zombies-essentials"
+  title="Zombies Survival Checklist:"
+  items={[
+    "Turn on the power early",
+    "Build a reliable shield",
+    "Locate the Pack-a-Punch machine",
+    "Coordinate Perks with teammates"
+  ]}
+/>
+
+<Callout type="info" title="Map Progression">
+Start with *Nuketown Zombies* to practice basic movement, then progress to *TranZit* to learn map navigation and buildable systems.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="DLC and Season Pass Content">
+
+The Season Pass expands your arsenal and map variety. It includes all four major DLC packs, granting access to iconic maps like *Mob of the Dead* and *Origins*.
+
+| DLC Pack | Notable Content |
+| :--- | :--- |
+| **Revolution** | Peacekeeper SMG, Die Rise |
+| **Uprising** | Mob of the Dead, Studio |
+| **Vengeance** | Buried, Ray Gun Mark II |
+| **Apocalypse** | Origins, Dig |
+
+<Callout type="tip" title="Exclusive Access">
+Owners of the *Vengeance* DLC unlock the Ray Gun Mark II for use across all Black Ops II Zombies maps, providing a significant firepower advantage.
+</Callout>
+
+</Section>
+
+<Section icon={BookOpen} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "Is Call of Duty Black Ops II cross-platform on PS5?",
+    answer: "No, the PS5 version does not support cross-platform multiplayer with Xbox or PC players."
+  },
+  {
+    question: "How do I unlock the best weapons for Multiplayer?",
+    answer: "Weapon attachments are unlocked by earning XP with that specific weapon. Consistency is the fastest way to progress through the ranks."
+  },
+  {
+    question: "Does my campaign choice change the ending?",
+    answer: "Yes, the campaign features multiple endings based on your decisions in key missions and the success of Strike Force operations."
+  }
+]} />
+
+</Section>

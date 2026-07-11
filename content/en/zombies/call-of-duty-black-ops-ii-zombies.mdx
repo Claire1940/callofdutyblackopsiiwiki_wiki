@@ -1,0 +1,152 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Call of Duty Black Ops II Zombies: Complete Map & Survival Guide",
+  description: "Master all Call of Duty Black Ops II Zombies maps. Learn Easter Eggs, Pack-a-Punch routes, buildables, and survival strategies for TranZit, Origins, and more.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/111827/ff7a1a?text=BO2+Zombies+Guide",
+  date: "2026-07-12",
+  author: "call of duty black ops ii Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Zombies Mode**: Survival gameplay requiring points management, map knowledge, and team coordination.
+- **Key Mechanic**: Building special equipment and upgrading weapons via the Pack-a-Punch machine.
+- **Top Map**: Origins represents the peak of system-heavy, objective-focused gameplay.
+- **Essential Perk**: Jugger-Nog remains the absolute priority on every map to increase health.
+</Callout>
+
+<Section icon={Map} title="Overview of Call of Duty Black Ops II Zombies Maps">
+
+The cooperative survival mode in **call of duty black ops ii zombies** expands the classic round-based formula into massive, system-heavy environments. Players must manage their points economy, purchase wall weapons, and coordinate to assemble powerful buildable items. The map selection ranges from simple survival arenas to intricate, story-driven gauntlets that require precise steps to escape or conquer.
+
+| Map | Location/Setting | Main Wonder Weapon | Unique Mechanic |
+|---|---|---|---|
+| **TranZit** | Post-apocalyptic Green Run | Jet Gun | Controlled Bus Transit / Fog |
+| **Nuketown** | Nuclear-test neighborhood | Ray Gun Mark II | Random Perk/Pack-a-Punch Drops |
+| **Die Rise** | Ruined Chinese skyscrapers | Sliquifier | Vertical Elevators / Fall Hazards |
+| **Mob of the Dead** | 1930s Alcatraz Island | Blundergat / Acid Gat | Afterlife Purgatory Mode |
+| **Buried** | Underground Old West town | Paralyzer | Arthur (Giant) Assistant |
+| **Origins** | WWI Dieselpunk Battlefield | Elemental Staffs | Giant Robots / Six Generators |
+
+<Callout type="tip" title="Survival Tip">
+Always secure a reliable wall weapon in the early rounds. This ensures you can easily purchase ammunition refills when supply runs low, rather than gambling points on the random Mystery Box.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="All Maps Comparison and Progression Tier">
+
+Each map caters to different skill levels and playstyles. While beginners can easily practice basic movement and training routes on Nuketown, veteran teams will find their skills tested by the complex setup processes in Origins and Mob of the Dead.
+
+<CardGrid cols={3}>
+  <Card title="Beginner Friendly">
+    - **Nuketown Zombies**
+    - Compact, simple layout
+    - Focus on raw survival
+    - Great for training practice
+  </Card>
+  <Card title="Intermediate Strategy">
+    - **Buried & TranZit**
+    - Generous banking options
+    - Multiple buildable items
+    - Requires basic team coordination
+  </Card>
+  <Card title="Advanced Co-op">
+    - **Origins & Mob of the Dead**
+    - Heavy quest objectives
+    - Powerful boss enemies
+    - Complex upgrade steps
+  </Card>
+</CardGrid>
+
+| Map | Playstyle Focus | Difficulty | Pack-a-Punch Access |
+|---|---|---|---|
+| **TranZit** | Large-scale navigation | Medium | Energize bank vault door via Turbine |
+| **Nuketown** | Tight, fast survival | Low | Drops randomly from the sky over time |
+| **Die Rise** | Vertical platforming | High | Located inside moving elevator shafts |
+| **Mob of the Dead** | Story-driven escape | Medium | Build the plane and fly to Golden Gate Bridge |
+| **Buried** | Resource accumulation | Low | Navigate haunted mansion and hedge maze |
+| **Origins** | Highly objective-focused | High | Power up all six generators on the field |
+
+<Callout type="warning" title="Hazard Warning">
+On Die Rise, falling from the rooftops or missing a jump between the collapsed skyscrapers results in instant death. Always prioritize building the Trample Steam to cross wide gaps safely.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Step-by-Step Pack-a-Punch Activation Guide">
+
+Unlocking the Pack-a-Punch machine is essential for surviving high rounds, as it upgrades your weapons for 5,000 points. The activation process varies heavily across the different environments of **call of duty black ops ii zombies**.
+
+<Steps>
+  <Step num="1" title="TranZit Bank Vault Route">
+    Open the Town bank vault doors using explosives, place a Turbine at the green lightning door in the Power Station, and enter the newly opened underground laboratory below the bank to assemble the machine.
+  </Step>
+  <Step num="2" title="Mob of the Dead Plane Assembly">
+    Enter Afterlife mode to power key doors, collect the five scattered plane parts across Alcatraz, assemble the Icarus plane on the prison roof, and fly to the Golden Gate Bridge where the machine sits.
+  </Step>
+  <Step num="3" title="Buried Mansion Navigation">
+    Earn enough points to clear the debris, travel through the haunted mansion while avoiding the ghost's point-draining attacks, cross the hedge maze, and descend into the underground gazebo.
+  </Step>
+  <Step num="4" title="Origins Generator Conquest">
+    Locate and activate all six steam generators scattered across the muddy trenches. Defend them from attacking Templar Zombies to keep the Pack-a-Punch machine operational at the central Excavation Site.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Power Play">
+Upgraded weapons not only deal significantly more damage but often gain completely new firing profiles, increased magazine capacities, and special attachments.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Essential Survival Checklist">
+
+To consistently reach high rounds in **call of duty black ops ii zombies**, players must master the art of "training"—grouping zombies into a tight pack behind them before turning to fire. Use this checklist to prepare your loadout for the late-game struggle.
+
+<Checklist
+  id="zombies-survival"
+  title="High-Round Preparation Goals:"
+  items={[
+    "Purchase Jugger-Nog to survive up to five hits before going down.",
+    "Build the Zombie Shield to protect your back from surprise attacks.",
+    "Acquire the Ray Gun Mark II or a map-specific Wonder Weapon.",
+    "Establish a clear, circular running route in an open area of the map.",
+    "Keep one zombie alive at the end of a round to rebuild shields and buy perks."
+  ]}
+/>
+
+<Callout type="info" title="Perk Priority">
+While Double Tap 2.0 and Speed Cola are highly beneficial for offensive output, never buy them before securing Jugger-Nog. Survival always comes before damage.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Zombies Mode FAQ">
+
+<FAQ items={[
+  {
+    question: "What is the best map in call of duty black ops ii zombies for high rounds?",
+    answer: "Buried is widely considered the easiest map for high rounds due to its powerful Paralyzer wonder weapon, the choke-point defense spots, and the ability to use Arthur to build equipment quickly."
+  },
+  {
+    question: "Can I play the PS4 or PS5 version of Black Ops II Zombies with PC players?",
+    answer: "No. The 2026 PS4 and PS5 release is an official digital port of the original experience, and it does not support cross-platform multiplayer matchmaking."
+  },
+  {
+    question: "How do I get the Ray Gun Mark II?",
+    answer: "The Ray Gun Mark II is added to the Mystery Box on all maps once you own the Vengeance DLC pack or the Season Pass."
+  },
+  {
+    question: "What happens when I die in Mob of the Dead?",
+    answer: "Instead of immediately spectating, you enter Afterlife mode as a ghost. You can use this state to revive yourself, power up perk machines, or open secret doors before your timer runs out."
+  }
+]} />
+
+</Section>

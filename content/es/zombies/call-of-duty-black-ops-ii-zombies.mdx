@@ -1,0 +1,152 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Call of Duty Black Ops II Zombies: Guía Completa de Mapas y Supervivencia",
+  description: "Domina todos los mapas de Call of Duty Black Ops II Zombies. Aprende Easter Eggs, rutas de Pack-a-Punch, objetos construibles y estrategias de supervivencia para TranZit, Origins y más.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/111827/ff7a1a?text=BO2+Zombies+Guide",
+  date: "2026-07-12",
+  author: "Equipo de la Wiki de Call of Duty Black Ops II"
+}
+
+<Callout type="info" title="Guía rápida">
+- **Modo Zombies**: Jugabilidad de supervivencia que requiere gestión de puntos, conocimiento del mapa y coordinación en equipo.
+- **Mecánica clave**: Construir equipamiento especial y mejorar armas a través de la máquina Pack-a-Punch.
+- **Mejor mapa**: Origins representa la cumbre de la jugabilidad centrada en objetivos y sistemas complejos.
+- **Ventaja esencial**: Jugger-Nog sigue siendo la prioridad absoluta en cada mapa para aumentar la salud.
+</Callout>
+
+<Section icon={Map} title="Descripción general de los mapas de Call of Duty Black Ops II Zombies">
+
+El modo de supervivencia cooperativo en **call of duty black ops ii zombies** expande la clásica fórmula basada en rondas hacia entornos masivos y llenos de sistemas. Los jugadores deben gestionar su economía de puntos, comprar armas de pared y coordinarse para ensamblar poderosos objetos construibles. La selección de mapas varía desde simples arenas de supervivencia hasta complejos desafíos guiados por la historia que requieren pasos precisos para escapar o conquistar.
+
+| Mapa | Ubicación/Entorno | Arma Especial Principal | Mecánica Única |
+|---|---|---|---|
+| **TranZit** | Green Run postapocalíptico | Jet Gun | Tránsito en autobús controlado / Niebla |
+| **Nuketown** | Vecindario de pruebas nucleares | Ray Gun Mark II | Caídas aleatorias de ventajas/Pack-a-Punch |
+| **Die Rise** | Rascacielos chinos en ruinas | Sliquifier | Ascensores verticales / Peligros de caída |
+| **Mob of the Dead** | Isla de Alcatraz de los años 30 | Blundergat / Acid Gat | Modo Afterlife (Purgatorio) |
+| **Buried** | Pueblo del Viejo Oeste subterráneo | Paralyzer | Ayudante Arthur (Gigante) |
+| **Origins** | Campo de batalla Dieselpunk de la Primera Guerra Mundial | Bastones Elementales | Robots gigantes / Seis generadores |
+
+<Callout type="tip" title="Consejo de supervivencia">
+Asegura siempre un arma de pared confiable en las primeras rondas. Esto garantiza que puedas comprar recargas de munición fácilmente cuando los suministros se agoten, en lugar de arriesgar puntos en la Caja Misteriosa aleatoria.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Comparación de todos los mapas y niveles de progresión">
+
+Cada mapa se adapta a diferentes niveles de habilidad y estilos de juego. Mientras que los principiantes pueden practicar fácilmente el movimiento básico y las rutas de entrenamiento en Nuketown, los equipos veteranos verán a prueba sus habilidades con los complejos procesos de preparación en Origins y Mob of the Dead.
+
+<CardGrid cols={3}>
+  <Card title="Ideal para principiantes">
+    - **Nuketown Zombies**
+    - Diseño compacto y simple
+    - Enfoque en la supervivencia pura
+    - Excelente para practicar el entrenamiento de zombies
+  </Card>
+  <Card title="Estrategia intermedia">
+    - **Buried y TranZit**
+    - Opciones generosas de banco
+    - Múltiples objetos construibles
+    - Requiere coordinación básica del equipo
+  </Card>
+  <Card title="Cooperativo avanzado">
+    - **Origins y Mob of the Dead**
+    - Objetivos de misión complejos
+    - Jefes enemigos poderosos
+    - Pasos de mejora complejos
+  </Card>
+</CardGrid>
+
+| Mapa | Enfoque de estilo de juego | Dificultad | Acceso al Pack-a-Punch |
+|---|---|---|---|
+| **TranZit** | Navegación a gran escala | Media | Energizar la puerta de la bóveda del banco mediante la turbina |
+| **Nuketown** | Supervivencia estrecha y rápida | Baja | Cae aleatoriamente del cielo con el tiempo |
+| **Die Rise** | Plataformas verticales | Alta | Ubicado dentro de huecos de ascensores en movimiento |
+| **Mob of the Dead** | Escape guiado por la historia | Media | Construir el avión y volar al puente Golden Gate |
+| **Buried** | Acumulación de recursos | Baja | Navegar por la mansión embrujada y el laberinto de arbustos |
+| **Origins** | Muy centrado en objetivos | Alta | Activar los seis generadores de vapor en el campo |
+
+<Callout type="warning" title="Advertencia de peligro">
+En Die Rise, caer desde los tejados o fallar un salto entre los rascacielos derrumbados resulta en muerte instantánea. Prioriza siempre la construcción del Trample Steam para cruzar grandes brechas de forma segura.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Guía paso a paso para activar el Pack-a-Punch">
+
+Desbloquear la máquina Pack-a-Punch es esencial para sobrevivir a rondas altas, ya que mejora tus armas por 5,000 puntos. El proceso de activación varía enormemente en los diferentes entornos de **call of duty black ops ii zombies**.
+
+<Steps>
+  <Step num="1" title="Ruta de la bóveda del banco de TranZit">
+    Abre las puertas de la bóveda del banco del pueblo usando explosivos, coloca una turbina en la puerta con el rayo verde en la estación de energía y entra al laboratorio subterráneo recién abierto debajo del banco para ensamblar la máquina.
+  </Step>
+  <Step num="2" title="Ensamblaje del avión de Mob of the Dead">
+    Entra en el modo Afterlife para alimentar las puertas clave, recoge las cinco piezas del avión esparcidas por Alcatraz, ensambla el avión Icarus en el techo de la prisión y vuela al puente Golden Gate donde se encuentra la máquina.
+  </Step>
+  <Step num="3" title="Navegación por la mansión de Buried">
+    Consigue suficientes puntos para despejar los escombros, viaja a través de la mansión embrujada evitando los ataques del fantasma que drenan puntos, cruza el laberinto de arbustos y desciende al quiosco subterráneo.
+  </Step>
+  <Step num="4" title="Conquista de generadores de Origins">
+    Localiza y activa los seis generadores de vapor esparcidos por las trincheras de lodo. Defiéndelos de los ataques de los Zombies Templarios para mantener la máquina Pack-a-Punch operativa en el sitio de excavación central.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Jugada de poder">
+Las armas mejoradas no solo infligen significativamente más daño, sino que a menudo obtienen perfiles de disparo completamente nuevos, mayor capacidad de cargador y accesorios especiales.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Lista de verificación esencial para la supervivencia">
+
+Para alcanzar rondas altas de manera constante en **call of duty black ops ii zombies**, los jugadores deben dominar el arte del "entrenamiento" (reunir a los zombies en un grupo apretado detrás de ellos antes de darse la vuelta para disparar). Usa esta lista de verificación para preparar tu equipamiento para la lucha en rondas avanzadas.
+
+<Checklist
+  id="zombies-survival"
+  title="Objetivos de preparación para rondas altas:"
+  items={[
+    "Comprar Jugger-Nog para sobrevivir hasta cinco golpes antes de caer.",
+    "Construir el Escudo Zombie para proteger tu espalda de ataques sorpresa.",
+    "Adquirir la Ray Gun Mark II o un arma especial específica del mapa.",
+    "Establecer una ruta de carrera circular clara en un área abierta del mapa.",
+    "Dejar un zombie vivo al final de una ronda para reconstruir escudos y comprar ventajas."
+  ]}
+/>
+
+<Callout type="info" title="Prioridad de ventajas">
+Aunque Double Tap 2.0 y Speed Cola son muy beneficiosos para el rendimiento ofensivo, nunca los compres antes de asegurar Jugger-Nog. La supervivencia siempre va antes que el daño.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Preguntas frecuentes del modo Zombies">
+
+<FAQ items={[
+  {
+    question: "¿Cuál es el mejor mapa en call of duty black ops ii zombies para rondas altas?",
+    answer: "Buried es ampliamente considerado el mapa más fácil para rondas altas debido a su poderosa arma especial Paralyzer, los puntos de defensa en cuello de botella y la capacidad de usar a Arthur para construir equipamiento rápidamente."
+  },
+  {
+    question: "¿Puedo jugar la versión de PS4 o PS5 de Black Ops II Zombies con jugadores de PC?",
+    answer: "No. El lanzamiento de 2026 para PS4 y PS5 es un port digital oficial de la experiencia original y no admite el emparejamiento multijugador multiplataforma."
+  },
+  {
+    question: "¿Cómo obtengo la Ray Gun Mark II?",
+    answer: "La Ray Gun Mark II se añade a la Caja Misteriosa en todos los mapas una vez que posees el paquete DLC Vengeance o el Season Pass."
+  },
+  {
+    question: "¿Qué pasa cuando muero en Mob of the Dead?",
+    answer: "En lugar de pasar inmediatamente al modo espectador, entras en el modo Afterlife como fantasma. Puedes usar este estado para revivirte a ti mismo, encender máquinas de ventajas o abrir puertas secretas antes de que se agote tu tiempo."
+  }
+]} />
+
+</Section>

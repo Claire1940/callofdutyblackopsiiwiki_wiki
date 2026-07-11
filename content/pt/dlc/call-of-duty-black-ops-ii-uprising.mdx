@@ -1,0 +1,182 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Call of Duty Black Ops II Uprising: Guia de Zombies e Multijogador",
+  description: "Domine a DLC Uprising de Call of Duty Black Ops II. Obtenha estratégias completas para Mob of the Dead, layouts de mapas multijogador e classes ideais.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/111827/ff7a1a?text=Uprising+DLC+Guide",
+  date: "2026-07-12",
+  author: "Equipe Wiki de call of duty black ops ii"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Foco Principal**: Análise tática completa da expansão de conteúdo **call of duty black ops ii uprising**.
+- **Obra-prima dos Zombies**: Passos detalhados de sobrevivência para o lendário mapa **Mob of the Dead**, ambientado em Alcatraz.
+- **Arena Multijogador**: Layouts e rotas para Magma, Encore, Vertigo e o favorito dos fãs, Studio.
+- **Mecânica Chave**: Utilizar o estado de fantasma Afterlife (Além-Vida) para energizar dispositivos e desbloquear áreas cruciais do mapa.
+- **Melhor Classe**: Escolhas ideais de armas, incluindo a Blundergat e configurações personalizadas do sistema Pick 10.
+</Callout>
+
+<Section icon={Map} title="Visão Geral e Divisão de Conteúdo da DLC Uprising">
+
+O pacote de conteúdo para download **call of duty black ops ii uprising** é amplamente considerado uma das expansões mais criativas e impactantes da história da franquia. Lançado como o segundo grande pacote de DLC para o jogo base, ele introduz uma enorme variedade de conteúdo tanto para entusiastas do multijogador competitivo quanto para jogadores do modo cooperativo Zombies. Esteja você correndo pelos corredores estreitos de um laboratório nas alturas ou tentando quebrar um ciclo sobrenatural na Ilha de Alcatraz, esta expansão oferece desafios intensos que testam sua habilidade mecânica e rotas táticas.
+
+Em 9 de julho de 2026, os jogadores receberam o lançamento digital da experiência original no PlayStation 5 e PlayStation 4, trazendo essas arenas clássicas para os consoles modernos sem alterar o ciclo de jogabilidade principal.
+
+| Tipo de Conteúdo | Nome do Item | Cenário/Tema | Recurso Chave |
+|---|---|---|---|
+| Mapa de Zombies | **Mob of the Dead** | Ilha de Alcatraz, década de 1930 | Mecânica Afterlife, avião montável, Pack-a-Punch na Ponte Golden Gate |
+| Mapa Multijogador | **Studio** | Estúdio de Cinema de Hollywood | Versão reimaginada do clássico mapa Firing Range |
+| Mapa Multijogador | **Magma** | Vila Japonesa Vulcânica | Perigos de lava ativa que restringem o movimento e cortam rotas |
+| Mapa Multijogador | **Encore** | Festival Abandonado em Londres | Palco central aberto com rotas de flanqueamento circulares externas |
+| Mapa Multijogador | **Vertigo** | Laboratório em Arranha-céu Indiano | Combate em vários níveis de arranha-céu com bordas de penhasco letais |
+
+<Callout type="tip" title="Dica de Disponibilidade de Plataforma">
+A DLC Uprising está totalmente inclusa no Passe de Temporada da [PlayStation Store](https://store.playstation.com/en-us/product/UP0002-PPSA34502_00-CODBO2SEASONPASS) para o lançamento de 2026 no PS4/PS5, bem como na retrocompatibilidade do Xbox e no PC via Steam. Lembre-se de que o multijogador online requer assinaturas específicas da plataforma, como PlayStation Plus ou Xbox Game Pass, e o cross-play não é suportado entre plataformas diferentes.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Guia de Sobrevivência Zombies em Mob of the Dead">
+
+A joia da coroa da DLC **call of duty black ops ii uprising** é, sem dúvida, **Mob of the Dead**. Ambientado em uma recriação sombria e atmosférica da Penitenciária Federal de Alcatraz durante a década de 1930, você controla um dos quatro gângsteres aprisionados em um pesadelo sobrenatural que se repete. Para sobreviver e finalmente escapar, os jogadores devem dominar a mecânica única do Afterlife, montar o lendário avião de fuga Ícaro e aprimorar seu arsenal usando a máquina Pack-a-Punch localizada na Ponte Golden Gate.
+
+<CardGrid cols={3}>
+  <Card title="O Estado Afterlife">
+    - **Ativação**: Interagir com caixas elétricas ou morrer.
+    - **Objetivo**: Energizar máquinas de vantagens (perks), abrir portas importantes e encontrar peças ocultas do avião.
+    - **Limitação**: Curta duração antes que ocorra a morte permanente (bleed-out).
+  </Card>
+  <Card title="A Blundergat">
+    - **Classe**: Arma Maravilhosa (Wonder Weapon) única.
+    - **Variantes**: Pode ser aprimorada para a Acid Gat ou a Sweeper.
+    - **Função**: Essencial para limpar multidões em corredores estreitos em rodadas altas.
+  </Card>
+  <Card title="O Carcereiro (Brutus)">
+    - **Ameaça**: Inimigo chefe fortemente blindado.
+    - **Mecânica**: Surge aleatoriamente e bloqueia máquinas de vantagens e bancadas de trabalho.
+    - **Estratégia**: Mire no capacete para expor seu ponto fraco.
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Alerta de Bloqueio do Carcereiro">
+Brutus pode desativar máquinas de vantagens ativas e mesas de construção, exigindo que você pague 2.000 pontos para desbloqueá-las novamente. Elimine-o rapidamente antes que ele alcance suas estações utilitárias ativas para evitar perder o acesso a ferramentas cruciais de sobrevivência.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Como Construir o Avião e Acessar o Pack-a-Punch">
+
+Escapar de Alcatraz é um quebra-cabeça cooperativo de várias etapas que requer coordenação precisa. Os jogadores devem reunir cinco peças distintas espalhadas pela prisão, construir o avião de fuga Ícaro no telhado e voar até a Ponte Golden Gate para acessar a máquina Pack-a-Punch.
+
+<Steps>
+  <Step num="1" title="Adquirir a Chave do Carcereiro">
+    Localize a chave azul brilhante pendurada perto da Cafeteria ou do Escritório do Carcereiro. Entre no estado Afterlife por perto, eletrocute a caixa elétrica para abaixar a chave e pegue-a assim que reviver a si mesmo.
+  </Step>
+  <Step num="2" title="Coletar as Cinco Peças de Fuga">
+    Use a Chave do Carcereiro e o estado Afterlife para desbloquear a porta da lavanderia, as cordas na escada em espiral, o tanque de oxigênio na enfermaria, a válvula do motor nas docas e a unidade de controle na sala do gerador.
+  </Step>
+  <Step num="3" title="Montar e Lançar o Avião">
+    Leve as cinco peças para o telhado da prisão. Interaja com a rampa de madeira para montar o avião Ícaro. Uma vez totalmente construído, todos os jogadores devem embarcar no avião juntos para iniciar o voo em direção à Ponte Golden Gate.
+  </Step>
+  <Step num="4" title="Fazer o Upgrade na Ponte">
+    Ao pousar na ponte, localize a máquina Pack-a-Punch no extremo oposto. Sobreviva à onda infinita de zumbis na ponte para aprimorar suas armas por 5.000 pontos. Use as cadeiras elétricas para retornar à prisão quando terminar.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Dica Profissional da Ponte Golden Gate">
+Não há máquinas de vantagens disponíveis na ponte, e seu avião de fuga não retornará até que você pegue as cadeiras elétricas de volta para Alcatraz e recarregue os galões de combustível. Planeje seus upgrades com cuidado antes de voar.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Estratégia de Mapas Multijogador e Controle de Rotas">
+
+O componente multijogador da expansão **call of duty black ops ii uprising** apresenta quatro mapas diversos projetados para acomodar vários estilos de jogo. De confrontos caóticos de curto alcance a duelos de precisão de longa distância, dominar esses layouts é essencial para dominar as salas públicas e partidas da League Play.
+
+| Nome do Mapa | Perfil de Combate | Rota/Corredor Dominante | Classe de Arma Recomendada |
+|---|---|---|---|
+| **Studio** | Arena de três rotas simétrica e de ritmo acelerado | Parque de trailers central e torre elevada | Submetralhadoras (MSMC) ou Fuzis de Assalto (M8A1) |
+| **Magma** | Controle de rota baseado em perigos com lava ativa | Ponte central e estação de metrô lateral | Fuzis de Assalto (AN-94) ou Metralhadoras Leves (LSAT) |
+| **Encore** | Fluxo circular com um centro altamente exposto | Palco principal de apresentações e passarelas curvas externas | Submetralhadoras (PDW-57) ou Escopetas (R870 MCS) |
+| **Vertigo** | Arranha-céu vertical com zonas de queda de alto risco | Laboratório central e caminhos de manutenção inferiores | Fuzis de Precisão (DSR 50) ou Fuzis Táticos |
+
+<Callout type="info" title="Perigos de Lava em Magma">
+As poças de lava brilhantes em Magma são instantaneamente letais. Você não pode deslizar ou pular sobre fendas largas de lava. Use esses perigos a seu favor, encurralando os inimigos contra os fluxos de lava ou bloqueando as pontes seguras com equipamentos táticos como Sistemas Trophy.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Classes Pick 10 Recomendadas para os Mapas de Uprising">
+
+Para ter sucesso nos diversos ambientes da DLC **call of duty black ops ii uprising**, você precisa de classes altamente especializadas. Estas montagens utilizam o sistema Pick 10 para maximizar sua eficiência em confrontos de curto alcance e na defesa de rotas de longa distância.
+
+### O Invasor Agressivo do Studio
+Projetada para os cantos apertados e rotações rápidas de Studio, esta classe prioriza velocidade, tempo de reação e flanqueamento silencioso.
+- **Arma Principal**: MSMC (Cabo de Saque Rápido, Carregador Rápido)
+- **Vantagem 1**: Peso Pena (Lightweight)
+- **Vantagem 2**: Robustez (Toughness)
+- **Vantagem 3**: Destreza (Dexterity) & Condicionamento Extremo (Extreme Conditioning) (via Curinga Cobiça de Vantagem 3)
+- **Letal**: Semtex
+- **Tático**: Granada de Concussão
+
+### O Âncora Defensivo de Magma
+Feito para manter o controle das rotas em Magma e punir os inimigos que tentam atravessar as perigosas ruas vulcânicas.
+- **Arma Principal**: AN-94 (Mira Reflex, Coronha, FMJ via Curinga Atirador Principal)
+- **Vantagem 1**: Colete À Prova de Balas (Flak Jacket) (Essencial para sobreviver ao spam de explosivos nas pontes)
+- **Vantagem 2**: Robustez (Toughness)
+- **Vantagem 3**: Máscara Tática (Tactical Mask)
+- **Tático**: Sistema Trophy
+
+<Callout type="success" title="Regra de Equilíbrio Pick 10">
+Sempre adapte sua classe à geometria do mapa. Se estiver jogando em Vertigo, considere substituir sua arma secundária por uma vantagem extra como Engenheiro (Engineer) para avistar claymores e cargas de choque inimigas através das paredes do laboratório central.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Lista de Conquistas da DLC Uprising">
+
+Acompanhe seu progresso e domine todos os aspectos da expansão com esta lista abrangente de marcos.
+
+<Checklist
+  id="uprising-milestones"
+  title="Metas de Conquistas de Uprising:"
+  items={[
+    "Construir o avião de fuga Ícaro em Mob of the Dead",
+    "Completar a missão principal de Easter egg 'Pop Goes the Weasel'",
+    "Aprimorar a Blundergat para a Acid Gat usando o kit montável",
+    "Vencer uma partida multijogador em todos os quatro mapas de Uprising (Studio, Magma, Encore, Vertigo)",
+    "Sobreviver além da Rodada 30 em Mob of the Dead sem deixar Brutus bloquear nenhuma máquina"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Swords} title="Perguntas Frequentes da DLC Uprising">
+
+<FAQ items={[
+  {
+    question: "A DLC call of duty black ops ii uprising está inclusa no lançamento de PS5 em 2026?",
+    answer: "Sim, o lançamento digital para PS4/PS5 de Call of Duty: Black Ops II suporta todos os pacotes de DLC originais, incluindo Uprising, que podem ser adquiridos através do Passe de Temporada na PlayStation Store."
+  },
+  {
+    question: "Como você escapa da Ponte Golden Gate em Mob of the Dead?",
+    answer: "Para sair da ponte, você deve usar as cadeiras elétricas localizadas perto da máquina Pack-a-Punch. Isso o retornará ao bloco de celas da prisão em um estado caído, onde você deve se reviver ou ser revivido por companheiros de equipe."
+  },
+  {
+    question: "Qual é a melhor arma para usar no mapa multijogador Studio?",
+    answer: "Como Studio é um remake de Firing Range, ele apresenta uma mistura de espaços apertados e linhas de visão limpas. Submetralhadoras de alta mobilidade como a MSMC ou fuzis de assalto de rajada precisos como o M8A1 funcionam excepcionalmente bem aqui."
+  },
+  {
+    question: "Posso jogar Mob of the Dead sozinho?",
+    answer: "Sim, Mob of the Dead é totalmente jogável no modo solo. No jogo solo, você recebe automaticamente até três fichas de Afterlife por rodada, tornando mais fácil reviver a si mesmo e completar as etapas do quebra-cabeça de forma independente."
+  }
+]} />
+
+</Section>

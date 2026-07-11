@@ -1,0 +1,165 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Campaña de Call of Duty Black Ops II: Todas las Decisiones y Finales",
+  description: "Domina la campaña de Call of Duty Black Ops II con nuestra guía completa. Sigue las decisiones clave, las misiones de Strike Force y cómo desbloquear el mejor final.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/ff7a1a/fff?text=Campaign+Guide",
+  date: "2026-07-12",
+  author: "Equipo de la Wiki de Call of Duty Black Ops II",
+  keywords: "campaña, finales, decisiones, misiones strike force, alex mason, raul menendez"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Objetivo Principal**: Navegar por las rutas de historia ramificadas de los años 80 y 2025 en la **campaña de call of duty black ops ii** para asegurar el mejor final.
+- **Mecánica Clave**: Las misiones de Strike Force impactan directamente en el panorama geopolítico y en los resultados cinemáticos finales.
+- **Mejor Estrategia**: Perdonar a personajes críticos como Alex Mason y Chloe Lynch mientras completas con éxito todas las operaciones tácticas.
+- **Consejo Crítico**: Rejugar una misión a través del menú de historia sobrescribe todo el progreso posterior a partir de ese punto específico.
+</Callout>
+
+<Section icon={Map} title="Resumen de la Campaña y Estructura de Misiones">
+
+La **campaña de call of duty black ops ii** destaca como una entrega histórica en la franquicia, introduciendo una narrativa impulsada por decisiones que abarca dos eras distintas: la Guerra Fría de los años 80 y una Segunda Guerra Fría en el futuro cercano de 2025. A diferencia de las campañas lineales tradicionales, tu desempeño táctico y tus decisiones morales moldean directamente el resultado global.
+
+La campaña consta de 11 misiones de historia obligatorias y 5 misiones opcionales de Strike Force. Para lograr el desenlace narrativo más favorable, debes equilibrar la eficiencia en el combate con la toma de decisiones estratégicas.
+
+| Nombre de la Misión | Contexto Histórico | Personaje Jugable | Importancia en la Historia |
+|---|---|---|---|
+| **Pyrrhic Victory** | Angola, 1986 | Alex Mason | Rescatar a Frank Woods / Introducción de la campaña |
+| **Celerium** | Myanmar, 2025 | David Mason | Descubrir la tecnología de ciberataque de Menendez |
+| **Old Wounds** | Afganistán, 1986 | Alex Mason | Interrogar a Kravchenko / Revelar al topo de la CIA |
+| **Time and Fate** | Nicaragua, 1986 | Raul Menendez / Alex Mason | Descubrir el memorándum de la CIA y evidencia en el complejo |
+| **Fallen Angel** | Pakistán, 2025 | David Mason | Grabar la reunión de Menendez / Desbloquear Dispatch |
+| **Karma** | Islas Caimán, 2025 | David Mason | Identificar y asegurar a Chloe Lynch (Karma) |
+| **Suffer with Me** | Panamá, 1989 | Frank Woods | La decisión del francotirador / El destino de Alex Mason |
+| **Achilles' Veil** | Yemen, 2025 | Farid | Elección encubierta / El destino de Farid y Harper |
+| **Odysseus** | USS Barack Obama, 2025 | David Mason / Menendez | Defender el portaaviones / La traición de Salazar |
+| **Cordis Die** | Los Ángeles, 2025 | David Mason | Escortar a la Presidenta Bosworth a través del ataque de drones |
+| **Judgment Day** | Haití, 2025 | David Mason | Asalto final / Ejecutar o capturar a Menendez |
+
+<Callout type="tip" title="Consejo de Campaña">
+Busca siempre a fondo durante las misiones de los años 80. Encontrar archivos de inteligencia y memorándums de la CIA proporciona un contexto crucial que ayuda a los personajes a resistir el condicionamiento psicológico.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Decisiones Clave y Matriz de Consecuencias">
+
+Tu camino a través de la **campaña de call of duty black ops ii** se define por varias encrucijadas críticas. Estas elecciones no solo alteran el diálogo; deciden qué personajes sobreviven hasta el epílogo de 2025 y si Estados Unidos y China pueden evitar con éxito la devastación global.
+
+La siguiente tabla describe los puntos de inflexión más críticos de la campaña, las acciones requeridas para el mejor resultado y las consecuencias del fracaso.
+
+| Punto de Decisión | Acción Requerida | Resultado Favorable | Consecuencia del Fracaso |
+|---|---|---|---|
+| **Interrogatorio de Kravchenko** | Resistir el condicionamiento de los Números | Enterarse del topo de la CIA dentro de la agencia | Perder información crítica sobre el alcance de Menendez |
+| **Escape de DeFalco** | Matar a DeFalco en Colossus | Asegurar a Chloe Lynch inmediatamente | Chloe es capturada; obliga a una misión de rescate opcional |
+| **Disparo de Noriega** | Disparar al objetivo encapuchado en las piernas | Alex Mason sobrevive hasta el epílogo | Alex Mason muere; David visita su tumba |
+| **Elección Encubierta de Farid** | Disparar a Harper como Farid | Farid sobrevive para proteger a Chloe más tarde | Farid muere; Chloe es asesinada en el USS Obama |
+| **Confrontación con Briggs** | Herir al Almirante Briggs en la pierna | Briggs sobrevive para desplegar las defensas del portaaviones | El USS Obama es destruido cuando Salazar traiciona al JSOC |
+| **Destino Final de Menendez** | Capturar a Raul Menendez | Evitar que se convierta en un mártir | El levantamiento global de Cordis Die se activa tras su ejecución |
+
+<Callout type="warning" title="Advertencia">
+Disparar al objetivo encapuchado en la cabeza durante "Suffer with Me" matará permanentemente a Alex Mason. Si quieres el final de la reunión familiar, debes apuntar a las piernas.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Guía de Operaciones de Strike Force">
+
+Las misiones de Strike Force son escenarios tácticos basados en objetivos donde comandas miembros de escuadrones de infantería, unidades CLAW automatizadas y drones aéreos. Completar con éxito estas operaciones es obligatorio para debilitar a la Coalición de Defensa Estratégica (SDC), asegurar una alianza entre Estados Unidos y China y proteger el USS Barack Obama.
+
+<CardGrid cols={3}>
+  <Card title="FOB Spectre">
+    Defiende una base de operaciones avanzada en India de las fuerzas de la SDC. Establece puntos de control estrechos usando torretas automáticas y activos CLAW para proteger las terminales de hackeo estratégicas.
+  </Card>
+  <Card title="Shipwreck">
+    Asalta los muelles controlados por la SDC en Singapur. Coordina la infantería de tierra y el apoyo de drones para capturar y mantener tres puntos de control distintos antes de que se agote el tiempo.
+  </Card>
+  <Card title="I.E.D. & Dispatch">
+    Protege un convoy de alto valor en Afganistán, luego lanza un asalto en Pakistán para eliminar al Presidente Tian Zhao, asegurando la alianza entre EE. UU. y China.
+  </Card>
+</CardGrid>
+
+<Callout type="info" title="Ventaja Táctica">
+Completar "Dispatch" elimina por completo al Presidente Tian Zhao de la ecuación. Esto permite que las fuerzas militares chinas ayuden a los Estados Unidos a defender el USS Barack Obama durante la invasión al final del juego.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Cómo Desbloquear el Mejor Final">
+
+Desbloquear el "Final Favorable" óptimo en la **campaña de call of duty black ops ii** requiere una ejecución perfecta a través de múltiples misiones. Sigue esta secuencia paso a paso para asegurar que todos los personajes clave sobrevivan y la amenaza cibernética global sea neutralizada.
+
+<Steps>
+  <Step num="1" title="Asegurar la Alianza EE. UU.-China">
+    Completa las misiones de Strike Force: FOB Spectre, Shipwreck e I.E.D. Esto desbloquea la misión "Dispatch". Completa "Dispatch" para eliminar al Presidente Tian Zhao, uniendo a China en una alianza con los EE. UU.
+  </Step>
+  <Step num="2" title="Salvar a Chloe Lynch (Karma)">
+    Elimina a DeFalco durante la misión "Karma" antes de que escape con Chloe, o completa con éxito la misión de rescate de Strike Force "Second Chance" para asegurarla.
+  </Step>
+  <Step num="3" title="Perdonar a Alex Mason">
+    Durante "Suffer with Me", cuando se te instruya disparar al objetivo encapuchado, dispara al objetivo en las piernas dos veces. No dispares a la cabeza.
+  </Step>
+  <Step num="4" title="Mantener Vivo a Farid">
+    En "Achilles' Veil", toma la difícil decisión de disparar a Harper. Este sacrificio mantiene intacta la cobertura de Farid, permitiéndole sacrificarse para salvar a Chloe en el USS Barack Obama más tarde.
+  </Step>
+  <Step num="5" title="Defender el USS Barack Obama">
+    En "Odysseus", dispara al Almirante Briggs en la pierna. Esto lo mantiene con vida. Debido a que la alianza EE. UU.-China está activa y Chloe está protegida por Farid, el portaaviones sobrevive a la traición de Salazar.
+  </Step>
+  <Step num="6" title="Capturar a Raul Menendez">
+    En la misión final "Judgment Day", elige capturar a Menendez en lugar de ejecutarlo. Chloe neutralizará con éxito su ciberataque y Menendez permanecerá encarcelado de forma segura.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Éxito">
+Seguir estos pasos exactos te recompensa con el final definitivo: Alex Mason sobrevive para reunirse con Frank Woods y David, Chloe Lynch salva la infraestructura global y la Segunda Guerra Fría termina pacíficamente.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Lista de Verificación de Completado de la Campaña">
+
+Usa esta lista para seguir tu progreso hacia el 100% de completado y el dominio de las rutas narrativas ramificadas de la campaña.
+
+<Checklist
+  id="campaign-mastery"
+  title="Hitos de la Campaña:"
+  items={[
+    "Completar las 11 misiones de historia principales en cualquier dificultad",
+    "Completar con éxito las 5 misiones tácticas de Strike Force",
+    "Recoger los 33 objetos de Inteligencia (3 por misión principal)",
+    "Desbloquear el Final Favorable (Mason, Woods y Karma sobreviven)",
+    "Completar los 10 desafíos opcionales para cada una de las misiones"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Swords} title="Preguntas Frecuentes de la Campaña">
+
+<FAQ items={[
+  {
+    question: "¿Puedo reiniciar una misión para cambiar una decisión que tomé antes?",
+    answer: "Sí, puedes usar la función 'Rebobinar Historia' desde el menú de selección de misiones. Sin embargo, ten en cuenta que rebobinar a una misión anterior sobrescribirá todo el progreso de la campaña y las decisiones tomadas después de ese punto."
+  },
+  {
+    question: "¿Qué sucede si Chloe Lynch (Karma) muere durante la campaña?",
+    answer: "Si Chloe muere, no podrá neutralizar el virus gusano de Raul Menendez. Incluso si capturas a Menendez, el ciberataque tendrá éxito, permitiéndole escapar de la prisión, matar a Frank Woods y suicidarse."
+  },
+  {
+    question: "¿Es posible salvar tanto a Farid como a Harper?",
+    answer: "No. Debes elegir entre ellos en 'Achilles' Veil'. Salvar a Harper resulta en la muerte inmediata de Farid, lo que finalmente lleva a la muerte de Chloe Lynch en el USS Barack Obama porque Farid no está allí para protegerla."
+  },
+  {
+    question: "¿Expiran las misiones de Strike Force si avanzo demasiado?",
+    answer: "Sí, las misiones de Strike Force deben completarse antes de comenzar la misión de historia 'Odysseus'. Si avanzas más allá de este punto, las misiones se bloquearán y se considerarán fallidas por defecto para esos territorios."
+  }
+]} />
+
+</Section>

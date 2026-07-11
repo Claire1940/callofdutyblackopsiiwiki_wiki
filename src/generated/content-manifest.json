@@ -1,1 +1,714 @@
-{}
+{
+  "de": {
+    "campaign": [
+      {
+        "slug": "call-of-duty-black-ops-ii-best-ending",
+        "file": "call-of-duty-black-ops-ii-best-ending"
+      },
+      {
+        "slug": "call-of-duty-black-ops-ii-campaign-length",
+        "file": "call-of-duty-black-ops-ii-campaign-length"
+      },
+      {
+        "slug": "call-of-duty-black-ops-ii-campaign",
+        "file": "call-of-duty-black-ops-ii-campaign"
+      },
+      {
+        "slug": "call-of-duty-black-ops-ii-mission-list",
+        "file": "call-of-duty-black-ops-ii-mission-list"
+      },
+      {
+        "slug": "call-of-duty-black-ops-ii-walkthrough",
+        "file": "call-of-duty-black-ops-ii-walkthrough"
+      }
+    ],
+    "dlc": [
+      {
+        "slug": "call-of-duty-black-ops-ii-apocalypse",
+        "file": "call-of-duty-black-ops-ii-apocalypse"
+      },
+      {
+        "slug": "call-of-duty-black-ops-ii-revolution",
+        "file": "call-of-duty-black-ops-ii-revolution"
+      },
+      {
+        "slug": "call-of-duty-black-ops-ii-season-pass",
+        "file": "call-of-duty-black-ops-ii-season-pass"
+      },
+      {
+        "slug": "call-of-duty-black-ops-ii-uprising",
+        "file": "call-of-duty-black-ops-ii-uprising"
+      },
+      {
+        "slug": "call-of-duty-black-ops-ii-vengeance",
+        "file": "call-of-duty-black-ops-ii-vengeance"
+      }
+    ],
+    "editions": [
+      {
+        "slug": "call-of-duty-black-ops-ii-buy",
+        "file": "call-of-duty-black-ops-ii-buy"
+      },
+      {
+        "slug": "call-of-duty-black-ops-ii-digital-deluxe-edition-content",
+        "file": "call-of-duty-black-ops-ii-digital-deluxe-edition-content"
+      },
+      {
+        "slug": "call-of-duty-black-ops-ii-digital-deluxe-edition-vs-standard",
+        "file": "call-of-duty-black-ops-ii-digital-deluxe-edition-vs-standard"
+      },
+      {
+        "slug": "call-of-duty-black-ops-ii-digital-deluxe-edition",
+        "file": "call-of-duty-black-ops-ii-digital-deluxe-edition"
+      },
+      {
+        "slug": "call-of-duty-black-ops-ii-hardened-edition",
+        "file": "call-of-duty-black-ops-ii-hardened-edition"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "call-of-duty-black-ops-ii-beginner-guide",
+        "file": "call-of-duty-black-ops-ii-beginner-guide"
+      },
+      {
+        "slug": "call-of-duty-black-ops-ii-controls",
+        "file": "call-of-duty-black-ops-ii-controls"
+      },
+      {
+        "slug": "call-of-duty-black-ops-ii-game-size",
+        "file": "call-of-duty-black-ops-ii-game-size"
+      },
+      {
+        "slug": "call-of-duty-black-ops-ii-how-long-to-beat",
+        "file": "call-of-duty-black-ops-ii-how-long-to-beat"
+      },
+      {
+        "slug": "call-of-duty-black-ops-ii-system-requirements",
+        "file": "call-of-duty-black-ops-ii-system-requirements"
+      }
+    ],
+    "legacy": [
+      {
+        "slug": "call-of-duty-black-ops-ii-reddit",
+        "file": "call-of-duty-black-ops-ii-reddit"
+      },
+      {
+        "slug": "call-of-duty-black-ops-ii-release-date",
+        "file": "call-of-duty-black-ops-ii-release-date"
+      },
+      {
+        "slug": "call-of-duty-black-ops-ii-review",
+        "file": "call-of-duty-black-ops-ii-review"
+      },
+      {
+        "slug": "call-of-duty-black-ops-ii-why-is-it-the-best",
+        "file": "call-of-duty-black-ops-ii-why-is-it-the-best"
+      },
+      {
+        "slug": "call-of-duty-black-ops-ii-worth-it-in-2026",
+        "file": "call-of-duty-black-ops-ii-worth-it-in-2026"
+      }
+    ],
+    "multiplayer": [
+      {
+        "slug": "call-of-duty-black-ops-ii-local-multiplayer",
+        "file": "call-of-duty-black-ops-ii-local-multiplayer"
+      },
+      {
+        "slug": "call-of-duty-black-ops-ii-multiplayer",
+        "file": "call-of-duty-black-ops-ii-multiplayer"
+      },
+      {
+        "slug": "call-of-duty-black-ops-ii-online-in-2026",
+        "file": "call-of-duty-black-ops-ii-online-in-2026"
+      },
+      {
+        "slug": "call-of-duty-black-ops-ii-player-count",
+        "file": "call-of-duty-black-ops-ii-player-count"
+      },
+      {
+        "slug": "call-of-duty-black-ops-ii-splitscreen-4-players",
+        "file": "call-of-duty-black-ops-ii-splitscreen-4-players"
+      }
+    ],
+    "platforms": [
+      {
+        "slug": "call-of-duty-black-ops-ii-pc",
+        "file": "call-of-duty-black-ops-ii-pc"
+      },
+      {
+        "slug": "call-of-duty-black-ops-ii-port",
+        "file": "call-of-duty-black-ops-ii-port"
+      },
+      {
+        "slug": "call-of-duty-black-ops-ii-ps4",
+        "file": "call-of-duty-black-ops-ii-ps4"
+      },
+      {
+        "slug": "call-of-duty-black-ops-ii-ps5",
+        "file": "call-of-duty-black-ops-ii-ps5"
+      },
+      {
+        "slug": "call-of-duty-black-ops-ii-xbox-360",
+        "file": "call-of-duty-black-ops-ii-xbox-360"
+      }
+    ],
+    "zombies": [
+      {
+        "slug": "call-of-duty-black-ops-ii-zombies-buried",
+        "file": "call-of-duty-black-ops-ii-zombies-buried"
+      },
+      {
+        "slug": "call-of-duty-black-ops-ii-zombies-easter-egg-guide",
+        "file": "call-of-duty-black-ops-ii-zombies-easter-egg-guide"
+      },
+      {
+        "slug": "call-of-duty-black-ops-ii-zombies-maps",
+        "file": "call-of-duty-black-ops-ii-zombies-maps"
+      },
+      {
+        "slug": "call-of-duty-black-ops-ii-zombies-tranzit",
+        "file": "call-of-duty-black-ops-ii-zombies-tranzit"
+      },
+      {
+        "slug": "call-of-duty-black-ops-ii-zombies",
+        "file": "call-of-duty-black-ops-ii-zombies"
+      }
+    ]
+  },
+  "en": {
+    "campaign": [
+      {
+        "slug": "call-of-duty-black-ops-ii-best-ending",
+        "file": "call-of-duty-black-ops-ii-best-ending"
+      },
+      {
+        "slug": "call-of-duty-black-ops-ii-campaign-length",
+        "file": "call-of-duty-black-ops-ii-campaign-length"
+      },
+      {
+        "slug": "call-of-duty-black-ops-ii-campaign",
+        "file": "call-of-duty-black-ops-ii-campaign"
+      },
+      {
+        "slug": "call-of-duty-black-ops-ii-mission-list",
+        "file": "call-of-duty-black-ops-ii-mission-list"
+      },
+      {
+        "slug": "call-of-duty-black-ops-ii-walkthrough",
+        "file": "call-of-duty-black-ops-ii-walkthrough"
+      }
+    ],
+    "dlc": [
+      {
+        "slug": "call-of-duty-black-ops-ii-apocalypse",
+        "file": "call-of-duty-black-ops-ii-apocalypse"
+      },
+      {
+        "slug": "call-of-duty-black-ops-ii-revolution",
+        "file": "call-of-duty-black-ops-ii-revolution"
+      },
+      {
+        "slug": "call-of-duty-black-ops-ii-season-pass",
+        "file": "call-of-duty-black-ops-ii-season-pass"
+      },
+      {
+        "slug": "call-of-duty-black-ops-ii-uprising",
+        "file": "call-of-duty-black-ops-ii-uprising"
+      },
+      {
+        "slug": "call-of-duty-black-ops-ii-vengeance",
+        "file": "call-of-duty-black-ops-ii-vengeance"
+      }
+    ],
+    "editions": [
+      {
+        "slug": "call-of-duty-black-ops-ii-buy",
+        "file": "call-of-duty-black-ops-ii-buy"
+      },
+      {
+        "slug": "call-of-duty-black-ops-ii-digital-deluxe-edition-content",
+        "file": "call-of-duty-black-ops-ii-digital-deluxe-edition-content"
+      },
+      {
+        "slug": "call-of-duty-black-ops-ii-digital-deluxe-edition-vs-standard",
+        "file": "call-of-duty-black-ops-ii-digital-deluxe-edition-vs-standard"
+      },
+      {
+        "slug": "call-of-duty-black-ops-ii-digital-deluxe-edition",
+        "file": "call-of-duty-black-ops-ii-digital-deluxe-edition"
+      },
+      {
+        "slug": "call-of-duty-black-ops-ii-hardened-edition",
+        "file": "call-of-duty-black-ops-ii-hardened-edition"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "call-of-duty-black-ops-ii-beginner-guide",
+        "file": "call-of-duty-black-ops-ii-beginner-guide"
+      },
+      {
+        "slug": "call-of-duty-black-ops-ii-controls",
+        "file": "call-of-duty-black-ops-ii-controls"
+      },
+      {
+        "slug": "call-of-duty-black-ops-ii-game-size",
+        "file": "call-of-duty-black-ops-ii-game-size"
+      },
+      {
+        "slug": "call-of-duty-black-ops-ii-how-long-to-beat",
+        "file": "call-of-duty-black-ops-ii-how-long-to-beat"
+      },
+      {
+        "slug": "call-of-duty-black-ops-ii-system-requirements",
+        "file": "call-of-duty-black-ops-ii-system-requirements"
+      }
+    ],
+    "legacy": [
+      {
+        "slug": "call-of-duty-black-ops-ii-reddit",
+        "file": "call-of-duty-black-ops-ii-reddit"
+      },
+      {
+        "slug": "call-of-duty-black-ops-ii-release-date",
+        "file": "call-of-duty-black-ops-ii-release-date"
+      },
+      {
+        "slug": "call-of-duty-black-ops-ii-review",
+        "file": "call-of-duty-black-ops-ii-review"
+      },
+      {
+        "slug": "call-of-duty-black-ops-ii-why-is-it-the-best",
+        "file": "call-of-duty-black-ops-ii-why-is-it-the-best"
+      },
+      {
+        "slug": "call-of-duty-black-ops-ii-worth-it-in-2026",
+        "file": "call-of-duty-black-ops-ii-worth-it-in-2026"
+      }
+    ],
+    "multiplayer": [
+      {
+        "slug": "call-of-duty-black-ops-ii-local-multiplayer",
+        "file": "call-of-duty-black-ops-ii-local-multiplayer"
+      },
+      {
+        "slug": "call-of-duty-black-ops-ii-multiplayer",
+        "file": "call-of-duty-black-ops-ii-multiplayer"
+      },
+      {
+        "slug": "call-of-duty-black-ops-ii-online-in-2026",
+        "file": "call-of-duty-black-ops-ii-online-in-2026"
+      },
+      {
+        "slug": "call-of-duty-black-ops-ii-player-count",
+        "file": "call-of-duty-black-ops-ii-player-count"
+      },
+      {
+        "slug": "call-of-duty-black-ops-ii-splitscreen-4-players",
+        "file": "call-of-duty-black-ops-ii-splitscreen-4-players"
+      }
+    ],
+    "platforms": [
+      {
+        "slug": "call-of-duty-black-ops-ii-pc",
+        "file": "call-of-duty-black-ops-ii-pc"
+      },
+      {
+        "slug": "call-of-duty-black-ops-ii-port",
+        "file": "call-of-duty-black-ops-ii-port"
+      },
+      {
+        "slug": "call-of-duty-black-ops-ii-ps4",
+        "file": "call-of-duty-black-ops-ii-ps4"
+      },
+      {
+        "slug": "call-of-duty-black-ops-ii-ps5",
+        "file": "call-of-duty-black-ops-ii-ps5"
+      },
+      {
+        "slug": "call-of-duty-black-ops-ii-xbox-360",
+        "file": "call-of-duty-black-ops-ii-xbox-360"
+      }
+    ],
+    "zombies": [
+      {
+        "slug": "call-of-duty-black-ops-ii-zombies-buried",
+        "file": "call-of-duty-black-ops-ii-zombies-buried"
+      },
+      {
+        "slug": "call-of-duty-black-ops-ii-zombies-easter-egg-guide",
+        "file": "call-of-duty-black-ops-ii-zombies-easter-egg-guide"
+      },
+      {
+        "slug": "call-of-duty-black-ops-ii-zombies-maps",
+        "file": "call-of-duty-black-ops-ii-zombies-maps"
+      },
+      {
+        "slug": "call-of-duty-black-ops-ii-zombies-tranzit",
+        "file": "call-of-duty-black-ops-ii-zombies-tranzit"
+      },
+      {
+        "slug": "call-of-duty-black-ops-ii-zombies",
+        "file": "call-of-duty-black-ops-ii-zombies"
+      }
+    ]
+  },
+  "es": {
+    "campaign": [
+      {
+        "slug": "call-of-duty-black-ops-ii-best-ending",
+        "file": "call-of-duty-black-ops-ii-best-ending"
+      },
+      {
+        "slug": "call-of-duty-black-ops-ii-campaign-length",
+        "file": "call-of-duty-black-ops-ii-campaign-length"
+      },
+      {
+        "slug": "call-of-duty-black-ops-ii-campaign",
+        "file": "call-of-duty-black-ops-ii-campaign"
+      },
+      {
+        "slug": "call-of-duty-black-ops-ii-mission-list",
+        "file": "call-of-duty-black-ops-ii-mission-list"
+      },
+      {
+        "slug": "call-of-duty-black-ops-ii-walkthrough",
+        "file": "call-of-duty-black-ops-ii-walkthrough"
+      }
+    ],
+    "dlc": [
+      {
+        "slug": "call-of-duty-black-ops-ii-apocalypse",
+        "file": "call-of-duty-black-ops-ii-apocalypse"
+      },
+      {
+        "slug": "call-of-duty-black-ops-ii-revolution",
+        "file": "call-of-duty-black-ops-ii-revolution"
+      },
+      {
+        "slug": "call-of-duty-black-ops-ii-season-pass",
+        "file": "call-of-duty-black-ops-ii-season-pass"
+      },
+      {
+        "slug": "call-of-duty-black-ops-ii-uprising",
+        "file": "call-of-duty-black-ops-ii-uprising"
+      },
+      {
+        "slug": "call-of-duty-black-ops-ii-vengeance",
+        "file": "call-of-duty-black-ops-ii-vengeance"
+      }
+    ],
+    "editions": [
+      {
+        "slug": "call-of-duty-black-ops-ii-buy",
+        "file": "call-of-duty-black-ops-ii-buy"
+      },
+      {
+        "slug": "call-of-duty-black-ops-ii-digital-deluxe-edition-content",
+        "file": "call-of-duty-black-ops-ii-digital-deluxe-edition-content"
+      },
+      {
+        "slug": "call-of-duty-black-ops-ii-digital-deluxe-edition-vs-standard",
+        "file": "call-of-duty-black-ops-ii-digital-deluxe-edition-vs-standard"
+      },
+      {
+        "slug": "call-of-duty-black-ops-ii-digital-deluxe-edition",
+        "file": "call-of-duty-black-ops-ii-digital-deluxe-edition"
+      },
+      {
+        "slug": "call-of-duty-black-ops-ii-hardened-edition",
+        "file": "call-of-duty-black-ops-ii-hardened-edition"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "call-of-duty-black-ops-ii-beginner-guide",
+        "file": "call-of-duty-black-ops-ii-beginner-guide"
+      },
+      {
+        "slug": "call-of-duty-black-ops-ii-controls",
+        "file": "call-of-duty-black-ops-ii-controls"
+      },
+      {
+        "slug": "call-of-duty-black-ops-ii-game-size",
+        "file": "call-of-duty-black-ops-ii-game-size"
+      },
+      {
+        "slug": "call-of-duty-black-ops-ii-how-long-to-beat",
+        "file": "call-of-duty-black-ops-ii-how-long-to-beat"
+      },
+      {
+        "slug": "call-of-duty-black-ops-ii-system-requirements",
+        "file": "call-of-duty-black-ops-ii-system-requirements"
+      }
+    ],
+    "legacy": [
+      {
+        "slug": "call-of-duty-black-ops-ii-reddit",
+        "file": "call-of-duty-black-ops-ii-reddit"
+      },
+      {
+        "slug": "call-of-duty-black-ops-ii-release-date",
+        "file": "call-of-duty-black-ops-ii-release-date"
+      },
+      {
+        "slug": "call-of-duty-black-ops-ii-review",
+        "file": "call-of-duty-black-ops-ii-review"
+      },
+      {
+        "slug": "call-of-duty-black-ops-ii-why-is-it-the-best",
+        "file": "call-of-duty-black-ops-ii-why-is-it-the-best"
+      },
+      {
+        "slug": "call-of-duty-black-ops-ii-worth-it-in-2026",
+        "file": "call-of-duty-black-ops-ii-worth-it-in-2026"
+      }
+    ],
+    "multiplayer": [
+      {
+        "slug": "call-of-duty-black-ops-ii-local-multiplayer",
+        "file": "call-of-duty-black-ops-ii-local-multiplayer"
+      },
+      {
+        "slug": "call-of-duty-black-ops-ii-multiplayer",
+        "file": "call-of-duty-black-ops-ii-multiplayer"
+      },
+      {
+        "slug": "call-of-duty-black-ops-ii-online-in-2026",
+        "file": "call-of-duty-black-ops-ii-online-in-2026"
+      },
+      {
+        "slug": "call-of-duty-black-ops-ii-player-count",
+        "file": "call-of-duty-black-ops-ii-player-count"
+      },
+      {
+        "slug": "call-of-duty-black-ops-ii-splitscreen-4-players",
+        "file": "call-of-duty-black-ops-ii-splitscreen-4-players"
+      }
+    ],
+    "platforms": [
+      {
+        "slug": "call-of-duty-black-ops-ii-pc",
+        "file": "call-of-duty-black-ops-ii-pc"
+      },
+      {
+        "slug": "call-of-duty-black-ops-ii-port",
+        "file": "call-of-duty-black-ops-ii-port"
+      },
+      {
+        "slug": "call-of-duty-black-ops-ii-ps4",
+        "file": "call-of-duty-black-ops-ii-ps4"
+      },
+      {
+        "slug": "call-of-duty-black-ops-ii-ps5",
+        "file": "call-of-duty-black-ops-ii-ps5"
+      },
+      {
+        "slug": "call-of-duty-black-ops-ii-xbox-360",
+        "file": "call-of-duty-black-ops-ii-xbox-360"
+      }
+    ],
+    "zombies": [
+      {
+        "slug": "call-of-duty-black-ops-ii-zombies-buried",
+        "file": "call-of-duty-black-ops-ii-zombies-buried"
+      },
+      {
+        "slug": "call-of-duty-black-ops-ii-zombies-easter-egg-guide",
+        "file": "call-of-duty-black-ops-ii-zombies-easter-egg-guide"
+      },
+      {
+        "slug": "call-of-duty-black-ops-ii-zombies-maps",
+        "file": "call-of-duty-black-ops-ii-zombies-maps"
+      },
+      {
+        "slug": "call-of-duty-black-ops-ii-zombies-tranzit",
+        "file": "call-of-duty-black-ops-ii-zombies-tranzit"
+      },
+      {
+        "slug": "call-of-duty-black-ops-ii-zombies",
+        "file": "call-of-duty-black-ops-ii-zombies"
+      }
+    ]
+  },
+  "pt": {
+    "campaign": [
+      {
+        "slug": "call-of-duty-black-ops-ii-best-ending",
+        "file": "call-of-duty-black-ops-ii-best-ending"
+      },
+      {
+        "slug": "call-of-duty-black-ops-ii-campaign-length",
+        "file": "call-of-duty-black-ops-ii-campaign-length"
+      },
+      {
+        "slug": "call-of-duty-black-ops-ii-campaign",
+        "file": "call-of-duty-black-ops-ii-campaign"
+      },
+      {
+        "slug": "call-of-duty-black-ops-ii-mission-list",
+        "file": "call-of-duty-black-ops-ii-mission-list"
+      },
+      {
+        "slug": "call-of-duty-black-ops-ii-walkthrough",
+        "file": "call-of-duty-black-ops-ii-walkthrough"
+      }
+    ],
+    "dlc": [
+      {
+        "slug": "call-of-duty-black-ops-ii-apocalypse",
+        "file": "call-of-duty-black-ops-ii-apocalypse"
+      },
+      {
+        "slug": "call-of-duty-black-ops-ii-revolution",
+        "file": "call-of-duty-black-ops-ii-revolution"
+      },
+      {
+        "slug": "call-of-duty-black-ops-ii-season-pass",
+        "file": "call-of-duty-black-ops-ii-season-pass"
+      },
+      {
+        "slug": "call-of-duty-black-ops-ii-uprising",
+        "file": "call-of-duty-black-ops-ii-uprising"
+      },
+      {
+        "slug": "call-of-duty-black-ops-ii-vengeance",
+        "file": "call-of-duty-black-ops-ii-vengeance"
+      }
+    ],
+    "editions": [
+      {
+        "slug": "call-of-duty-black-ops-ii-buy",
+        "file": "call-of-duty-black-ops-ii-buy"
+      },
+      {
+        "slug": "call-of-duty-black-ops-ii-digital-deluxe-edition-content",
+        "file": "call-of-duty-black-ops-ii-digital-deluxe-edition-content"
+      },
+      {
+        "slug": "call-of-duty-black-ops-ii-digital-deluxe-edition-vs-standard",
+        "file": "call-of-duty-black-ops-ii-digital-deluxe-edition-vs-standard"
+      },
+      {
+        "slug": "call-of-duty-black-ops-ii-digital-deluxe-edition",
+        "file": "call-of-duty-black-ops-ii-digital-deluxe-edition"
+      },
+      {
+        "slug": "call-of-duty-black-ops-ii-hardened-edition",
+        "file": "call-of-duty-black-ops-ii-hardened-edition"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "call-of-duty-black-ops-ii-beginner-guide",
+        "file": "call-of-duty-black-ops-ii-beginner-guide"
+      },
+      {
+        "slug": "call-of-duty-black-ops-ii-controls",
+        "file": "call-of-duty-black-ops-ii-controls"
+      },
+      {
+        "slug": "call-of-duty-black-ops-ii-game-size",
+        "file": "call-of-duty-black-ops-ii-game-size"
+      },
+      {
+        "slug": "call-of-duty-black-ops-ii-how-long-to-beat",
+        "file": "call-of-duty-black-ops-ii-how-long-to-beat"
+      },
+      {
+        "slug": "call-of-duty-black-ops-ii-system-requirements",
+        "file": "call-of-duty-black-ops-ii-system-requirements"
+      }
+    ],
+    "legacy": [
+      {
+        "slug": "call-of-duty-black-ops-ii-reddit",
+        "file": "call-of-duty-black-ops-ii-reddit"
+      },
+      {
+        "slug": "call-of-duty-black-ops-ii-release-date",
+        "file": "call-of-duty-black-ops-ii-release-date"
+      },
+      {
+        "slug": "call-of-duty-black-ops-ii-review",
+        "file": "call-of-duty-black-ops-ii-review"
+      },
+      {
+        "slug": "call-of-duty-black-ops-ii-why-is-it-the-best",
+        "file": "call-of-duty-black-ops-ii-why-is-it-the-best"
+      },
+      {
+        "slug": "call-of-duty-black-ops-ii-worth-it-in-2026",
+        "file": "call-of-duty-black-ops-ii-worth-it-in-2026"
+      }
+    ],
+    "multiplayer": [
+      {
+        "slug": "call-of-duty-black-ops-ii-local-multiplayer",
+        "file": "call-of-duty-black-ops-ii-local-multiplayer"
+      },
+      {
+        "slug": "call-of-duty-black-ops-ii-multiplayer",
+        "file": "call-of-duty-black-ops-ii-multiplayer"
+      },
+      {
+        "slug": "call-of-duty-black-ops-ii-online-in-2026",
+        "file": "call-of-duty-black-ops-ii-online-in-2026"
+      },
+      {
+        "slug": "call-of-duty-black-ops-ii-player-count",
+        "file": "call-of-duty-black-ops-ii-player-count"
+      },
+      {
+        "slug": "call-of-duty-black-ops-ii-splitscreen-4-players",
+        "file": "call-of-duty-black-ops-ii-splitscreen-4-players"
+      }
+    ],
+    "platforms": [
+      {
+        "slug": "call-of-duty-black-ops-ii-pc",
+        "file": "call-of-duty-black-ops-ii-pc"
+      },
+      {
+        "slug": "call-of-duty-black-ops-ii-port",
+        "file": "call-of-duty-black-ops-ii-port"
+      },
+      {
+        "slug": "call-of-duty-black-ops-ii-ps4",
+        "file": "call-of-duty-black-ops-ii-ps4"
+      },
+      {
+        "slug": "call-of-duty-black-ops-ii-ps5",
+        "file": "call-of-duty-black-ops-ii-ps5"
+      },
+      {
+        "slug": "call-of-duty-black-ops-ii-xbox-360",
+        "file": "call-of-duty-black-ops-ii-xbox-360"
+      }
+    ],
+    "zombies": [
+      {
+        "slug": "call-of-duty-black-ops-ii-zombies-buried",
+        "file": "call-of-duty-black-ops-ii-zombies-buried"
+      },
+      {
+        "slug": "call-of-duty-black-ops-ii-zombies-easter-egg-guide",
+        "file": "call-of-duty-black-ops-ii-zombies-easter-egg-guide"
+      },
+      {
+        "slug": "call-of-duty-black-ops-ii-zombies-maps",
+        "file": "call-of-duty-black-ops-ii-zombies-maps"
+      },
+      {
+        "slug": "call-of-duty-black-ops-ii-zombies-tranzit",
+        "file": "call-of-duty-black-ops-ii-zombies-tranzit"
+      },
+      {
+        "slug": "call-of-duty-black-ops-ii-zombies",
+        "file": "call-of-duty-black-ops-ii-zombies"
+      }
+    ]
+  }
+}

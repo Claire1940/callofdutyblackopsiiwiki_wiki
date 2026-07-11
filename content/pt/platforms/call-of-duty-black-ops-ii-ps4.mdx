@@ -1,0 +1,165 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Call of Duty Black Ops II PS4: Guia Completo de Port e Configuração",
+  description: "Jogue Call of Duty Black Ops II no PS4 e PS5. Saiba tudo sobre retrocompatibilidade, o sistema de multijogador Pick 10, mapas de Zombies e as melhores configurações.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/1a1f2c/ff7a1a?text=BO2+PS4+Guide",
+  date: "2026-07-12",
+  author: "Equipe do Wiki de Call of Duty Black Ops II",
+  keywords: "Call of Duty, Black Ops II, PS4, PS5, Zombies, Pick 10, guia, multijogador"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Lançamento para PS4/PS5**: Disponível em **9 de julho de 2026**, como um port digital oficial da obra-prima original.
+- **Sem Crossplay**: O multijogador suporta até **18 jogadores** online, mas não oferece matchmaking entre diferentes plataformas.
+- **Meta do Pick 10**: O sistema de Criar uma Classe retorna com a clássica alocação de 10 pontos para total liberdade de personalização.
+- **Acesso ao Modo Zombies**: Jogue mapas icônicos, de TranZit a Origins, com DLCs individuais ou com o Season Pass.
+</Callout>
+
+<Section icon={Map} title="Guia de Compra de Call of Duty Black Ops II para PS4 e PS5">
+
+O lendário jogo de tiro militar com temática de futuro próximo chegou aos consoles PlayStation modernos. Lançado digitalmente em **9 de julho de 2026**, esta versão traz a jogabilidade autêntica e inalterada do lançamento original diretamente para o PlayStation 4 e PlayStation 5. Ao contrário de uma edição remasterizada, este é um port fiel projetado para preservar exatamente o manuseio das armas, as mecânicas de movimento e o equilíbrio competitivo que definiram uma era inteira de jogos de tiro em primeira pessoa.
+
+Antes de comprar, é essencial entender os requisitos de plataforma, necessidades de assinatura online e a disponibilidade de conteúdo para garantir uma experiência sem problemas.
+
+| Plataforma | Como Comprar | Requisitos Online | Conteúdo Incluso | Notas de Desempenho |
+| :--- | :--- | :--- | :--- | :--- |
+| **PlayStation 5** | Compra Digital na PlayStation Store | PS Plus & Conta Activision | Campanha Base, MP, Zombies | 60 FPS Nativo, Carregamento Rápido |
+| **PlayStation 4** | Compra Digital na PlayStation Store | PS Plus & Conta Activision | Campanha Base, MP, Zombies | Desempenho Estável em 1080p |
+| **Xbox Series X/S** | Loja Digital ou Disco Físico de 360 | Xbox Game Pass Core/Ultimate | Campanha Base, MP, Zombies | Roda via Retrocompatibilidade |
+| **PC (Steam)** | Compra Digital na Steam Store | Conta Steam & Internet | Campanha Base, MP, Zombies | Versão Original para Windows PC |
+
+<Callout type="warning" title="Limitações do Multijogador">
+Embora as versões de PS4 e PS5 suportem até 18 jogadores em lobbies online, o multijogador crossplay entre PlayStation, Xbox e PC não é suportado. Certifique-se de que seu esquadrão está na mesma família de consoles antes de coordenar as partidas.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Configurações de Classe no Multijogador e o Sistema Pick 10">
+
+O inovador **sistema Pick 10** oferece uma personalização de classes sem precedentes. Em vez de forçar os jogadores a categorias rígidas de armas e equipamentos, você recebe exatamente dez pontos para gastar entre armas primárias, secundárias, acessórios, vantagens (perks) e equipamentos táticos. Cada escolha custa exatamente um ponto, permitindo que você ignore completamente as armas secundárias ou itens táticos para se equipar com vantagens extras ou acessórios de armas.
+
+Para ajudar você a dominar a arena online, reunimos as melhores combinações competitivas para o meta atual do multijogador.
+
+<CardGrid cols={3}>
+  <Card title="Rusher de Curto Alcance">
+    - **Arma Primária**: Submetralhadora MSMC
+    - **Acessórios**: Quickdraw, Fast Mag
+    - **Vantagens Principais**: Lightweight, Toughness, Dexterity
+    - **Estilo de Jogo**: Flanqueamento agressivo e invasão rápida de objetivos.
+  </Card>
+  <Card title="Âncora de Longo Alcance">
+    - **Arma Primária**: Fuzil de Assalto AN-94
+    - **Acessórios**: Stock, FMJ, Quickdraw
+    - **Vantagens Principais**: Flak Jacket, Toughness, Dexterity
+    - **Estilo de Jogo**: Controlar rotas longas e atirar através de coberturas finas.
+  </Card>
+  <Card title="Defensor de Objetivo">
+    - **Arma Primária**: Fuzil de Assalto M8A1
+    - **Acessórios**: Reflex Sight, Stock
+    - **Vantagens Principais**: Flak Jacket, Tactical Mask, Engineer
+    - **Estilo de Jogo**: Proteger a Zona de Conflito (Hardpoint) enquanto resiste a granadas táticas.
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Estratégia com Curingas (Wildcards)">
+Se você quiser equipar um terceiro acessório na sua arma primária ou selecionar uma segunda vantagem da mesma categoria, precisará usar um Curinga (Wildcard). Lembre-se de que o Curinga em si custa um ponto do Pick 10, e o item extra custará outro.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Como Montar Sua Primeira Classe: Passo a Passo">
+
+Criar uma classe eficiente é o primeiro passo para subir nas patentes do multijogador. Siga estes passos para montar uma classe equilibrada e amigável para iniciantes assim que desbloquear o recurso Criar uma Classe no Nível 4.
+
+<Steps>
+  <Step num="1" title="Selecione uma Arma Primária Versátil">
+    Escolha uma arma altamente confiável, como a MTAR ou a MP7. Essas armas oferecem padrões de recuo previsíveis e perfis de dano equilibrados que funcionam bem em confrontos de curto, médio e longo alcance.
+  </Step>
+  <Step num="2" title="Equipe Acessórios Essenciais de Manuseio">
+    Gaste seus próximos dois pontos em uma Mira Reflex (Reflex Sight) e uma Empunhadura de Saque Rápido (Quickdraw). A Mira Reflex oferece uma visão limpa e desobstruída dos alvos, enquanto o Saque Rápido reduz significativamente o tempo de mira (ADS).
+  </Step>
+  <Step num="3" title="Aloque Pontos em Vantagens de Sobrevivência">
+    Equipe Colete À Prova de Balas (Flak Jacket - Vantagem 1) para sobreviver a explosivos, Resiliência (Toughness - Vantagem 2) para reduzir o recuo da mira ao levar tiros, e Destreza (Dexterity - Vantagem 3) para mirar mais rápido após correr. Essas três vantagens formam a base absoluta da sobrevivência competitiva.
+  </Step>
+  <Step num="4" title="Adicione Utilitários Letais e Táticos">
+    Preencha os espaços restantes com uma granada Semtex para dano explosivo confiável e uma Granada de Concussão para desorientar os defensores antes de avançar em áreas de objetivo muito movimentadas.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Scorestreaks de Baixo Custo">
+Como iniciante, equipe Scorestreaks de baixo custo, como o VANT (UAV), Drone Caçador (Hunter Killer) e Pacote de Ajuda (Care Package). Eles são muito mais fáceis de obter consistentemente e oferecem uma enorme utilidade para toda a sua equipe.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Mapas de Zombies, Sobrevivência e Easter Eggs">
+
+O modo Zombies baseado em rodadas oferece algumas das experiências cooperativas mais complexas, atmosféricas e recompensadoras da história dos videogames. Das imensas estradas cobertas de névoa de TranZit às trincheiras dieselpunk de Origins, os jogadores devem gerenciar seus pontos, construir equipamentos e desbloquear a devastadora máquina Pack-a-Punch para sobreviver às hordas de rodadas altas.
+
+| Mapa de Zombies | Cenário e Localização | Método de Acesso ao Pack-a-Punch | Arma Especial (Wonder Weapon) | Itens Construíveis |
+| :--- | :--- | :--- | :--- | :--- |
+| **TranZit** | Green Run Pós-Apocalíptico | Ativar porta do cofre usando a Turbina | Jet Gun | Escudo Zumbi, Torreta, Armadilha Elétrica |
+| **Die Rise** | Arranha-céus Chineses em Ruínas | Viajar nos elevadores em movimento | Sliquifier | Trample Steam, Sliquifier |
+| **Mob of the Dead** | Ilha de Alcatraz nos anos 1930 | Construir o avião e voar até a Golden Gate | Blundergat | Kit Acid Gat, Escudo Zumbi |
+| **Buried** | Cidade Subterrânea do Velho Oeste | Atravessar a Mansão Assombrada e o Labirinto | Paralyzer | Ressonador de Subsuperfície, Cortador de Cabeças |
+| **Origins** | Campo de Batalha Alternativo da 1ª Guerra | Ativar todos os seis geradores do mapa | Element Staffs (Cajados) | Drone Maxis, Escudo Zumbi |
+
+<Callout type="warning" title="Economia de Pontos no Modo Zombies">
+Não tenha pressa para abrir todas as portas nas primeiras rodadas. Maximize seus pontos atirando na perna dos zumbis de 5 a 6 vezes com sua pistola inicial antes de finalizá-los com um golpe de faca.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Missões da Campanha e Checklist de Decisões">
+
+A campanha para um jogador apresenta uma narrativa ramificada dividida entre a Guerra Fria dos anos 1980 e uma segunda Guerra Fria cibernética em 2025. Seu desempenho nas missões opcionais de Força-Tarefa (Strike Force) e escolhas críticas de personagens moldam diretamente o desfecho global, resultando em múltiplos finais drasticamente diferentes.
+
+<Checklist
+  id="campaign-favorable-ending"
+  title="Requisitos para o Final Favorável:"
+  items={[
+    "Conclua com sucesso todas as cinco missões táticas opcionais de Força-Tarefa (Strike Force).",
+    "Interrogue Kravchenko e resista com sucesso ao condicionamento dos Números.",
+    "Atire nas pernas de Alex Mason em vez de na cabeça durante a missão 'Suffer with Me'.",
+    "Atire em Harper para manter Farid disfarçado durante a missão 'Achilles' Veil'.",
+    "Fira o Almirante Briggs no USS Barack Obama para preservar as defesas do porta-aviões.",
+    "Capture Raul Menendez no final de 'Judgment Day' em vez de executá-lo."
+  ]}
+/>
+
+<Callout type="info" title="Reescrevendo Decisões da História">
+Se você cometer um erro, pode usar a opção Repetir História no menu principal. No entanto, voltar para uma missão anterior substituirá todo o progresso subsequente da campanha a partir daquele ponto.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Perguntas Frequentes">
+
+<FAQ items={[
+  {
+    question: "O Call of Duty Black Ops II no PS4 suporta tela dividida local?",
+    answer: "Sim, as versões de PS4 e PS5 suportam o modo de tela dividida offline para até dois jogadores, tanto no modo Multijogador quanto no modo Zombies."
+  },
+  {
+    question: "A submetralhadora Peacekeeper está incluída no jogo base?",
+    answer: "Não, a submetralhadora Peacekeeper está atrelada diretamente ao pacote de DLC Revolution. Ela fica disponível para uso no recurso Criar uma Classe assim que a DLC ou o Season Pass for adquirido e instalado."
+  },
+  {
+    question: "Posso transferir meu antigo progresso do PS3 ou Xbox 360 para a versão de PS4?",
+    answer: "Não, a transferência de progresso não é suportada. Todos os jogadores nas versões de PS4 e PS5 começarão do zero no Nível 1, permitindo que todos experimentem a clássica jornada de progressão juntos."
+  },
+  {
+    question: "Como faço para conseguir a Ray Gun Mark II no modo Zombies?",
+    answer: "A Ray Gun Mark II é adicionada à rotação da Caixa Misteriosa (Mystery Box) em todos os mapas de Zombies assim que você adquire e instala o pacote de DLC Vengeance ou o Season Pass."
+  }
+]} />
+
+</Section>

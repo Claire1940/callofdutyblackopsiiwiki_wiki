@@ -1,0 +1,176 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Call of Duty Black Ops II PC: Setup, Optimierung & Meta-Leitfaden",
+  description: "Optimiere dein Call of Duty Black Ops II PC-Setup. Entdecke Systemanforderungen, Pick-10-Klasseneditoren, Routen für Multiplayer-Karten und Überlebensstrategien für den Zombie-Modus.",
+  category: "Leitfaden",
+  image: "https://placehold.co/800x400/111827/ff7a1a?text=Black+Ops+II+PC+Guide",
+  date: "2026-07-12",
+  author: "call of duty black ops ii Wiki-Team"
+}
+
+<Callout type="info" title="Kurzanleitung">
+- **PC-Plattform**: Greife über Steam auf das Originalspiel mit dedizierter Serversuche zu.
+- **Pick-10-Meta**: Balanciere Waffen, Extras und Wildcards mit genau zehn Zuweisungspunkten aus.
+- **Zombie-Überleben**: Priorisiere Wandwaffen und Juggernog, bevor du teure Türen öffnest.
+- **Kampagnen-Entscheidungen**: Treffe kritische Entscheidungen in 11 Missionen, um das Ende zu bestimmen.
+</Callout>
+
+<Section icon={Shield} title="Call of Duty Black Ops II PC-Spezifikationen und Plattformvergleiche">
+
+Das Ausführen von **call of duty black ops ii pc** erfordert eine stabile Installation über Steam. Im Gegensatz zur PlayStation-Veröffentlichung im Jahr 2026 bietet die PC-Version anpassbare Grafikeinstellungen, Tastatur- und Mauspräzision sowie dedizierte Sichtfeld-Anpassungen (FOV). Unten findest du die Hardwareanforderungen und Plattformunterschiede, die du vor dem Beitritt zur Spielsuche berücksichtigen solltest.
+
+| Anforderung | Mindestanforderungen (PC) | Empfohlene Spezifikationen (PC) |
+| :--- | :--- | :--- |
+| **Betriebssystem** | Windows Vista SP2 / Windows 7 | Windows 10 / 11 |
+| **Prozessor (CPU)** | Intel Core 2 Duo E8200 2,66 GHz | Intel Core i5 oder gleichwertig |
+| **Arbeitsspeicher (RAM)** | 2 GB (32-Bit) / 4 GB (64-Bit) | 8 GB RAM |
+| **Grafikkarte (GPU)** | NVIDIA GeForce 8800GT 512 MB | NVIDIA GTX 660 oder höher |
+| **Speicherplatz** | 16 GB verfügbarer Speicherplatz | 16 GB SSD-Speicher |
+
+<Callout type="warning" title="Plattform-Hinweis">
+Die PC-Version läuft ausschließlich über Steam-Server. Crossplay-Multiplayer mit PlayStation- oder Xbox-Konsolen wird nicht unterstützt. Stelle sicher, dass deine Grafiktreiber aktualisiert sind, um Abstürze beim Starten zu vermeiden.
+</Callout>
+
+### Plattformvergleich
+
+Um zu verstehen, wie sich die PC-Umgebung im Vergleich zu modernen Konsolen und abwärtskompatiblen Systemen schlägt, sieh dir die folgende strukturelle Aufschlüsselung an:
+
+| Plattform | Spielsuche-Umgebung | DLC-Verfügbarkeit | Controller-Unterstützung |
+| :--- | :--- | :--- | :--- |
+| **Steam PC** | Native Steam-Server | Einzelne Packs / Season Pass | Native Tastatur & Maus / Gamepad |
+| **PS5 / PS4** | PSN-Server (Veröffentlicht am 9. Juli 2026) | Season-Pass-Bundle | Nur DualShock 4 / DualSense |
+| **Xbox Series X\|S** | Xbox 360-Emulationsumgebung | Downloads aus dem Xbox Store | Xbox Wireless Controller |
+
+</Section>
+
+<Section icon={Swords} title="Multiplayer-Waffen-Tier-List und Meta-Klasseneditoren">
+
+Im kompetitiven Multiplayer bestimmt deine Waffenwahl deine Kampfdistanz und Bewegungsgeschwindigkeit. Unten listen wir die besten Optionen basierend auf Schadensausstoß, Handhabung und Vielseitigkeit in öffentlichen Lobbys auf.
+
+<CardGrid cols={3}>
+  <Card title="S-Tier (Meta)">
+    - **AN-94**: Schneller anfänglicher Feuerstoß.
+    - **MSMC**: Hohe Mobilität im Nahkampf.
+    - **M8A1**: Präziser Vier-Schuss-Feuerstoß.
+    - **R870 MCS**: One-Shot-Pumpgun.
+  </Card>
+  <Card title="A-Tier (Kompetitiv)">
+    - **SCAR-H**: Hoher Schaden, starker Rückstoß.
+    - **PDW-57**: Großes 50-Schuss-Magazin.
+    - **Skorpion EVO**: Schnellste Feuerrate im Nahkampf.
+    - **LSAT**: Stabiles, unterdrückendes LMG-Feuer.
+  </Card>
+  <Card title="B-Tier (Spezialisiert)">
+    - **M27**: Laserartige Präzision, geringer Schaden.
+    - **MP7**: Ausgewogen, einfache Handhabung.
+    - **Tac-45**: Starke Sekundärwaffe für den Nahkampf.
+    - **B23R**: Schnelle Drei-Schuss-Feuerstoß-Pistole.
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Pick-10-Strategie">
+Jedes Objekt in deiner Klasse kostet 1 Punkt. Wenn du keine Sekundärwaffen oder Primärausrüstung verwendest, investiere diese Punkte in Wildcards wie **Extra 3 Gier**, um sowohl **Gewandtheit** als auch **Extrembedingungen** auszurüsten.
+</Callout>
+
+### Empfohlene Klasseneditoren
+
+Unten findest du zwei hochgradig optimierte Setups unter Verwendung des Pick-10-Systems für verschiedene Kampfstile:
+
+| Klassentyp | Primärwaffe | Aufsätze | Extras | Wildcards & Ausrüstung |
+| :--- | :--- | :--- | :--- | :--- |
+| **Aggressiver Rusher** | MSMC | Schnelles Ziehen, Schnelles Magazin | Leichtgewicht, Zähigkeit, Gewandtheit | Extra 3 Gier, Semtex |
+| **Taktischer Anker** | M8A1 | Reflexvisier, Schaft | Kugelsichere Weste, Zähigkeit, Taktikmaske | Extra 3 Gier, Trophäen-System |
+
+</Section>
+
+<Section icon={Target} title="Kampagnen-Walkthrough und entscheidende Wendepunkte">
+
+Die Einzelspieler-Kampagne bietet eine verzweigte Erzählung, die zwischen den 1980er Jahren und 2025 aufgeteilt ist. Deine Handlungen beeinflussen direkt die geopolitische Landschaft und das Überleben wichtiger Charaktere.
+
+<Steps>
+  <Step num="1" title="Kravchenko verhören (Alte Wunden)">
+    Widerstehe den Einblendungen zur Zahlen-Konditionierung auf dem Bildschirm, um Lev Kravchenko lange genug am Leben zu erhalten, um vor seiner Exekution von CIA-Maulwürfen zu erfahren.
+  </Step>
+  <Step num="2" title="Chloe Lynch beschützen (Karma)">
+    Verfolge DeFalco schnell, um Chloe Lynch zu retten. Wenn er entkommt, musst du die optionale Strike-Force-Mission **Zweite Chance** abschließen, um sie zu retten.
+  </Step>
+  <Step num="3" title="Die Scharfschützen-Entscheidung (Leide mit mir)">
+    Wenn du auf das vermummte Ziel zielst, schieße ihm zweimal in die Beine statt in den Kopf. Dies ermöglicht es Alex Mason, die Begegnung zu überleben.
+  </Step>
+  <Step num="4" title="Farids Entscheidung (Achilles-Schleier)">
+    Entscheide dich als Farid dafür, Harper zu erschießen. Dieses Opfer bewahrt Farids Tarnung, was erforderlich ist, um Chloe Lynch später auf der USS Barack Obama zu retten.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Der Weg zum guten Ende">
+Um das beste Ende zu erreichen, musst du Alex Mason und Chloe Lynch am Leben erhalten, alle fünf Strike-Force-Missionen abschließen, Admiral Briggs ins Bein schießen und Raul Menendez gefangen nehmen, anstatt ihn hinzurichten.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Zombies-Überlebenshandbuch und Kartenfortschritt">
+
+Der Zombie-Modus bietet rundenbasiertes Überleben auf verschiedenen komplexen Karten. Erfolg erfordert Punkteoptimierung, Kartenkenntnis und effiziente Wegfindung.
+
+| Karte | Szenario | Wunderwaffe | Pack-a-Punch-Freischaltmethode |
+| :--- | :--- | :--- | :--- |
+| **TranZit** | Postapokalyptisches Green Run | Schubdüsen-Gewehr (Jet Gun) | Powerbank-Tresor, lade die versteckte Tür mit der Turbine auf |
+| **Die Rise** | Ruinen chinesischer Wolkenkratzer | Sliquifier | Betritt die sich bewegenden Aufzüge, die die Maschine transportieren |
+| **Mob of the Dead** | Insel Alcatraz | Blundergat / Acid Gat | Sammle Flugzeugteile, fliege zur Golden Gate Bridge |
+| **Buried** | Unterirdische Westernstadt | Paralysator | Navigiere durch das Spukhaus und das Heckenlabyrinth |
+| **Origins** | Dieselpunk-Schlachtfeld des 1. Weltkriegs | Elementar-Stäbe | Aktiviere alle sechs Generatoren in den Schützengräben |
+
+<Callout type="info" title="Punkte-Management">
+Maximiere in den frühen Runden deine Punkte, indem du Zombies 5–6 Mal mit deiner Startpistole ins Bein schießt, bevor du sie mit einem Nahkampfangriff eliminierst. Kaufe eine zuverlässige Wandwaffe wie die MP5 oder AN-94, bevor du Punkte für die zufällige Mystery-Box ausgibst.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Wichtige Fortschritts-Checkliste">
+
+Verfolge deine Entwicklung und meistere alle Aspekte des Spiels mit dieser umfassenden Meilensteinliste.
+
+<Checklist
+  id="bo2-progression"
+  title="Spieler-Meilensteine:"
+  items={[
+    "Konfiguriere die PC-Grafikeinstellungen und passe das FOV auf 90 an",
+    "Erreiche Multiplayer-Stufe 4, um den Klasseneditor freizuschalten",
+    "Erstelle eine eigene Pick-10-Klasse mit drei Extras",
+    "Schließe die Kampagne mit dem guten Ende ab",
+    "Baue und verbessere einen Elementar-Stab in Origins Zombies",
+    "Schalte Pack-a-Punch in Mob of the Dead frei"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Sparkles} title="Häufig gestellte Fragen">
+
+<FAQ items={[
+  {
+    question: "Kann ich Call of Duty Black Ops II auf dem PC mit einem Controller spielen?",
+    answer: "Ja, die Steam-Version verfügt über native Controller-Unterstützung. Du kannst einen Xbox- oder PlayStation-Controller anschließen, und das Spiel passt die Tastenbelegungen automatisch an."
+  },
+  {
+    question: "Wie funktioniert das Pick-10-System im Multiplayer?",
+    answer: "Das Pick-10-System ermöglicht es dir, genau 10 Punkte auf Primärwaffen, Sekundärwaffen, Aufsätze, Extras, Wildcards und Ausrüstung zu verteilen. Punktserien zählen nicht zu diesen 10 Punkten."
+  },
+  {
+    question: "Warum ist Juggernog im Zombie-Modus so wichtig?",
+    answer: "Juggernog erhöht deine Gesundheit, sodass du vier Treffer von Zombies überleben kannst, anstatt nur zwei. Es sollte auf jeder Karte immer dein erster Extra-Kauf sein."
+  },
+  {
+    question: "Wie kann ich Entscheidungen in der Kampagne rückgängig machen?",
+    answer: "Du kannst die Funktion 'Story zurückspulen' im Kampagnenmenü verwenden, um frühere Missionen erneut zu spielen. Beachte jedoch, dass das Zurückspulen alle nachfolgenden Kampagnenfortschritte ab dieser Mission überschreibt."
+  }
+]} />
+
+</Section>

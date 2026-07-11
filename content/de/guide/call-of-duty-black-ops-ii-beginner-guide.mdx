@@ -1,0 +1,180 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, HelpCircle } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Call of Duty Black Ops II Einsteiger-Guide: Alle Modi meistern",
+  description: "Starten Sie durch mit dem Call of Duty Black Ops II Einsteiger-Guide. Meistern Sie Kampagnen-Entscheidungen, das Überleben im Zombie-Modus und die besten Klassensetups mit dem Klasseneditor 10 (Pick 10).",
+  category: "Guide",
+  image: "https://placehold.co/800x400/111827/ff7a1a?text=Beginner+Guide",
+  date: "2026-07-12",
+  author: "call of duty black ops ii Wiki-Team"
+}
+
+<Callout type="info" title="Schnellstart-Guide">
+- **Call of Duty Black Ops II Einsteiger-Guide**: Lernen Sie die grundlegenden Mechaniken von Kampagne, Mehrspieler und Zombie-Modus.
+- **Klasseneditor 10 (Pick 10)**: Verteilen Sie genau zehn Punkte auf Waffen, Aufsätze, Extras (Perks) und Ausrüstung, um Ihre Klasse zu erstellen.
+- **Zombie-Wirtschaft**: Priorisieren Sie die Punktegenerierung in den frühen Runden, bevor Sie Wandwaffen kaufen oder wichtige Türen öffnen.
+- **Kampagnen-Entscheidungen**: Schließen Sie Eingreiftrupp-Missionen (Strike Force) ab und treffen Sie wichtige narrative Entscheidungen, um das Ende der Geschichte zu beeinflussen.
+- **Konsolen-Release**: Spielen Sie den nativen digitalen Port auf PS4 und PS5, der am 9. Juli 2026 veröffentlicht wurde und einen Mehrspielermodus für bis zu 18 Spieler bietet.
+</Callout>
+
+<Section icon={Map} title="Erste Schritte in Call of Duty Black Ops II">
+
+Willkommen auf den taktischen, nahzeitlichen Schlachtfeldern von **Call of Duty: Black Ops II**. Egal, ob Sie die klassische Version auf dem PC via Steam spielen, die Abwärtskompatibilität auf der Xbox Series X|S nutzen oder in den nativen PlayStation 4- und PlayStation 5-Port eintauchen, der am **9. Juli 2026** veröffentlicht wurde – dieser Guide bietet Ihnen das grundlegende Wissen, das Sie für Ihren Erfolg benötigen. Das Spiel teilt sein Kernerlebnis in drei unterschiedliche Säulen auf: eine verzweigte Einzelspieler-Kampagne, einen hochkompetitiven Mehrspielermodus und einen kooperativen, rundenbasierten Zombie-Modus. 
+
+Um Ihnen die Entscheidung zu erleichtern, wo Sie Ihre Reise beginnen möchten, finden Sie im Folgenden die strukturellen Unterschiede zwischen diesen drei Hauptspielmodi.
+
+| Modus | Spielstil | Fortschrittssystem | Hauptfokus |
+| :--- | :--- | :--- | :--- |
+| **Kampagne** | Einzelspieler-Story | Missions-Herausforderungen & Infos | Narrative Entscheidungen, Eingreiftrupp |
+| **Mehrspieler** | Kompetitives PvP | Spieler-Stufen & Waffen-EP | Pick-10-Klassen, Punkteserien |
+| **Zombies** | Kooperatives Überleben | Runden-Überleben & Easter Eggs | Punktewirtschaft, Kartennavigation |
+
+<Callout type="tip" title="Plattform-Hinweis">
+Die PS4/PS5-Veröffentlichung im Jahr 2026 ist ein direkter digitaler Port des Originalspiels und kein Remaster. Sie unterstützt bis zu 18 Spieler online, bietet jedoch keinen plattformübergreifenden Mehrspielermodus (Crossplay). Für offizielle Store-Seiten und Community-Hubs besuchen Sie den [PlayStation Store](https://store.playstation.com/en-us/product/UP0002-PPSA34502_00-CODBO2GAME000001) oder beteiligen Sie sich an den aktiven Diskussionen im [Black Ops II Reddit](https://www.reddit.com/r/blackops2/).
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Schritt-für-Schritt-Fortschritt für Anfänger">
+
+Der Einstieg in einen legendären Shooter kann überwältigend sein. Folgen Sie diesen strukturierten Schritten, um Ihre Einstellungen zu konfigurieren, die Bewegungssysteme zu erlernen und Ihre ersten Matches erfolgreich zu absolvieren.
+
+<Steps>
+  <Step num="1" title="Steuerung & Audio konfigurieren">
+    Bevor Sie sich in den Kampf stürzen, sollten Sie Ihre Einstellungen anpassen. Beginnen Sie mit einer niedrigen bis mittleren Blickempfindlichkeit (horizontal und vertikal 4 oder 5) und erhöhen Sie diese schrittweise, wenn sich Ihre Zielverfolgung verbessert. Stellen Sie Ihre Helligkeit so ein, dass dunkle Ecken sichtbar bleiben, ohne dass helle Außenbereiche überbelichtet wirken. Verwenden Sie Kopfhörer, um feindliche Schritte und entfernte Schüsse präzise zu orten.
+  </Step>
+  <Step num="2" title="Die Kampagne auf 'Rekrut' spielen">
+    Nutzen Sie die Einzelspieler-Kampagne, um grundlegende Bewegungen, das Zielen über das Visier, das Nachladen, das Ducken und das Werfen von Ausrüstung zu üben. Der Schwierigkeitsgrad „Rekrut“ verzeiht Fehler ohne sofortige Bestrafung und gibt Ihnen Raum, die Waffenhandhabung und die Fahrzeugsteuerung zu meistern.
+  </Step>
+  <Step num="3" title="Eine einfache Pick-10-Klasse erstellen">
+    Sobald Sie im Mehrspielermodus Stufe 4 erreichen, schalten Sie „Klasse erstellen“ frei. Sie haben genau 10 Zuweisungspunkte zur Verfügung. Halten Sie Ihr erstes Loadout einfach: Wählen Sie eine zuverlässige Primärwaffe, ein oder zwei Aufsätze, drei Extras (Perks) und ein Primär-Ausrüstungsteil (Lethal). Vermeiden Sie komplexe Wildcards, bis Sie die Grundausrüstung verstanden haben.
+  </Step>
+  <Step num="4" title="Die Zombie-Punktewirtschaft verstehen">
+    Geben Sie im Zombie-Modus Ihre Punkte nicht sofort aus. Nutzen Sie die frühen Runden, um Punkte zu sammeln, indem Sie Zombies in die Beine schießen und sie mit einem Nahkampfangriff eliminieren. Kaufen Sie eine verlässliche Wandwaffe (wie die MP5 oder M14), bevor Sie Türen öffnen, und priorisieren Sie den Kauf des Extras „Juggernog“, sobald Sie es finden.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Kalibrierung der Einstellungen">
+Testen Sie neue Empfindlichkeitseinstellungen immer mindestens zwei volle Matches lang, bevor Sie weitere Anpassungen vornehmen. Wenn Sie Ihre Empfindlichkeit zu oft ändern, beeinträchtigt dies Ihr Muskelgedächtnis.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Mehrspieler-Grundlagen & Pick-10-Klassensetups">
+
+Der Mehrspielermodus nutzt das revolutionäre **Pick-10-System** (Klasseneditor 10), das starre Slot-Beschränkungen aufhebt. Sie können sich dafür entscheiden, keine Sekundärwaffe mitzuführen oder Ihre taktischen Granaten zu opfern, um zusätzliche Extras oder Waffenaufsätze auszurüsten. 
+
+Um Ihnen den Einstieg zu erleichtern, haben wir drei äußerst effektive, einsteigerfreundliche Klassensetups zusammengestellt.
+
+<CardGrid cols={3}>
+  <Card title="Einsteiger-Allrounder">
+    - **Primärwaffe**: MTAR (Reflexvisier, Schnelles Ziehen)
+    - **Extra 1**: Kugelsichere Weste
+    - **Extra 2**: Zähigkeit
+    - **Extra 3**: Gewandtheit
+    - **Stärken**: Ausgeglichener Rückstoß, schnelle Waffenhandhabung und hohe Resistenz gegen Explosionen.
+  </Card>
+  <Card title="Nahkampf-Rusher">
+    - **Primärwaffe**: MSMC (Schnelles Ziehen, Schnelles Magazin)
+    - **Extra 1**: Leichtgewicht
+    - **Extra 2**: Zähigkeit
+    - **Extra 3**: Extrembedingungen
+    - **Stärken**: Außergewöhnliche Mobilität, schnelle Erholung nach dem Sprinten und schnelles Nachladen in Nahkämpfen.
+  </Card>
+  <Card title="Objekt-Anker">
+    - **Primärwaffe**: M8A1 (Schaft, Vollmantelgeschoss)
+    - **Extra 1**: Kugelsichere Weste
+    - **Extra 2**: Zähigkeit
+    - **Extra 3**: Taktikmaske
+    - **Stärken**: Hohe Präzision, Kugeldurchdringung und Resistenz gegen taktische Granaten.
+  </Card>
+</CardGrid>
+
+Neben Ihrem Klassensetup ist auch die Wahl der richtigen Punkteserien (Scorestreaks) entscheidend. Einsteiger sollten teure High-Tier-Serien vermeiden und sich auf leicht zu erreichende Unterstützungswerkzeuge konzentrieren.
+
+| Punkteserie | Benötigte Punkte | Strategischer Wert | Empfohlener Spielstil |
+| :--- | :--- | :--- | :--- |
+| **Drohne (UAV)** | 350 Punkte | Zeigt feindliche Punkte auf der Minikarte | Unverzichtbar für alle Einsteiger-Setups |
+| **Hunter-Killer** | 525 Punkte | Startet eine automatische Sprengdrohne | Einfacher, garantierter Einzel-Kill |
+| **Vorräte (Care Package)** | 550 Punkte | Wirft eine zufällige, potenziell hochrangige Serie ab | Hohe Belohnung bei moderatem Risiko |
+| **Blitzschlag (Lightning Strike)** | 750 Punkte | Startet einen koordinierten Luftangriff auf drei Ziele | Hervorragend zum Säubern von Einsatzzielen |
+
+<Callout type="success" title="Tipp für Punkteserien">
+Denken Sie daran, dass das Einnehmen von Zielen, das Sammeln von Erkennungsmarken in „Abschuss bestätigt“ und das Unterstützen von Teammitgliedern Punkte für Ihre aktiven Serien einbringen. Spielen Sie zielorientiert, um Ihre Belohnungen schneller zu verdienen.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Überlebensstrategien für Zombies">
+
+Der Zombie-Modus erfordert Teamwork, Ressourcenmanagement und räumliche Wahrnehmung. Im Gegensatz zum Mehrspielermodus ist Ihr primäres Ziel das Überleben gegen endlose Wellen von immer schnelleren und widerstandsfähigeren Untoten. 
+
+Um Ihr Überleben zu sichern, folgen Sie dieser essenziellen Liste der Kartenreihenfolge.
+
+| Kartenname | Inhaltszugang | Hauptmerkmal | Wunderwaffe |
+| :--- | :--- | :--- | :--- |
+| **TranZit** | Basisspiel | Riesige Busroute, die 5 Bereiche verbindet | Schubdüsenkanone (Jet Gun) |
+| **Nuketown** | Season Pass | Kompakt, zufällige Extra-Abwürfe | Strahlengewehr Mark II |
+| **Die Rise** | Revolution DLC | Vertikale Wolkenkratzer, Aufzugsschächte | Sliquifier |
+| **Mob of the Dead** | Uprising DLC | Alcatraz-Szenario, Jenseits-Rätsel | Blundergat |
+| **Buried** | Vengeance DLC | Unterirdische Westernstadt, freundlicher Riese | Paralyzer |
+| **Origins** | Apocalypse DLC | Dieselpunk-Schützengräben, Riesenroboter | Elementar-Stäbe |
+
+<Callout type="warning" title="Zombie-Bewegung">
+Bleiben Sie niemals stehen und lassen Sie sich nicht in engen Korridoren in die Enge treiben. Üben Sie das „Trainieren“ von Zombies – laufen Sie in kreisförmigen Bahnen in offenen Bereichen (wie dem Stadtzentrum oder der Bühne), um sie zu gruppieren, bevor Sie das Feuer eröffnen.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Checkliste für Kampagnen-Meilensteine">
+
+Die Kampagne bietet eine verzweigte Erzählung, bei der Ihre Entscheidungen, Ihr Erfolg in optionalen Eingreiftrupp-Missionen und Ihre Liebe zum Detail das Schicksal der Charaktere im Jahr 2025 bestimmen. Nutzen Sie diese Checkliste, um Ihren Fortschritt auf dem Weg zum bestmöglichen Kampagnen-Ende zu verfolgen.
+
+<Checklist
+  id="campaign-milestones"
+  title="Voraussetzungen für das gute Ende:"
+  items={[
+    "Alte Wunden: Widerstehen Sie der Zahlen-Konditionierung, um die Geheimnisse der CIA zu schützen",
+    "Karma: Verfolgen und eliminieren Sie DeFalco schnell, um Chloe Lynch zu retten",
+    "Leide mit mir: Schießen Sie der verhüllten Zielperson in die Beine statt in den Kopf",
+    "Achilles-Schleier: Treffen Sie als Farid die schwierige Entscheidung, auf Harper zu schießen",
+    "Odysseus: Verwunden Sie Admiral Briggs im Bein, anstatt ihn hinzurichten",
+    "Tag der Abrechnung: Nehmen Sie Raul Menendez lebend gefangen, anstatt ihn hinzurichten",
+    "Eingreiftrupp: Schließen Sie alle optionalen taktischen Missionen ab, bevor sie ablaufen"
+  ]}
+/>
+
+<Callout type="info" title="Warnung zu Eingreiftrupp-Missionen">
+Eingreiftrupp-Missionen sind zeitkritische strategische Einsätze. Wenn Sie in den Hauptstory-Missionen zu weit voranschreiten, ohne sie abzuschließen, werden sie gesperrt, was dauerhaft zu einem weniger günstigen geopolitischen Ende führt.
+</Callout>
+
+</Section>
+
+<Section icon={HelpCircle} title="Häufig gestellte Fragen (FAQ)">
+
+<FAQ items={[
+  {
+    question: "Gilt dieser Call of Duty Black Ops II Einsteiger-Guide auch für den PS5-Release im Jahr 2026?",
+    answer: "Ja. Die am 9. Juli 2026 veröffentlichten Versionen für PS4 und PS5 sind direkte digitale Ports des Originalspiels. Alle Waffen, Karten, Kampagnen und Zombie-Mechaniken sind absolut identisch mit der ursprünglichen Version."
+  },
+  {
+    question: "Wie funktioniert das Pick-10-System im Mehrspielermodus?",
+    answer: "Jede Waffe, jeder Aufsatz, jedes Extra, jede Primärgranate, jede Taktikgranate und jede Wildcard kostet genau einen Punkt. Sie können diese zehn Punkte in jeder beliebigen Kombination verteilen. So können Sie beispielsweise auf Sekundärwaffen oder Granaten verzichten, um zusätzliche Extras auszurüsten."
+  },
+  {
+    question: "Was ist die beste Waffe für Anfänger im Mehrspielermodus?",
+    answer: "Das MTAR-Sturmgewehr wird für Einsteiger dringend empfohlen. Es bietet einen berechenbaren vertikalen Rückstoß, ein klares Visier und eine ausgewogene Leistung auf kurze bis mittlere Distanz."
+  },
+  {
+    question: "Wie schalte ich die Pack-a-Punch-Maschine im Zombie-Modus frei?",
+    answer: "Die Freischaltmethode hängt von der jeweiligen Karte ab. Auf 'TranZit' müssen Sie beispielsweise den Tresorraum der Stadtbank sprengen, die versteckte Tür im Kraftwerk mit einer Turbine mit Strom versorgen und die Maschinenteile im Tresorkeller zusammenbauen. Auf 'Origins' müssen Sie alle sechs Generatoren aktivieren."
+  }
+]} />
+
+</Section>

@@ -1,0 +1,188 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Multijugador de Call of Duty Black Ops II: Guía de Configuración 2026",
+  description: "Domina el multijugador de Call of Duty Black Ops II en PS5 y PS4. Aprende el sistema Pick 10, los mejores equipamientos de armas, estrategias de mapas y detalles del ranking 2026.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1a1a1a/ff6600?text=Multiplayer+Guide",
+  date: "2026-07-12",
+  author: "Equipo de la Wiki de Call of Duty Black Ops II",
+  keywords: "multijugador, call of duty, black ops 2, guía, 2026, ps5, ps4, pick 10"
+}
+
+<Callout type="info" title="Guía Rápida">
+- El **multijugador de Call of Duty Black Ops II** regresa en 2026 con el lanzamiento digital oficial para PS4 y PS5.
+- El **Sistema Pick 10** sigue siendo el núcleo de la personalización, permitiendo 10 puntos para armas, ventajas y equipo.
+- **Armas de Nivel S** como la MSMC y la AN-94 dominan el meta actual para un juego agresivo y táctico.
+- Las **Rachas de puntos (Scorestreaks)** recompensan el juego por objetivos y las bajas, proporcionando un apoyo poderoso como el VSAT Orbital y el Enjambre (Swarm).
+- **Mapas competitivos** como Raid y Standoff están optimizados para el rendimiento de 2026 con hasta 18 jugadores.
+</Callout>
+
+<Section icon={Shield} title="Lanzamiento Multijugador 2026 y Descripción General de Plataformas">
+
+El relanzamiento del **multijugador de Call of Duty Black Ops II** el 9 de julio de 2026 ha revitalizado una de las eras más queridas en la historia de los FPS. Esta versión es un port digital directo de la experiencia original, lo que garantiza que el equilibrio de las armas, el flujo de los mapas y el icónico sistema Pick 10 permanezcan intactos. Aunque no es un remake, el rendimiento en PS5 y PS4 se ha estabilizado para admitir resoluciones modernas y tasas de fotogramas constantes.
+
+Los jugadores deben tener en cuenta que, si bien el juego admite hasta 18 jugadores en una sola sala, actualmente no hay soporte para multijugador multiplataforma entre PlayStation, Xbox y PC. Cada plataforma mantiene su propio ecosistema y tablas de clasificación.
+
+| Característica | PlayStation 5 / PS4 | Xbox Series X|S / One | PC (Steam) |
+| :--- | :--- | :--- | :--- |
+| **Fecha de Lanzamiento** | 9 de julio de 2026 | Retrocompatible | Lanzamiento Original |
+| **Máx. Jugadores** | 18 Jugadores | 18 Jugadores | 18 Jugadores |
+| **Juego Cruzado** | No Soportado | No Soportado | No Soportado |
+| **Requisitos** | PlayStation Plus | Xbox Game Pass Core | Conexión a Internet |
+| **Rendimiento** | Soporte Nativo 1080p/4K | Escalado 720p/1080p | Depende del Hardware |
+
+<Callout type="info" title="Nota de Plataforma">
+El lanzamiento de PlayStation de 2026 es un paquete que incluye las versiones de PS4 y PS5. Si compraste el original en PS3, debes adquirir esta nueva versión digital para jugar en hardware moderno, ya que no existe una ruta de actualización de legado.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Dominando el Sistema de Creación de Clase Pick 10">
+
+La característica definitoria del **multijugador de Call of Duty Black Ops II** es el sistema Pick 10. A diferencia de los títulos anteriores con ranuras rígidas, Pick 10 te otorga diez puntos de asignación para gastar como prefieras. Puedes sacrificar tu arma secundaria por una ventaja extra, o prescindir de todas las granadas tácticas para equipar tu arma principal con tres accesorios usando un Comodín (Wildcard).
+
+Para construir una clase competitiva en 2026, debes equilibrar tu utilidad con tu potencia de fuego bruta. La mayoría de los equipamientos de "Nivel S" priorizan ventajas que aumentan la movilidad y la supervivencia, como Dureza y Destreza.
+
+<CardGrid cols={3}>
+  <Card title="El Agresivo (Rusher)">
+    - **Principal**: MSMC (Subfusil)
+    - **Accesorios**: Desenfundado rápido, Cargador rápido
+    - **Ventajas**: Peso ligero, Dureza, Destreza
+    - **Ideal para**: Combate cercano (CQC) y flanqueo
+  </Card>
+  <Card title="El Ancla de Carril">
+    - **Principal**: AN-94 (Fusil de asalto)
+    - **Accesorios**: Culata, Bala blindada, Réflex
+    - **Ventajas**: Chaleco antibalas, Dureza, Máscara táctica
+    - **Ideal para**: Defender objetivos
+  </Card>
+  <Card title="El Asesino Sigiloso">
+    - **Principal**: PDW-57 (Subfusil)
+    - **Accesorios**: Silenciador, Mira láser
+    - **Ventajas**: Fantasma, Sangre fría, Silencio mortal
+    - **Ideal para**: Movimiento fuera del radar
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Consejo de Optimización">
+Dureza se considera ampliamente la ventaja más importante del juego. Reduce el estremecimiento al recibir disparos, lo cual es esencial para ganar duelos directos contra oponentes precisos.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Lista de Niveles de Armas 2026 y Rankings del Meta">
+
+El meta de las armas en el **multijugador de Call of Duty Black Ops II** está notablemente equilibrado, pero algunos modelos destacan en el panorama competitivo. Los Fusiles de Asalto (AR) generalmente dominan a medias y largas distancias, mientras que los Subfusiles (SMG) son los reyes de los mapas más pequeños de tres carriles como Hijacked.
+
+| Nivel | Arma | Categoría | Fortaleza Clave | Mejor Accesorio |
+| :--- | :--- | :--- | :--- | :--- |
+| **S** | **MSMC** | SMG | Mayor daño en CQC | Desenfundado / Cargador rápido |
+| **S** | **AN-94** | AR | Velocidad de ráfaga inicial | Culata / Bala blindada |
+| **S** | **M8A1** | AR | Ráfaga de 4 disparos precisa | Réflex / Culata |
+| **A** | **SCAR-H** | AR | Alto daño vertical | Empuñadura / Cargador ampliado |
+| **A** | **Skorpion EVO** | SMG | Cadencia de fuego extrema | Mira láser / Cargador rápido |
+| **A** | **DSR 50** | Sniper | Consistencia de un disparo | CPU de balística |
+| **B** | **MP7** | SMG | Bajo retroceso / Manejo | Silenciador |
+| **B** | **FAL OSW** | AR | Potencia semiautomática | Selector de fuego |
+
+<Callout type="warning" title="Gestión del Retroceso">
+La Skorpion EVO tiene la cadencia de fuego más alta del juego, pero un retroceso vertical significativo. No uses Silenciador en esta arma, ya que la penalización de alcance la hace casi inutilizable fuera del combate a quemarropa.
+</Callout>
+
+### Armas Secundarias y Equipo
+Aunque las armas principales reciben la mayor atención, tu elección de secundaria puede salvarte la vida. La pistola **B23R** actúa como una mini-M8A1 con su ráfaga de tres disparos, lo que la convierte en el respaldo perfecto para los francotiradores. En cuanto al equipo, el **C4** sigue siendo una opción poderosa (y controvertida) para limpiar Puntos Calientes, mientras que el **Sistema Trophy** es obligatorio para los jugadores de objetivo para bloquear proyectiles letales.
+
+</Section>
+
+<Section icon={Map} title="Estrategias de Mapas Principales y Rotaciones">
+
+El diseño de mapas en el **multijugador de Call of Duty Black Ops II** sigue una filosofía estricta pero efectiva de tres carriles. Entender estos carriles es la diferencia entre quedar atrapado en la reaparición (spawn-trap) y controlar el flujo de la partida.
+
+| Nombre del Mapa | Entorno | Estilo de Combate | Posición de Poder Clave |
+| :--- | :--- | :--- | :--- |
+| **Raid** | Mansión de Hollywood | Equilibrado / Táctico | La Cocina / Ventanas del Dormitorio |
+| **Standoff** | Pueblo Fronterizo | Alcance Medio | El Deli (Planta Superior) |
+| **Hijacked** | Yate de Lujo | Combate Cercano | Sala de Motores Subterránea |
+| **Slums** | Ciudad de Panamá | CQC Agresivo | La Habitación Azul / Fuente |
+| **Nuketown 2025** | Casa Modelo | Caos | Ventanas del Segundo Piso |
+
+<Callout type="success" title="Control del Mapa">
+En mapas como Standoff, controlar el edificio "Deli" te da línea de visión sobre la calle central y el lado del tractor. Siempre intenta que un compañero de equipo actúe como ancla en esta posición durante Dominio o Punto Caliente.
+</Callout>
+
+### Rotaciones Competitivas
+En modos como Punto Caliente (Hardpoint), el objetivo se mueve cada 60 segundos. Los jugadores de alto nivel comienzan a rotar hacia la siguiente ubicación cuando el temporizador actual llega a los 15 segundos. Esta "prerrotación" permite a tu equipo establecer defensas y controlar las reapariciones antes de que el enemigo llegue a la nueva zona.
+
+</Section>
+
+<Section icon={Trophy} title="Progresión y Recompensas de Rachas de Puntos">
+
+El éxito en el **multijugador de Call of Duty Black Ops II** no se trata solo de bajas; se trata de ganar tus Rachas de puntos (Scorestreaks). A diferencia de las Rachas de bajas tradicionales, las Rachas de puntos acumulan puntos por bajas, asistencias y capturas de objetivos. Este sistema anima a los jugadores a jugar por el objetivo.
+
+<Steps>
+  <Step num="1" title="Selecciona tu Nivel de Racha">
+    Elige rachas que puedas ganar de manera realista. Los principiantes deben quedarse con UAV, Cazador (Hunter Killer) y Paquete de ayuda. Los jugadores avanzados pueden aspirar al VSAT y la Unidad de K9.
+  </Step>
+  <Step num="2" title="Integración con el Objetivo">
+    En Dominio, una baja mientras estás sobre una bandera otorga casi el doble de puntuación que una baja estándar. Usa esto para acelerar el progreso de tu racha.
+  </Step>
+  <Step num="3" title="El Punto Máximo: VSAT">
+    El VSAT Orbital es la racha más poderosa del juego porque no puede ser derribado y muestra el movimiento de los enemigos en tiempo real. Una vez que un VSAT está activo, es casi seguro que tu equipo ganará sus recompensas de nivel superior.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Consejo de Rachas">
+Si tienes dificultades para alcanzar rachas altas, equipa la ventaja Línea dura (Hardline). Reduce la puntuación requerida para todas las rachas en un 20%, haciendo que el salto de un UAV a un Ataque Relámpago sea mucho más fácil.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Lista de Verificación para Completistas 2026">
+
+Para los jugadores que buscan dominar todo lo que el relanzamiento de 2026 tiene para ofrecer, usa esta lista para seguir tu progreso en armas y rangos.
+
+<Checklist
+  id="bo2-multiplayer-goals"
+  title="Hitos del Multijugador:"
+  items={[
+    "Alcanzar el Nivel de Jugador 55 para desbloquear todo el equipo básico",
+    "Entrar en Prestigio 1 para obtener tu primera ficha de desbloqueo permanente",
+    "Completar todos los desafíos de camuflaje de una clase de arma para ganar el Camuflaje de Diamante",
+    "Ganar 50 partidas en Partida de Liga (League Play) para obtener una clasificación estacional",
+    "Llamar con éxito a un Enjambre (Swarm) o una Unidad de K9",
+    "Desbloquear el subfusil Peacekeeper (incluido en el DLC Revolution)"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Swords} title="Preguntas Frecuentes del Multijugador">
+
+<FAQ items={[
+  {
+    question: "¿Sigue activo el multijugador de Call of Duty Black Ops II en 2026?",
+    answer: "Sí, tras el lanzamiento del 9 de julio de 2026 en PS4 y PS5, el número de jugadores ha aumentado considerablemente. El emparejamiento para modos principales como TDM y Dominio es casi instantáneo."
+  },
+  {
+    question: "¿Cómo me enfrento a los francotiradores en mapas como Turbine?",
+    answer: "Usa la ventaja Sangre fría para ser invisible ante los buscadores de objetivos y miras térmicas. Además, usa granadas de humo y la ventaja 'Destreza' para moverte rápidamente entre coberturas."
+  },
+  {
+    question: "¿Incluye la versión de 2026 todos los mapas de los DLC?",
+    answer: "El juego base incluye los 14 mapas de lanzamiento y Nuketown 2025. Los mapas de Revolution, Uprising, Vengeance y Apocalypse requieren el Season Pass o la compra individual de los DLC."
+  },
+  {
+    question: "¿Cuál es la mejor manera de subir de nivel rápido?",
+    answer: "Juega modos con muchos objetivos como Punto Caliente y Baja Confirmada. Recoger chapas y defender la zona otorga significativamente más XP que las simples bajas en Duelo por Equipos."
+  }
+]} />
+
+</Section>

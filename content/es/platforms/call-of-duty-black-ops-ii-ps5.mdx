@@ -1,0 +1,168 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, BookOpen } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Call of Duty Black Ops II: Guía de Juego y Port de PS5",
+  description: "Explora el lanzamiento de Call of Duty Black Ops II para PS5 en 2026, los finales de la campaña, el meta del multijugador y las tácticas esenciales de supervivencia en Zombis.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/ff7a1a?text=Black+Ops+II+Guide",
+  date: "2026-07-12",
+  author: "Equipo de la Wiki de Call of Duty Black Ops II"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Call of Duty Black Ops II** ya está disponible oficialmente en **PS5 y PS4** a partir de julio de 2026.
+- Domina el **sistema Pick 10** en el Multijugador para dominar las partidas con armamentos personalizados.
+- Navega por mapas complejos de **Zombis** como Origins y Mob of the Dead utilizando estrategias optimizadas.
+- Los resultados de la campaña se determinan mediante **decisiones ramificadas** y el éxito en las misiones de Fuerza de Asalto (Strike Force).
+</Callout>
+
+<Section icon={Map} title="Port de PS5 y Descripción General de la Plataforma">
+
+El lanzamiento de 2026 de Call of Duty Black Ops II en PlayStation 5 lleva la experiencia clásica al hardware moderno. Esta versión es un port fiel que mantiene las mecánicas originales al tiempo que garantiza la compatibilidad con los sistemas de consolas actuales.
+
+**Puntos Destacados del Video:**
+- Revelación oficial de la experiencia original de BO2.
+- Descripción general de los modos de juego principales.
+- Una mirada a la atmósfera icónica del título.
+
+<YouTubeEmbed videoId="x3tedlWs1XY" title="Tráiler de Revelación Oficial de Call of Duty Black Ops II" />
+
+| Plataforma | Método de Compra | Requisitos en Línea |
+| :--- | :--- | :--- |
+| **PS5 / PS4** | Tienda Digital | Se requiere PS Plus |
+| **Xbox Series** | Retrocompatibilidad | Game Pass / Suscripción |
+| **PC (Steam)** | Tienda de Steam | Conexión a Internet |
+
+<Callout type="success" title="Nota de Rendimiento">
+La versión de PS5 admite hasta 18 jugadores en el multijugador en línea, lo que garantiza que se preserve la sensación competitiva original. No se admite el juego multiplataforma.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Meta del Multijugador y Armamentos">
+
+El éxito en el multijugador depende del sistema Pick 10. Tienes 10 puntos para gastar en armas, accesorios, ventajas (perks) y equipamiento. Equilibrar estas elecciones es clave para adaptarse a los diferentes tamaños de mapas y rangos de enfrentamiento.
+
+| Clase de Arma | Elección de Nivel Superior | Fuerza Clave |
+| :--- | :--- | :--- |
+| **Fusil de Asalto** | AN-94 | Excepcional daño de ráfaga inicial |
+| **Subfusil** | MSMC | Alta movilidad y potencia a corta distancia |
+| **Escopeta** | R870 MCS | Potencial confiable de un solo disparo |
+| **Francotirador** | DSR 50 | Alto daño para líneas de larga distancia |
+
+<CardGrid cols={3}>
+  <Card title="Configuración Rusher">
+    - Ventaja: Peso ligero (Lightweight)
+    - Ventaja: Temple (Toughness)
+    - Enfoque: Movimiento rápido
+  </Card>
+  <Card title="Configuración Anchor">
+    - Ventaja: Chaleco antibalas (Flak Jacket)
+    - Ventaja: Máscara táctica (Tactical Mask)
+    - Enfoque: Supervivencia en el objetivo
+  </Card>
+  <Card title="Configuración de Sigilo">
+    - Ventaja: Fantasma (Ghost)
+    - Ventaja: Silencio mortal (Dead Silence)
+    - Enfoque: Evitar el minimapa
+  </Card>
+</CardGrid>
+
+<Callout type="tip">
+Adapta siempre tus Rachas de Puntos (Scorestreaks) a tu nivel de habilidad. Las rachas confiables y de bajo costo como el UAV suelen ser más valiosas que las recompensas de alto nivel que rara vez consigues.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Guía de la Campaña y Decisiones">
+
+La campaña cuenta con 11 misiones principales y 5 misiones de Fuerza de Asalto (Strike Force). Tus decisiones afectan significativamente el destino de personajes clave como Alex Mason y Raul Menendez.
+
+<Steps>
+  <Step num="1" title="Decisiones Estratégicas">
+    Presta atención a las principales ramificaciones narrativas. Salvar a Karma o mantener vivo a Farid requiere acciones específicas en misiones como *Velo de Aquiles* (*Achilles' Veil*).
+  </Step>
+  <Step num="2" title="Misiones de Fuerza de Asalto">
+    Completa estas misiones opcionales a medida que aparezcan. El éxito aquí es esencial para lograr el final global más favorable.
+  </Step>
+  <Step num="3" title="Confrontación Final">
+    Tu decisión en *Día del Juicio* (*Judgment Day*) dicta si Menendez se convierte en un mártir o es contenido, lo que lleva a escenas de epílogo muy diferentes.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Información de la Campaña">
+Buscar los elementos de información (intel) en cada misión proporciona un contexto histórico profundo. No te apresures en los niveles; explora las habitaciones secundarias en busca de información oculta.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Tácticas de Supervivencia en Zombis">
+
+El modo Zombis requiere una gestión eficiente de los puntos y conocimiento del mapa. Ya sea que estés jugando en la ruta del autobús en *TranZit* o en el complejo campo de batalla de *Origins*, los principios básicos siguen siendo los mismos.
+
+| Objetivo | Estrategia |
+| :--- | :--- |
+| **Rondas Iniciales** | Maximiza los puntos usando armas de pared |
+| **Ventajas (Perks)** | Prioriza Jugger-Nog para mejorar la supervivencia |
+| **Movimiento** | Entrena a los zombis en áreas abiertas para evitar ser acorralado |
+| **Pack-a-Punch** | Desbloquéalo temprano para obtener un aumento de daño esencial |
+
+<Checklist
+  id="zombies-essentials"
+  title="Lista de Verificación de Supervivencia en Zombis:"
+  items={[
+    "Activa la energía temprano",
+    "Construye un escudo confiable",
+    "Localiza la máquina Pack-a-Punch",
+    "Coordina las ventajas con tus compañeros de equipo"
+  ]}
+/>
+
+<Callout type="info" title="Progresión del Mapa">
+Comienza con *Nuketown Zombies* para practicar el movimiento básico, luego avanza a *TranZit* para aprender la navegación del mapa y los sistemas de construcción.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Contenido de DLC y Pase de Temporada">
+
+El Pase de Temporada amplía tu arsenal y la variedad de mapas. Incluye los cuatro paquetes de DLC principales, otorgando acceso a mapas icónicos como *Mob of the Dead* y *Origins*.
+
+| Paquete de DLC | Contenido Destacado |
+| :--- | :--- |
+| **Revolution** | Subfusil Peacekeeper, Die Rise |
+| **Uprising** | Mob of the Dead, Studio |
+| **Vengeance** | Buried, Ray Gun Mark II |
+| **Apocalypse** | Origins, Dig |
+
+<Callout type="tip" title="Acceso Exclusivo">
+Los propietarios del DLC *Vengeance* desbloquean la Ray Gun Mark II para usarla en todos los mapas de Zombis de Black Ops II, lo que proporciona una ventaja de potencia de fuego significativa.
+</Callout>
+
+</Section>
+
+<Section icon={BookOpen} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Tiene Call of Duty Black Ops II juego multiplataforma en PS5?",
+    answer: "No, la versión de PS5 no admite el multijugador multiplataforma con jugadores de Xbox o PC."
+  },
+  {
+    question: "¿Cómo desbloqueo las mejores armas para el Multijugador?",
+    answer: "Los accesorios de las armas se desbloquean al ganar PX (puntos de experiencia) con esa arma específica. La constancia es la forma más rápida de progresar a través de los rangos."
+  },
+  {
+    question: "¿Cambian mis decisiones en la campaña el final?",
+    answer: "Sí, la campaña presenta múltiples finales basados en tus decisiones en misiones clave y en el éxito de las operaciones de Fuerza de Asalto (Strike Force)."
+  }
+]} />
+
+</Section>

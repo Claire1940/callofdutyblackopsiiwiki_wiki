@@ -1,0 +1,155 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Call of Duty Black Ops II Splitscreen 4 Players: Setup Guide",
+  description: "Learn how to set up call of duty black ops ii splitscreen 4 players on Xbox, PlayStation, and PC. Compare console limitations, modes, and performance.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/ff7a1a/fff?text=4+Player+Splitscreen+Guide",
+  date: "2026-07-12",
+  author: "call of duty black ops ii Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Core Requirement**: Setting up **call of duty black ops ii splitscreen 4 players** requires specific console configurations and compatible game modes.
+- **Console Limits**: Local 4-player splitscreen is fully supported on original Xbox 360/PS3 hardware and backward-compatible Xbox consoles.
+- **PlayStation 2026 Port**: The July 9, 2026 PS4/PS5 digital release supports up to 2 players locally, while online multiplayer supports up to 18 players.
+- **Best Modes**: Local 4-player action is best experienced in offline Multiplayer (custom games) and specific Zombies maps.
+- **Hardware Tip**: Lower your system resolution if you experience frame rate drops during intense 4-player local combat.
+</Callout>
+
+<Section icon={Shield} title="Platform Compatibility and Player Limits">
+
+When attempting to run **call of duty black ops ii splitscreen 4 players**, your success depends entirely on your chosen platform. While the original Xbox 360 and PlayStation 3 hardware natively supported 4-player local splitscreen for multiplayer, newer ports and backward-compatible versions have distinct structural limitations. 
+
+For instance, the PS4 and PS5 digital versions released on July 9, 2026, are optimized primarily for single-player or 2-player local play, while shifting focus to high-performance 18-player online lobbies. Understanding these boundaries saves time before configuring your controllers.
+
+| Platform | Max Local Players | Online Splitscreen | Backward Compatibility | Performance Target |
+|---|---|---|---|---|
+| **Xbox Series X|S** | 4 Players | Supported (2 Players) | Yes (Xbox 360 Emulation) | 60 FPS (Stable) |
+| **Xbox One** | 4 Players | Supported (2 Players) | Yes (Since April 2017) | 60 FPS (Minor drops) |
+| **Xbox 360** | 4 Players | Supported (2 Players) | Native | 30-60 FPS (Variable) |
+| **PlayStation 5** | 2 Players | Supported (2 Players) | No (2026 Native Port) | 60 FPS (Rebuilt) |
+| **PlayStation 4** | 2 Players | Supported (2 Players) | No (2026 Native Port) | 60 FPS (Rebuilt) |
+| **PC (Steam)** | 1 Player | Not Supported | Native | Unlimited (No Splitscreen) |
+
+<Callout type="warning" title="PlayStation Port Limitation">
+The 2026 PlayStation 4 and PlayStation 5 releases are native digital ports, not remakes. They do not support cross-platform multiplayer, and local splitscreen is strictly limited to 2 players. If you want a true 4-player local couch co-op experience, you must use an Xbox console.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="How to Set Up 4-Player Splitscreen on Xbox">
+
+Setting up local multiplayer for four players on Xbox Series X|S or Xbox One requires navigating the backward-compatible Xbox 360 guide menu. Follow these steps to sync your controllers and configure your local lobby correctly.
+
+<Steps>
+  <Step num="1" title="Sync All Controllers">
+    Turn on your Xbox console and sync all four controllers to separate player profiles. You can use guest accounts, but creating free local silver profiles ensures that individual controller button layouts and settings are saved.
+  </Step>
+  <Step num="2" title="Launch the Game">
+    Start Call of Duty: Black Ops II from your dashboard. If you are on Xbox Series X|S, the console will launch the game inside the backward-compatibility emulator.
+  </Step>
+  <Step num="3" title="Access the Local Lobby">
+    From the main menu, select **Multiplayer** and then choose **Local**. Do not select Xbox Live, as online matchmaking restricts splitscreen to a maximum of two players.
+  </Step>
+  <Step num="4" title="Join Players 2, 3, and 4">
+    On the Local lobby screen, have players 2, 3, and 4 press the **A button** on their respective controllers. The screen will prompt them to sign into their profiles. Once signed in, their names will appear in the lobby list.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Profile Sign-In Tip">
+If the emulator does not recognize the controllers, press the **View and Menu buttons** simultaneously on your Xbox One/Series controller to open the virtual Xbox 360 guide. From there, manually sign each controller into a separate profile.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Supported Game Modes and Rules">
+
+Once your four players are in the lobby, you must select game modes that support local multiplayer. Not all modes are designed to accommodate the limited screen real estate of a four-way split. Below is a breakdown of how the core modes handle four local participants.
+
+<CardGrid cols={3}>
+  <Card title="Custom Multiplayer">
+    - **Fully Supported**
+    - Access to all 14 launch maps
+    - Add bots to fill out teams
+    - Customize Pick 10 classes
+  </Card>
+  <Card title="Zombies Survival">
+    - **Supported (with limits)**
+    - Best on compact maps like Town
+    - High round performance may drop
+    - Easter eggs are highly difficult
+  </Card>
+  <Card title="Zombies TranZit">
+    - **Not Recommended**
+    - Massive map causes severe lag
+    - Fog routes reduce visibility
+    - Frames drop below 30 FPS
+  </Card>
+</CardGrid>
+
+To ensure a smooth gameplay experience without game-breaking lag, use the following recommended settings for your local matches:
+
+| Setting Category | Recommended Option | Why It Works |
+|---|---|---|
+| **Map Selection** | Nuketown 2025 / Hijacked / Slums | Small maps keep action fast and reduce asset loading. |
+| **Bot Count** | Max 4-6 Bots | Too many AI opponents will crash the console's CPU. |
+| **Scorestreaks** | Disabled or Low-Tier | High-tier streaks like the Swarm cause extreme frame drops. |
+| **Time Limit** | 10 Minutes | Prevents memory leaks and performance degradation. |
+
+<Callout type="success" title="Ideal Casual Setup">
+For the ultimate casual party setup, select **Hijacked**, set the mode to **Free-for-All**, enable 4 bots on Recruit difficulty, and restrict weapons to shotguns or pistols using the custom game rules.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Performance and Troubleshooting">
+
+Running four rendering pipelines simultaneously on a single console is resource-intensive. You will likely encounter performance issues, visual bugs, or controller sync errors. Use this checklist to optimize your setup.
+
+<Checklist
+  id="splitscreen-optimization"
+  title="Performance Optimization Checklist:"
+  items={[
+    "Lower your console system output to 1080p or 720p to reduce rendering strain.",
+    "Avoid using high-definition DLC texture packs if playing on original Xbox 360 hardware.",
+    "Use wired controller connections to eliminate input latency and wireless interference.",
+    "Play on a screen larger than 55 inches so that individual splitscreen quadrants remain readable.",
+    "Disable dynamic lighting and shadow settings in the in-game options menu if available."
+  ]}
+/>
+
+<Callout type="warning" title="Zombies Crash Warning">
+When playing 4-player splitscreen on Zombies maps like Origins or Mob of the Dead, building multiple elemental staffs or acid gats simultaneously can trigger an out-of-memory crash. Keep buildable items to a minimum.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="FAQ">
+
+<FAQ items={[
+  {
+    question: "Can you play call of duty black ops ii splitscreen 4 players online?",
+    answer: "No. Online multiplayer matchmaking on Xbox Live and PlayStation Network restricts splitscreen to a maximum of 2 players per console to maintain network stability and fair play."
+  },
+  {
+    question: "Does the PC version of Black Ops II support 4-player splitscreen?",
+    answer: "Natively, the Steam PC version does not support splitscreen of any kind. However, PC players often use third-party community tools and mods like Nucleus Coop to force multi-instance local play."
+  },
+  {
+    question: "Why does my game lag when playing 4-player splitscreen Zombies?",
+    answer: "Zombies mode requires significant CPU processing for pathfinding and AI spawning. When split into four screens, the console must calculate these systems four times over, leading to drops below 30 FPS."
+  },
+  {
+    question: "Do all players need an active Xbox Game Pass Core subscription to play locally?",
+    answer: "No. Local offline multiplayer does not require any paid subscription. Only Player 1 needs an active account to launch the game, while other players can sign in as local guests."
+  }
+]} />
+
+</Section>

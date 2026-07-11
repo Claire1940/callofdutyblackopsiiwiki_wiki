@@ -1,0 +1,155 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Call of Duty Black Ops II Splitscreen 4 Jogadores: Guia de Configuração",
+  description: "Saiba como configurar a tela dividida para 4 jogadores em Call of Duty: Black Ops II no Xbox, PlayStation e PC. Compare limitações de console, modos e desempenho.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/ff7a1a/fff?text=4+Player+Splitscreen+Guide",
+  date: "2026-07-12",
+  author: "Equipe da Wiki de call of duty black ops ii"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Requisito Principal**: Configurar a **tela dividida para 4 jogadores em call of duty black ops ii** requer configurações específicas de console e modos de jogo compatíveis.
+- **Limites do Console**: A tela dividida local para 4 jogadores é totalmente suportada no hardware original do Xbox 360/PS3 e em consoles Xbox retrocompatíveis.
+- **Port de PlayStation de 2026**: O lançamento digital para PS4/PS5 em 9 de julho de 2026 suporta até 2 jogadores localmente, enquanto o multijogador online suporta até 18 jogadores.
+- **Melhores Modos**: A ação local para 4 jogadores é melhor aproveitada no Multijogador offline (jogos personalizados) e em mapas específicos do modo Zombies.
+- **Dica de Hardware**: Diminua a resolução do seu sistema se notar quedas na taxa de quadros durante combates locais intensos de 4 jogadores.
+</Callout>
+
+<Section icon={Shield} title="Compatibilidade de Plataforma e Limites de Jogadores">
+
+Ao tentar rodar a **tela dividida para 4 jogadores em call of duty black ops ii**, seu sucesso depende inteiramente da plataforma escolhida. Embora o hardware original do Xbox 360 e do PlayStation 3 suportasse nativamente a tela dividida local para 4 jogadores no multijogador, ports mais novos e versões retrocompatíveis possuem limitações estruturais distintas. 
+
+Por exemplo, as versões digitais de PS4 e PS5 lançadas em 9 de julho de 2026 são otimizadas principalmente para um jogador ou jogo local de 2 jogadores, mudando o foco para lobbies online de 18 jogadores de alto desempenho. Compreender esses limites economiza tempo antes de configurar seus controles.
+
+| Plataforma | Máx. de Jogadores Locais | Tela Dividida Online | Retrocompatibilidade | Alvo de Desempenho |
+|---|---|---|---|---|
+| **Xbox Series X|S** | 4 Jogadores | Suportado (2 Jogadores) | Sim (Emulação do Xbox 360) | 60 FPS (Estável) |
+| **Xbox One** | 4 Jogadores | Suportado (2 Jogadores) | Sim (Desde abril de 2017) | 60 FPS (Pequenas quedas) |
+| **Xbox 360** | 4 Jogadores | Suportado (2 Jogadores) | Nativa | 30-60 FPS (Variável) |
+| **PlayStation 5** | 2 Jogadores | Suportado (2 Jogadores) | Não (Port Nativo de 2026) | 60 FPS (Reconstruído) |
+| **PlayStation 4** | 2 Jogadores | Suportado (2 Jogadores) | Não (Port Nativo de 2026) | 60 FPS (Reconstruído) |
+| **PC (Steam)** | 1 Jogador | Não Suportado | Nativa | Ilimitado (Sem Tela Dividida) |
+
+<Callout type="warning" title="Limitação do Port de PlayStation">
+Os lançamentos de PlayStation 4 e PlayStation 5 de 2026 são ports digitais nativos, não remakes. Eles não suportam multijogador multiplataforma, e a tela dividida local é estritamente limitada a 2 jogadores. Se você deseja uma verdadeira experiência de co-op de sofá local para 4 jogadores, deve usar um console Xbox.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Como Configurar a Tela Dividida para 4 Jogadores no Xbox">
+
+Configurar o multijogador local para quatro jogadores no Xbox Series X|S ou Xbox One requer navegar pelo menu guia do Xbox 360 retrocompatível. Siga estes passos para sincronizar seus controles e configurar seu lobby local corretamente.
+
+<Steps>
+  <Step num="1" title="Sincronizar Todos os Controles">
+    Ligue seu console Xbox e sincronize todos os quatro controles em perfis de jogador separados. Você pode usar contas de convidado, mas criar perfis prata locais gratuitos garante que os layouts de botões e configurações individuais de cada controle sejam salvos.
+  </Step>
+  <Step num="2" title="Iniciar o Jogo">
+    Inicie o Call of Duty: Black Ops II a partir do seu painel. Se estiver no Xbox Series X|S, the console iniciará o jogo dentro do emulador de retrocompatibilidade.
+  </Step>
+  <Step num="3" title="Acessar o Lobby Local">
+    No menu principal, selecione **Multiplayer** e depois escolha **Local**. Não selecione Xbox Live, pois o matchmaking online restringe a tela dividida a um máximo de dois jogadores.
+  </Step>
+  <Step num="4" title="Entrada dos Jogadores 2, 3 e 4">
+    Na tela do lobby Local, faça com que os jogadores 2, 3 e 4 pressionem o **botão A** em seus respectivos controles. A tela solicitará que eles entrem em seus perfis. Uma vez conectados, seus nomes aparecerão na lista do lobby.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Dica de Login de Perfil">
+Se o emulador não reconhecer os controles, pressione os **botões View e Menu** simultaneamente no seu controle de Xbox One/Series para abrir o guia virtual do Xbox 360. A partir daí, conecte manualmente cada controle a um perfil separado.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Modos de Jogo e Regras Suportados">
+
+Assim que os quatro jogadores estiverem no lobby, você deve selecionar modos de jogo que suportem o multijogador local. Nem todos os modos são projetados para acomodar o espaço limitado de tela de uma divisão em quatro partes. Abaixo está uma análise de como os modos principais lidam com quatro participantes locais.
+
+<CardGrid cols={3}>
+  <Card title="Multijogador Personalizado">
+    - **Totalmente Suportado**
+    - Acesso a todos os 14 mapas de lançamento
+    - Adicione bots para preencher as equipes
+    - Personalize classes Pick 10
+  </Card>
+  <Card title="Sobrevivência Zombies">
+    - **Suportado (com limites)**
+    - Melhor em mapas compactos como Town
+    - O desempenho em rodadas altas pode cair
+    - Easter eggs são extremamente difíceis
+  </Card>
+  <Card title="Zombies TranZit">
+    - **Não Recomendado**
+    - Mapa massivo causa lag severo
+    - Rotas com névoa reduzem a visibilidade
+    - Quadros caem para menos de 30 FPS
+  </Card>
+</CardGrid>
+
+Para garantir uma experiência de jogo suave e sem lags que prejudiquem a partida, use as seguintes configurações recomendadas para suas partidas locais:
+
+| Categoria de Configuração | Opção Recomendada | Por Que Funciona |
+|---|---|---|
+| **Seleção de Mapa** | Nuketown 2025 / Hijacked / Slums | Mapas pequenos mantêm a ação rápida e reduzem o carregamento de texturas/objetos. |
+| **Quantidade de Bots** | Máx. de 4 a 6 Bots | Muitos oponentes de IA podem sobrecarregar a CPU do console. |
+| **Scorestreaks** | Desativados ou de Nível Baixo | Scorestreaks de nível alto como o Swarm causam quedas extremas de quadros. |
+| **Limite de Tempo** | 10 Minutos | Evita vazamentos de memória e degradação de desempenho. |
+
+<Callout type="success" title="Configuração Casual Ideal">
+Para a melhor configuração de festa casual, selecione **Hijacked**, defina o modo como **Contra Todos**, ative 4 bots na dificuldade Recruta e restrinja as armas a escopetas ou pistolas usando as regras de jogo personalizadas.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Desempenho e Resolução de Problemas">
+
+Executar quatro renderizações simultâneas em um único console consome muitos recursos. Você provavelmente encontrará problemas de desempenho, bugs visuais ou erros de sincronização de controle. Use esta lista de verificação para otimizar sua configuração.
+
+<Checklist
+  id="splitscreen-optimization"
+  title="Lista de Verificação de Otimização de Desempenho:"
+  items={[
+    "Diminua a saída do sistema do seu console para 1080p ou 720p para reduzir o esforço de renderização.",
+    "Evite usar pacotes de textura DLC em alta definição se estiver jogando no hardware original do Xbox 360.",
+    "Use conexões de controle com fio para eliminar a latência de entrada e a interferência sem fio.",
+    "Jogue em uma tela maior que 55 polegadas para que os quadrantes individuais da tela dividida permaneçam legíveis.",
+    "Desative as configurações de iluminação dinâmica e sombras no menu de opções do jogo, se disponível."
+  ]}
+/>
+
+<Callout type="warning" title="Aviso de Travamento no Modo Zombies">
+Ao jogar em tela dividida para 4 jogadores em mapas de Zombies como Origins ou Mob of the Dead, construir vários cajados elementais ou acid gats simultaneamente pode desencadear um travamento por falta de memória. Mantenha os itens construíveis no mínimo.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="FAQ">
+
+<FAQ items={[
+  {
+    question: "É possível jogar a tela dividida para 4 jogadores de call of duty black ops ii online?",
+    answer: "Não. O matchmaking do multijogador online na Xbox Live e PlayStation Network restringe a tela dividida a um máximo de 2 jogadores por console para manter a estabilidade da rede e o jogo justo."
+  },
+  {
+    question: "A versão de PC do Black Ops II suporta tela dividida para 4 jogadores?",
+    answer: "Nativamente, a versão de PC do Steam não suporta tela dividida de nenhum tipo. No entanto, os jogadores de PC costumam usar ferramentas e mods de terceiros da comunidade, como o Nucleus Coop, para forçar o jogo local em múltiplas instâncias."
+  },
+  {
+    question: "Por que meu jogo apresenta lag ao jogar o modo Zombies em tela dividida para 4 jogadores?",
+    answer: "O modo Zombies requer um processamento de CPU significativo para a busca de caminhos e o surgimento de IA. Quando dividido em quatro telas, o console precisa calcular esses sistemas quatro vezes mais, levando a quedas para menos de 30 FPS."
+  },
+  {
+    question: "Todos os jogadores precisam de uma assinatura ativa do Xbox Game Pass Core para jogar localmente?",
+    answer: "Não. O multijogador local offline não requer nenhuma assinatura paga. Apenas o Jogador 1 precisa de uma conta ativa para iniciar o jogo, enquanto outros jogadores podem entrar como convidados locais."
+  }
+]} />
+
+</Section>

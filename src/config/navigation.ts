@@ -1,19 +1,39 @@
-import type { LucideIcon } from 'lucide-react'
+import {
+	BookOpen,
+	Crosshair,
+	Users,
+	Skull,
+	MonitorSmartphone,
+	Package,
+	Download,
+	Award,
+	type LucideIcon,
+} from 'lucide-react'
 
 export interface NavigationItem {
-	key: string // 用于翻译键，如 'codes' -> t('nav.codes')
-	path: string // URL 路径，如 '/codes'
+	key: string // 用于翻译键，如 'guide' -> t('nav.guide')
+	path: string // URL 路径，如 '/guide'
 	icon: LucideIcon // Lucide 图标组件
 	isContentType: boolean // 是否对应 content/ 目录
 }
 
-// 导航配置：Part 3 阶段清空（多语言与导航重构后，由后续 part 按新游戏内容类型重新填充）
-export const NAVIGATION_CONFIG: NavigationItem[] = []
+// Call of Duty Black Ops II 内容导航分类（与 content/<locale>/ 目录一一对应）
+// 顺序按玩家旅程排列：新手指南 → 战役 → 多人 → 僵尸 → 平台 → 版本 → DLC → 评价
+export const NAVIGATION_CONFIG: NavigationItem[] = [
+	{ key: 'guide', path: '/guide', icon: BookOpen, isContentType: true },
+	{ key: 'campaign', path: '/campaign', icon: Crosshair, isContentType: true },
+	{ key: 'multiplayer', path: '/multiplayer', icon: Users, isContentType: true },
+	{ key: 'zombies', path: '/zombies', icon: Skull, isContentType: true },
+	{ key: 'platforms', path: '/platforms', icon: MonitorSmartphone, isContentType: true },
+	{ key: 'editions', path: '/editions', icon: Package, isContentType: true },
+	{ key: 'dlc', path: '/dlc', icon: Download, isContentType: true },
+	{ key: 'legacy', path: '/legacy', icon: Award, isContentType: true },
+]
 
 // 从配置派生内容类型列表（用于路由和内容加载）
 export const CONTENT_TYPES = NAVIGATION_CONFIG.filter((item) => item.isContentType).map(
 	(item) => item.path.slice(1),
-) // 移除开头的 '/' -> []
+) // 移除开头的 '/' -> ['guide', 'campaign', ...]
 
 export type ContentType = (typeof CONTENT_TYPES)[number]
 

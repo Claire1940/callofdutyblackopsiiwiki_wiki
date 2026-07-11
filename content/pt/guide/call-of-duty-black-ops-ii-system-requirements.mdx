@@ -1,0 +1,168 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Monitor, Cpu, HardDrive } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Requisitos do Sistema de Call of Duty Black Ops II: Guia de Configuração para PC",
+  description: "Verifique os requisitos do sistema de Call of Duty Black Ops II para PC. Saiba as especificações mínimas, hardware recomendado para 2026 e dicas de desempenho para todos os modos.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/1a1a1a/ff7a1a?text=PC+System+Requirements",
+  date: "2026-07-12",
+  author: "Equipe Wiki de Call of Duty Black Ops II"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Requisitos do sistema de Call of Duty Black Ops II**: Requer pelo menos **2 GB de RAM** em sistemas de 32 bits ou **4 GB** em sistemas de 64 bits.
+- **Espaço de armazenamento**: Certifique-se de ter pelo menos **16 GB** de espaço disponível no disco rígido para o jogo base.
+- **Suporte a gráficos**: Uma placa de vídeo **compatível com DirectX 9.0c** com 512 MB de VRAM é o mínimo absoluto.
+- **Sistema operacional**: Compatível com Windows Vista SP2, Windows 7 e ambientes modernos do Windows 10/11 via Steam.
+- **Desempenho ideal**: Para o hardware de 2026, até mesmo GPUs dedicadas de entrada manterão facilmente **60+ FPS** em 1080p.
+</Callout>
+
+<Section icon={Monitor} title="Requisitos Oficiais do Sistema de Call of Duty Black Ops II">
+
+Compreender os **requisitos do sistema de Call of Duty Black Ops II** é essencial para qualquer jogador de PC que queira experimentar a campanha com ramificações ou o intenso modo Zombies. Embora o jogo tenha sido lançado originalmente há anos, ele continua sendo um clássico para os fãs de FPS em 2026. A barreira técnica de entrada é baixa em comparação com os títulos modernos, tornando-o acessível tanto para laptops básicos quanto para desktops mais antigos.
+
+Abaixo está o detalhamento completo do hardware que você precisa para rodar o jogo com sucesso no PC.
+
+| Componente | Especificação Mínima | Recomendado para 2026 |
+| :--- | :--- | :--- |
+| **SO** | Windows Vista SP2 / Windows 7 | Windows 10 / 11 (64-bit) |
+| **Processador** | Intel Core 2 Duo E8200 2.66 GHz | Intel Core i3 ou Ryzen 3 (qualquer geração) |
+| **Memória** | 2 GB (32-bit) / 4 GB (64-bit) | 8 GB RAM ou superior |
+| **Gráficos** | Nvidia GeForce 8800GT 512 MB | GTX 1050 / RX 560 ou melhor |
+| **DirectX** | Versão 9.0c | Versão 11 / 12 |
+| **Armazenamento** | 16 GB de espaço disponível | SSD com 20 GB de espaço livre |
+| **Áudio** | Compatível com DirectX | Áudio de Alta Definição |
+
+<Callout type="success" title="Nota de Compatibilidade para 2026">
+A maioria dos gráficos integrados modernos (como as séries Intel Iris Xe ou AMD Radeon 700M) supera significativamente o requisito original da 8800GT. Se você comprou um laptop nos últimos 3 anos, provavelmente conseguirá rodar este jogo nas configurações Altas.
+</Callout>
+
+</Section>
+
+<Section icon={Cpu} title="Análise de Hardware: Desempenho de CPU e GPU">
+
+Embora os **requisitos do sistema de Call of Duty Black Ops II** sejam modestos, o motor do jogo escala muito bem com um hardware melhor. Para jogadores que buscam vantagens competitivas no Multiplayer ou sobrevivência em rodadas altas no Zombies, manter uma taxa de quadros estável é mais importante do que apenas atender aos requisitos mínimos.
+
+<CardGrid cols={2}>
+  <Card title="Impacto do Processador (CPU)">
+    - **Velocidade de Núcleo Único**: O motor depende muito do desempenho de núcleo único para a busca de caminhos da IA no modo Zombies.
+    - **Multi-Threading**: Embora suporte CPUs multinúcleo, ele não utiliza mais de 4 núcleos de forma eficaz.
+    - **Recomendação**: Qualquer CPU quad-core moderna evitará travamentos durante sequências intensas de scorestreaks.
+  </Card>
+  <Card title="Impacto dos Gráficos (GPU)">
+    - **Uso de VRAM**: Texturas de alta resolução requerem pelo menos 1 GB de VRAM para jogabilidade em 1080p.
+    - **Anti-Aliasing**: GPUs modernas podem lidar facilmente com 4x ou 8x MSAA sem quedas significativas de desempenho.
+    - **Recomendação**: Busque uma GPU com pelo menos 2 GB de VRAM para garantir um desempenho suave em mapas de DLC como Origins.
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Dica Profissional para Jogadores de Laptop">
+Se você estiver jogando em um laptop com gráficos duplos (integrado + dedicado), certifique-se de que o jogo está configurado para usar a GPU de "Alto Desempenho" nas configurações de exibição do Windows ou no painel de controle da Nvidia/AMD para evitar FPS baixo.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Comparação de Plataformas e Guia de Compra">
+
+Antes de se comprometer com a versão de PC, vale a pena comparar como ela se sai em relação às versões recém-lançadas para PlayStation e ao ecossistema existente do Xbox. Os **requisitos do sistema de Call of Duty Black Ops II** aplicam-se apenas à versão Steam, mas outras plataformas oferecem benefícios diferentes em 2026.
+
+| Recurso | PC (Steam) | PS4 / PS5 (Lançamento de 2026) | Xbox Series X|S (Retrocompatibilidade) |
+| :--- | :--- | :--- | :--- |
+| **Resolução** | Até 4K (Nativa) | 1080p / 4K Upscaled | 720p (Original) |
+| **Taxa de Quadros** | Ilimitada | 60 FPS Travados | 60 FPS Travados |
+| **Multiplayer** | Ativo (Servidores Dedicados) | Ativo (Nova Base de Jogadores) | Ativo (Servidores Globais) |
+| **Suporte de Entrada** | Mouse/Teclado & Controle | Apenas Controle | Apenas Controle |
+| **Cross-Play** | Não | Não | Não |
+| **Link de Compra** | [Loja Steam](https://store.steampowered.com/app/202970/Call_of_Duty_Black_Ops_II/) | [Loja PlayStation](https://store.playstation.com/en-us/product/UP0002-PPSA34502_00-CODBO2GAME000001) | [Loja Xbox](https://www.xbox.com/en-US/games/store/call-of-duty-black-ops-ii/C1QJM5XT9SXV) |
+
+<Callout type="warning" title="Aviso sobre Anti-Cheat">
+Ao jogar no PC, esteja ciente de que os servidores oficiais podem apresentar vulnerabilidades de segurança. É altamente recomendável utilizar clientes criados pela comunidade ou jogar em partidas privadas com amigos para garantir uma experiência segura.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Otimização Passo a Passo para Alto FPS">
+
+Se a sua máquina mal atende aos **requisitos do sistema de Call of Duty Black Ops II**, siga estes passos para maximizar sua taxa de quadros e reduzir o atraso de entrada para uma experiência competitiva mais fluida.
+
+<Steps>
+  <Step num="1" title="Ajustar as Configurações de Vídeo do Jogo">
+    Vá em Opções > Vídeo. Defina a 'Qualidade de Textura' para Média e as 'Sombras' para Baixo. Desative o 'Campo de Visão' (Depth of Field) e a 'Oclusão Ambiental', pois essas são as configurações que mais consomem recursos.
+  </Step>
+  <Step num="2" title="Gerenciar Limites de Taxa de Quadros">
+    Defina o 'Máximo de Quadros por Segundo' para corresponder à taxa de atualização do seu monitor (ex: 60, 144 ou 240). Evite usar 'Ilimitado' se o seu processador for fraco, pois isso pode causar superaquecimento.
+  </Step>
+  <Step num="3" title="Atualizar Drivers de Gráficos">
+    Embora o jogo seja antigo, os drivers modernos da Nvidia e AMD incluem otimizações legadas que podem corrigir texturas piscando ou travamentos no Windows 11.
+  </Step>
+  <Step num="4" title="Configurar Opções de Inicialização da Steam">
+    Clique com o botão direito no jogo na Steam > Propriedades. Em 'Opções de Inicialização', você pode adicionar comandos específicos para forçar o jogo a rodar em alta prioridade ou no modo janela sem bordas.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Tabela de Impacto no Desempenho">
+| Configuração | Impacto no Desempenho | Diferença Visual |
+| :--- | :--- | :--- |
+| **Sombras** | Alto | Moderado |
+| **Anti-Aliasing** | Alto | Alto (Bordas Suaves) |
+| **Qualidade de Textura** | Baixo (Dependente de VRAM) | Muito Alto |
+| **Oclusão Ambiental** | Moderado | Baixo (Detalhes de Iluminação) |
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Primeiros Passos: Lista de Verificação Essencial do Jogador">
+
+Depois de verificar que o seu PC atende aos **requisitos do sistema de Call of Duty Black Ops II**, você está pronto para mergulhar nos três modos de jogo principais. Use esta lista de verificação para garantir que você não perdeu nenhum conteúdo essencial ou etapa de configuração.
+
+<Checklist
+  id="bo2-startup-checklist"
+  title="Marcos para Novos Jogadores:"
+  items={[
+    "Verificar a integridade dos arquivos do jogo na Steam para garantir que não haja arquivos corrompidos",
+    "Completar a primeira missão da Campanha 'Vitória Pírrica' para aprender os controles",
+    "Criar uma classe no sistema 'Pick 10' no Multiplayer (Desbloqueia no Nível 4)",
+    "Ligar a energia no mapa Zombies 'TranZit'",
+    "Verificar a aba de DLCs para baixar gratuitamente o mapa Nuketown 2025"
+  ]}
+/>
+
+<Callout type="success" title="Disponibilidade de DLCs">
+Se você possui o Passe de Temporada (Season Pass), certifique-se de que os quatro pacotes de mapas (Revolution, Uprising, Vengeance, Apocalypse) estão marcados na sua Biblioteca Steam em 'Gerenciar DLC'. Eles adicionam 16 mapas Multiplayer e 4 experiências massivas de Zombies.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Perguntas Frequentes">
+
+<FAQ items={[
+  {
+    question: "Consigo rodar o Black Ops II em um Mac moderno?",
+    answer: "Não existe uma versão nativa para Mac de Black Ops II. Você precisará usar uma camada de compatibilidade do Windows, como Parallels, Crossover ou Boot Camp (em Macs com processador Intel) para rodar o jogo."
+  },
+  {
+    question: "O jogo suporta resolução 4K no PC?",
+    answer: "Sim, a versão de PC suporta resolução 4K nativa e resoluções ultra-widescreen. Pode ser necessário selecionar manualmente a resolução no menu de configurações de vídeo."
+  },
+  {
+    question: "De quanto espaço de armazenamento eu preciso para o jogo completo com todas as DLCs?",
+    answer: "O jogo base ocupa cerca de 16 GB. Se você instalar todos os pacotes de DLC e mapas do modo Zombies, o tamanho total será de aproximadamente 22 a 25 GB."
+  },
+  {
+    question: "É necessária uma conexão com a internet para jogar?",
+    answer: "Você precisa de uma conexão com a internet para ativar o jogo na Steam. Depois disso, você pode usar o Modo Offline da Steam para jogar a Campanha e o modo Zombies local, mas o Multiplayer requer uma conexão persistente."
+  }
+]} />
+
+<Callout type="info" title="Veredito Final">
+Os **requisitos do sistema de Call of Duty Black Ops II** são incrivelmente generosos para os padrões de 2026. Quer você esteja revisitando a campanha da era de 2025 ou lutando pela sobrevivência em Origins, este jogo continua sendo um dos títulos mais otimizados e divertidos de toda a história da franquia.
+</Callout>
+
+</Section>

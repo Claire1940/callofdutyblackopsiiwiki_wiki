@@ -1,0 +1,168 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Monitor, Cpu, HardDrive } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Call of Duty Black Ops II System Requirements: PC Setup Guide",
+  description: "Check the Call of Duty Black Ops II system requirements for PC. Learn minimum specs, recommended hardware for 2026, and performance tips for all modes.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1a1a1a/ff7a1a?text=PC+System+Requirements",
+  date: "2026-07-12",
+  author: "call of duty black ops ii Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Call of Duty Black Ops II system requirements**: Requires at least **2 GB of RAM** on 32-bit systems or **4 GB** on 64-bit systems.
+- **Storage space**: Ensure you have at least **16 GB** of available hard drive space for the base game.
+- **Graphics support**: A **DirectX 9.0c-compatible** video card with 512 MB of VRAM is the bare minimum.
+- **Operating system**: Compatible with Windows Vista SP2, Windows 7, and modern Windows 10/11 environments via Steam.
+- **Optimal performance**: For 2026 hardware, even entry-level dedicated GPUs will easily maintain **60+ FPS** at 1080p.
+</Callout>
+
+<Section icon={Monitor} title="Official Call of Duty Black Ops II System Requirements">
+
+Understanding the **Call of Duty Black Ops II system requirements** is essential for any PC player looking to experience the branching campaign or the intense Zombies mode. Although the game originally launched years ago, it remains a staple for FPS fans in 2026. The technical barrier to entry is low compared to modern titles, making it accessible for budget laptops and older desktops alike.
+
+Below is the detailed breakdown of the hardware you need to launch the game successfully on PC.
+
+| Component | Minimum Specification | Recommended for 2026 |
+| :--- | :--- | :--- |
+| **OS** | Windows Vista SP2 / Windows 7 | Windows 10 / 11 (64-bit) |
+| **Processor** | Intel Core 2 Duo E8200 2.66 GHz | Intel Core i3 or Ryzen 3 (any gen) |
+| **Memory** | 2 GB (32-bit) / 4 GB (64-bit) | 8 GB RAM or higher |
+| **Graphics** | Nvidia GeForce 8800GT 512 MB | GTX 1050 / RX 560 or better |
+| **DirectX** | Version 9.0c | Version 11 / 12 |
+| **Storage** | 16 GB available space | SSD with 20 GB free space |
+| **Sound** | DirectX Compatible | High Definition Audio |
+
+<Callout type="success" title="2026 Compatibility Note">
+Most modern integrated graphics (such as Intel Iris Xe or AMD Radeon 700M series) significantly outperform the original 8800GT requirement. If you bought a laptop in the last 3 years, you can likely run this game on High settings.
+</Callout>
+
+</Section>
+
+<Section icon={Cpu} title="Hardware Deep Dive: CPU and GPU Performance">
+
+While the **Call of Duty Black Ops II system requirements** are modest, the game's engine scales well with better hardware. For players aiming for competitive advantages in Multiplayer or high-round survival in Zombies, maintaining a stable frame rate is more important than just meeting the minimums.
+
+<CardGrid cols={2}>
+  <Card title="Processor (CPU) Impact">
+    - **Single-Core Speed**: The engine relies heavily on single-core performance for AI pathfinding in Zombies.
+    - **Multi-Threading**: While it supports multi-core CPUs, it does not utilize more than 4 cores effectively.
+    - **Recommendation**: Any modern quad-core CPU will prevent stuttering during intense scorestreak sequences.
+  </Card>
+  <Card title="Graphics (GPU) Impact">
+    - **VRAM Usage**: High-resolution textures require at least 1 GB of VRAM for 1080p gameplay.
+    - **Anti-Aliasing**: Modern GPUs can easily handle 4x or 8x MSAA without significant performance drops.
+    - **Recommendation**: Aim for a GPU with at least 2 GB of VRAM to ensure smooth performance on DLC maps like Origins.
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Pro Tip for Laptop Players">
+If you are playing on a laptop with dual graphics (integrated + dedicated), ensure the game is set to use the "High Performance" GPU in your Windows Display settings or Nvidia/AMD control panel to avoid low FPS.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Platform Comparison and Buying Guide">
+
+Before committing to the PC version, it is worth comparing how it stacks up against the newly released PlayStation versions and the existing Xbox ecosystem. The **Call of Duty Black Ops II system requirements** only apply to the Steam version, but other platforms offer different benefits in 2026.
+
+| Feature | PC (Steam) | PS4 / PS5 (2026 Release) | Xbox Series X|S (Back-Compat) |
+| :--- | :--- | :--- | :--- |
+| **Resolution** | Up to 4K (Native) | 1080p / 4K Upscaled | 720p (Original) |
+| **Frame Rate** | Uncapped | Locked 60 FPS | Locked 60 FPS |
+| **Multiplayer** | Active (Dedicated Servers) | Active (New Player Base) | Active (Global Servers) |
+| **Input Support** | Mouse/Keyboard & Controller | Controller Only | Controller Only |
+| **Cross-Play** | No | No | No |
+| **Purchase Link** | [Steam Store](https://store.steampowered.com/app/202970/Call_of_Duty_Black_Ops_II/) | [PlayStation Store](https://store.playstation.com/en-us/product/UP0002-PPSA34502_00-CODBO2GAME000001) | [Xbox Store](https://www.xbox.com/en-US/games/store/call-of-duty-black-ops-ii/C1QJM5XT9SXV) |
+
+<Callout type="warning" title="Anti-Cheat Warning">
+When playing on PC, be aware that the official servers may have security vulnerabilities. It is highly recommended to use community-made clients or play in private matches with friends to ensure a secure experience.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Step-by-Step Optimization for High FPS">
+
+If your machine barely meets the **Call of Duty Black Ops II system requirements**, follow these steps to maximize your frame rate and reduce input lag for a smoother competitive experience.
+
+<Steps>
+  <Step num="1" title="Adjust In-Game Video Settings">
+    Go to Options > Video. Set 'Texture Quality' to Medium and 'Shadows' to Low. Disable 'Depth of Field' and 'Ambient Occlusion' as these are the most resource-heavy settings.
+  </Step>
+  <Step num="2" title="Manage Frame Rate Limits">
+    Set 'Max Frames Per Second' to match your monitor's refresh rate (e.g., 60, 144, or 240). Avoid using 'Unlimited' if your CPU is weak, as it can cause thermal throttling.
+  </Step>
+  <Step num="3" title="Update Graphics Drivers">
+    Even though the game is older, modern drivers from Nvidia and AMD include legacy optimizations that can fix flickering textures or crashes on Windows 11.
+  </Step>
+  <Step num="4" title="Configure Steam Launch Options">
+    Right-click the game in Steam > Properties. Under 'Launch Options', you can add specific commands to force the game to run in high priority or windowed borderless mode.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Performance Impact Table">
+| Setting | Performance Impact | Visual Difference |
+| :--- | :--- | :--- |
+| **Shadows** | High | Moderate |
+| **Anti-Aliasing** | High | High (Smooth Edges) |
+| **Texture Quality** | Low (VRAM Dependent) | Very High |
+| **Ambient Occlusion** | Moderate | Low (Lighting Detail) |
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Getting Started: Essential Player Checklist">
+
+Once you have verified that your PC meets the **Call of Duty Black Ops II system requirements**, you are ready to dive into the three core game modes. Use this checklist to ensure you haven't missed any critical content or setup steps.
+
+<Checklist
+  id="bo2-startup-checklist"
+  title="New Player Milestones:"
+  items={[
+    "Verify game files through Steam to ensure no corrupted assets",
+    "Complete the first Campaign mission 'Pyrrhic Victory' to learn controls",
+    "Build a 'Pick 10' class in Multiplayer (Unlocks at Level 4)",
+    "Turn on the power in the 'TranZit' Zombies map",
+    "Check the DLC tab for the free Nuketown 2025 map download"
+  ]}
+/>
+
+<Callout type="success" title="DLC Availability">
+If you own the Season Pass, ensure all four map packs (Revolution, Uprising, Vengeance, Apocalypse) are checked in your Steam Library under 'Manage DLC'. These add 16 Multiplayer maps and 4 massive Zombies experiences.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "Can I run Black Ops II on a modern Mac?",
+    answer: "There is no native Mac version for Black Ops II. You must use a Windows compatibility layer like Parallels, Crossover, or Boot Camp (on Intel Macs) to run the game."
+  },
+  {
+    question: "Does the game support 4K resolution on PC?",
+    answer: "Yes, the PC version supports native 4K and ultra-widescreen resolutions. You may need to manually select your resolution in the video settings menu."
+  },
+  {
+    question: "How much storage do I need for the full game and all DLC?",
+    answer: "The base game is about 16 GB. If you install all DLC packs and Zombies maps, the total size is approximately 22-25 GB."
+  },
+  {
+    question: "Is an internet connection required to play?",
+    answer: "You need an internet connection to activate the game on Steam. After that, you can use Steam's Offline Mode to play the Campaign and local Zombies, but Multiplayer requires a persistent connection."
+  }
+]} />
+
+<Callout type="info" title="Final Verdict">
+The **Call of Duty Black Ops II system requirements** are incredibly lenient by 2026 standards. Whether you are revisiting the 2025-era campaign or fighting for survival in Origins, this game remains one of the most optimized and enjoyable entries in the franchise history.
+</Callout>
+
+</Section>

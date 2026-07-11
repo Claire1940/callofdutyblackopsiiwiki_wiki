@@ -10,7 +10,16 @@
       "twitterDescription": "Call of Duty Black Ops II wiki: PS5/PS4 port, Zombies maps, Easter eggs, weapons, multiplayer classes, DLC and guides."
     }
   },
-  "nav": {},
+  "nav": {
+    "guide": "Guide",
+    "campaign": "Campaign",
+    "multiplayer": "Multiplayer",
+    "zombies": "Zombies",
+    "platforms": "Platforms",
+    "editions": "Editions",
+    "dlc": "DLC",
+    "legacy": "Legacy"
+  },
   "common": {
     "home": "Home",
     "more": "More",
@@ -1478,125 +1487,165 @@
     "disclaimer": "Unofficial fan-made resource website."
   },
   "pages": {
-    "guides": {
+    "guide": {
       "title": "Call of Duty Black Ops II Guides",
-      "description": "Complete gameplay guides from beginner basics to advanced multiplayer, Zombies, and campaign strategies.",
-      "metaTitle": "Call of Duty Black Ops II Guides - Beginner to Advanced Strategies",
-      "metaDescription": "Complete Call of Duty Black Ops II guides covering beginner tips, Pick 10 classes, Zombies survival, campaign endings, and expert multiplayer tactics.",
+      "description": "Beginner-friendly Call of Duty Black Ops II guides covering controls, system requirements, install size, campaign length, and how long to beat the full game.",
+      "metaTitle": "Call of Duty Black Ops II Guides - Controls, Specs & Beginner Tips",
+      "metaDescription": "Start strong with Call of Duty Black Ops II guides on controls, PC system requirements, install size, campaign length, and how long to beat every mode.",
       "categoryLabel": "GAME GUIDES",
       "whatIs": "What are Guides?",
-      "whatIsDescription": "Comprehensive guides covering Campaign missions, multiplayer modes, Zombies maps, weapons, and DLC. Learn everything from first steps to advanced techniques.",
-      "why": "Why read guides?",
+      "whatIsDescription": "Foundational Call of Duty Black Ops II guides that cover controls, platform system requirements, install size, total playtime, and everything a new player needs before the first mission.",
+      "why": "Why start with guides?",
       "whySteps": {
-        "step1Title": "Learn Core Mechanics",
-        "step1Description": "Understand Pick 10 classes, Scorestreaks, and Pack-a-Punch to avoid common beginner mistakes",
-        "step2Title": "Fast Progression",
-        "step2Description": "Follow proven paths to win multiplayer matches and survive high Zombies rounds",
-        "step3Title": "Master Strategies",
-        "step3Description": "Develop advanced tactics for campaign endings, Easter eggs, and competitive play"
+        "step1Title": "Set Up Correctly",
+        "step1Description": "Confirm system requirements, install size, and controller or keyboard bindings before you deploy",
+        "step2Title": "Plan Your Time",
+        "step2Description": "Know the campaign length and how long to beat campaign, multiplayer, and Zombies so you can plan every session",
+        "step3Title": "Learn the Controls",
+        "step3Description": "Master aiming, movement, and Pick 10 menu navigation from your very first match"
       },
       "featured": "Featured & Essential",
       "all": "All Guides"
     },
-    "crafting": {
-      "title": "Call of Duty Black Ops II Classes & Loadouts",
-      "description": "Master the Pick 10 create-a-class system with weapon attachments, perks, wildcards, equipment, and scorestreak combinations.",
-      "metaTitle": "Call of Duty Black Ops II Classes & Loadouts - Pick 10 Guide",
-      "metaDescription": "Master Call of Duty Black Ops II Pick 10 classes with loadout guides for rushing, long-range, objective, and beginner-friendly multiplayer play.",
-      "categoryLabel": "PICK 10 LOADOUTS",
-      "whatIs": "What is a Pick 10 Class?",
-      "whatIsDescription": "Pick 10 lets you spend ten allocation points on weapons, attachments, perks, equipment, and wildcards. No fixed slots means you can build exactly the loadout your playstyle needs.",
-      "why": "Why plan your class?",
+    "campaign": {
+      "title": "Call of Duty Black Ops II Campaign",
+      "description": "Full Call of Duty Black Ops II campaign walkthrough with all 11 missions, Strike Force operations, branching choices, the mission list, and every ending.",
+      "metaTitle": "Call of Duty Black Ops II Campaign - Walkthrough, Missions & Endings",
+      "metaDescription": "Complete Call of Duty Black Ops II campaign walkthrough covering all 11 missions, Strike Force operations, the mission list, best ending choices, and campaign length.",
+      "categoryLabel": "CAMPAIGN WALKTHROUGH",
+      "whatIs": "What is the Campaign?",
+      "whatIsDescription": "The Call of Duty Black Ops II campaign spans 11 missions across two timelines (1986 and 2025) with branching story choices, Strike Force operations, and multiple endings shaped by your decisions.",
+      "why": "Why follow the walkthrough?",
       "whySteps": {
-        "step1Title": "Match Your Playstyle",
-        "step1Description": "Choose assault rifles, SMGs, snipers, or shotguns based on your preferred range",
-        "step2Title": "Optimize Perks",
-        "step2Description": "Combine perks and wildcards to cover your loadout's weaknesses",
-        "step3Title": "Pick Scorestreaks",
-        "step3Description": "Select Scorestreaks you can earn regularly instead of only the most expensive rewards"
+        "step1Title": "Track Every Mission",
+        "step1Description": "Use the full mission list to navigate all 11 story missions and optional Strike Force operations",
+        "step2Title": "Make the Right Choices",
+        "step2Description": "Learn which decisions unlock the best ending and how to avoid story failures",
+        "step3Title": "Beat It Efficiently",
+        "step3Description": "Plan around campaign length to collect intel, win Strike Force missions, and hit every objective in one organized run"
       },
       "featured": "Featured & Essential",
-      "all": "All Loadout Guides"
+      "all": "All Campaign Guides"
     },
-    "items": {
-      "title": "Call of Duty Black Ops II Weapons",
-      "description": "Detailed weapon guides covering assault rifles, SMGs, LMGs, sniper rifles, shotguns, and pistols with stats and usage tips.",
-      "metaTitle": "Call of Duty Black Ops II Weapons - Stats, Tier List & Guide",
-      "metaDescription": "Complete Call of Duty Black Ops II weapon database including assault rifles, SMGs, snipers, shotguns, and pistols with tier rankings and usage tips.",
-      "categoryLabel": "WEAPONS & GEAR",
-      "whatIs": "What are Weapons?",
-      "whatIsDescription": "Comprehensive guides for every weapon class with damage, range, fire rate, attachments, and unlock levels. Learn how to use each gun effectively.",
-      "why": "Why compare weapons?",
+    "multiplayer": {
+      "title": "Call of Duty Black Ops II Multiplayer",
+      "description": "Master Call of Duty Black Ops II multiplayer with Pick 10 classes, 4-player splitscreen, local and online modes, 2026 server status, and current player count.",
+      "metaTitle": "Call of Duty Black Ops II Multiplayer - Pick 10, Splitscreen & Online",
+      "metaDescription": "Dominate Call of Duty Black Ops II multiplayer with Pick 10 class builds, 4-player splitscreen setup, local and online play, 2026 online status, and player count.",
+      "categoryLabel": "MULTIPLAYER",
+      "whatIs": "What is Multiplayer?",
+      "whatIsDescription": "Call of Duty Black Ops II multiplayer delivers Pick 10 create-a-class, scorestreaks, classic modes like Team Deathmatch and Hardpoint, plus up to 4-player splitscreen and online matchmaking.",
+      "why": "Why play multiplayer?",
       "whySteps": {
-        "step1Title": "Find Your Main",
-        "step1Description": "Identify the strongest weapons for your preferred range and mode",
-        "step2Title": "Build Around Strengths",
-        "step2Description": "Choose attachments and perks that amplify each weapon's role",
-        "step3Title": "Counter the Meta",
-        "step3Description": "Learn how to handle the most common multiplayer threats"
+        "step1Title": "Build Pick 10 Classes",
+        "step1Description": "Spend ten allocation points across weapons, attachments, perks, and wildcards to match your playstyle",
+        "step2Title": "Play With Friends",
+        "step2Description": "Set up 4-player splitscreen locally or jump into online matchmaking together",
+        "step3Title": "Stay Online in 2026",
+        "step3Description": "Check current player count and server status to find active lobbies on every platform"
       },
       "featured": "Featured & Essential",
-      "all": "All Weapons"
+      "all": "All Multiplayer Guides"
     },
-    "biomes": {
-      "title": "Call of Duty Black Ops II Maps",
-      "description": "Explore multiplayer and Zombies maps with layouts, engagement ranges, routes, and mode-specific tips.",
-      "metaTitle": "Call of Duty Black Ops II Maps - Multiplayer & Zombies Layouts",
-      "metaDescription": "Explore Call of Duty Black Ops II multiplayer maps and Zombies maps including Nuketown 2025, TranZit, and DLC layouts with routes and tips.",
-      "categoryLabel": "MAPS & LAYOUTS",
-      "whatIs": "What are Maps?",
-      "whatIsDescription": "Guides to multiplayer maps and Zombies maps with layouts, sightlines, spawn points, routes, and recommended modes for each location.",
-      "why": "Why study maps?",
-      "whySteps": {
-        "step1Title": "Learn Routes",
-        "step1Description": "Memorize flanks, sightlines, and high-traffic engagement zones",
-        "step2Title": "Pick the Right Mode",
-        "step2Description": "Match map layouts to the modes they play best",
-        "step3Title": "Survive Zombies",
-        "step3Description": "Master Zombies map layouts, Pack-a-Punch, and training routes"
-      },
-      "featured": "Featured & Essential",
-      "all": "All Maps"
-    },
-    "building": {
+    "zombies": {
       "title": "Call of Duty Black Ops II Zombies",
-      "description": "Master Zombies survival with map guides, perks, Pack-a-Punch, buildables, wonder weapons, and Easter egg quests.",
-      "metaTitle": "Call of Duty Black Ops II Zombies - Maps, Perks & Easter Eggs",
-      "metaDescription": "Master Call of Duty Black Ops II Zombies with map guides for TranZit, Mob of the Dead, Buried, and Origins plus perks, Pack-a-Punch, and Easter eggs.",
+      "description": "Survive Call of Duty Black Ops II Zombies with full map guides for TranZit, Buried, Mob of the Dead, and Origins, plus perks, Pack-a-Punch, and Easter egg walkthroughs.",
+      "metaTitle": "Call of Duty Black Ops II Zombies - Maps, TranZit, Buried & Easter Eggs",
+      "metaDescription": "Master Call of Duty Black Ops II Zombies with map guides for TranZit, Buried, and every DLC map, Pack-a-Punch routes, perks, and complete Easter egg quest walkthroughs.",
       "categoryLabel": "ZOMBIES MODE",
       "whatIs": "What is Zombies?",
-      "whatIsDescription": "Round-based cooperative survival against undead waves. Earn points, open areas, buy perks, upgrade with Pack-a-Punch, and complete Easter egg quests.",
+      "whatIsDescription": "Call of Duty Black Ops II Zombies is a round-based co-op survival mode. Earn points, open areas, buy perks, upgrade weapons at Pack-a-Punch, and tackle each map's signature Easter egg quest.",
       "why": "Why play Zombies?",
       "whySteps": {
-        "step1Title": "Learn the Economy",
-        "step1Description": "Earn and spend points on doors, weapons, perks, and upgrades",
+        "step1Title": "Learn the Maps",
+        "step1Description": "Study TranZit, Buried, and DLC map layouts including buildables, perk locations, and Pack-a-Punch",
         "step2Title": "Survive High Rounds",
-        "step2Description": "Train Zombies, manage ammo, and reach round 50 and beyond",
-        "step3Title": "Complete Quests",
-        "step3Description": "Solve Easter eggs and unlock each map's main storyline"
+        "step2Description": "Train the horde, manage ammo, and reach round 50 and beyond with proven strategies",
+        "step3Title": "Complete Easter Eggs",
+        "step3Description": "Follow step-by-step Easter egg guides to unlock each map's main story quest and rewards"
       },
       "featured": "Featured & Essential",
       "all": "All Zombies Guides"
     },
-    "support": {
-      "title": "Call of Duty Black Ops II Support",
-      "description": "Platform compatibility, buying guides, online requirements, DLC availability, and troubleshooting for common issues.",
-      "metaTitle": "Call of Duty Black Ops II Support - Platforms, DLC & Fixes",
-      "metaDescription": "Get support for Call of Duty Black Ops II including PS5 and PS4 setup, Xbox backward compatibility, Steam requirements, DLC, and Season Pass help.",
-      "categoryLabel": "PLATFORM SUPPORT",
-      "whatIs": "What is Support?",
-      "whatIsDescription": "Guides covering platform compatibility, buying options, online requirements, DLC availability, and common troubleshooting for PS5, PS4, Xbox, and PC.",
-      "why": "Why check support?",
+    "platforms": {
+      "title": "Call of Duty Black Ops II Platforms",
+      "description": "Play Call of Duty Black Ops II on every platform: PS5 and PS4 2026 port details, PC Steam setup, Xbox 360, backward compatibility, and cross-platform support.",
+      "metaTitle": "Call of Duty Black Ops II Platforms - PS5, PS4, PC & Xbox 360",
+      "metaDescription": "Find where to play Call of Duty Black Ops II across PS5, PS4, PC Steam, and Xbox 360 with port details, backward compatibility, and cross-platform multiplayer info.",
+      "categoryLabel": "PLATFORMS",
+      "whatIs": "What Platforms Support It?",
+      "whatIsDescription": "Call of Duty Black Ops II is available on PS5 and PS4 via the 2026 port, PC through Steam, and the original Xbox 360 version, each with distinct performance, controls, and online features.",
+      "why": "Why compare platforms?",
       "whySteps": {
-        "step1Title": "Buy the Right Version",
-        "step1Description": "Confirm compatibility before purchasing on your platform",
-        "step2Title": "Access Online Play",
-        "step2Description": "Set up the accounts and subscriptions needed for multiplayer",
-        "step3Title": "Resolve Issues",
-        "step3Description": "Solve DLC access, installation, and connectivity problems"
+        "step1Title": "Pick Your Console",
+        "step1Description": "Compare the PS5 and PS4 port against PC Steam and Xbox 360 to choose the best experience",
+        "step2Title": "Check Compatibility",
+        "step2Description": "Understand backward compatibility and what the 2026 PlayStation port improves over the original",
+        "step3Title": "Know the Limits",
+        "step3Description": "Review cross-platform multiplayer support and platform-specific performance before you buy"
       },
       "featured": "Featured & Essential",
-      "all": "All Support Articles"
+      "all": "All Platform Guides"
+    },
+    "editions": {
+      "title": "Call of Duty Black Ops II Editions",
+      "description": "Compare every Call of Duty Black Ops II edition: Digital Deluxe, Hardened Edition, and standard, with bonus content, Season Pass, and buying recommendations.",
+      "metaTitle": "Call of Duty Black Ops II Editions - Digital Deluxe vs Hardened",
+      "metaDescription": "Compare Call of Duty Black Ops II Digital Deluxe Edition, Hardened Edition, and standard to choose the right version with bonus maps, Season Pass, and collectibles.",
+      "categoryLabel": "EDITIONS",
+      "whatIs": "What are the Editions?",
+      "whatIsDescription": "Call of Duty Black Ops II shipped in several editions including the standard game, the collectible Hardened Edition, and the Digital Deluxe Edition that bundles bonus maps, the Season Pass, and exclusive extras.",
+      "why": "Why compare editions?",
+      "whySteps": {
+        "step1Title": "Match Your Budget",
+        "step1Description": "Weigh the standard game against Hardened and Digital Deluxe to find the right price point",
+        "step2Title": "Maximize Content",
+        "step2Description": "See which editions include Nuketown Zombies, the Season Pass, and exclusive bonus multiplayer maps",
+        "step3Title": "Buy With Confidence",
+        "step3Description": "Use the buying guide to pick the edition that fits how you play multiplayer, Zombies, and DLC"
+      },
+      "featured": "Featured & Essential",
+      "all": "All Edition Guides"
+    },
+    "dlc": {
+      "title": "Call of Duty Black Ops II DLC",
+      "description": "Every Call of Duty Black Ops II DLC pack explained: Revolution, Uprising, Vengeance, Apocalypse, the Season Pass, and all multiplayer and Zombies maps included.",
+      "metaTitle": "Call of Duty Black Ops II DLC - Revolution, Uprising, Vengeance & Apocalypse",
+      "metaDescription": "Explore all Call of Duty Black Ops II DLC map packs including Revolution, Uprising, Vengeance, and Apocalypse, plus the Season Pass and every Zombies map they add.",
+      "categoryLabel": "DLC MAP PACKS",
+      "whatIs": "What is the DLC?",
+      "whatIsDescription": "Call of Duty Black Ops II DLC spans four major map packs (Revolution, Uprising, Vengeance, Apocalypse) and the Season Pass, each adding new multiplayer maps, Zombies maps, and weapons.",
+      "why": "Why get the DLC?",
+      "whySteps": {
+        "step1Title": "Expand Multiplayer",
+        "step1Description": "Unlock new multiplayer maps like Magma, Encore, and Studio across the four DLC packs",
+        "step2Title": "Play More Zombies",
+        "step2Description": "Add Zombies maps including Die Rise, Mob of the Dead, Buried, and Origins",
+        "step3Title": "Save With Season Pass",
+        "step3Description": "Use the Season Pass to bundle all four map packs at a lower total price"
+      },
+      "featured": "Featured & Essential",
+      "all": "All DLC Guides"
+    },
+    "legacy": {
+      "title": "Call of Duty Black Ops II Legacy",
+      "description": "The Call of Duty Black Ops II legacy: release date, reviews, why it is the best, whether it is worth it in 2026, and the active Reddit community.",
+      "metaTitle": "Call of Duty Black Ops II Legacy - Release, Reviews & 2026 Verdict",
+      "metaDescription": "Explore the Call of Duty Black Ops II legacy including the 2012 release date, reviews, why fans call it the best, the Reddit community, and whether it is worth it in 2026.",
+      "categoryLabel": "REVIEWS & LEGACY",
+      "whatIs": "What is the Legacy?",
+      "whatIsDescription": "Call of Duty Black Ops II launched in 2012 and built a lasting legacy through its branching campaign, Pick 10 multiplayer, and Zombies mode, with an active community still playing and discussing it in 2026.",
+      "why": "Why does the legacy matter?",
+      "whySteps": {
+        "step1Title": "Understand the Hype",
+        "step1Description": "Read reviews and community takes on why many fans call Black Ops II the best Call of Duty",
+        "step2Title": "Track Its History",
+        "step2Description": "Learn the original release date and how the game evolved into the 2026 PS5 and PS4 port",
+        "step3Title": "Decide for 2026",
+        "step3Description": "Weigh player sentiment and the Reddit community to decide if it is worth playing today"
+      },
+      "featured": "Featured & Essential",
+      "all": "All Legacy Guides"
     }
   }
 }

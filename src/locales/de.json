@@ -1,1 +1,12 @@
-{}
+{
+  "nav": {
+    "guide": "Anleitung",
+    "campaign": "Kampagne",
+    "multiplayer": "Mehrspieler",
+    "zombies": "Zombies",
+    "platforms": "Plattformen",
+    "editions": "Editionen",
+    "dlc": "DLC",
+    "legacy": "Vermächtnis"
+  }
+}

@@ -1,0 +1,153 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Call of Duty Black Ops II Mission List: Campaign & Strike Force",
+  description: "Track all 11 story missions and 5 Strike Force missions in Call of Duty Black Ops II. Learn how key campaign choices shape the 2025 ending paths.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/ff7a1a/000?text=Campaign+Mission+List",
+  date: "2026-07-12",
+  author: "call of duty black ops ii Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Call of Duty Black Ops II Mission List**: Covers 11 required main story missions and 5 optional tactical Strike Force missions.
+- **Branching Narratives**: Critical decisions during specific missions alter character survival and geopolitical outcomes.
+- **Strike Force Impact**: Completing these tactical defense missions directly influences global alliance configurations.
+- **Optimal Progression**: Play optional Strike Force tasks as they unlock to secure the most favorable campaign ending.
+</Callout>
+
+<Section icon={Map} title="Call of Duty Black Ops II Mission List Overview">
+
+The campaign features a unique structure that blends traditional linear storytelling with a branching narrative system. To complete the story, players navigate through 11 main missions spanning two distinct eras: the 1980s Cold War following Alex Mason, and a near-future 2025 Second Cold War centered on his son, David Mason. 
+
+Alongside the main storyline, the campaign introduces five optional tactical missions known as Strike Force operations. These tasks require players to command various JSOC assets to secure key strategic zones.
+
+| Mission Name | Era | Playable Character | Story Significance |
+|---|---|---|---|
+| **Pyrrhic Victory** | 1986 | Alex Mason | Introduces Raul Menendez and rescues Frank Woods |
+| **Celerium** | 2025 | David Mason | Uncovers the near-future cyber warfare technology |
+| **Old Wounds** | 1986 | Alex Mason | Interrogates Kravchenko/reveals CIA mole |
+| **Time and Fate** | 1986 | Raul Menendez / Alex Mason | Details the origins of Menendez's global hatred |
+| **Fallen Angel** | 2025 | David Mason | Unlocks tactical paths through surveillance |
+| **Karma** | 2025 | David Mason | Determines the capture or safety of Chloe Lynch |
+| **Suffer with Me** | 1989 | Frank Woods | Contains the critical decision regarding Alex Mason |
+| **Achilles' Veil** | 2025 | Farid | Decides the fate of Harper and undercover status |
+| **Odysseus** | 2025 | David Mason / Raul Menendez | Salazar mole reveal and defense of the USS Obama |
+| **Cordis Die** | 2025 | David Mason | Escort mission during the drone strike on Los Angeles |
+| **Judgment Day** | 2025 | David Mason | The final assault and ultimate choice over Menendez |
+
+<Callout type="tip" title="Pro Tip">
+The final campaign montage does not rely on a single choice at the end. Instead, it aggregates your decisions from multiple missions throughout the entire playthrough.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Strike Force Missions and Tactical Impact">
+
+Strike Force operations are real-time tactical missions where you command infantry squads, automated defense turrets, CLAW units, and aerial drones. Successfully completing these operations weakens the Strategic Defense Coalition (SDC) presence and secures crucial support for the final stages of the game.
+
+These missions must be completed before starting the main mission **Odysseus**, as they expire once the story progresses past that point.
+
+| Strike Force Mission | Location | Key Objective | Story Influence |
+|---|---|---|---|
+| **FOB Spectre** | India | Defend the forward operating base from SDC forces | Protects regional JSOC command centers |
+| **Shipwreck** | Singapore | Capture and hold the marked cargo dock areas | Disrupts SDC shipping routes and naval power |
+| **I.E.D.** | Afghanistan | Escort and protect the military convoy | Weakens SDC regional influence and secures alliances |
+| **Second Chance** | Yemen | Rescue Chloe Lynch (if captured during Karma) | Restores the branch where Karma remains alive |
+| **Dispatch** | Pakistan | Infiltrate command site and eliminate Tian Zhao | Allows China and the United States to unite |
+
+<Callout type="warning" title="Important Warning">
+If you fail or skip these Strike Force missions before they expire, the geopolitical landscape in the ending epilogue will shift unfavorably, making a US-China alliance impossible.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Key Campaign Decisions and Ending Requirements">
+
+To secure the most favorable outcome in the campaign, you must satisfy a chain of specific requirements across multiple missions. These choices directly affect character survival, military readiness, and the global political state.
+
+<CardGrid cols={3}>
+  <Card title="Alex Mason Fate">
+    In **Suffer with Me**, shoot the hooded target in the legs twice instead of delivering a headshot. This allows Alex Mason to survive and return in the 2025 epilogue.
+  </Card>
+  <Card title="Karma Protection">
+    Save Chloe Lynch during **Karma** or complete **Second Chance**. Additionally, Farid must shoot Harper in **Achilles' Veil** to protect her later on the USS Barack Obama.
+  </Card>
+  <Card title="Raul Menendez Choice">
+    At the conclusion of **Judgment Day**, capture Menendez instead of executing him. If Karma is alive, she will successfully stop his cyberattack from prison.
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Ideal Campaign Path">
+Following the steps above, along with completing all Strike Force missions and sparing Admiral Briggs in **Odysseus**, yields the best possible ending where the Second Cold War is resolved peacefully.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="How to Navigate Branching Campaign Outcomes">
+
+If you want to change a specific decision to view alternative endings, you can utilize the Replay Story feature. Follow these steps to adjust your campaign trajectory.
+
+<Steps>
+  <Step num="1" title="Access the Mission Select Screen">
+    Go to the Campaign menu and open the mission selection dashboard to view your completed operations and current story state.
+  </Step>
+  <Step num="2" title="Rewind to the Target Mission">
+    Select the specific mission where the key decision occurs. Note that rewinding replaces all subsequent campaign progress from that point forward.
+  </Step>
+  <Step num="3" title="Execute the Alternative Choice">
+    Play through the mission and select the new path (e.g., shooting the target in the legs during Suffer with Me or sparing Admiral Briggs in Odysseus).
+  </Step>
+  <Step num="4" title="Complete the Remaining Missions">
+    Play through the rest of the campaign sequentially to carry the new decisions forward into the final epilogue sequences.
+  </Step>
+</Steps>
+
+</Section>
+
+<Section icon={Shield} title="Campaign Checklist for 100% Completion">
+
+For players aiming to fully master the single-player campaign, each mission contains optional challenges and hidden intelligence items that must be gathered.
+
+<Checklist
+  id="campaign-completion-checklist"
+  title="Campaign Completion Milestones:"
+  items={[
+    "Complete all 11 main story missions on any difficulty level",
+    "Successfully complete all 5 optional Strike Force operations",
+    "Locate and collect all 33 intel items (3 hidden in each main mission)",
+    "Complete all 10 optional challenges for every single mission",
+    "Unlock all branching story paths and view the major ending variations"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Trophy} title="Campaign FAQ">
+
+<FAQ items={[
+  {
+    question: "How many missions are in the Call of Duty Black Ops II mission list?",
+    answer: "There are 16 missions in total: 11 required main story missions and 5 optional Strike Force tactical operations."
+  },
+  {
+    question: "Do Strike Force missions expire if I progress too far?",
+    answer: "Yes, all available Strike Force missions must be completed before starting the ninth main mission, Odysseus, or they will become locked."
+  },
+  {
+    question: "How do I make sure Alex Mason survives the campaign?",
+    answer: "During the mission Suffer with Me, you must shoot the hooded target in the legs instead of the head. This allows him to survive and appear in the epilogue."
+  },
+  {
+    question: "Can I replay missions to change my campaign ending?",
+    answer: "Yes, you can use the Replay Story option to select an earlier mission. However, you must play through the subsequent missions from that point to carry the new choices to the ending."
+  }
+]} />
+
+</Section>
