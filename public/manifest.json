@@ -1,11 +1,11 @@
 {
-  "name": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-  "short_name": "Lucid Blocks",
-  "description": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, endings, and survival tips for the surreal voxel sandbox adventure on Steam.",
+  "name": "Call of Duty: Black Ops II Wiki - Campaign, Zombies, Maps & Weapons",
+  "short_name": "BO2 Wiki",
+  "description": "Call of Duty: Black Ops II Wiki covers the PS5 and PS4 port, campaign endings, Zombies maps, Easter eggs, weapons, multiplayer classes, DLC and guides.",
   "start_url": "/",
   "display": "standalone",
   "orientation": "any",
-  "theme_color": "#1a7a7a",
+  "theme_color": "#ff6600",
   "background_color": "#0a0a0a",
   "icons": [
     {

@@ -30,9 +30,9 @@
     --chart-4: 186 55% 60%;
     --chart-5: 186 60% 45%;
 
-    /* 导航页主题色 */
-    --nav-theme: 186 62% 39%;        /* lucid-blocks-cyan */
-    --nav-theme-light: 186 68% 52%;  /* 更浅的青色高亮 */
+    /* 导航页主题色 - 亮色主题 */
+    --nav-theme: 24 100% 50%;        /* orange-500，#ff6600 */
+    --nav-theme-light: 24 100% 60%;  /* 更浅的橙色，#ff8533 */
     
     /* Callout 组件颜色 */
     --callout-info-bg: 217 91% 97%;  /* blue-50 */
@@ -76,8 +76,8 @@
     --chart-5: 186 60% 45%;
 
     /* 导航页主题色 - 暗色主题 */
-    --nav-theme: 186 62% 39%;        /* lucid-blocks-cyan */
-    --nav-theme-light: 186 68% 52%;  /* hover/active 高亮 */
+    --nav-theme: 24 100% 56%;        /* 高亮橙色，#ff7a1a */
+    --nav-theme-light: 24 100% 66%;  /* 更浅的橙色，#ff9a52 */
 
     /* Callout 组件颜色 - 暗色主题 */
     --callout-info-bg: 217 91% 22%;  /* 更浅的深蓝色（模拟 blue-900/20） */
