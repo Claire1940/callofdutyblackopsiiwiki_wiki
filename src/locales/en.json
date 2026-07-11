@@ -80,6 +80,26 @@
         "icon": "Crosshair",
         "title": "Weapons Tier List",
         "description": "Ranked assault rifles, SMGs, snipers, shotguns, and more"
+      },
+      {
+        "icon": "Flag",
+        "title": "Campaign Walkthrough",
+        "description": "All 11 missions, Strike Force tasks, choices, and endings"
+      },
+      {
+        "icon": "Shield",
+        "title": "Best Classes & Perks",
+        "description": "Pick 10 loadouts, perks, wildcards, and scorestreaks"
+      },
+      {
+        "icon": "Map",
+        "title": "Maps & Modes",
+        "description": "Launch and DLC maps, layouts, routes, and game modes"
+      },
+      {
+        "icon": "Package",
+        "title": "DLC & Season Pass",
+        "description": "Revolution, Uprising, Vengeance, Apocalypse, and Season Pass"
       }
     ]
   },
@@ -535,6 +555,870 @@
               "playstyle": "Reliable secondary use, finishing damaged enemies, and lightweight classes."
             }
           ]
+        }
+      ]
+    },
+    "campaignWalkthroughAndEndings": {
+      "eyebrow": "Campaign Guide",
+      "title": "Call of Duty Black Ops II Campaign Walkthrough and Endings",
+      "subtitle": "Follow all 11 story missions and five Strike Force missions. Track the decisions that determine the fates of Alex Mason, Karma, Raul Menendez and the Second Cold War.",
+      "intro": "The campaign contains 11 required story missions and five optional Strike Force missions. Every mission has 10 optional challenges, while the 11 story missions also contain three intel items each. Strike Force success or failure remains part of the active story, and the final montage combines several independent decisions rather than using one ending switch.",
+      "missions": [
+        {
+          "step": 1,
+          "category": "Main Mission",
+          "name": "Pyrrhic Victory",
+          "setting": "Angola, 1986",
+          "playableCharacter": "Alex Mason",
+          "keyObjectives": [
+            "Fight alongside Jonas Savimbi's forces.",
+            "Reach the river and board the enemy barge.",
+            "Rescue Frank Woods and escape the combat zone."
+          ],
+          "storyChoice": "No major ending branch is decided here.",
+          "challengeSummary": "10 optional challenges focused on mounted weapons, vehicle destruction and close-range combat.",
+          "intel": 3
+        },
+        {
+          "step": 2,
+          "category": "Main Mission",
+          "name": "Celerium",
+          "setting": "Myanmar, 2025",
+          "playableCharacter": "David Mason",
+          "keyObjectives": [
+            "Wingsuit into the Cordis Die research area.",
+            "Infiltrate the underground facility.",
+            "Recover the celerium device and extract the surviving researcher."
+          ],
+          "storyChoice": "Introduces the technology behind Menendez's planned cyberattack.",
+          "challengeSummary": "10 optional challenges involving wingsuit combat, access-kit interactions, drones and automated defenses.",
+          "intel": 3
+        },
+        {
+          "step": 3,
+          "category": "Main Mission",
+          "name": "Old Wounds",
+          "setting": "Afghanistan, 1986",
+          "playableCharacter": "Alex Mason",
+          "keyObjectives": [
+            "Ride with the Mujahideen against Soviet forces.",
+            "Destroy armored and air targets during the assault.",
+            "Capture and interrogate Lev Kravchenko."
+          ],
+          "storyChoice": "Resisting the Numbers conditioning during Kravchenko's interrogation reveals that Menendez has contacts inside the CIA.",
+          "challengeSummary": "10 optional challenges centered on horseback combat, launcher accuracy and destroying enemy vehicles.",
+          "intel": 3
+        },
+        {
+          "step": 4,
+          "category": "Main Mission",
+          "name": "Time and Fate",
+          "setting": "Nicaragua, 1986",
+          "playableCharacter": "Raul Menendez and Alex Mason",
+          "keyObjectives": [
+            "Fight through the village as Menendez during the attack on his home.",
+            "Raid the Menendez compound as Mason and Woods.",
+            "Search the compound for evidence and survive the final confrontation."
+          ],
+          "storyChoice": "Finding the CIA memorandum in the compound adds evidence about Menendez's intelligence connections.",
+          "challengeSummary": "10 optional challenges covering the Menendez rampage, compound clearing and alternate weapon use.",
+          "intel": 3
+        },
+        {
+          "step": 5,
+          "category": "Main Mission",
+          "name": "Fallen Angel",
+          "setting": "Lahore, Pakistan, 2025",
+          "playableCharacter": "David Mason",
+          "keyObjectives": [
+            "Move through the flooded city with Harper.",
+            "Use surveillance equipment to record Menendez's meeting.",
+            "Escape the city in the SOC-T vehicle."
+          ],
+          "storyChoice": "Recording the full conversation reveals Zhao's secret meeting and helps unlock the Dispatch Strike Force mission.",
+          "challengeSummary": "10 optional challenges based on surveillance, SOC-T driving, drone avoidance and vehicle combat.",
+          "intel": 3
+        },
+        {
+          "step": 6,
+          "category": "Main Mission",
+          "name": "Karma",
+          "setting": "Colossus, Cayman Islands, 2025",
+          "playableCharacter": "David Mason",
+          "keyObjectives": [
+            "Infiltrate the floating resort and identify Karma.",
+            "Reach Chloe Lynch before Menendez's forces remove her.",
+            "Stop DeFalco or continue the campaign with Karma captured."
+          ],
+          "storyChoice": "Killing DeFalco before he escapes keeps Karma safe; failure opens the optional Second Chance rescue mission.",
+          "challengeSummary": "10 optional challenges focused on infiltration tools, rapid pursuit, precision shooting and protecting civilians.",
+          "intel": 3
+        },
+        {
+          "step": 7,
+          "category": "Main Mission",
+          "name": "Suffer with Me",
+          "setting": "Panama, 1989",
+          "playableCharacter": "Frank Woods",
+          "keyObjectives": [
+            "Capture Manuel Noriega.",
+            "Fight across Panama City and reach the target location.",
+            "Take the final sniper shot and witness Menendez's trap."
+          ],
+          "storyChoice": "Shoot the hooded target in the legs instead of the head to let Alex Mason survive and return in the 2025 epilogue.",
+          "challengeSummary": "10 optional challenges involving sniper accuracy, rooftop movement and weapon-specific eliminations.",
+          "intel": 3
+        },
+        {
+          "step": 8,
+          "category": "Main Mission",
+          "name": "Achilles' Veil",
+          "setting": "Socotra, Yemen, 2025",
+          "playableCharacter": "Farid",
+          "keyObjectives": [
+            "Remain undercover inside Cordis Die.",
+            "Fight through the rally and help JSOC capture Menendez.",
+            "Choose whether Farid shoots Harper or attempts to shoot Menendez."
+          ],
+          "storyChoice": "Shooting Harper keeps Farid alive, which is required to protect Karma during the later attack on the USS Barack Obama.",
+          "challengeSummary": "10 optional challenges built around undercover combat, VTOL support, close-range weapons and the Farid decision.",
+          "intel": 3
+        },
+        {
+          "step": 9,
+          "category": "Main Mission",
+          "name": "Odysseus",
+          "setting": "USS Barack Obama, 2025",
+          "playableCharacter": "David Mason and Raul Menendez",
+          "keyObjectives": [
+            "Defend the carrier after Salazar reveals himself as Menendez's mole.",
+            "Protect Karma if she is alive and Farid survived.",
+            "Stop Menendez from taking control of the drone fleet."
+          ],
+          "storyChoice": "As Menendez, wounding Admiral Briggs instead of killing him allows Briggs to help defend the carrier.",
+          "challengeSummary": "10 optional challenges involving carrier defenses, security systems, close-quarters combat and the Briggs decision.",
+          "intel": 3
+        },
+        {
+          "step": 10,
+          "category": "Main Mission",
+          "name": "Cordis Die",
+          "setting": "Los Angeles, 2025",
+          "playableCharacter": "David Mason",
+          "keyObjectives": [
+            "Fight through the drone assault on Los Angeles.",
+            "Protect the presidential convoy and clear blocked routes.",
+            "Escort President Bosworth to safety."
+          ],
+          "storyChoice": "The mission outcome is fixed, but surviving allies and Strike Force results affect the wider war shown around it.",
+          "challengeSummary": "10 optional challenges focused on jet support, convoy defense, vehicle takedowns and fast target clearing.",
+          "intel": 3
+        },
+        {
+          "step": 11,
+          "category": "Main Mission",
+          "name": "Judgment Day",
+          "setting": "Haiti, 2025",
+          "playableCharacter": "David Mason",
+          "keyObjectives": [
+            "Assault the Cordis Die broadcast facility.",
+            "Disable defenses and fight through the control complex.",
+            "Catch Menendez and choose whether to execute or capture him."
+          ],
+          "storyChoice": "Executing Menendez turns him into a martyr and triggers a global Cordis Die uprising; capturing him produces different outcomes based on Karma's fate.",
+          "challengeSummary": "10 optional challenges involving anti-air defenses, sniper shots, drone destruction and the final pursuit.",
+          "intel": 3
+        },
+        {
+          "step": 12,
+          "category": "Strike Force Mission",
+          "name": "FOB Spectre",
+          "setting": "India, 2025",
+          "playableCharacter": "JSOC Strike Force",
+          "keyObjectives": [
+            "Defend the forward operating base from SDC forces.",
+            "Switch between infantry, turrets, CLAWs and aerial assets.",
+            "Keep the key defense points operational until the attack ends."
+          ],
+          "storyChoice": "Success weakens the SDC campaign and contributes to the route that ends the Second Cold War.",
+          "challengeSummary": "10 optional challenges based on unit switching, defensive kills and keeping strategic assets alive.",
+          "intel": 0
+        },
+        {
+          "step": 13,
+          "category": "Strike Force Mission",
+          "name": "Shipwreck",
+          "setting": "Singapore, 2025",
+          "playableCharacter": "JSOC Strike Force",
+          "keyObjectives": [
+            "Assault the SDC-controlled dock area.",
+            "Capture and hold the marked control points.",
+            "Use ground and aerial units to stop the enemy operation."
+          ],
+          "storyChoice": "Success reduces SDC military pressure and counts toward the favorable geopolitical ending.",
+          "challengeSummary": "10 optional challenges emphasizing objective capture, drone control and coordinated use of multiple unit types.",
+          "intel": 0
+        },
+        {
+          "step": 14,
+          "category": "Strike Force Mission",
+          "name": "I.E.D.",
+          "setting": "Afghanistan, 2025",
+          "playableCharacter": "JSOC Strike Force",
+          "keyObjectives": [
+            "Protect the convoy as it moves through hostile territory.",
+            "Detect and destroy ambushes, explosives and enemy vehicles.",
+            "Keep enough convoy vehicles alive to reach the destination."
+          ],
+          "storyChoice": "Success further weakens the SDC and advances the route toward a United States-China alliance.",
+          "challengeSummary": "10 optional challenges focused on convoy survival, rapid threat removal and efficient use of drones and infantry.",
+          "intel": 0
+        },
+        {
+          "step": 15,
+          "category": "Strike Force Mission",
+          "name": "Second Chance",
+          "setting": "Yemen, 2025",
+          "playableCharacter": "JSOC Strike Force",
+          "keyObjectives": [
+            "Locate Chloe Lynch after DeFalco captures her in Karma.",
+            "Fight through the rescue zone before time expires.",
+            "Secure Karma and complete the extraction."
+          ],
+          "storyChoice": "This mission appears only when DeFalco escapes with Karma; success restores the branch where Karma remains alive.",
+          "challengeSummary": "10 optional challenges centered on timed searching, surveillance, rescue combat and extraction defense.",
+          "intel": 0
+        },
+        {
+          "step": 16,
+          "category": "Strike Force Mission",
+          "name": "Dispatch",
+          "setting": "Pakistan, 2025",
+          "playableCharacter": "JSOC Strike Force",
+          "keyObjectives": [
+            "Attack the SDC command site.",
+            "Push through the defensive perimeter.",
+            "Find and eliminate Chairman Tian Zhao."
+          ],
+          "storyChoice": "Completing Dispatch removes Zhao and allows China and the United States to unite against Menendez.",
+          "challengeSummary": "10 optional challenges built around coordinated assaults, automated units and eliminating priority targets.",
+          "intel": 0
+        },
+        {
+          "step": 17,
+          "category": "Ending Route",
+          "name": "Favorable Ending Route",
+          "setting": "Key decisions across the campaign",
+          "playableCharacter": "Multiple",
+          "keyObjectives": [
+            "Complete FOB Spectre, Shipwreck, I.E.D. and Dispatch successfully.",
+            "Save Karma in Karma or Second Chance, then keep Farid alive by shooting Harper in Achilles' Veil.",
+            "Shoot Alex Mason in the legs in Suffer with Me, wound Briggs in Odysseus and capture Menendez in Judgment Day."
+          ],
+          "storyChoice": "This route keeps Mason and Karma alive, preserves the carrier leadership, prevents Menendez from becoming a martyr and ends the Second Cold War through a United States-China alliance.",
+          "challengeSummary": "Campaign challenges are optional; the ending is controlled by story decisions and Strike Force results.",
+          "intel": 0
+        },
+        {
+          "step": 18,
+          "category": "Ending Outcomes",
+          "name": "Major Ending Variations",
+          "setting": "2025 epilogue",
+          "playableCharacter": "David Mason",
+          "keyObjectives": [
+            "Menendez executed: his recorded message sparks a worldwide Cordis Die uprising.",
+            "Menendez captured and Karma alive: Karma stops the cyberattack while Menendez remains imprisoned.",
+            "Menendez captured and Karma dead: the cyberattack succeeds, Menendez escapes, kills Woods and dies at Josefina's grave.",
+            "Alex Mason alive: he reunites with Woods and David; Alex Mason dead: David visits his grave and retires.",
+            "Strike Force success and Zhao eliminated: China and the United States form an alliance."
+          ],
+          "storyChoice": "The final montage combines the independent outcomes for Menendez, Karma, Alex Mason, Admiral Briggs and the Strike Force campaign.",
+          "challengeSummary": "Replay Story can change decisions, but rewinding to an earlier mission replaces later campaign progress from that point.",
+          "intel": 0
+        }
+      ]
+    },
+    "bestClassesAndPerks": {
+      "eyebrow": "Multiplayer Loadouts",
+      "title": "Call of Duty Black Ops II Best Classes and Perks",
+      "subtitle": "Use complete 10-point builds for rushing, long-range lanes, objective modes, stealth and beginner play. Each class separates Create-a-Class choices from scorestreak recommendations.",
+      "intro": "Black Ops II replaces fixed class slots with Pick 10: weapons, attachments, perks, equipment and wildcards each consume points until the class reaches 10. Scorestreaks are selected separately, so they are shown as role-based recommendations rather than part of the Pick 10 total.",
+      "classLabels": {
+        "primary": "Primary",
+        "attachments": "Attachments",
+        "secondary": "Secondary",
+        "perks": "Perks",
+        "wildcards": "Wildcards",
+        "lethal": "Lethal",
+        "tactical": "Tactical",
+        "scorestreaks": "Scorestreaks",
+        "pick10": "Pick 10",
+        "points": "points",
+        "whyItWorks": "Why it works"
+      },
+      "classes": [
+        {
+          "name": "Close-Range Rusher",
+          "playstyle": "Fast entry, flank pressure and rapid gunfights",
+          "primary": "MSMC",
+          "attachments": ["Quickdraw Handle", "Fast Mag"],
+          "secondary": "None",
+          "perks": {
+            "perk1": ["Lightweight"],
+            "perk2": ["Toughness"],
+            "perk3": ["Dexterity", "Extreme Conditioning"]
+          },
+          "wildcards": ["Perk 3 Greed"],
+          "lethal": "Semtex",
+          "tactical": "Concussion Grenade",
+          "pick10Count": 10,
+          "scorestreaks": ["UAV", "Hellstorm Missile", "Lightning Strike"],
+          "whyItWorks": "Lightweight and Extreme Conditioning keep the class moving, Toughness reduces aim disruption in head-on fights, and Quickdraw plus Dexterity shortens the time between sprinting and firing."
+        },
+        {
+          "name": "Long-Range Assault Rifle",
+          "playstyle": "Hold lanes, punish protected firing positions and fire through cover",
+          "primary": "AN-94",
+          "attachments": ["Quickdraw Handle", "Stock", "FMJ"],
+          "secondary": "None",
+          "perks": {
+            "perk1": ["Flak Jacket"],
+            "perk2": ["Toughness"],
+            "perk3": ["Dexterity"]
+          },
+          "wildcards": ["Primary Gunfighter"],
+          "lethal": "Semtex",
+          "tactical": "EMP Grenade",
+          "pick10Count": 10,
+          "scorestreaks": ["UAV", "Counter-UAV", "Lightning Strike"],
+          "whyItWorks": "The AN-94 supports controlled bursts, Stock keeps movement available while aiming, FMJ improves damage through thin cover, and EMP Grenades disable equipment before a lane push."
+        },
+        {
+          "name": "Objective Anchor",
+          "playstyle": "Defend flags and Hardpoints while surviving explosives and tactical equipment",
+          "primary": "M8A1",
+          "attachments": ["Reflex Sight", "Stock"],
+          "secondary": "None",
+          "perks": {
+            "perk1": ["Flak Jacket"],
+            "perk2": ["Toughness"],
+            "perk3": ["Tactical Mask", "Engineer"]
+          },
+          "wildcards": ["Perk 3 Greed"],
+          "lethal": "Semtex",
+          "tactical": "Trophy System",
+          "pick10Count": 10,
+          "scorestreaks": ["UAV", "Guardian", "Sentry Gun"],
+          "whyItWorks": "Flak Jacket and Tactical Mask reduce common objective-clearing tools, Engineer reveals hostile equipment, the Trophy System blocks incoming projectiles, and Semtex helps clear a contested objective."
+        },
+        {
+          "name": "Stealth Flanker",
+          "playstyle": "Stay off the minimap, move around the edge of the map and attack from behind",
+          "primary": "PDW-57",
+          "attachments": ["Suppressor", "Fast Mag"],
+          "secondary": "None",
+          "perks": {
+            "perk1": ["Ghost"],
+            "perk2": ["Toughness"],
+            "perk3": ["Dead Silence", "Awareness"]
+          },
+          "wildcards": ["Perk 3 Greed"],
+          "lethal": "C4",
+          "tactical": "EMP Grenade",
+          "pick10Count": 10,
+          "scorestreaks": ["UAV", "Counter-UAV", "Orbital VSAT"],
+          "whyItWorks": "Ghost hides a moving player from UAV scans, Suppressor keeps shots off the minimap, Dead Silence reduces footstep noise, and Awareness makes nearby enemy movement easier to hear."
+        },
+        {
+          "name": "Beginner-Friendly All-Rounder",
+          "playstyle": "Simple recoil control, a clear sight picture and dependable equipment",
+          "primary": "MTAR",
+          "attachments": ["Reflex Sight", "Quickdraw Handle", "Fast Mag"],
+          "secondary": "None",
+          "perks": {
+            "perk1": ["Flak Jacket"],
+            "perk2": ["Toughness"],
+            "perk3": ["Dexterity"]
+          },
+          "wildcards": ["Primary Gunfighter"],
+          "lethal": "Semtex",
+          "tactical": "Concussion Grenade",
+          "pick10Count": 10,
+          "scorestreaks": ["UAV", "Hunter Killer Drone", "Care Package"],
+          "whyItWorks": "The MTAR is flexible across common engagement distances, the Reflex Sight is easy to read, Quickdraw improves reaction speed, and Fast Mag reduces downtime after a fight. The low-cost scorestreaks provide frequent rewards without requiring a long streak."
+        },
+        {
+          "name": "Search and Destroy Rifle",
+          "playstyle": "One-life rounds, careful routes and fast first-shot accuracy",
+          "primary": "M8A1",
+          "attachments": ["Quickdraw Handle", "Suppressor"],
+          "secondary": "None",
+          "perks": {
+            "perk1": ["Ghost"],
+            "perk2": ["Toughness"],
+            "perk3": ["Dead Silence", "Awareness"]
+          },
+          "wildcards": ["Perk 3 Greed"],
+          "lethal": "Semtex",
+          "tactical": "EMP Grenade",
+          "pick10Count": 10,
+          "scorestreaks": ["UAV", "Lightning Strike", "Stealth Chopper"],
+          "whyItWorks": "Quickdraw supports fast reactions, Suppressor and Dead Silence reduce the information given to the enemy, and Awareness helps identify nearby movement during quiet one-life rounds."
+        }
+      ]
+    },
+    "multiplayerMapsAndModes": {
+      "eyebrow": "Maps and Modes",
+      "title": "Call of Duty Black Ops II Multiplayer Maps and Modes",
+      "subtitle": "Compare the 14 launch maps, Nuketown 2025 and all 16 DLC maps by combat flow and important routes. Review the rules and priorities of the most-played objective and competitive modes.",
+      "intro": "Black Ops II map design ranges from tiny close-range arenas such as Hijacked to open rifle maps such as Turbine. The DLC season adds four groups of four multiplayer maps, including reimagined versions of Firing Range, Summit, Stadium and Courtyard.",
+      "filters": [
+        { "label": "All", "value": "all" },
+        { "label": "Base Game", "value": "Base Game" },
+        { "label": "Bonus", "value": "Bonus Multiplayer Map" },
+        { "label": "Revolution", "value": "Revolution DLC" },
+        { "label": "Uprising", "value": "Uprising DLC" },
+        { "label": "Vengeance", "value": "Vengeance DLC" },
+        { "label": "Apocalypse", "value": "Apocalypse DLC" },
+        { "label": "Modes", "value": "mode" }
+      ],
+      "mapLabels": {
+        "location": "Location",
+        "combatProfile": "Combat Profile",
+        "keyRoutes": "Key Routes",
+        "modeFit": "Best For"
+      },
+      "maps": [
+        {
+          "kind": "map",
+          "name": "Aftermath",
+          "contentSet": "Base Game",
+          "location": "Ruined Los Angeles",
+          "combatProfile": "Medium-sized urban map with mixed close and mid-range fights.",
+          "keyRoutes": ["Central ruined street", "Parking structure", "Side buildings and alleys"],
+          "modeFit": ["Team Deathmatch", "Domination", "Hardpoint"]
+        },
+        {
+          "kind": "map",
+          "name": "Cargo",
+          "contentSet": "Base Game",
+          "location": "Singapore cargo port",
+          "combatProfile": "Container lanes create close fights while open dock sightlines support rifles.",
+          "keyRoutes": ["Container maze", "Warehouse flank", "Raised crane and catwalk positions"],
+          "modeFit": ["Domination", "Hardpoint", "Search and Destroy"]
+        },
+        {
+          "kind": "map",
+          "name": "Carrier",
+          "contentSet": "Base Game",
+          "location": "Chinese aircraft carrier",
+          "combatProfile": "A large deck map with exposed long lanes and tighter interior routes.",
+          "keyRoutes": ["Flight deck", "Hangar and lower interiors", "Side deck passages"],
+          "modeFit": ["Team Deathmatch", "Domination", "Search and Destroy"]
+        },
+        {
+          "kind": "map",
+          "name": "Drone",
+          "contentSet": "Base Game",
+          "location": "Jungle drone facility in Myanmar",
+          "combatProfile": "A medium map mixing laboratory interiors, jungle lanes and elevation changes.",
+          "keyRoutes": ["Central facility", "Cliffside route", "Jungle and service-building flank"],
+          "modeFit": ["Domination", "Hardpoint", "Search and Destroy"]
+        },
+        {
+          "kind": "map",
+          "name": "Express",
+          "contentSet": "Base Game",
+          "location": "Los Angeles high-speed rail terminal",
+          "combatProfile": "Symmetrical rail platforms support quick rotations and strong central crossfire.",
+          "keyRoutes": ["Central train tracks", "Ticket hall", "Overhead bridge and outer platforms"],
+          "modeFit": ["Search and Destroy", "Capture the Flag", "Hardpoint"]
+        },
+        {
+          "kind": "map",
+          "name": "Hijacked",
+          "contentSet": "Base Game",
+          "location": "Luxury yacht",
+          "combatProfile": "Very small, fast map dominated by close-range fights and frequent spawn pressure.",
+          "keyRoutes": ["Main deck", "Upper cabins", "Lower engine-room passage"],
+          "modeFit": ["Team Deathmatch", "Hardpoint", "Domination"]
+        },
+        {
+          "kind": "map",
+          "name": "Meltdown",
+          "contentSet": "Base Game",
+          "location": "Nuclear power plant in Pakistan",
+          "combatProfile": "Medium-to-large lanes connect industrial interiors and open reactor areas.",
+          "keyRoutes": ["Central road", "Cooling-tower side", "Control buildings and service lanes"],
+          "modeFit": ["Domination", "Search and Destroy", "Capture the Flag"]
+        },
+        {
+          "kind": "map",
+          "name": "Overflow",
+          "contentSet": "Base Game",
+          "location": "Flood-damaged Peshawar",
+          "combatProfile": "Dense streets and broken buildings produce short-to-mid-range engagements.",
+          "keyRoutes": ["Central bridge area", "Market street", "Side alleys and interior rooms"],
+          "modeFit": ["Team Deathmatch", "Hardpoint", "Kill Confirmed"]
+        },
+        {
+          "kind": "map",
+          "name": "Plaza",
+          "contentSet": "Base Game",
+          "location": "Floating resort in the Indian Ocean",
+          "combatProfile": "A nightlife setting with tight interiors, open courtyards and rapid flank routes.",
+          "keyRoutes": ["Central club", "Outdoor courtyard", "Side rooms and service passages"],
+          "modeFit": ["Hardpoint", "Domination", "Search and Destroy"]
+        },
+        {
+          "kind": "map",
+          "name": "Raid",
+          "contentSet": "Base Game",
+          "location": "Hollywood Hills mansion",
+          "combatProfile": "Balanced three-lane layout with clean sightlines and strong objective spaces.",
+          "keyRoutes": ["Central courtyard", "Pool side", "Driveway and garage side"],
+          "modeFit": ["Hardpoint", "Search and Destroy", "Capture the Flag"]
+        },
+        {
+          "kind": "map",
+          "name": "Slums",
+          "contentSet": "Base Game",
+          "location": "Panama City neighborhood",
+          "combatProfile": "Compact three-lane map centered on a dangerous open courtyard.",
+          "keyRoutes": ["Central fountain", "Main street", "Side buildings and narrow lane"],
+          "modeFit": ["Hardpoint", "Domination", "Search and Destroy"]
+        },
+        {
+          "kind": "map",
+          "name": "Standoff",
+          "contentSet": "Base Game",
+          "location": "Border town in Kyrgyzstan",
+          "combatProfile": "Medium three-lane map with powerful building windows and open road crossings.",
+          "keyRoutes": ["Central street", "House and tractor side", "Garage and back-lane side"],
+          "modeFit": ["Domination", "Search and Destroy", "Capture the Flag"]
+        },
+        {
+          "kind": "map",
+          "name": "Turbine",
+          "contentSet": "Base Game",
+          "location": "Wind farm in Yemen",
+          "combatProfile": "One of the largest launch maps, favoring rifles and snipers across open terrain.",
+          "keyRoutes": ["Crashed aircraft center", "Cliff path", "Wind-turbine and cave routes"],
+          "modeFit": ["Team Deathmatch", "Domination", "Search and Destroy"]
+        },
+        {
+          "kind": "map",
+          "name": "Yemen",
+          "contentSet": "Base Game",
+          "location": "Cliffside town on Socotra",
+          "combatProfile": "Vertical urban combat with rooftops, interiors and narrow market lanes.",
+          "keyRoutes": ["Central market", "Upper rooftops", "Cliffside and lower-street routes"],
+          "modeFit": ["Hardpoint", "Domination", "Search and Destroy"]
+        },
+        {
+          "kind": "map",
+          "name": "Nuketown 2025",
+          "contentSet": "Bonus Multiplayer Map",
+          "location": "Futuristic model-home neighborhood",
+          "combatProfile": "Extremely small symmetrical map built for nonstop close-range action.",
+          "keyRoutes": ["Bus and truck center", "Two houses", "Backyards and side gaps"],
+          "modeFit": ["Team Deathmatch", "Domination", "Hardpoint"]
+        },
+        {
+          "kind": "map",
+          "name": "Downhill",
+          "contentSet": "Revolution DLC",
+          "location": "French Alps ski resort",
+          "combatProfile": "Snowy medium map combining lodge interiors, open slopes and moving gondola hazards.",
+          "keyRoutes": ["Ski lodge", "Downhill slope", "Gondola crossing"],
+          "modeFit": ["Domination", "Hardpoint", "Team Deathmatch"]
+        },
+        {
+          "kind": "map",
+          "name": "Hydro",
+          "contentSet": "Revolution DLC",
+          "location": "Hydroelectric dam in Pakistan",
+          "combatProfile": "Three main lanes with a central spillway that can become a lethal flood channel.",
+          "keyRoutes": ["Central spillway", "Control-room side", "Outer dam and service path"],
+          "modeFit": ["Domination", "Hardpoint", "Search and Destroy"]
+        },
+        {
+          "kind": "map",
+          "name": "Mirage",
+          "contentSet": "Revolution DLC",
+          "location": "Sandstorm-damaged resort in the Gobi Desert",
+          "combatProfile": "Long exterior views mix with tight hotel rooms and sand-covered courtyards.",
+          "keyRoutes": ["Central resort", "Courtyard and dunes", "Upper rooms and side halls"],
+          "modeFit": ["Team Deathmatch", "Domination", "Search and Destroy"]
+        },
+        {
+          "kind": "map",
+          "name": "Grind",
+          "contentSet": "Revolution DLC",
+          "location": "Venice Beach skate park",
+          "combatProfile": "Curved ramps and bowls create unusual cover and fast close-to-mid-range fights.",
+          "keyRoutes": ["Central bowl", "Half-pipe lane", "Pro shop and outer ramps"],
+          "modeFit": ["Hardpoint", "Domination", "Kill Confirmed"]
+        },
+        {
+          "kind": "map",
+          "name": "Magma",
+          "contentSet": "Uprising DLC",
+          "location": "Volcanic Japanese village",
+          "combatProfile": "Lava divides the map and forces players through bridges, streets and interiors.",
+          "keyRoutes": ["Lava-cut central street", "Train-side route", "Village buildings"],
+          "modeFit": ["Domination", "Hardpoint", "Search and Destroy"]
+        },
+        {
+          "kind": "map",
+          "name": "Encore",
+          "contentSet": "Uprising DLC",
+          "location": "Abandoned London music festival",
+          "combatProfile": "Close-range stage and backstage fights are balanced by longer perimeter sightlines.",
+          "keyRoutes": ["Main stage", "Backstage corridors", "Outer festival grounds"],
+          "modeFit": ["Hardpoint", "Team Deathmatch", "Domination"]
+        },
+        {
+          "kind": "map",
+          "name": "Vertigo",
+          "contentSet": "Uprising DLC",
+          "location": "High-rise laboratory in India",
+          "combatProfile": "Multi-level combat with exposed edges, interior labs and quick vertical transitions.",
+          "keyRoutes": ["Central laboratory", "Upper platform", "Lower maintenance route"],
+          "modeFit": ["Search and Destroy", "Hardpoint", "Team Deathmatch"]
+        },
+        {
+          "kind": "map",
+          "name": "Studio",
+          "contentSet": "Uprising DLC",
+          "location": "Hollywood movie backlot",
+          "combatProfile": "A remake of Firing Range with compact lanes, elevated power positions and themed sets.",
+          "keyRoutes": ["Central trailers and sets", "Tower position", "Backlot buildings"],
+          "modeFit": ["Domination", "Hardpoint", "Team Deathmatch"]
+        },
+        {
+          "kind": "map",
+          "name": "Cove",
+          "contentSet": "Vengeance DLC",
+          "location": "Remote island in the Indian Ocean",
+          "combatProfile": "Small island combat around a crashed aircraft with exposed beaches and rock cover.",
+          "keyRoutes": ["Aircraft wreck", "Shoreline flank", "Rocky interior path"],
+          "modeFit": ["Team Deathmatch", "Kill Confirmed", "Domination"]
+        },
+        {
+          "kind": "map",
+          "name": "Detour",
+          "contentSet": "Vengeance DLC",
+          "location": "Destroyed suspension bridge",
+          "combatProfile": "Long upper-road sightlines sit above tighter lower maintenance routes.",
+          "keyRoutes": ["Upper roadway", "Lower bridge level", "Vehicle and support-column cover"],
+          "modeFit": ["Domination", "Search and Destroy", "Team Deathmatch"]
+        },
+        {
+          "kind": "map",
+          "name": "Rush",
+          "contentSet": "Vengeance DLC",
+          "location": "Paintball course",
+          "combatProfile": "Fast close-range arena with dense cover, short lanes and rapid objective pressure.",
+          "keyRoutes": ["Central paintball field", "Speedball lane", "Shop and wooded side"],
+          "modeFit": ["Hardpoint", "Domination", "Kill Confirmed"]
+        },
+        {
+          "kind": "map",
+          "name": "Uplink",
+          "contentSet": "Vengeance DLC",
+          "location": "Mountain facility in Myanmar",
+          "combatProfile": "A remake of Summit with a central control building, catwalks and dangerous cliff edges.",
+          "keyRoutes": ["Central control room", "Side catwalk", "Lower exterior and cliff route"],
+          "modeFit": ["Search and Destroy", "Domination", "Capture the Flag"]
+        },
+        {
+          "kind": "map",
+          "name": "Pod",
+          "contentSet": "Apocalypse DLC",
+          "location": "Abandoned cliffside community in Taiwan",
+          "combatProfile": "Multi-tier pods create fast interior fights and exposed rooftop rotations.",
+          "keyRoutes": ["Pod rooftops", "Interior rooms", "Cliffside outer lane"],
+          "modeFit": ["Hardpoint", "Domination", "Team Deathmatch"]
+        },
+        {
+          "kind": "map",
+          "name": "Frost",
+          "contentSet": "Apocalypse DLC",
+          "location": "Snow-covered European city",
+          "combatProfile": "A frozen canal separates the two halves and supports multi-level crossings.",
+          "keyRoutes": ["Frozen canal", "Central bridge", "Buildings on both banks"],
+          "modeFit": ["Domination", "Search and Destroy", "Capture the Flag"]
+        },
+        {
+          "kind": "map",
+          "name": "Takeoff",
+          "contentSet": "Apocalypse DLC",
+          "location": "Pacific Ocean launch site",
+          "combatProfile": "A remake of Stadium combining tight corners, interior fights and open central spaces.",
+          "keyRoutes": ["Central launch area", "Interior corridors", "Outer platform lanes"],
+          "modeFit": ["Hardpoint", "Domination", "Team Deathmatch"]
+        },
+        {
+          "kind": "map",
+          "name": "Dig",
+          "contentSet": "Apocalypse DLC",
+          "location": "Archaeological sites in Afghanistan",
+          "combatProfile": "A remake of Courtyard with two major chokepoints, raised platforms and open center fights.",
+          "keyRoutes": ["Open excavation center", "Raised ruins", "Side passages between dig sites"],
+          "modeFit": ["Domination", "Hardpoint", "Team Deathmatch"]
+        },
+        {
+          "kind": "mode",
+          "name": "Team Deathmatch",
+          "contentSet": "Core Multiplayer Mode",
+          "location": "All supported multiplayer maps",
+          "combatProfile": "Two teams earn score through eliminations; map control and spawn awareness decide most matches.",
+          "keyRoutes": ["Control central lanes", "Protect team spawns", "Use UAV information to rotate"],
+          "modeFit": ["Fast public matches", "Weapon leveling", "General practice"]
+        },
+        {
+          "kind": "mode",
+          "name": "Domination",
+          "contentSet": "Core Multiplayer Mode",
+          "location": "Three capture points: A, B and C",
+          "combatProfile": "Teams capture flags and gain score while holding them, making the central B flag the usual focal point.",
+          "keyRoutes": ["Secure the home flag", "Fight for B", "Avoid flipping spawns without a plan"],
+          "modeFit": ["Objective classes", "Trophy Systems", "Area-control scorestreaks"]
+        },
+        {
+          "kind": "mode",
+          "name": "Search and Destroy",
+          "contentSet": "Core Multiplayer Mode",
+          "location": "Two bomb sites",
+          "combatProfile": "Round-based one-life mode where attackers plant a bomb and defenders protect or defuse.",
+          "keyRoutes": ["Learn opening routes", "Watch bomb-site crossings", "Preserve information and lives"],
+          "modeFit": ["Stealth classes", "Dead Silence", "Coordinated teams"]
+        },
+        {
+          "kind": "mode",
+          "name": "Hardpoint",
+          "contentSet": "Core Multiplayer Mode",
+          "location": "Rotating objective zones",
+          "combatProfile": "Teams score by occupying a Hardpoint that moves through a fixed sequence of locations.",
+          "keyRoutes": ["Rotate before the hill moves", "Hold nearby spawns", "Use equipment to break occupied hills"],
+          "modeFit": ["Competitive play", "Objective score", "Coordinated rotations"]
+        },
+        {
+          "kind": "mode",
+          "name": "Capture the Flag",
+          "contentSet": "Core Multiplayer Mode",
+          "location": "Two team bases",
+          "combatProfile": "Steal the enemy flag and return it while your own flag is safely at base.",
+          "keyRoutes": ["Create an escort lane", "Cut off return routes", "Control midfield before a flag run"],
+          "modeFit": ["Mobile SMG classes", "Team communication", "Spawn control"]
+        },
+        {
+          "kind": "mode",
+          "name": "Kill Confirmed",
+          "contentSet": "Core Multiplayer Mode",
+          "location": "All supported multiplayer maps",
+          "combatProfile": "Eliminated players drop tags; collecting enemy tags confirms points and collecting friendly tags denies them.",
+          "keyRoutes": ["Fight near recoverable cover", "Collect tags after teammates", "Avoid leaving tags in open lanes"],
+          "modeFit": ["Aggressive play", "Scorestreak earning", "Small and medium maps"]
+        },
+        {
+          "kind": "mode",
+          "name": "League Play",
+          "contentSet": "Competitive Multiplayer",
+          "location": "Rule-based competitive playlists",
+          "combatProfile": "Skill-based matchmaking places players into competitive divisions and uses more structured rules than normal public matches.",
+          "keyRoutes": ["Use role-based classes", "Coordinate objective rotations", "Learn competitive map and mode setups"],
+          "modeFit": ["Ranked competition", "Team strategy", "CODcasting and esports-style play"]
+        }
+      ]
+    },
+    "dlcAndSeasonPassGuide": {
+      "eyebrow": "DLC Guide",
+      "title": "Call of Duty Black Ops II DLC and Season Pass Guide",
+      "subtitle": "Compare Revolution, Uprising, Vengeance and Apocalypse, including every multiplayer map, Zombies map and bonus item. Check how the content is delivered on PlayStation, Xbox and Steam.",
+      "intro": "The Season Pass contains all four major DLC packs, Nuketown Zombies and The Deuce calling card, while the base game remains required. Revolution adds the Peacekeeper and Turned, Uprising adds Mob of the Dead, Vengeance adds Buried and the Ray Gun Mark II, and Apocalypse closes the season with Origins.",
+      "labels": {
+        "category": "Category",
+        "multiplayerMaps": "Multiplayer Maps",
+        "zombiesContent": "Zombies Content",
+        "extraContent": "Extras",
+        "baseGameRequired": "Base Game Required",
+        "availabilityNotes": "Availability",
+        "yes": "Yes"
+      },
+      "packs": [
+        {
+          "row": "Season Pass Overview",
+          "category": "Bundle",
+          "multiplayerMaps": "16 maps across four DLC packs",
+          "zombiesContent": "Die Rise, Mob of the Dead, Buried, Origins and Nuketown Zombies",
+          "extraContent": "The Deuce exclusive calling card; Revolution also includes the Peacekeeper SMG and Turned mode",
+          "baseGameRequired": true,
+          "availabilityNotes": "The Season Pass grants Revolution, Uprising, Vengeance and Apocalypse. Individual packs may also be sold separately depending on platform."
+        },
+        {
+          "row": "Revolution",
+          "category": "DLC Pack 1",
+          "multiplayerMaps": ["Downhill", "Hydro", "Mirage", "Grind"],
+          "zombiesContent": "Die Rise plus the Turned Zombies mode",
+          "extraContent": "Peacekeeper SMG with its own weapon challenges",
+          "baseGameRequired": true,
+          "availabilityNotes": "Included with the Season Pass and also listed as a standalone pack on supported storefronts."
+        },
+        {
+          "row": "Uprising",
+          "category": "DLC Pack 2",
+          "multiplayerMaps": ["Magma", "Encore", "Vertigo", "Studio"],
+          "zombiesContent": "Mob of the Dead set in Alcatraz, including the Purgatory afterlife mechanic",
+          "extraContent": "Studio is a reimagining of Firing Range from the original Black Ops",
+          "baseGameRequired": true,
+          "availabilityNotes": "Included with the Season Pass and also listed as a standalone pack on supported storefronts."
+        },
+        {
+          "row": "Vengeance",
+          "category": "DLC Pack 3",
+          "multiplayerMaps": ["Cove", "Detour", "Rush", "Uplink"],
+          "zombiesContent": "Buried set in an underground Old West mining town",
+          "extraContent": "Ray Gun Mark II becomes available in Buried and the other Black Ops II Zombies maps when Vengeance is owned",
+          "baseGameRequired": true,
+          "availabilityNotes": "Included with the Season Pass and also listed as a standalone pack on supported storefronts."
+        },
+        {
+          "row": "Apocalypse",
+          "category": "DLC Pack 4",
+          "multiplayerMaps": ["Pod", "Frost", "Takeoff", "Dig"],
+          "zombiesContent": "Origins, a Dieselpunk World War I-era Zombies map with the original four heroes",
+          "extraContent": "Takeoff reimagines Stadium and Dig reimagines Courtyard",
+          "baseGameRequired": true,
+          "availabilityNotes": "Included with the Season Pass and also listed as a standalone pack on supported storefronts."
+        },
+        {
+          "row": "PlayStation 4 and PlayStation 5",
+          "category": "Platform",
+          "multiplayerMaps": "Season Pass supplies all four DLC map packs for the PS4/PS5 release",
+          "zombiesContent": "All four DLC Zombies maps plus Nuketown Zombies",
+          "extraContent": "The Deuce calling card",
+          "baseGameRequired": true,
+          "availabilityNotes": "The PS4/PS5 version and its Season Pass released on July 9, 2026. Online multiplayer requires PlayStation Plus, and cross-platform multiplayer with Xbox or PC is not supported."
+        },
+        {
+          "row": "Xbox One and Xbox Series X|S",
+          "category": "Platform",
+          "multiplayerMaps": "Four backward-compatible Xbox 360 map packs",
+          "zombiesContent": "All Season Pass Zombies content plus Nuketown Zombies",
+          "extraContent": "The Deuce calling card",
+          "baseGameRequired": true,
+          "availabilityNotes": "The Xbox Season Pass store page lists support for Xbox One and Xbox Series X|S. Season Pass content is downloaded through the Black Ops II in-game store."
+        },
+        {
+          "row": "Steam PC",
+          "category": "Platform",
+          "multiplayerMaps": "Revolution, Uprising, Vengeance and Apocalypse are listed on the Black Ops II DLC page",
+          "zombiesContent": "Each pack carries its associated Zombies map; Nuketown Zombies is also listed separately",
+          "extraContent": "Revolution includes the Peacekeeper; Vengeance includes access to the Ray Gun Mark II across Black Ops II Zombies maps",
+          "baseGameRequired": true,
+          "availabilityNotes": "Steam handles the packs as Black Ops II downloadable content. Install the base game and owned DLC through the same Steam account."
         }
       ]
     }

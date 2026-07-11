@@ -3,14 +3,22 @@
 import { useState, Suspense, lazy } from "react";
 import {
   ArrowRight,
+  Award,
   BookOpen,
   Check,
   ChevronDown,
   Crosshair,
+  Flag,
   Lightbulb,
+  Map,
+  Package,
+  Route,
+  Shield,
   ShoppingCart,
   Skull,
   Sparkles,
+  Star,
+  Target,
 } from "lucide-react";
 import Link from "next/link";
 import { useMessages } from "next-intl";
@@ -49,6 +57,10 @@ const TOOL_SECTION_IDS = [
   "beginner-guide",
   "zombies-maps-and-easter-eggs",
   "weapons-tier-list",
+  "campaign-walkthrough-and-endings",
+  "best-classes-and-perks",
+  "multiplayer-maps-and-modes",
+  "dlc-and-season-pass-guide",
 ];
 
 export default function HomePageClient({
@@ -143,12 +155,25 @@ export default function HomePageClient({
 
   // Zombies map accordion state
   const [zombiesExpanded, setZombiesExpanded] = useState<number | null>(0);
+  // Multiplayer map grid filter state
+  const [mapsFilter, setMapsFilter] = useState<string>("all");
   const mobileBannerAd = getPreferredMobileBannerSelection();
 
   const platforms = t.modules.platformsAndBuyingGuide;
   const beginner = t.modules.beginnerGuide;
   const zombies = t.modules.zombiesMapsAndEasterEggs;
   const weapons = t.modules.weaponsTierList;
+  const campaign = t.modules.campaignWalkthroughAndEndings;
+  const classes = t.modules.bestClassesAndPerks;
+  const multiplayer = t.modules.multiplayerMapsAndModes;
+  const dlc = t.modules.dlcAndSeasonPassGuide;
+
+  const filteredMaps =
+    mapsFilter === "all"
+      ? multiplayer.maps
+      : mapsFilter === "mode"
+        ? multiplayer.maps.filter((m: any) => m.kind === "mode")
+        : multiplayer.maps.filter((m: any) => m.contentSet === mapsFilter);
 
   return (
     <div className="home-shell min-h-screen bg-background text-foreground">
@@ -674,6 +699,496 @@ export default function HomePageClient({
                 </div>
               );
             })}
+          </div>
+        </div>
+      </section>
+
+      {/* 广告位 6: 模块阅读停顿位（模块 4-5 之间） */}
+      <AdBanner
+        type="banner-300x250"
+        adKey={process.env.NEXT_PUBLIC_AD_BANNER_300X250}
+        className="md:hidden"
+      />
+      <AdBanner
+        type="banner-468x60"
+        adKey={process.env.NEXT_PUBLIC_AD_BANNER_468X60}
+        className="hidden md:flex"
+      />
+
+      {/* Module 5: Campaign Walkthrough and Endings（step-by-step 时间线） */}
+      <section
+        id="campaign-walkthrough-and-endings"
+        className="scroll-mt-24 px-4 py-14 md:py-20"
+      >
+        <div className="container mx-auto max-w-5xl">
+          <div className="text-center mb-8 md:mb-12 scroll-reveal">
+            <div className="inline-flex items-center gap-2 rounded-full px-3 py-1 bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] mb-4">
+              <Flag className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
+              <span className="text-xs font-semibold uppercase tracking-wider text-[hsl(var(--nav-theme-light))]">
+                {campaign.eyebrow}
+              </span>
+            </div>
+            <h2 className="text-3xl md:text-5xl font-bold mb-3 md:mb-4">
+              {campaign.title}
+            </h2>
+            <p className="text-base md:text-lg font-medium mb-2">{campaign.subtitle}</p>
+            <p className="text-sm md:text-base text-muted-foreground max-w-3xl mx-auto">
+              {campaign.intro}
+            </p>
+          </div>
+
+          <div className="scroll-reveal space-y-3 md:space-y-4">
+            {campaign.missions.map((mission: any, index: number) => {
+              const isStrike = mission.category === "Strike Force Mission";
+              const isEnding =
+                mission.category === "Ending Route" ||
+                mission.category === "Ending Outcomes";
+              const categoryStyle = isEnding
+                ? "bg-[hsl(var(--nav-theme)/0.25)] border-[hsl(var(--nav-theme)/0.6)] text-[hsl(var(--nav-theme-light))]"
+                : isStrike
+                  ? "bg-white/5 border-border text-muted-foreground"
+                  : "bg-[hsl(var(--nav-theme)/0.12)] border-[hsl(var(--nav-theme)/0.4)] text-[hsl(var(--nav-theme-light))]";
+              return (
+                <div
+                  key={index}
+                  className="flex flex-col md:flex-row gap-3 md:gap-4 p-4 md:p-6 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors"
+                >
+                  <div className="flex items-center gap-3 md:flex-col md:items-center md:w-16 md:flex-shrink-0">
+                    <div className="flex h-10 w-10 md:h-12 md:w-12 items-center justify-center rounded-full border-2 border-[hsl(var(--nav-theme)/0.5)] bg-[hsl(var(--nav-theme)/0.2)]">
+                      <span className="text-base md:text-xl font-bold text-[hsl(var(--nav-theme-light))]">
+                        {mission.step}
+                      </span>
+                    </div>
+                    <span className={`text-xs px-2 py-1 rounded-full border font-medium text-center ${categoryStyle}`}>
+                      {mission.category}
+                    </span>
+                  </div>
+                  <div className="flex-1">
+                    <div className="flex flex-wrap items-center gap-2 mb-1.5">
+                      <h3 className="text-lg md:text-xl font-bold">{mission.name}</h3>
+                      {mission.intel > 0 && (
+                        <span className="inline-flex items-center gap-1 text-xs px-2 py-1 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] text-[hsl(var(--nav-theme-light))]">
+                          <Award className="w-3 h-3" />
+                          {mission.intel} Intel
+                        </span>
+                      )}
+                    </div>
+                    <p className="text-sm text-muted-foreground mb-3">
+                      <span className="font-semibold text-foreground">Setting: </span>
+                      {mission.setting}
+                      <span className="mx-1.5">·</span>
+                      <span className="font-semibold text-foreground">Player: </span>
+                      {mission.playableCharacter}
+                    </p>
+                    <div className="mb-3">
+                      <h4 className="font-semibold mb-2 flex items-center gap-2">
+                        <Check className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
+                        Objectives
+                      </h4>
+                      <ul className="space-y-1.5 ml-6">
+                        {mission.keyObjectives.map((obj: string, oi: number) => (
+                          <li key={oi} className="list-disc text-sm md:text-base text-muted-foreground">
+                            {obj}
+                          </li>
+                        ))}
+                      </ul>
+                    </div>
+                    <div className="flex items-start gap-2 p-3 rounded-lg bg-[hsl(var(--nav-theme)/0.08)] border border-[hsl(var(--nav-theme)/0.25)] mb-3">
+                      <Route className="w-4 h-4 text-[hsl(var(--nav-theme-light))] mt-0.5 flex-shrink-0" />
+                      <span className="text-sm">
+                        <span className="font-semibold">Story Choice: </span>
+                        {mission.storyChoice}
+                      </span>
+                    </div>
+                    <p className="text-sm text-muted-foreground flex items-start gap-2">
+                      <Award className="w-4 h-4 text-[hsl(var(--nav-theme-light))] mt-0.5 flex-shrink-0" />
+                      <span>
+                        <span className="font-semibold text-foreground">Challenges: </span>
+                        {mission.challengeSummary}
+                      </span>
+                    </p>
+                  </div>
+                </div>
+              );
+            })}
+          </div>
+        </div>
+      </section>
+
+      {/* 广告位 7: 移动端横幅（模块 5-6 之间） */}
+      {mobileBannerAd && (
+        <AdBanner
+          type={mobileBannerAd.type}
+          adKey={mobileBannerAd.adKey}
+          className="md:hidden"
+        />
+      )}
+
+      {/* Module 6: Best Classes and Perks（card-list） */}
+      <section
+        id="best-classes-and-perks"
+        className="scroll-mt-24 px-4 py-14 md:py-20 bg-white/[0.02]"
+      >
+        <div className="container mx-auto max-w-5xl">
+          <div className="text-center mb-8 md:mb-12 scroll-reveal">
+            <div className="inline-flex items-center gap-2 rounded-full px-3 py-1 bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] mb-4">
+              <Shield className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
+              <span className="text-xs font-semibold uppercase tracking-wider text-[hsl(var(--nav-theme-light))]">
+                {classes.eyebrow}
+              </span>
+            </div>
+            <h2 className="text-3xl md:text-5xl font-bold mb-3 md:mb-4">
+              {classes.title}
+            </h2>
+            <p className="text-base md:text-lg font-medium mb-2">{classes.subtitle}</p>
+            <p className="text-sm md:text-base text-muted-foreground max-w-3xl mx-auto">
+              {classes.intro}
+            </p>
+          </div>
+
+          <div className="scroll-reveal grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6">
+            {classes.classes.map((cls: any, index: number) => {
+              const allPerks = [
+                ...(cls.perks.perk1 || []),
+                ...(cls.perks.perk2 || []),
+                ...(cls.perks.perk3 || []),
+              ];
+              const L = classes.classLabels;
+              return (
+                <div
+                  key={index}
+                  className="p-5 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors flex flex-col"
+                >
+                  <div className="flex items-start justify-between gap-2 mb-2">
+                    <h3 className="text-lg font-bold">{cls.name}</h3>
+                    <span className="inline-flex items-center gap-1 text-xs px-2 py-1 rounded-full bg-[hsl(var(--nav-theme)/0.15)] border border-[hsl(var(--nav-theme)/0.4)] text-[hsl(var(--nav-theme-light))] flex-shrink-0">
+                      <Shield className="w-3 h-3" />
+                      {L.pick10} {cls.pick10Count}
+                    </span>
+                  </div>
+                  <p className="text-sm text-muted-foreground mb-4">{cls.playstyle}</p>
+
+                  <div className="mb-3">
+                    <div className="text-xs font-semibold uppercase tracking-wider text-muted-foreground mb-1">
+                      {L.primary}
+                    </div>
+                    <div className="font-bold">{cls.primary}</div>
+                    {cls.attachments.length > 0 && (
+                      <div className="text-sm text-muted-foreground">
+                        {cls.attachments.join(" · ")}
+                      </div>
+                    )}
+                  </div>
+
+                  <div className="grid grid-cols-2 gap-3 mb-3 text-sm">
+                    <div>
+                      <div className="text-xs font-semibold uppercase tracking-wider text-muted-foreground">
+                        {L.secondary}
+                      </div>
+                      <div className="text-muted-foreground">{cls.secondary}</div>
+                    </div>
+                    <div>
+                      <div className="text-xs font-semibold uppercase tracking-wider text-muted-foreground">
+                        {L.lethal} / {L.tactical}
+                      </div>
+                      <div className="text-muted-foreground">
+                        {cls.lethal} · {cls.tactical}
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="mb-3">
+                    <div className="text-xs font-semibold uppercase tracking-wider text-muted-foreground mb-1.5">
+                      {L.perks}
+                    </div>
+                    <div className="flex flex-wrap gap-1.5">
+                      {allPerks.map((perk: string, pi: number) => (
+                        <span
+                          key={pi}
+                          className="text-xs px-2 py-0.5 rounded-md bg-white/5 border border-border"
+                        >
+                          {perk}
+                        </span>
+                      ))}
+                    </div>
+                  </div>
+
+                  {cls.wildcards.length > 0 && (
+                    <div className="mb-3 text-sm">
+                      <span className="text-xs font-semibold uppercase tracking-wider text-muted-foreground">
+                        {L.wildcards}:{" "}
+                      </span>
+                      <span className="text-muted-foreground">
+                        {cls.wildcards.join(", ")}
+                      </span>
+                    </div>
+                  )}
+
+                  <div className="mt-auto pt-3 border-t border-border">
+                    <div className="text-xs font-semibold uppercase tracking-wider text-muted-foreground mb-1.5 flex items-center gap-1.5">
+                      <Star className="w-3.5 h-3.5 text-[hsl(var(--nav-theme-light))]" />
+                      {L.scorestreaks}
+                    </div>
+                    <div className="flex flex-wrap gap-1.5">
+                      {cls.scorestreaks.map((s: string, si: number) => (
+                        <span
+                          key={si}
+                          className="text-xs px-2 py-0.5 rounded-md bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] text-[hsl(var(--nav-theme-light))]"
+                        >
+                          {s}
+                        </span>
+                      ))}
+                    </div>
+                  </div>
+
+                  <div className="mt-3 p-3 rounded-lg bg-[hsl(var(--nav-theme)/0.08)] border border-[hsl(var(--nav-theme)/0.2)] text-sm">
+                    <span className="font-semibold">{L.whyItWorks}: </span>
+                    {cls.whyItWorks}
+                  </div>
+                </div>
+              );
+            })}
+          </div>
+        </div>
+      </section>
+
+      {/* 广告位 8: 模块阅读停顿位（模块 6-7 之间） */}
+      <AdBanner
+        type="banner-300x250"
+        adKey={process.env.NEXT_PUBLIC_AD_BANNER_300X250}
+        className="md:hidden"
+      />
+      <AdBanner
+        type="banner-728x90"
+        adKey={process.env.NEXT_PUBLIC_AD_BANNER_728X90}
+        className="hidden md:flex"
+      />
+
+      {/* Module 7: Multiplayer Maps and Modes（可筛选 map-card-grid） */}
+      <section
+        id="multiplayer-maps-and-modes"
+        className="scroll-mt-24 px-4 py-14 md:py-20"
+      >
+        <div className="container mx-auto max-w-5xl">
+          <div className="text-center mb-8 md:mb-12 scroll-reveal">
+            <div className="inline-flex items-center gap-2 rounded-full px-3 py-1 bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] mb-4">
+              <Map className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
+              <span className="text-xs font-semibold uppercase tracking-wider text-[hsl(var(--nav-theme-light))]">
+                {multiplayer.eyebrow}
+              </span>
+            </div>
+            <h2 className="text-3xl md:text-5xl font-bold mb-3 md:mb-4">
+              {multiplayer.title}
+            </h2>
+            <p className="text-base md:text-lg font-medium mb-2">{multiplayer.subtitle}</p>
+            <p className="text-sm md:text-base text-muted-foreground max-w-3xl mx-auto">
+              {multiplayer.intro}
+            </p>
+          </div>
+
+          {/* 筛选按钮组 */}
+          <div className="flex flex-wrap justify-center gap-2 mb-8 md:mb-10 scroll-reveal">
+            {multiplayer.filters.map((f: any, fi: number) => {
+              const active = mapsFilter === f.value;
+              return (
+                <button
+                  key={fi}
+                  onClick={() => setMapsFilter(f.value)}
+                  className={`px-3 py-1.5 md:px-4 md:py-2 rounded-full text-xs md:text-sm font-medium border transition-colors ${
+                    active
+                      ? "bg-[hsl(var(--nav-theme))] border-[hsl(var(--nav-theme))] text-white"
+                      : "bg-white/5 border-border text-muted-foreground hover:border-[hsl(var(--nav-theme)/0.5)] hover:text-foreground"
+                  }`}
+                >
+                  {f.label}
+                </button>
+              );
+            })}
+          </div>
+
+          {/* maps/modes 网格 */}
+          <div className="scroll-reveal grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
+            {filteredMaps.map((m: any, index: number) => {
+              const L = multiplayer.mapLabels;
+              const isMode = m.kind === "mode";
+              return (
+                <div
+                  key={index}
+                  className="p-4 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors flex flex-col"
+                >
+                  <div className="flex items-center gap-2 mb-2">
+                    <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-[hsl(var(--nav-theme)/0.1)]">
+                      {isMode ? (
+                        <Target className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
+                      ) : (
+                        <Map className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
+                      )}
+                    </div>
+                    <h3 className="font-bold">{m.name}</h3>
+                  </div>
+                  <span className="text-xs px-2 py-0.5 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] text-[hsl(var(--nav-theme-light))] self-start mb-2">
+                    {m.contentSet}
+                  </span>
+                  <p className="text-xs text-muted-foreground mb-1">
+                    <span className="font-semibold text-foreground">{L.location}: </span>
+                    {m.location}
+                  </p>
+                  <p className="text-sm text-muted-foreground mb-3">{m.combatProfile}</p>
+                  <div className="mb-3">
+                    <div className="text-xs font-semibold uppercase tracking-wider text-muted-foreground mb-1">
+                      {L.keyRoutes}
+                    </div>
+                    <ul className="space-y-1 ml-5">
+                      {m.keyRoutes.map((r: string, ri: number) => (
+                        <li key={ri} className="list-disc text-xs text-muted-foreground">
+                          {r}
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                  <div className="mt-auto">
+                    <div className="text-xs font-semibold uppercase tracking-wider text-muted-foreground mb-1.5">
+                      {L.modeFit}
+                    </div>
+                    <div className="flex flex-wrap gap-1">
+                      {m.modeFit.map((mf: string, mfi: number) => (
+                        <span
+                          key={mfi}
+                          className="text-xs px-1.5 py-0.5 rounded bg-white/5 border border-border"
+                        >
+                          {mf}
+                        </span>
+                      ))}
+                    </div>
+                  </div>
+                </div>
+              );
+            })}
+          </div>
+        </div>
+      </section>
+
+      {/* 广告位 9: 模块阅读停顿位（模块 7-8 之间） */}
+      <AdBanner
+        type="banner-300x250"
+        adKey={process.env.NEXT_PUBLIC_AD_BANNER_300X250}
+        className="md:hidden"
+      />
+      <AdBanner
+        type="banner-468x60"
+        adKey={process.env.NEXT_PUBLIC_AD_BANNER_468X60}
+        className="hidden md:flex"
+      />
+
+      {/* Module 8: DLC and Season Pass Guide（comparison-table） */}
+      <section
+        id="dlc-and-season-pass-guide"
+        className="scroll-mt-24 px-4 py-14 md:py-20 bg-white/[0.02]"
+      >
+        <div className="container mx-auto max-w-5xl">
+          <div className="text-center mb-8 md:mb-12 scroll-reveal">
+            <div className="inline-flex items-center gap-2 rounded-full px-3 py-1 bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] mb-4">
+              <Package className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
+              <span className="text-xs font-semibold uppercase tracking-wider text-[hsl(var(--nav-theme-light))]">
+                {dlc.eyebrow}
+              </span>
+            </div>
+            <h2 className="text-3xl md:text-5xl font-bold mb-3 md:mb-4">
+              {dlc.title}
+            </h2>
+            <p className="text-base md:text-lg font-medium mb-2">{dlc.subtitle}</p>
+            <p className="text-sm md:text-base text-muted-foreground max-w-3xl mx-auto">
+              {dlc.intro}
+            </p>
+          </div>
+
+          {/* 桌面: 对比表格 */}
+          <div className="scroll-reveal hidden md:block overflow-x-auto rounded-xl border border-border">
+            <table className="w-full text-sm">
+              <thead>
+                <tr className="bg-[hsl(var(--nav-theme)/0.1)] text-left">
+                  <th className="p-4 font-semibold">Pack / Platform</th>
+                  <th className="p-4 font-semibold">{dlc.labels.multiplayerMaps}</th>
+                  <th className="p-4 font-semibold">{dlc.labels.zombiesContent}</th>
+                  <th className="p-4 font-semibold">{dlc.labels.extraContent}</th>
+                  <th className="p-4 font-semibold">{dlc.labels.baseGameRequired}</th>
+                  <th className="p-4 font-semibold">{dlc.labels.availabilityNotes}</th>
+                </tr>
+              </thead>
+              <tbody>
+                {dlc.packs.map((p: any, index: number) => (
+                  <tr
+                    key={index}
+                    className="border-t border-border align-top hover:bg-white/[0.02] transition-colors"
+                  >
+                    <td className="p-4">
+                      <div className="font-bold text-[hsl(var(--nav-theme-light))]">{p.row}</div>
+                      <div className="text-xs text-muted-foreground mt-1">{p.category}</div>
+                    </td>
+                    <td className="p-4 text-muted-foreground">
+                      {Array.isArray(p.multiplayerMaps)
+                        ? p.multiplayerMaps.join(", ")
+                        : p.multiplayerMaps}
+                    </td>
+                    <td className="p-4 text-muted-foreground">{p.zombiesContent}</td>
+                    <td className="p-4 text-muted-foreground">{p.extraContent}</td>
+                    <td className="p-4">
+                      {p.baseGameRequired && (
+                        <span className="inline-flex items-center gap-1 text-xs px-2 py-1 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] text-[hsl(var(--nav-theme-light))]">
+                          <Check className="w-3 h-3" />
+                          {dlc.labels.yes}
+                        </span>
+                      )}
+                    </td>
+                    <td className="p-4 text-muted-foreground">{p.availabilityNotes}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+
+          {/* 移动: 堆叠卡片 */}
+          <div className="scroll-reveal md:hidden space-y-4">
+            {dlc.packs.map((p: any, index: number) => (
+              <div key={index} className="p-5 bg-white/5 border border-border rounded-xl">
+                <div className="flex items-center justify-between gap-2 mb-3">
+                  <h3 className="font-bold text-lg text-[hsl(var(--nav-theme-light))]">
+                    {p.row}
+                  </h3>
+                  <span className="text-xs px-2 py-1 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)]">
+                    {p.category}
+                  </span>
+                </div>
+                {p.baseGameRequired && (
+                  <span className="inline-flex items-center gap-1 text-xs px-2 py-1 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] text-[hsl(var(--nav-theme-light))] mb-3">
+                    <Check className="w-3 h-3" />
+                    {dlc.labels.baseGameRequired}: {dlc.labels.yes}
+                  </span>
+                )}
+                <dl className="space-y-3 text-sm">
+                  <div>
+                    <dt className="font-semibold mb-0.5">{dlc.labels.multiplayerMaps}</dt>
+                    <dd className="text-muted-foreground">
+                      {Array.isArray(p.multiplayerMaps)
+                        ? p.multiplayerMaps.join(", ")
+                        : p.multiplayerMaps}
+                    </dd>
+                  </div>
+                  <div>
+                    <dt className="font-semibold mb-0.5">{dlc.labels.zombiesContent}</dt>
+                    <dd className="text-muted-foreground">{p.zombiesContent}</dd>
+                  </div>
+                  <div>
+                    <dt className="font-semibold mb-0.5">{dlc.labels.extraContent}</dt>
+                    <dd className="text-muted-foreground">{p.extraContent}</dd>
+                  </div>
+                  <div>
+                    <dt className="font-semibold mb-0.5">{dlc.labels.availabilityNotes}</dt>
+                    <dd className="text-muted-foreground">{p.availabilityNotes}</dd>
+                  </div>
+                </dl>
+              </div>
+            ))}
           </div>
         </div>
       </section>

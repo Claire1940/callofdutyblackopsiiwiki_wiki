@@ -16,6 +16,8 @@ export const iconRegistry: Record<string, LucideIcon> = {
   ShoppingCart: LucideIcons.ShoppingCart,
   Skull: LucideIcons.Skull,
   Crosshair: LucideIcons.Crosshair,
+  Flag: LucideIcons.Flag,
+  Map: LucideIcons.Map,
   Users: LucideIcons.Users,
   ClipboardCheck: LucideIcons.ClipboardCheck,
   Keyboard: LucideIcons.Keyboard,
