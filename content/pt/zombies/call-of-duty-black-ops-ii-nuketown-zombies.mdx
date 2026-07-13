@@ -1,0 +1,198 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Call of Duty Black Ops II Nuketown Zombies: Estratégia de Sobrevivência e Guia do Mapa",
+  description: "Domine o Nuketown Zombies do Call of Duty Black Ops II com nosso guia sobre quedas aleatórias de vantagens, compras de armas na parede e táticas de sobrevivência para 2026.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/1a1a1a/ffffff?text=Nuketown+Zombies+Guide",
+  date: "2026-07-13",
+  author: "Equipe Wiki de Call of Duty Black Ops II",
+  keywords: "Nuketown Zombies, Call of Duty Black Ops II, guia de sobrevivência, armas de parede, vantagens aleatórias"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Call of Duty Black Ops II Nuketown Zombies** é um mapa focado em sobrevivência onde as Vantagens (Perks) e a máquina Pack-a-Punch caem aleatoriamente do céu.
+- **Mecânica Chave**: O sinal de população funciona como um contador de baixas; a cada 100 eliminações o contador reinicia e o relógio do jogo avança.
+- **Melhor Estratégia**: Concentre-se em abrir o quintal da Casa Amarela (Yellow House) cedo para acessar o galpão de power-up de 3000 pontos.
+- **Dica Crítica**: Não há janelas para consertar, o que significa que o power-up do Carpinteiro (Carpenter) está ausente, e os zumbis entram constantemente por todos os ângulos.
+- **Melhor Escolha**: A Ray Gun Mark II e a Galil continuam sendo as armas mais eficazes para rodadas altas neste mapa claustrofóbico.
+</Callout>
+
+<Section icon={Map} title="Visão Geral do Mapa e Integração com a História">
+
+**Call of Duty Black Ops II Nuketown Zombies** leva os jogadores de volta ao icônico local de testes de Nevada, mas com um toque pós-apocalíptico. Situado durante os eventos do mapa \"Moon\" do Black Ops original, este local serve como uma ponte entre a era clássica e o cenário futurista de 2025. Após uma explosão nuclear desencadeada por uma perfuração da Broken Arrow, cientistas de radiação são transformados em mortos-vivos pelo Elemento 115. Os jogadores assumem o controle de agentes anônimos da CIA ou do CDC enviados para investigar o sinal de socorro, apenas para ficarem presos nas ruínas radioativas.
+
+O mapa é uma reimaginação direta do mapa multiplayer Nuketown, apresentando as familiares casas Verde e Amarela, o beco sem saída central e o bunker onde Marlton Johnson está famosamente escondido. Ao contrário de outros mapas do pacote Zombies de Black Ops II, Nuketown foca puramente na sobrevivência, eliminando missões complexas de Easter Egg em favor de um combate intenso baseado em rodadas.
+
+<Callout type="tip" title="Detalhe da História">
+Observe os olhos dos zumbis; eles começam amarelos (controlados por Samantha Maxis) e eventualmente ficam azuis, significando que Edward Richtofen assumiu o controle do Éter durante os eventos que ocorrem simultaneamente na Lua.
+</Callout>
+
+| Facção | Descrição | Papel na História |
+| :--- | :--- | :--- |
+| **Agentes da CIA** | Operativos de terno | Investigando o sinal de socorro da base de Nevada |
+| **Soldados do CDC** | Operativos em trajes de risco biológico | Implantados para conter o surto do Elemento 115 |
+| **Zumbis** | Soldados/cientistas mortos-vivos | Revividos pelo Elemento 115 na base de Nevada |
+
+</Section>
+
+<Section icon={Target} title="Mecânicas Principais de Jogo e Aleatoriedade">
+
+A característica definidora de **Call of Duty Black Ops II Nuketown Zombies** é a aleatoriedade das máquinas de Perk-a-Cola e da máquina Pack-a-Punch. Ao contrário dos mapas tradicionais onde estas ficam em locais fixos, aqui elas caem do céu em intervalos aleatórios, geralmente acompanhadas por uma sirene nuclear. Isso força os jogadores a adaptarem suas estratégias com base em qual Perk chega primeiro. Se o Juggernog cair na rodada 20 em vez da rodada 4, suas táticas de sobrevivência devem mudar para uma evasão extrema.
+
+Outro aspecto único é a remoção de janelas que podem ser tapadas com tábuas. Em Nuketown, os zumbis pulam cercas, caem do céu e rastejam para fora do chão. Isso elimina a estratégia de \"camperar em janelas\", comum em mapas como Kino der Toten, e exige um padrão constante de movimento de atração (\"kiting\" ou \"training\") ao redor da área central do mapa.
+
+<Callout type="warning" title="Aviso de Sobrevivência">
+Como não há janelas para consertar, o power-up do Carpinteiro (Carpenter) não existe neste mapa. Não dependa de pausas no meio da rodada para redefinir suas defesas.
+</Callout>
+
+| Recurso | Detalhe da Mecânica | Impacto Estratégico |
+| :--- | :--- | :--- |
+| **Quedas Aleatórias** | Perks/PaP caem em intervalos aleatórios | Picos de poder imprevisíveis |
+| **Sinal de População** | Sobe a cada eliminação de zumbi | Rastreia o progresso em direção aos eventos do relógio |
+| **O Relógio** | Os ponteiros se movem com base nos resets do sinal | Sinaliza quando o próximo Perk pode cair |
+| **Bunker do Marlton** | Porta interativa no quintal | Fornece falas sobre a história e diálogos ocultos |
+
+</Section>
+
+<Section icon={Swords} title="Lista de Níveis de Armas e Compras de Parede">
+
+Nos corredores apertados de Nuketown, a escolha da arma é tudo. Você precisa de um equilíbrio entre submetralhadoras de alta mobilidade para acumular pontos e Armas Especiais (Wonder Weapons) de alto impacto para sobreviver a rodadas avançadas. O caminhão central, que custa 3000 pontos para abrir, é um investimento de alto risco e alta recompensa que pode conceder acesso antecipado a equipamentos poderosos como as Galvaknuckles.
+
+**Destaques do Vídeo:**
+- Melhores armas de parede para acumular pontos no início do jogo.
+- Como usar eficientemente a Caixa Misteriosa (Mystery Box) na Casa Verde.
+- Demonstração da Ray Gun Mark II contra hordas de rodadas altas.
+
+<YouTubeEmbed videoId="p5iT9Pj-c2M" title="Call of Duty Black Ops II Nuketown Zombies Gameplay" />
+
+<Callout type="success" title="Recomendação de Arma">
+Sempre priorize a compra da MP5 na parede, localizada no andar de cima das casas. Ela fornece uma fonte confiável de munição e pontos até que você possa pagar para girar a Caixa Misteriosa.
+</Callout>
+
+### Tabela de Armas de Parede
+
+| Arma | Localização | Custo (Pontos) | Nível (Tier) |
+| :--- | :--- | :--- | :--- |
+| **M14** | Área de Spawn | 500 | D |
+| **Olympia** | Área de Spawn | 500 | D |
+| **MP5** | Andar de Cima da Casa | 1000 | B |
+| **AK74u** | Lado de Fora da Casa Amarela | 1200 | B |
+| **Remington 870** | Centro do Mapa | 1500 | C |
+| **Faca Bowie** | Perto do Bunker | 3000 | A (Início) |
+| **Galvaknuckles** | Dentro do Caminhão Vermelho | 6000 | S |
+
+</Section>
+
+<Section icon={Shield} title="Estratégia de Perk-a-Cola e Pack-a-Punch">
+
+Como você não pode prever quando o Juggernog ou a Speed Cola chegarão, você deve dominar o layout das possíveis zonas de pouso. Existem quatro locais principais de pouso para as máquinas: o quintal da Casa Verde, o quintal da Casa Amarela, a garagem da Casa Verde e a área de spawn.
+
+<Steps>
+  <Step num="1" title="Monitore a Sirene">
+    Fique atento à sirene de ataque aéreo nuclear. Isso indica que uma máquina está prestes a cair. Olhe para o céu para rastrear a trajetória do meteoro.
+  </Step>
+  <Step num="2" title="Limpe a Zona de Pouso">
+    Se uma máquina pousar em uma área apertada como a garagem da Casa Verde, elimine os zumbis imediatamente. Ficar encurralado enquanto compra uma vantagem é a causa número 1 de morte em Nuketown.
+  </Step>
+  <Step num="3" title="Priorize o Juggernog">
+    Assim que o Juggernog pousar, economize todos os pontos para adquiri-lo. Sem ele, os caminhos estreitos entre as casas são armadilhas mortais.
+  </Step>
+  <Step num="4" title="Momento do Pack-a-Punch">
+    Espere para usar o Pack-a-Punch até ter uma arma como a Galil ou RPD. A máquina frequentemente fica em um local perigoso, então não se arrisque por armas de nível baixo.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Custos das Vantagens">
+- **Quick Revive**: 500 (Solo) / 1500 (Co-op)
+- **Juggernog**: 2500
+- **Double Tap II**: 2000
+- **Speed Cola**: 3000
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Easter Eggs e Segredos Musicais">
+
+Embora Nuketown Zombies não tenha uma \"Missão Principal\" (Main Quest) como TranZit ou Origins, o mapa apresenta vários Easter Eggs musicais clássicos da Treyarch e interações ocultas de personagens. Eles oferecem uma distração muito necessária da implacável horda de zumbis e trazem conexões profundas com a história para os fãs dedicados.
+
+<Checklist
+  id="nuketown-secrets"
+  title="Lista de Objetivos Ocultos:"
+  items={[
+    "Interaja com 3 Ursos de Pelúcia para tocar 'Samantha's Lullaby'",
+    "Atire na cabeça de todos os manequins para ativar a faixa em 8 bits 'Coming Home'",
+    "Ataque a porta do bunker com corpo a corpo para ouvir os diálogos de Marlton Johnson",
+    "Alcance a Rodada 5 para ouvir a buzina do ônibus de TranZit ao longe",
+    "Alcance a Rodada 25 para testemunhar a mudança na cor dos olhos dos zumbis"
+  ]}
+/>
+
+<Callout type="tip" title="Dica de Profissional">
+A versão em 8 bits de 'Coming Home' é amplamente considerada uma das melhores trilhas do jogo. Certifique-se de atirar nas cabeças dos manequins que estão *fora* dos limites do mapa também!
+</Callout>
+
+### Armas Exclusivas da Caixa Misteriosa
+
+| Arma | Tipo | Melhor Uso |
+| :--- | :--- | :--- |
+| **Ray Gun Mark II** | Arma Especial | Penetração em rodadas altas e eliminação de grupos |
+| **Galil** | Fuzil de Assalto | Sobrevivência geral e acúmulo de pontos |
+| **Bombas de Macaco** | Tático | Distração de emergência para reviver aliados |
+| **HAMR** | Metralhadora Leve | Defender as áreas dos quintais |
+
+</Section>
+
+<Section icon={Trophy} title="Estratégias Avançadas de Sobrevivência">
+
+Para alcançar rodadas altas (30+) em **Call of Duty Black Ops II Nuketown Zombies**, você deve dominar a arte de fazer \"train\" (reunir e conduzir hordas) de zumbis. A área mais eficaz para isso é o quintal da Casa Amarela. Ela oferece o maior espaço aberto, embora você deva ter cuidado com os zumbis pulando a cerca.
+
+<CardGrid cols={3}>
+  <Card title="A Rota da Casa Amarela">
+    - **Espaço**: Maior área aberta do mapa.
+    - **Risco**: Zumbis surgem da cerca e do lado da lanchonete.
+    - **Estratégia**: Circule a pilha de destroços central.
+  </Card>
+  <Card title="O Loop do Beco Sem Saída">
+    - **Espaço**: Muito apertado e perigoso.
+    - **Risco**: Alta chance de ficar encurralado entre os carros.
+    - **Estratégia**: Use apenas para transições rápidas entre as casas.
+  </Card>
+  <Card title="O Galpão de Power-Up">
+    - **Espaço**: Extremamente apertado.
+    - **Risco**: Custa 3000 pontos para abrir, muito fácil de ficar preso.
+    - **Estratégia**: Só abra quando o relógio indicar uma Munição Máxima (Max Ammo).
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Conselho Final">
+Nunca pare de se mover. Nuketown foi projetado para punir jogadores que ficam parados. Mesmo se estiver recarregando, continue seu padrão de movimento circular para evitar ser encurralado.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "Quando a máquina Pack-a-Punch aparece em Nuketown Zombies?",
+    answer: "A máquina Pack-a-Punch aparece aleatoriamente. Ela é ativada pelo número de eliminações registradas no sinal de população. Geralmente, ela cairá entre as rodadas 15 e 25, mas o momento exato é aleatório em cada partida."
+  },
+  {
+    question: "É possível abrir o bunker em Nuketown Zombies?",
+    answer: "Não, o bunker não pode ser aberto pelo jogador no Black Ops II. No entanto, você pode ouvir Marlton Johnson falando lá dentro se esfaquear a porta. O bunker eventualmente se abre no mapa 'Alpha Omega' de Black Ops 4, que é uma reimaginação deste local."
+  },
+  {
+    question: "Qual é a melhor arma para rodadas altas em Nuketown?",
+    answer: "A Ray Gun Mark II é a melhor escolha devido ao seu alto dano e capacidade de disparo em rajadas. Combine-a com a Galil ou a MP5 com Pack-a-Punch (Mystic Pony) para sustentabilidade de munição."
+  },
+  {
+    question: "Nuketown Zombies tem alguma rodada especial de chefe?",
+    answer: "Não, Nuketown Zombies não possui Hellhounds (Cães do Inferno) ou quaisquer outras rodadas especiais. É uma experiência pura de sobrevivência com números crescentes de zumbis padrão."
+  }
+]} />
+
+</Section>

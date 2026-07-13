@@ -1,0 +1,153 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, HelpCircle } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Crossplay de Call of Duty Black Ops II: Guia de Plataformas",
+  description: "Explore o suporte a crossplay de Call of Duty Black Ops II, compatibilidade de plataformas e requisitos de multijogador online para PS5, PS4, Xbox e PC.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/1e293b/ff7a1a?text=BO2+Crossplay+Guide",
+  date: "2026-07-13",
+  author: "Equipe da Wiki de Call of Duty Black Ops II",
+  keywords: "call of duty black ops 2, bo2 crossplay, multijogador, ps5, xbox, pc, guia de plataformas"
+}
+
+<Callout type="info" title="Guia Rápido">
+- O **crossplay de Call of Duty Black Ops II** não é suportado em nenhuma plataforma de console ou PC.
+- As versões para **PlayStation 5 e PS4** foram lançadas em 9 de julho de 2026, como ports originais sem recursos multiplataforma.
+- **Xbox Series X|S e Xbox One** rodam a versão original do Xbox 360 via retrocompatibilidade.
+- **Jogadores de PC** devem usar o Steam para acessar o jogo e não podem jogar com redes de consoles.
+- O **multijogador online** requer assinaturas ativas da plataforma, como PlayStation Plus ou Xbox Game Pass.
+</Callout>
+
+<Section icon={Shield} title="Status do Crossplay de Call of Duty Black Ops II">
+
+O lançamento de Call of Duty: Black Ops II no PlayStation 5 e PlayStation 4 em **9 de julho de 2026** renovou o interesse nos sistemas multijogador do jogo. No entanto, o **crossplay de Call of Duty Black Ops II** permanece completamente sem suporte. Jogadores no PlayStation, Xbox e PC não podem jogar juntos ou entrar em lobbies em redes diferentes.
+
+Cada plataforma opera dentro de seu próprio ecossistema fechado. Os ports modernos de PlayStation são emulações diretas do jogo original, em vez de uma experiência remasterizada, o que significa que nenhuma infraestrutura multiplataforma foi adicionada.
+
+| Plataforma | Rede Multijogador | Suporte a Crossplay | Máximo de Jogadores Online |
+|---|---|---|---|
+| **PlayStation 5** | PlayStation Network | Não | Até 18 Jogadores |
+| **PlayStation 4** | PlayStation Network | Não | Até 18 Jogadores |
+| **Xbox Series X|S** | Rede Xbox (360) | Não | Até 18 Jogadores |
+| **Xbox One** | Rede Xbox (360) | Não | Até 18 Jogadores |
+| **PC (Steam)** | Matchmaking do Steam | Não | Até 18 Jogadores |
+
+<Callout type="warning" title="Restrições de Multijogador">
+Como o crossplay está ausente, você deve garantir que seus amigos estejam jogando na mesma família de plataformas para formar um grupo. Jogadores de PlayStation podem jogar juntos no PS4 e PS5, e jogadores de Xbox podem jogar entre gerações, mas conexões entre console e PC são impossíveis.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Compatibilidade de Plataformas e Guia de Compra">
+
+Comprar a versão correta do jogo depende muito da sua configuração atual de console ou PC. Cada loja lida com a propriedade, retrocompatibilidade e conteúdo para download de forma diferente.
+
+<CardGrid cols={3}>
+  <Card title="PlayStation (PS4/PS5)">
+    - **Compra Digital**: Disponível na PlayStation Store.
+    - **Port Nativo**: Lançado em 9 de julho de 2026, com suporte total a troféus.
+    - **Jogo Online**: Requer uma assinatura ativa do PlayStation Plus.
+  </Card>
+  <Card title="Xbox (One/Series)">
+    - **Retrocompatível**: Roda a versão original do Xbox 360.
+    - **Discos Físicos**: Suportados no Xbox One e Xbox Series X.
+    - **Jogo Online**: Requer um plano Xbox Game Pass com multijogador.
+  </Card>
+  <Card title="PC (Steam)">
+    - **Licença Digital**: Comprada diretamente pelo Steam.
+    - **Requisitos do Sistema**: Requisitos modernos baixos, roda no Windows Vista/7/10/11.
+    - **Jogo Online**: Acesso online gratuito via matchmaking do Steam.
+  </Card>
+</CardGrid>
+
+Para entender melhor as diferenças de recursos, preços e compatibilidade em todas as plataformas modernas, consulte a tabela comparativa abaixo:
+
+| Plataforma | Como Comprar | Era de Compatibilidade | Acesso a DLC | Notas Importantes |
+|---|---|---|---|---|
+| **PS5** | PlayStation Store | Lançamento Digital 2026 | Passe de Temporada | Port original, sem crossplay |
+| **PS4** | PlayStation Store | Lançamento Digital 2026 | Passe de Temporada | Alta classificação, até 18 jogadores |
+| **Xbox Series X|S** | Loja Xbox / Disco 360 | Retrocompatível | Marketplace do Xbox 360 | Roda em ambiente 360 emulado |
+| **Xbox One** | Loja Xbox / Disco 360 | Retrocompatível | Marketplace do Xbox 360 | Suportado desde abril de 2017 |
+| **PC** | Loja Steam | Windows Nativo | Página de DLC do Steam | Requer cliente Steam e 16 GB de espaço |
+
+<Callout type="tip" title="Compras de DLC">
+Se você planeja jogar Zombies ou mapas multijogador de DLC, adquira o Passe de Temporada. Ele inclui todos os quatro grandes pacotes de mapas (Revolution, Uprising, Vengeance, Apocalypse) e Nuketown Zombies. Certifique-se de que a região da sua DLC corresponda à região do seu jogo base.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Como Configurar Lobbies de Multijogador e Zombies">
+
+Configurar partidas online é simples assim que você estiver na plataforma correta. Siga estas etapas para preparar seu console ou PC para o matchmaking online:
+
+<Steps>
+  <Step num="1" title="Crie uma Conta Activision">
+    Visite o site oficial da Activision para registrar seu perfil. Vincule sua ID da PlayStation Network, Gamertag do Xbox ou conta Steam para garantir que suas estatísticas sejam sincronizadas corretamente.
+  </Step>
+  <Step num="2" title="Verifique o Status da Assinatura">
+    Certifique-se de que sua assinatura de console esteja ativa. Jogadores de PlayStation precisam do **PlayStation Plus**, enquanto jogadores de Xbox precisam de um nível compatível do **Xbox Game Pass**. Jogadores de PC podem pular esta etapa.
+  </Step>
+  <Step num="3" title="Selecione seu Modo de Jogo">
+    Inicie o jogo e navegue para **Multijogador** ou **Zombies** no menu principal. A tela dividida local está disponível para até dois jogadores em ambos os modos.
+  </Step>
+  <Step num="4" title="Configure as Definições do Lobby">
+    Para partidas públicas, selecione Partida Pública e escolha playlists populares como Team Deathmatch ou Domination. Para sessões privadas, selecione Jogos Personalizados e convide amigos da lista de amigos da sua plataforma.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Matchmaking no Zombies">
+Ao jogar Zombies, iniciar um Jogo Personalizado é altamente recomendado se você quiser completar os Easter eggs. Isso evita que jogadores aleatórios interfiram nas etapas da sua missão em mapas como Origins ou Mob of the Dead.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Objetivos de Multijogador e Zombies">
+
+Para aproveitar ao máximo seu tempo na plataforma escolhida, tente completar estes marcos principais de multijogador e sobrevivência.
+
+<Checklist
+  id="bo2-multiplayer-milestones"
+  title="Objetivos Essenciais do Jogador:"
+  items={[
+    "Alcançar o Nível de Jogador 4 para desbloquear o Create-a-Class e o sistema Pick 10",
+    "Montar um loadout de Nível S competitivo usando a AN-94 ou MSMC",
+    "Desbloquear a máquina Pack-a-Punch em TranZit, Die Rise e Buried",
+    "Completar a missão principal de Easter egg 'Little Lost Girl' em Origins",
+    "Passar o prestígio do seu perfil para desbloquear recompensas permanentes e tokens de prestígio"
+  ]}
+/>
+
+<Callout type="info" title="Customização Pick 10">
+O sistema Pick 10 permite alocar exatamente dez pontos entre armas, acessórios, vantagens (perks) e equipamentos. Deixar de usar uma arma secundária ou granada tática libera pontos para Wildcards valiosos ou acessórios extras.
+</Callout>
+
+</Section>
+
+<Section icon={HelpCircle} title="Perguntas Frequentes">
+
+<FAQ items={[
+  {
+    question: "O crossplay de Call of Duty Black Ops II funciona entre PS4 e PS5?",
+    answer: "Sim. O jogo entre gerações funciona dentro da mesma família de consoles. Jogadores de PlayStation 4 e PlayStation 5 compartilham os mesmos servidores de matchmaking e podem formar lobbies juntos perfeitamente."
+  },
+  {
+    question: "Jogadores de Xbox Series X podem jogar com jogadores de Xbox 360?",
+    answer: "Sim. Como o Xbox Series X|S e o Xbox One rodam o jogo via retrocompatibilidade, eles se conectam diretamente aos servidores multijogador originais do Xbox 360, permitindo o jogo entre gerações em todos os consoles Xbox."
+  },
+  {
+    question: "Existe alguma maneira de contornar a falta de crossplay no PC?",
+    answer: "Não. Não existem ferramentas oficiais ou seguras de terceiros que permitam o crossplay entre PC (Steam) e consoles. Você deve jogar na mesma família de plataformas que seus amigos."
+  },
+  {
+    question: "Os mapas de DLC são compatíveis com crossplay?",
+    answer: "Não. A propriedade da DLC está vinculada à conta da sua plataforma específica. Além disso, você só pode jogar com outros jogadores que possuam exatamente os mesmos pacotes de DLC para evitar a fragmentação do lobby."
+  }
+]} />
+
+</Section>

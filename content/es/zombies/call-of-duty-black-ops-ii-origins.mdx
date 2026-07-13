@@ -1,0 +1,158 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Guía Definitiva de Call of Duty Black Ops II Origins: Mapa y Bastones",
+  description: "Domina Call of Duty Black Ops II Origins con nuestro diseño completo del mapa, recetas de bastones elementales, ubicaciones de generadores y estrategias de supervivencia.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Origins+Zombies+Guide",
+  date: "2026-07-13",
+  author: "Equipo de la Wiki de Call of Duty Black Ops II",
+  keywords: "origins, zombies, bastones elementales, guía, black ops 2, generadores 115"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Mapa Principal**: Origins, también conocido como **Sitio de Excavación 64**, es el legendario mapa final del DLC para **Call of Duty Black Ops II**.
+- **Mecánica Clave**: La energía se distribuye a través de **seis Generadores 115** en lugar de un solo interruptor de encendido.
+- **Armas Maravillosas**: Cuatro bastones elementales (**Fuego, Hielo, Viento y Rayo**) sirven como la defensa definitiva.
+- **Amenazas Mayores**: Evita los pies aplastantes de los **tres Robots Gigantes** y prepárate para el acorazado **Panzer Soldat** que aparece a partir de la Ronda 8.
+</Callout>
+
+<Section icon={Map} title="Descripción General del Mapa Origins y Mecánicas Básicas">
+
+El capítulo final definitivo de la saga Zombies en **Call of Duty Black Ops II** traslada a los jugadores al norte de Francia en 1918. En **Call of Duty Black Ops II Origins**, controlas a las versiones jóvenes "Primis" de Dempsey, Nikolai, Takeo y Richtofen mientras navegan por un campo de batalla embarrado y lleno de trincheras devastado por el Elemento 115.
+
+A diferencia de los mapas tradicionales, Origins no cuenta con un interruptor de encendido maestro. En su lugar, los jugadores deben activar seis Generadores 115 diferentes dispersos por el sitio de excavación para alimentar las ventajas locales, las cajas misteriosas y la máquina Pack-a-Punch.
+
+| Generador | Ubicación | Ventajas y Utilidades Adyacentes |
+|-----------|-----------|---------------------------------|
+| **Generador 1** | Sala de Inicio | Quick Revive, aparición de palas |
+| **Generador 2** | Estación del Tanque | Stamin-Up, ubicación de la Caja Misteriosa |
+| **Generador 3** | Trincheras del Túnel de Fuego | Speed Cola, aparición de pieza del escudo |
+| **Generador 4** | Túnel de Viento | Juggernog, Der Wunderfizz |
+| **Generador 5** | Túnel de Rayo | Stamin-Up, Wunderfizz, pruebas de resistencia |
+| **Generador 6** | Patio de la Iglesia | Double Tap, parada del Tanque Mark IV |
+
+<Callout type="warning" title="Defensa de Generadores">
+Una vez que los seis generadores estén activos, los Zombies Templarios aparecerán periódicamente para atacarlos y desactivarlos. Defiende tus generadores para mantener activa la máquina Pack-a-Punch en la cima del Montículo de Excavación.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Cómo Construir los Cuatro Bastones Elementales">
+
+El ciclo principal de juego en **Call of Duty Black Ops II Origins** gira en torno a la construcción y mejora de los cuatro Bastones Elementales. Estas poderosas Armas Maravillosas son necesarias para completar el Easter Egg principal "Little Lost Girl" y sobrevivir en rondas altas.
+
+<CardGrid cols={2}>
+  <Card title="Bastón de Fuego">
+    - **Cómo obtenerlo**: Dispara al avión rojo brillante, derrota al Panzer Soldat de la Ronda 8 y activa el Generador 6.
+    - **Ideal para**: Alto daño contra objetivos individuales y jefes.
+    - **Ubicación de mejora**: Túnel de Fuego / El Lugar Loco (The Crazy Place).
+  </Card>
+  <Card title="Bastón de Hielo">
+    - **Cómo obtenerlo**: Excava en los puntos de excavación azules usando una pala específicamente mientras está nevando en el mapa.
+    - **Ideal para**: Control de masas y congelar grandes hordas de zombies al instante.
+    - **Ubicación de mejora**: Túnel de Hielo / El Lugar Loco (The Crazy Place).
+  </Card>
+  <Card title="Bastón de Viento">
+    - **Cómo obtenerlo**: Dispara a las plantas de los pies amarillas brillantes de los tres Robots Gigantes (Thor, Odin, Freya) y entra.
+    - **Ideal para**: Alejar amenazas a corta distancia y salvar a jugadores atrapados.
+    - **Ubicación de mejora**: Túnel de Viento / El Lugar Loco (The Crazy Place).
+  </Card>
+  <Card title="Bastón de Rayo">
+    - **Cómo obtenerlo**: Súbete al Tanque Mark IV y salta en tres plataformas de madera específicas alrededor del mapa.
+    - **Ideal para**: Gran capacidad de munición y encadenar electricidad a múltiples enemigos.
+    - **Ubicación de mejora**: Túnel de Rayo / El Lugar Loco (The Crazy Place).
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Requisito del Gramófono">
+Para acceder a la cámara inferior del Sitio de Excavación y construir cualquier bastón, debes encontrar el Gramófono dentro del montículo de excavación y combinarlo con el disco elemental correcto.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Guía de Configuración Paso a Paso de Origins">
+
+Configurarse de manera eficiente en las primeras rondas es fundamental para sobrevivir a los desafíos del juego medio y tardío en **Call of Duty Black Ops II Origins**. Sigue esta secuencia de pasos óptima para maximizar tus recursos.
+
+<Steps>
+  <Step num="1" title="Asegura el Área de Inicio">
+    Recoge las palas en la sala de inicio, activa el Generador 1 y acumula puntos usando la Mauser C96 y ataques cuerpo a cuerpo. No abras las puertas hasta tener al menos 2,500 puntos.
+  </Step>
+  <Step num="2" title="Adquiere el Escudo Zombie">
+    Abre el camino hacia el Generador 2 o 3. Busca en las trincheras y el Taller (Workshop) para encontrar las tres piezas del escudo. Construye el Escudo Zombie en la mesa de trabajo dentro del Taller para proteger tu espalda.
+  </Step>
+  <Step num="3" title="Potencia Juggernog">
+    Dirígete al Generador 4 en Tierra de Nadie (No Man's Land). Activa el generador para encender la máquina Juggernog. Compra Juggernog inmediatamente por 2,500 puntos para aumentar tu salud.
+  </Step>
+  <Step num="4" title="Prepárate para el Panzer Soldat">
+    En la Ronda 8, caerá el primer Panzer Soldat. Asegúrate de tener un arma de alto daño como la MP40, STG-44 o un Bastón Elemental temprano para destruir su casco y núcleo antes de que te atrape con su garra.
+  </Step>
+</Steps>
+
+</Section>
+
+<Section icon={Shield} title="Equipo de Supervivencia y Ventajas">
+
+La supervivencia en **Call of Duty Black Ops II Origins** requiere una combinación inteligente de ventajas, equipo construible y objetos de utilidad. Usa la siguiente tabla para planificar el equipamiento ideal de tu personaje.
+
+| Tipo de Objeto | Nombre del Objeto | Cómo Obtenerlo | Utilidad / Efecto |
+|----------------|-------------------|----------------|-------------------|
+| **Equipo** | Escudo Zombie | Construir en el Taller | Bloquea ataques traseros, permite golpe cuerpo a cuerpo |
+| **Equipo** | Dron de Maxis | Construir en Iglesia / Montículo | Revive a jugadores caídos, dispara a objetivos cercanos |
+| **Cuerpo a cuerpo** | Puñetazo de una Pulgada | Completar Cofres de Rituales | Reemplazo de ataque cuerpo a cuerpo extremadamente potente |
+| **Táctico** | Baliza G-Strike | Limpiar la losa de piedra | Atrae zombies, activa ataque de misiles de los robots |
+| **Ventaja** | Der Wunderfizz | Giro aleatorio (1,500 pts) | Otorga ventajas aleatorias incluyendo PhD Flopper |
+
+<Callout type="success" title="Progresión de la Pala de Oro">
+Excavar suficientes puntos de excavación mejora tu pala a la Pala de Oro. Esto te permite encontrar el Casco de Oro (que protege de las pisadas de los Robots Gigantes) y puntos de excavación naranja brillantes en el modo Sangre de Zombie para desbloquear ranuras de ventajas adicionales.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Objetivos del Mapa y Lista de Verificación">
+
+Sigue tu progreso durante la partida para asegurarte de estar totalmente preparado para las rondas finales y la misión principal del Easter Egg.
+
+<Checklist
+  id="origins-milestones"
+  title="Hitos de Progresión de la Partida:"
+  items={[
+    "Activar los seis Generadores 115 para dar energía a la máquina Pack-a-Punch",
+    "Ensamblar el Escudo Zombie y el Dron de Maxis",
+    "Construir y mejorar los cuatro Bastones Elementales",
+    "Obtener la Pala de Oro y el Casco de Oro de las pilas de excavación",
+    "Mejorar tu ataque cuerpo a cuerpo al Puño de Hierro mediante la misión principal"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Sparkles} title="Preguntas Frecuentes de Origins">
+
+<FAQ items={[
+  {
+    question: "¿Cómo sobrevives cuando un Robot Gigante te pisa en Origins?",
+    answer: "Para sobrevivir a la pisada de un Robot Gigante, debes mirar sus pies mientras se acerca. Si uno de los pies brilla en amarillo, dispárale para abrir la escotilla y entrar al robot. Alternativamente, puedes excavar el Casco de Oro con una Pala de Oro para sobrevivir al pisotón automáticamente."
+  },
+  {
+    question: "¿Cuándo aparece el Panzer Soldat en Call of Duty Black Ops II Origins?",
+    answer: "El Panzer Soldat aparece por primera vez al comienzo de la Ronda 8. Después de eso, aparecerá cada 3 a 5 rondas. Ten en cuenta que nunca aparecerá si las puertas que conducen a Tierra de Nadie permanecen cerradas."
+  },
+  {
+    question: "¿Cuál es el mejor bastón para sobrevivir en rondas altas?",
+    answer: "El Bastón de Hielo es ampliamente considerado el mejor bastón para rondas altas porque su ráfaga de ventisca mejorada congela y mata hordas enteras de zombies al instante, lo que lo hace muy efectivo para el control de masas."
+  },
+  {
+    question: "¿Cómo se consiguen ranuras de ventajas adicionales en Origins?",
+    answer: "Primero debes obtener la Pala de Oro. Luego, mientras estés en el modo Sangre de Zombie, busca puntos de excavación rojos/naranjas brillantes que son invisibles durante el juego normal. Al excavarlos, obtendrás una Botella de Ventaja Vacía, que desbloquea permanentemente una ranura de ventaja adicional."
+  }
+]} />
+
+</Section>
