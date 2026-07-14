@@ -1,0 +1,136 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, FolderDown } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Ubicación de guardado de Call of Duty Black Ops II: Guía de gestión de archivos para PC",
+  description: "Localiza y gestiona tus archivos de guardado de Call of Duty Black Ops II de forma eficaz con esta guía completa para jugadores de PC.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/fff?text=BO2+Save+Guide",
+  date: "2026-07-14",
+  author: "Equipo de la Wiki de Call of Duty Black Ops II"
+}
+
+<Callout type="info" title="Guía rápida">
+- La **ubicación de guardado de call of duty black ops ii** se encuentra principalmente dentro de la carpeta raíz de instalación del juego.
+- Realiza siempre una **copia de seguridad de tu carpeta players actual** antes de reemplazar archivos para evitar la pérdida de datos.
+- Usar un **archivo de guardado al 100%** sobrescribirá tu progreso actual de la campaña y los desbloqueos de misiones.
+- Se requiere la colocación manual de archivos para los archivos de guardado personalizados, lo que normalmente implica el directorio **players**.
+- Verifica los archivos del juego a través del iniciador si encuentras problemas después de modificar los datos de guardado.
+</Callout>
+
+<Section icon={Map} title="Localizar tus archivos de guardado">
+
+Gestionar tus datos de progresión es esencial para los jugadores que desean experimentar con diferentes resultados de misiones o restaurar el progreso perdido. En la versión para PC del juego, la estructura del directorio es bastante sencilla.
+
+| Tipo de dato | Ubicación estándar |
+| :--- | :--- |
+| Raíz del juego | Steam/steamapps/common/Call of Duty Black Ops II |
+| Carpeta de guardado | /players/ |
+| Configuración | /players/config.cfg |
+
+<Callout type="tip" title="Consejo profesional">
+Si no puedes encontrar la carpeta en tu directorio de Steam, haz clic derecho en el juego en tu biblioteca de Steam, selecciona 'Administrar' y elige 'Ver archivos locales'. Esto te llevará directamente a la carpeta raíz donde reside el directorio **players**.
+</Callout>
+
+</Section>
+
+<Section icon={FolderDown} title="Instalar archivos de guardado personalizados">
+
+Al descargar un archivo de guardado al 100%, como los que se encuentran en [Speedrun.com](https://www.speedrun.com/bo2/resources/q661l), debes realizar el reemplazo de archivos con cuidado. Reemplazar tus archivos te permite acceder a todas las misiones y desafíos, pero es una acción destructiva.
+
+**Pasos para la instalación:**
+
+<Steps>
+  <Step num="1" title="Respaldar datos actuales">
+    Navega a la carpeta raíz de tu juego, busca la carpeta "players" y cópiala en una ubicación segura en tu escritorio.
+  </Step>
+  <Step num="2" title="Extraer archivos descargados">
+    Extrae el contenido del archivo zip de guardado descargado en una carpeta temporal.
+  </Step>
+  <Step num="3" title="Reemplazar el directorio">
+    Mueve o copia la nueva carpeta "players" en el directorio raíz de tu juego, confirmando la solicitud de sobrescritura.
+  </Step>
+  <Step num="4" title="Verificar integridad">
+    Inicia el juego para asegurarte de que tu nuevo estado de guardado se refleje correctamente en el menú de la campaña.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Advertencia importante">
+Ten en cuenta que reemplazar tu archivo de guardado sobrescribirá tu progreso actual. Si tienes elecciones de campaña activas que deseas conservar, asegúrate de que tu copia de seguridad esté guardada fuera del directorio de instalación del juego.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Entender el impacto del archivo de guardado">
+
+Es importante entender qué cambia realmente un "guardado al 100%". Estos archivos suelen estar diseñados para jugadores que buscan practicar niveles específicos o evitar el esfuerzo de desbloquear misiones en dificultad Veterano.
+
+<CardGrid cols={3}>
+  <Card title="Desbloqueos">
+    - Todas las misiones disponibles
+    - Todos los desafíos completados
+    - Dificultad Veterano desbloqueada
+  </Card>
+  <Card title="Estado de la historia">
+    - El progreso a menudo se reinicia
+    - Las elecciones específicas de misiones varían
+    - Requiere volver a jugar para finales específicos
+  </Card>
+  <Card title="Nota técnica">
+    - Puede contener errores específicos
+    - Requiere direccionamiento manual
+    - No apto para la integridad competitiva
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Nota de rendimiento">
+El uso de estos archivos suele ser seguro y no activa los sistemas antitrampas en los modos de campaña sin conexión, lo que lo convierte en una forma confiable de acceder al contenido para practicar speedruns.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Resolución de problemas comunes">
+
+A veces, después de modificar la **ubicación de guardado de call of duty black ops ii**, es posible que el juego no reconozca los archivos o vuelva a la configuración predeterminada.
+
+| Problema | Solución potencial |
+| :--- | :--- |
+| Guardado no detectado | Asegúrate de que el nombre de la carpeta sea exactamente 'players' |
+| Configuración restablecida | Comprueba si se sobrescribió config.cfg |
+| El juego se bloquea | Verifica los archivos del juego a través de Steam/Iniciador |
+| Progreso incorrecto | Vuelve a copiar tu copia de seguridad y comprueba los permisos de los archivos |
+
+<Callout type="info" title="Consejo de expertos">
+Si el juego se niega a cargar tu guardado manual, comprueba si tu sistema tiene habilitados los permisos de 'Solo lectura' en las carpetas. Haz clic derecho en la carpeta 'players', selecciona Propiedades y desmarca 'Solo lectura' para permitir que el juego escriba datos según sea necesario.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Preguntas frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Dónde está exactamente la ubicación de guardado de call of duty black ops ii?",
+    answer: "Se encuentra en la carpeta 'players' dentro del directorio principal de instalación del juego, que normalmente está en la carpeta de aplicaciones comunes de Steam."
+  },
+  {
+    question: "¿Perderé mis estadísticas si uso un archivo de guardado al 100%?",
+    answer: "Sí, reemplazar la carpeta 'players' sobrescribirá tus estadísticas de campaña locales y el progreso de las misiones. Realiza siempre una copia de seguridad primero."
+  },
+  {
+    question: "¿Puedo usar estos guardados para el modo Multijugador?",
+    answer: "No. La progresión del multijugador se almacena en los servidores del juego, no en tu carpeta local 'players'. Los guardados locales solo afectan a los modos Campaña y Zombis."
+  },
+  {
+    question: "¿Qué debo hacer si mi juego no se inicia después de los cambios de archivos?",
+    answer: "Si el juego no se inicia, elimina la carpeta 'players' modificada, restaura tu copia de seguridad o usa la función 'Verificar integridad de los archivos del juego' de tu iniciador de juegos."
+  }
+]} />
+
+</Section>

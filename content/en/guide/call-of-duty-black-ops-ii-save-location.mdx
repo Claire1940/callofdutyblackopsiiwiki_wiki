@@ -1,0 +1,136 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, FolderDown } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Call of Duty Black Ops II Save Location: PC File Management Guide",
+  description: "Locate and manage your Call of Duty Black Ops II save files effectively with this comprehensive guide for PC players.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=BO2+Save+Guide",
+  date: "2026-07-14",
+  author: "call of duty black ops ii Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- The **call of duty black ops ii save location** is primarily found within the game's root installation folder.
+- Always **back up your current players folder** before replacing files to prevent data loss.
+- Using a **100% completion save file** will overwrite your existing campaign progress and mission unlocks.
+- Manual file placement is required for custom save files, typically involving the **players** directory.
+- Verify your game files through the launcher if you encounter issues after modifying the save data.
+</Callout>
+
+<Section icon={Map} title="Locating Your Save Files">
+
+Managing your progression data is essential for players who want to experiment with different mission outcomes or restore lost progress. In the PC version of the game, the directory structure is relatively straightforward.
+
+| Data Type | Standard Location |
+| :--- | :--- |
+| Game Root | Steam/steamapps/common/Call of Duty Black Ops II |
+| Save Folder | /players/ |
+| Configuration | /players/config.cfg |
+
+<Callout type="tip" title="Pro Tip">
+If you cannot find the folder in your Steam directory, right-click the game in your Steam Library, select 'Manage', and choose 'Browse local files'. This will take you directly to the root folder where the **players** directory resides.
+</Callout>
+
+</Section>
+
+<Section icon={FolderDown} title="Installing Custom Save Files">
+
+When downloading a 100% completion save file, such as those found on [Speedrun.com](https://www.speedrun.com/bo2/resources/q661l), you must handle the file replacement with care. Replacing your files allows you to access all missions and challenges, but it is a destructive action.
+
+**Steps for Installation:**
+
+<Steps>
+  <Step num="1" title="Backup Current Data">
+    Navigate to your game root folder, find the "players" folder, and copy it to a safe location on your desktop.
+  </Step>
+  <Step num="2" title="Extract Downloaded Files">
+    Extract the contents of your downloaded save zip file into a temporary folder.
+  </Step>
+  <Step num="3" title="Replace the Directory">
+    Move or copy the new "players" folder into your game's root directory, confirming the overwrite request.
+  </Step>
+  <Step num="4" title="Verify Integrity">
+    Launch the game to ensure your new save status is reflected correctly in the campaign menu.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Important Warning">
+Be aware that replacing your save file will overwrite your current progress. If you have active campaign choices you wish to preserve, ensure your backup is stored outside of the game installation directory.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Understanding Save File Impact">
+
+It is important to understand what a "100% save" actually changes. These files are typically designed for players looking to practice specific levels or skip the grind of unlocking Veteran difficulty missions.
+
+<CardGrid cols={3}>
+  <Card title="Unlocks">
+    - All missions available
+    - All challenges completed
+    - Veteran difficulty unlocked
+  </Card>
+  <Card title="Story State">
+    - Progress is often reset
+    - Specific mission choices vary
+    - Requires replay for specific endings
+  </Card>
+  <Card title="Technical Note">
+    - May contain specific bugs
+    - Requires manual pathing
+    - Not for competitive integrity
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Performance Note">
+Using these files is generally safe and does not trigger anti-cheat systems in offline campaign modes, making it a reliable way to access content for speedrunning practice.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Troubleshooting Common Issues">
+
+Sometimes, after modifying your **call of duty black ops ii save location**, the game may fail to recognize the files or revert to default settings.
+
+| Issue | Potential Solution |
+| :--- | :--- |
+| Save not detected | Ensure folder name is exactly 'players' |
+| Settings reset | Check if config.cfg was overwritten |
+| Game crashes | Verify game files via Steam/Launcher |
+| Wrong progress | Re-copy your backup and check file permissions |
+
+<Callout type="info" title="Expert Advice">
+If the game refuses to load your manual save, check if your system has 'Read-only' permissions enabled on the folders. Right-click the 'players' folder, select Properties, and uncheck 'Read-only' to allow the game to write data as needed.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "Where is the call of duty black ops ii save location exactly?",
+    answer: "It is located in the 'players' folder within your main game installation directory, typically found in your Steam common apps folder."
+  },
+  {
+    question: "Will I lose my stats if I use a 100% save file?",
+    answer: "Yes, replacing the 'players' folder will overwrite your local campaign stats and mission progress. Always create a backup first."
+  },
+  {
+    question: "Can I use these saves for Multiplayer?",
+    answer: "No. Multiplayer progression is stored on the game's servers, not in your local 'players' folder. Local saves only affect the Campaign and Zombies modes."
+  },
+  {
+    question: "What should I do if my game won't launch after file changes?",
+    answer: "If the game fails to launch, delete the modified 'players' folder, restore your backup, or use your game launcher's 'Verify Integrity of Game Files' feature."
+  }
+]} />
+
+</Section>

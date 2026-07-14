@@ -1,0 +1,174 @@
+import { Shield, Swords, Sparkles, Target, Trophy, HelpCircle } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Call of Duty Black Ops II Fatal Error: Step-by-Step Fixes",
+  description: "Resolve the Call of Duty Black Ops II fatal error unhandled exception caught crash with our verified steps, compatibility settings, and client alternatives.",
+  category: "Tutorial",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Fatal+Error+Fix+Guide",
+  date: "2026-07-14",
+  author: "call of duty black ops ii Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Verify Game Files**: Right-click the game on Steam, go to Properties > Installed Files, and select **Verify integrity of game files** to repair corrupted data.
+- **Install Redists**: Manually run the DirectX setup and Visual C++ installers located directly inside your local game directory.
+- **Enable Steam Beta**: Opting into the Steam Client Beta via Steam Settings fixes the launch crash instantly for many players.
+- **Turn Off Overlays**: Disable background applications like MSI Afterburner, RivaTuner, and GeForce Experience before starting the game.
+- **Alternative Clients**: If official Steam launchers continue to fail, utilizing community-driven alternatives like Plutonium provides a stable experience.
+</Callout>
+
+<Section icon={Shield} title="Verifying Integrity and Steam Beta Fixes">
+
+When launching Call of Duty: Black Ops II, the notorious "Fatal Error: Unhandled Exception Caught" crash often points to missing shared libraries or conflicts with the modern Steam client overlay. Before adjusting deep system files, run the standard Steam verification process and toggle the client beta configuration.
+
+| Fix Action | Target Issue | Expected Outcome |
+| :--- | :--- | :--- |
+| **Verify Integrity** | Corrupted or missing local game files | Downloads missing 3.4 MB patch |
+| **Steam Beta Opt-in** | Modern Steam UI hook conflicts with legacy engine | Bypasses launch-day hooks entirely |
+| **Client Restart** | Unapplied Steam system updates | Refreshes local runtime environment |
+
+<Callout type="warning" title="Important Step">
+Ensure you completely shut down your PC before starting this process. Do not just select "Restart" from the Windows menu; a full cold boot clears lingering memory caches that block file verification.
+</Callout>
+
+### Step-by-Step Steam Client Configuration
+
+<Steps>
+  <Step num="1" title="Verify Game Files">
+    Open Steam, navigate to your Library, and right-click on Call of Duty: Black Ops II (Singleplayer, Multiplayer, or Zombies). Select **Properties**, go to the **Installed Files** (or Local Files) tab, and click **Verify integrity of game files**. Let the process finish and download any missing components.
+  </Step>
+  <Step num="2" title="Opt into Steam Client Beta">
+    Click **Steam** in the top-left corner of the client, choose **Settings**, and head to the **Interface** tab. Find **Client Beta Participation**, change it to **Steam Beta Update**, and let the client restart.
+  </Step>
+  <Step num="3" title="Re-Verify Post-Update">
+    Once the Steam client updates and restarts in Beta mode, perform the file verification step from Step 1 once more to ensure the game files align with the new client hooks.
+  </Step>
+</Steps>
+
+</Section>
+
+<Section icon={Swords} title="Reinstalling DirectX and Visual C++ Redistributables">
+
+Legacy titles require precise runtime libraries that modern Windows 10 and Windows 11 installations often lack or override with newer, incompatible versions. Manually deploying the redistributables packaged directly with the game files resolves deep-level system execution mismatches.
+
+| Package Name | File Path in Directory | Function |
+| :--- | :--- | :--- |
+| **vcredist_x86.exe** | `...\Call of Duty Black Ops II\redist\` | Visual C++ Runtime libraries |
+| **DXSETUP.exe** | `...\Call of Duty Black Ops II\redist\DirectX\` | Legacy DirectX 9.0c API hooks |
+
+<Callout type="tip" title="Pro Tip">
+Always run these installer executables as an Administrator. Right-click the setup file and select **Run as administrator** to prevent Windows User Account Control from blocking critical system directory writes.
+</Callout>
+
+### Manual Dependency Installation Guide
+
+<Steps>
+  <Step num="1" title="Navigate to Local Files">
+    Right-click the game in your Steam Library, select **Manage**, and click **Browse local files**. This opens your installation directory.
+  </Step>
+  <Step num="2" title="Install Visual C++ Redistributable">
+    Open the `redist` folder. Locate and run `vcredist_x86.exe`. Choose the repair or install option, complete the setup, and close the window.
+  </Step>
+  <Step num="3" title="Run DirectX Setup">
+    Inside the same `redist` folder, open the `DirectX` folder. Scroll down to find `DXSETUP.exe`, run it, accept the agreement, and let it complete the legacy API installation.
+  </Step>
+</Steps>
+
+</Section>
+
+<Section icon={Target} title="Compatibility and Overlay Adjustments">
+
+The Call of Duty: Black Ops II engine frequently conflicts with modern operating system schedulers and background overlay programs. Adjusting compatibility modes and closing monitoring software prevents memory access violations during startup.
+
+<CardGrid cols={3}>
+  <Card title="Windows Compatibility">
+    Force the game executables (`t6mp.exe`, `t6sp.exe`, or `t6zm.exe`) to run in **Windows 7** or **Windows 8** compatibility mode via properties.
+  </Card>
+  <Card title="Disable Overlays">
+    Turn off GeForce Experience, Discord, and Steam overlays. These programs attempt to inject code into the rendering pipeline, causing instant crashes.
+  </Card>
+  <Card title="Close Hardware Monitors">
+    Exit utility software such as MSI Afterburner and RivaTuner Statistics Server (RTSS) before launching the game executable.
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Crash Resolved">
+Many players report that disabling active monitoring overlays instantly resolves the "Unhandled Exception Caught" crash without needing to reinstall any game files.
+</Callout>
+
+### Executable Compatibility Setup
+
+| Executable File | Game Mode | Recommended Compatibility Mode |
+| :--- | :--- | :--- |
+| **t6sp.exe** | Campaign (Singleplayer) | Windows 7 / Run as Administrator |
+| **t6mp.exe** | Multiplayer | Windows 8 / Disable Fullscreen Optimizations |
+| **t6zm.exe** | Zombies | Windows 7 / Run as Administrator |
+
+</Section>
+
+<Section icon={Sparkles} title="Security Software Conflicts and Alternative Clients">
+
+Aggressive real-time antivirus engines can flag legacy game files as false positives, isolating critical game components during the initial boot sequence. If standard fixes fail, community-run clients offer a more stable runtime environment.
+
+| Antivirus Solution | Action Required | Alternative Recommendation |
+| :--- | :--- | :--- |
+| **Windows Defender** | Add game folder to exclusion list | Use custom exclusions |
+| **Third-Party AV** | Temporarily disable or uninstall | Transition to lightweight security |
+| **Plutonium Client** | External community launcher | Bypasses Steam matchmaking completely |
+
+<Callout type="warning" title="Anti-Virus Alert">
+Aggressive antivirus software suites (such as McAfee LiveSafe) are known to corrupt Call of Duty: Black Ops II game files. If adding exclusions does not work, temporarily uninstalling the security suite is highly recommended.
+</Callout>
+
+### Community Platform Alternative
+If the official Steam launcher continues to throw the call of duty black ops ii fatal error despite all troubleshooting steps, utilizing the community-developed Plutonium client is a highly reliable alternative. Plutonium features built-in dedicated servers, active anti-cheat, and modern operating system optimizations that bypass the legacy Steam client integration issues entirely.
+
+</Section>
+
+<Section icon={Trophy} title="Troubleshooting Checklist">
+
+Follow this checklist to track your troubleshooting progress and ensure all potential system conflicts are resolved.
+
+<Checklist
+  id="bo2-error-checklist"
+  title="System Preparation Steps:"
+  items={[
+    "Verify game file integrity via Steam client properties",
+    "Opt into the Steam Client Beta program and restart Steam",
+    "Manually run vcredist_x86 and DXSETUP from the game directory",
+    "Configure game executables to run in Windows 7 compatibility mode",
+    "Turn off Discord, GeForce Experience, and MSI Afterburner overlays",
+    "Add the entire game folder to your antivirus exclusion list"
+  ]}
+/>
+
+</Section>
+
+<Section icon={HelpCircle} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "Why does the Call of Duty Black Ops II fatal error occur suddenly on Windows 11?",
+    answer: "The error is primarily caused by incompatibility between modern Steam overlay hooks, active background monitoring software like MSI Afterburner, and the game's outdated DirectX 9 rendering engine on modern operating systems."
+  },
+  {
+    question: "Will opting into the Steam Client Beta affect my other games?",
+    answer: "No, the Steam Client Beta is highly stable and only introduces early client-side features. It can be toggled off at any time through the Steam Interface settings if you encounter issues with other titles."
+  },
+  {
+    question: "Is using the Plutonium client safe and allowed?",
+    answer: "Yes, Plutonium is a widely used community client designed to improve stability, add dedicated server support, and patch security vulnerabilities present in the official legacy Steam build."
+  },
+  {
+    question: "Do I need to reinstall the entire game to fix the unhandled exception error?",
+    answer: "Rarely. In most scenarios, verifying the game cache via Steam and installing the missing redistributables from the local 'redist' folder resolves the issue without requiring a full redownload."
+  }
+]} />
+
+</Section>

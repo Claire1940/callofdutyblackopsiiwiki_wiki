@@ -1,0 +1,184 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Cómo cambiar el idioma en Call of Duty Black Ops II: Guía de configuración",
+  description: "Aprende cómo cambiar el idioma en Call of Duty Black Ops II para Steam, Plutonium T6 y consolas con esta guía de configuración paso a paso.",
+  category: "Tutorial",
+  image: "https://placehold.co/800x400/1e293b/ffffff?text=BO2+Language+Guide",
+  date: "2026-07-14",
+  author: "Equipo de Wiki de Call of Duty Black Ops II",
+  keywords: "cambiar idioma, call of duty black ops ii, steam, plutonium t6, consolas"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Versión de Steam**: Haz clic derecho en el juego en tu biblioteca de Steam, selecciona Propiedades, ve a la pestaña General y elige tu idioma preferido.
+- **Plutonium T6**: Edita el archivo `localization.txt` en el directorio de tu juego o copia los archivos localizados en la carpeta principal.
+- **Versiones de consola**: Ajusta el idioma del sistema de tu consola Xbox o PlayStation, o verifica la compatibilidad de región del disco del juego.
+- **Verificación de archivos**: Verifica siempre la integridad de los archivos del juego en Steam después de cambiar el idioma para descargar los paquetes de audio necesarios.
+- **Archivos predeterminados**: Plutonium solo proporciona archivos en inglés por defecto; los archivos de idioma personalizados deben obtenerse manualmente.
+</Callout>
+
+<Section icon={Map} title="Cómo cambiar el idioma en Call of Duty Black Ops II en Steam">
+
+Si posees la versión oficial de Steam del juego, realizar el proceso para **cambiar el idioma en Call of Duty Black Ops II** es relativamente sencillo. Steam se encarga de la descarga de los archivos localizados de forma automática. Cuando cambias de idioma, Steam descarga los archivos de localización correspondientes, incluyendo voces, textos y subtítulos. 
+
+Sin embargo, los jugadores deben asegurarse de tener una conexión a internet estable, ya que estos paquetes de idioma pueden variar desde unos pocos cientos de megabytes hasta varios gigabytes. El tamaño de la descarga depende de si el paquete de idioma incluye localización de audio completa o solo traducciones de texto. Algunas versiones regionales, como la versión censurada alemana, tienen límites de idioma estrictos impuestos por las juntas de clasificación regionales.
+
+A continuación se muestra una tabla que detalla los idiomas admitidos en Steam y el tipo de localización proporcionado para cada uno.
+
+| Idioma | Localización de Texto | Localización de Audio |
+| :--- | :--- | :--- |
+| **Inglés** | Soportado | Soportado |
+| **Francés** | Soportado | Soportado |
+| **Alemán** | Soportado | Soportado |
+| **Italiano** | Soportado | Soportado |
+| **Español** | Soportado | Soportado |
+
+<Callout type="warning" title="Descarga Requerida">
+Cambiar el idioma en Steam iniciará una descarga. No inicies el juego hasta que Steam complete la actualización de los archivos, o podrías experimentar fallos (crashes).
+</Callout>
+
+Para cambiar el idioma en Steam, abre tu biblioteca, haz clic derecho en el título del juego y elige Propiedades. En la pestaña General, encontrarás un menú desplegable de Idioma. Selecciona tu idioma de destino y Steam pondrá automáticamente en cola la descarga del paquete de idioma necesario.
+
+</Section>
+
+<Section icon={Target} title="Modificación del idioma del cliente Plutonium T6">
+
+Para los jugadores que utilizan el cliente personalizado Plutonium T6, el proceso difiere de la versión estándar de Steam. Por defecto, Plutonium solo proporciona archivos de juego en inglés para mantener una distribución ligera. Si deseas jugar al juego en alemán, ruso, español u otro idioma, debes proporcionar manualmente los archivos de localización o modificar los archivos de configuración.
+
+Un método común implica editar el archivo `localization.txt` ubicado en la carpeta principal de instalación. Si ya tienes los archivos de recursos localizados (como los archivos `.sabs` y `.sabl` en español o alemán), puedes forzar al cliente a cargarlos editando este archivo de texto.
+
+Sigue estos pasos para modificar la configuración de idioma de tu cliente:
+
+<Steps>
+  <Step num="1" title="Localizar la carpeta de instalación">
+    Navega al directorio donde están instalados los archivos de tu juego Plutonium T6. Busca la carpeta principal que contiene el ejecutable del juego.
+  </Step>
+  <Step num="2" title="Abrir localization.txt">
+    Busca el archivo llamado `localization.txt` en el directorio raíz. Ábrelo con un editor de texto estándar como el Bloc de notas.
+  </Step>
+  <Step num="3" title="Editar el valor del idioma">
+    Cambia el valor de texto en la parte superior del archivo para que coincida con tu idioma de destino (por ejemplo, escribe 'English', 'German' o 'Spanish'). Guarda y cierra el archivo.
+  </Step>
+  <Step num="4" title="Copiar recursos localizados">
+    Si vas a cambiar a un idioma que no sea el inglés, copia los archivos localizados de tu copia de seguridad original del juego y pégalos en el directorio de Plutonium, sobrescribiendo los archivos predeterminados en inglés.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Copia de seguridad de archivos">
+Crea siempre una copia de seguridad de tu archivo `localization.txt` original y de las carpetas zone antes de sobrescribirlos con los archivos localizados.
+</Callout>
+
+Si encuentras problemas con los mandos o los paquetes de idioma, puedes consultar los [Foros de soporte de Plutonium](https://forum.plutonium.pw/topic/15231/t6-controller-and-language) para obtener archivos de localización de la comunidad y consejos para solucionar problemas.
+
+</Section>
+
+<Section icon={Shield} title="Configuraciones de idioma en consolas">
+
+En consolas como Xbox 360, PlayStation 3 y consolas Xbox modernas a través de la retrocompatibilidad, el cambio de idioma del juego está vinculado directamente a la configuración del sistema de la consola. A diferencia de la versión para PC, las versiones de consola no permiten descargar paquetes de idioma individuales después del lanzamiento. En su lugar, el disco del juego contiene idiomas regionales específicos.
+
+Si tu disco tiene bloqueo de región para América del Norte, es posible que solo contenga inglés y francés. Una versión de disco europea puede contener inglés, alemán, francés, italiano y español. Para cambiar el idioma, debes cambiar el idioma del sistema en el menú de configuración de la consola.
+
+| Plataforma | Método | Limitaciones de Región |
+| :--- | :--- | :--- |
+| **Xbox 360** | Cambiar el idioma del sistema de la consola | Limitado a los recursos del disco de la región |
+| **PlayStation 3** | Cambiar el idioma del sistema en el XMB | Restringido a los archivos del disco de la región |
+| **Xbox One / Series X** | Configurar la región e idioma de la consola | Descarga la versión digital regional correspondiente |
+
+<Callout type="info" title="Compatibilidad de disco">
+Si tu disco físico no contiene los archivos del idioma de destino, cambiar la configuración del sistema no alterará el idioma del juego.
+</Callout>
+
+Para compras digitales en consolas, el juego descargará automáticamente el paquete de idioma que coincida con la región de origen y la configuración de idioma de tu consola. Si deseas cambiarlo, es posible que debas desinstalar el juego, cambiar la región de tu consola en el menú de configuración y volver a descargar el juego.
+
+</Section>
+
+<Section icon={Sparkles} title="Solución de problemas de idioma y errores de audio">
+
+Un problema frecuente al intentar realizar el proceso de **cambiar el idioma en Call of Duty Black Ops II** es la pérdida de audio. Esto suele ocurrir cuando los archivos de texto se actualizan correctamente, pero el juego no puede localizar los archivos de audio correspondientes (archivos `.sabs` y `.sabl`) en el directorio de sonido. El juego se ejecutará, pero los personajes estarán en silencio durante las cinemáticas y las partidas multijugador.
+
+Para resolver esto, los jugadores de PC deben verificar los archivos del juego o transferir manualmente las carpetas de sonido. Si estás usando Steam, verificar la integridad de los archivos del juego obligará al cliente a buscar los archivos de audio que faltan y descargarlos.
+
+| Problema | Causa Probable | Solución Recomendada |
+| :--- | :--- | :--- |
+| **Cinemáticas sin sonido** | Faltan archivos de audio localizados | Verifica la integridad en Steam o copia los archivos de sonido |
+| **El texto vuelve al inglés** | Archivo de localización en modo de solo lectura | Desmarca "Solo lectura" en las propiedades del archivo |
+| **Modo ventana pequeña** | Restablecimiento de resolución tras actualizar | Presiona Alt + Enter para alternar a pantalla completa |
+| **Cierres inesperados** | Archivos de idioma incompatibles | Restablece `localization.txt` al inglés predeterminado |
+
+<Callout type="warning" title="Verificar Integridad">
+Si experimentas diálogos silenciosos, haz clic derecho en el juego en Steam, selecciona Propiedades > Archivos instalados y haz clic en Verificar integridad de los archivos del juego.
+</Callout>
+
+Si estás jugando en Plutonium y el juego vuelve a ponerse en inglés, asegúrate de que tu archivo `localization.txt` no esté configurado como de solo lectura. Si lo está, haz clic derecho en el archivo, selecciona Propiedades, desmarca la casilla Solo lectura y aplica los cambios antes de editarlo nuevamente.
+
+</Section>
+
+<Section icon={Trophy} title="Consideraciones de rendimiento y compatibilidad">
+
+Al cambiar el idioma de Call of Duty: Black Ops II, debes considerar cómo afecta esto al rendimiento del juego y a la compatibilidad con los mods. Los archivos estándar en inglés son altamente compatibles con clientes personalizados como Plutonium y varios mods creados por usuarios. El uso de archivos que no estén en inglés puede causar ocasionalmente errores de script en mapas de zombis personalizados o salas multijugador personalizadas.
+
+Comparemos las ventajas y desventajas de usar archivos en inglés frente a archivos localizados para tu configuración.
+
+<CardGrid cols={2}>
+  <Card title="Archivos en inglés (Por defecto)">
+    - **Máxima compatibilidad** con clientes personalizados y mods.
+    - Tamaños de descarga más pequeños y tiempos de instalación más rápidos.
+    - Nombres de zonas y tácticas estandarizados para el juego competitivo.
+  </Card>
+  <Card title="Archivos localizados (Español, Alemán, etc.)">
+    - **Experiencia inmersiva** con actuación de voz y texto nativos.
+    - Navegación por los menús más sencilla para los hablantes no ingleses.
+    - Requiere gestión manual de archivos en clientes personalizados.
+  </Card>
+</CardGrid>
+
+Para garantizar una transición sin problemas y sin perder el progreso de tu campaña o la configuración del multijugador, sigue esta lista de verificación antes de realizar cualquier modificación.
+
+<Checklist
+  id="language-change-checklist"
+  title="Lista de preparación:"
+  items={[
+    "Haz una copia de seguridad de la carpeta players que contiene los archivos de configuración",
+    "Asegúrate de tener al menos 5 GB de espacio de almacenamiento libre para los nuevos paquetes de idioma",
+    "Verifica la versión actual de tu juego (Steam frente a Plutonium T6)",
+    "Descarga los archivos de sonido localizados correctos si usas clientes personalizados"
+  ]}
+/>
+
+<Callout type="success" title="Copia de seguridad completada">
+Mantener una copia de tu carpeta `players` garantiza que tus asignaciones de botones y configuraciones de gráficos permanezcan intactas después de la actualización.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Preguntas Frecuentes">
+
+Comprender los detalles técnicos de la localización del juego puede ayudarte a evitar errores comunes. A continuación se presentan las respuestas a las preguntas más comunes sobre el proceso de **cambiar el idioma en Call of Duty Black Ops II**.
+
+<FAQ items={[
+  {
+    question: "¿Por qué Plutonium solo proporciona archivos en inglés por defecto?",
+    answer: "Plutonium proporciona archivos en inglés para minimizar el tamaño de las descargas y evitar problemas de distribución de derechos de autor. Los jugadores que deseen otros idiomas deben poseer los archivos originales del juego localizado."
+  },
+  {
+    question: "¿Cómo soluciono que el juego se inicie en una ventana pequeña después de cambiar el idioma?",
+    answer: "Este es un error común de restablecimiento de resolución. Presiona Alt + Enter en tu teclado para forzar al juego a volver al modo de pantalla completa, luego ajusta tu resolución en la configuración de video."
+  },
+  {
+    question: "¿Puedo mezclar audio en inglés con texto en español en Black Ops II?",
+    answer: "Sí, pero requiere edición manual de archivos. Debes conservar los archivos de texto de localización en español mientras mantienes los archivos de audio en inglés en el directorio de sonido."
+  }
+]} />
+
+<Callout type="info" title="Soporte de la Comunidad">
+Si encuentras errores únicos, visita los foros oficiales de Plutonium o el punto de encuentro de la comunidad de Steam para obtener asistencia especializada.
+</Callout>
+
+</Section>

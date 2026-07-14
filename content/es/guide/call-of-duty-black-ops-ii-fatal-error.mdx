@@ -1,0 +1,174 @@
+import { Shield, Swords, Sparkles, Target, Trophy, HelpCircle } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Error Fatal de Call of Duty Black Ops II: Soluciones Paso a Paso",
+  description: "Resuelve el bloqueo por error fatal 'unhandled exception caught' de Call of Duty Black Ops II con nuestros pasos verificados, ajustes de compatibilidad y clientes alternativos.",
+  category: "Tutorial",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Fatal+Error+Fix+Guide",
+  date: "2026-07-14",
+  author: "Equipo de la Wiki de Call of Duty Black Ops II"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Verificar archivos del juego**: Haz clic derecho en el juego en Steam, ve a Propiedades > Archivos instalados y selecciona **Verificar integridad de los archivos del juego** para reparar los datos corruptos.
+- **Instalar Redists**: Ejecuta manualmente el instalador de DirectX y los instaladores de Visual C++ ubicados directamente dentro del directorio local del juego.
+- **Activar la beta de Steam**: Unirse a la Beta del cliente de Steam a través de los Parámetros de Steam soluciona el bloqueo de inicio al instante para muchos jugadores.
+- **Desactivar superposiciones (Overlays)**: Desactiva las aplicaciones en segundo plano como MSI Afterburner, RivaTuner y GeForce Experience antes de iniciar el juego.
+- **Clientes alternativos**: Si los lanzadores oficiales de Steam siguen fallando, utilizar alternativas de la comunidad como Plutonium ofrece una experiencia estable.
+</Callout>
+
+<Section icon={Shield} title="Verificación de integridad y soluciones de la beta de Steam">
+
+Al iniciar Call of Duty: Black Ops II, el conocido bloqueo "Fatal Error: Unhandled Exception Caught" a menudo se debe a la falta de librerías compartidas o a conflictos con la superposición moderna del cliente de Steam. Antes de realizar ajustes profundos en los archivos del sistema, ejecuta el proceso estándar de verificación de Steam y activa la configuración de la beta del cliente.
+
+| Acción correctiva | Problema objetivo | Resultado esperado |
+| :--- | :--- | :--- |
+| **Verificar integridad** | Archivos locales del juego corruptos o faltantes | Descarga el parche faltante de 3.4 MB |
+| **Unirse a la beta de Steam** | Conflictos de la interfaz moderna de Steam con el motor heredado | Evita por completo los ganchos (hooks) de inicio |
+| **Reiniciar cliente** | Actualizaciones del sistema de Steam no aplicadas | Restablece el entorno de ejecución local |
+
+<Callout type="warning" title="Paso importante">
+Asegúrate de apagar por completo tu PC antes de iniciar este proceso. No selecciones simplemente "Reiniciar" en el menú de Windows; un inicio en frío completo limpia las cachés de memoria de sistema que bloquean la verificación de archivos.
+</Callout>
+
+### Configuración paso a paso del cliente de Steam
+
+<Steps>
+  <Step num="1" title="Verificar archivos del juego">
+    Abre Steam, navega a tu Biblioteca y haz clic derecho en Call of Duty: Black Ops II (Singleplayer, Multiplayer o Zombies). Selecciona **Propiedades**, ve a la pestaña **Archivos instalados** (o Archivos locales) y haz clic en **Verificar integridad de los archivos del juego**. Deja que el proceso termine y descargue los componentes faltantes.
+  </Step>
+  <Step num="2" title="Unirse a la beta del cliente de Steam">
+    Haz clic en **Steam** en la esquina superior izquierda del cliente, elige **Parámetros** y ve a la pestaña **Interfaz**. Busca **Participación en la beta del cliente**, cámbialo a **Steam Beta Update** y deja que el cliente se reinicie.
+  </Step>
+  <Step num="3" title="Volver a verificar después de la actualización">
+    Una vez que el cliente de Steam se actualice y se reinicie en modo Beta, realiza el paso de verificación de archivos del Paso 1 una vez más para asegurarte de que los archivos del juego se alineen con los nuevos ganchos del cliente.
+  </Step>
+</Steps>
+
+</Section>
+
+<Section icon={Swords} title="Reinstalación de DirectX y los redistribuibles de Visual C++">
+
+Los títulos heredados requieren librerías de ejecución específicas que las instalaciones modernas de Windows 10 y Windows 11 a menudo no tienen o sobrescriben con versiones más nuevas e incompatibles. Instalar manualmente los redistribuibles incluidos directamente con los archivos del juego resuelve los desajustes de ejecución del sistema a nivel profundo.
+
+| Nombre del paquete | Ruta del archivo en el directorio | Función |
+| :--- | :--- | :--- |
+| **vcredist_x86.exe** | `...\Call of Duty Black Ops II\redist\` | Librerías de ejecución de Visual C++ |
+| **DXSETUP.exe** | `...\Call of Duty Black Ops II\redist\DirectX\` | Ganchos de la API heredada de DirectX 9.0c |
+
+<Callout type="tip" title="Consejo profesional">
+Ejecuta siempre estos instaladores ejecutables como Administrador. Haz clic derecho en el archivo de instalación y selecciona **Ejecutar como administrador** para evitar que el Control de cuentas de usuario de Windows bloquee la escritura en directorios críticos del sistema.
+</Callout>
+
+### Guía de instalación manual de dependencias
+
+<Steps>
+  <Step num="1" title="Navegar a los archivos locales">
+    Haz clic derecho en el juego en tu Biblioteca de Steam, selecciona **Administrar** y haz clic en **Ver archivos locales**. Esto abrirá el directorio de instalación.
+  </Step>
+  <Step num="2" title="Instalar el redistribuible de Visual C++">
+    Abre la carpeta `redist`. Localiza y ejecuta `vcredist_x86.exe`. Elige la opción de reparar o instalar, completa la configuración y cierra la ventana.
+  </Step>
+  <Step num="3" title="Ejecutar la instalación de DirectX">
+    Dentro de la misma carpeta `redist`, abre la carpeta `DirectX`. Desplázate hacia abajo para encontrar `DXSETUP.exe`, ejecútalo, acepta el acuerdo y deja que complete la instalación de la API heredada.
+  </Step>
+</Steps>
+
+</Section>
+
+<Section icon={Target} title="Ajustes de compatibilidad y superposiciones">
+
+El motor de Call of Duty: Black Ops II suele entrar en conflicto con los planificadores de los sistemas operativos modernos y los programas de superposición en segundo plano. Ajustar los modos de compatibilidad y cerrar el software de monitoreo evita violaciones de acceso a la memoria durante el inicio.
+
+<CardGrid cols={3}>
+  <Card title="Compatibilidad de Windows">
+    Fuerza a los ejecutables del juego (`t6mp.exe`, `t6sp.exe` o `t6zm.exe`) a ejecutarse en modo de compatibilidad con **Windows 7** o **Windows 8** a través de sus propiedades.
+  </Card>
+  <Card title="Desactivar superposiciones">
+    Desactiva las superposiciones de GeForce Experience, Discord y Steam. Estos programas intentan inyectar código en el flujo de renderizado, lo que provoca bloqueos instantáneos.
+  </Card>
+  <Card title="Cerrar monitores de hardware">
+    Cierra el software de utilidad como MSI Afterburner y RivaTuner Statistics Server (RTSS) antes de iniciar el ejecutable del juego.
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Bloqueo resuelto">
+Muchos jugadores informan que desactivar las superposiciones de monitoreo activas resuelve instantáneamente el bloqueo "Unhandled Exception Caught" sin necesidad de reinstalar ningún archivo del juego.
+</Callout>
+
+### Configuración de compatibilidad del ejecutable
+
+| Archivo ejecutable | Modo de juego | Modo de compatibilidad recomendado |
+| :--- | :--- | :--- |
+| **t6sp.exe** | Campaña (Singleplayer) | Windows 7 / Ejecutar como administrador |
+| **t6mp.exe** | Multijugador | Windows 8 / Deshabilitar optimizaciones de pantalla completa |
+| **t6zm.exe** | Zombies | Windows 7 / Ejecutar como administrador |
+
+</Section>
+
+<Section icon={Sparkles} title="Conflictos con software de seguridad y clientes alternativos">
+
+Los motores antivirus agresivos en tiempo real pueden marcar los archivos heredados del juego como falsos positivos, aislando componentes críticos del juego durante la secuencia de inicio inicial. Si las soluciones estándar fallan, los clientes gestionados por la comunidad ofrecen un entorno de ejecución más estable.
+
+| Solución antivirus | Acción requerida | Recomendación alternativa |
+| :--- | :--- | :--- |
+| **Windows Defender** | Agregar la carpeta del juego a la lista de exclusión | Usar exclusiones personalizadas |
+| **Antivirus de terceros** | Desactivar temporalmente o desinstalar | Transicionar a una seguridad más ligera |
+| **Cliente Plutonium** | Lanzador externo de la comunidad | Evita por completo el emparejamiento de Steam |
+
+<Callout type="warning" title="Alerta de antivirus">
+Se sabe que las suites de software antivirus agresivas (como McAfee LiveSafe) dañan los archivos del juego Call of Duty: Black Ops II. Si agregar exclusiones no funciona, se recomienda encarecidamente desinstalar temporalmente la suite de seguridad.
+</Callout>
+
+### Plataforma alternativa de la comunidad
+Si el lanzador oficial de Steam sigue mostrando el error fatal de Call of Duty: Black Ops II a pesar de todos los pasos de solución de problemas, utilizar el cliente Plutonium desarrollado por la comunidad es una alternativa muy confiable. Plutonium cuenta con servidores dedicados incorporados, antitrampas activo y optimizaciones para sistemas operativos modernos que evitan por completo los problemas de integración del cliente de Steam heredado.
+
+</Section>
+
+<Section icon={Trophy} title="Lista de verificación de solución de problemas">
+
+Sigue esta lista de verificación para realizar un seguimiento de tu progreso en la solución de problemas y asegurarte de resolver todos los posibles conflictos del sistema.
+
+<Checklist
+  id="bo2-error-checklist"
+  title="Pasos de preparación del sistema:"
+  items={[
+    "Verificar la integridad de los archivos del juego a través de las propiedades del cliente de Steam",
+    "Unirse al programa Beta del cliente de Steam y reiniciar Steam",
+    "Ejecutar manualmente vcredist_x86 y DXSETUP desde el directorio del juego",
+    "Configurar los ejecutables del juego para que se ejecuten en modo de compatibilidad con Windows 7",
+    "Desactivar las superposiciones de Discord, GeForce Experience y MSI Afterburner",
+    "Agregar toda la carpeta del juego a la lista de exclusiones de tu antivirus"
+  ]}
+/>
+
+</Section>
+
+<Section icon={HelpCircle} title="Preguntas frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Por qué ocurre repentinamente el error fatal de Call of Duty Black Ops II en Windows 11?",
+    answer: "El error se debe principalmente a la incompatibilidad entre los ganchos modernos de la superposición de Steam, el software de monitoreo en segundo plano activo como MSI Afterburner y el motor de renderizado DirectX 9 desactualizado del juego en los sistemas operativos modernos."
+  },
+  {
+    question: "¿Afectará a mis otros juegos el unirme a la beta del cliente de Steam?",
+    answer: "No, la beta del cliente de Steam es muy estable y solo introduce funciones tempranas del lado del cliente. Se puede desactivar en cualquier momento a través de los ajustes de Interfaz de Steam si experimentas problemas con otros títulos."
+  },
+  {
+    question: "¿Es seguro y está permitido usar el cliente Plutonium?",
+    answer: "Sí, Plutonium es un cliente de la comunidad ampliamente utilizado diseñado para mejorar la estabilidad, agregar soporte para servidores dedicados y parchear vulnerabilidades de seguridad presentes en la compilación oficial heredada de Steam."
+  },
+  {
+    question: "¿Necesito reinstalar todo el juego para solucionar el error de excepción no controlada?",
+    answer: "Rara vez. En la mayoría de los casos, verificar la caché del juego a través de Steam e instalar los redistribuibles faltantes desde la carpeta local 'redist' resuelve el problema sin necesidad de una descarga completa."
+  }
+]} />
+
+</Section>

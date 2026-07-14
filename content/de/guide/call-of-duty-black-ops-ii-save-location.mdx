@@ -1,0 +1,136 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, FolderDown } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Call of Duty Black Ops II Speicherort: PC-Dateiverwaltungshandbuch",
+  description: "Finden und verwalten Sie Ihre Call of Duty Black Ops II Speicherstände effektiv mit dieser umfassenden Anleitung für PC-Spieler.",
+  category: "Leitfaden",
+  image: "https://placehold.co/800x400/1e293b/fff?text=BO2+Save+Guide",
+  date: "2026-07-14",
+  author: "call of duty black ops ii Wiki-Team"
+}
+
+<Callout type="info" title="Schnellanleitung">
+- Der **Speicherort von Call of Duty Black Ops II** befindet sich hauptsächlich im Stammverzeichnis der Spielinstallation.
+- Sichern Sie immer Ihren aktuellen **players-Ordner**, bevor Sie Dateien ersetzen, um Datenverlust zu vermeiden.
+- Die Verwendung eines **100%-Spielstands** überschreibt Ihren vorhandenen Kampagnenfortschritt und Ihre freigeschalteten Missionen.
+- Für benutzerdefinierte Spielstände ist eine manuelle Dateiplatzierung erforderlich, die in der Regel das **players**-Verzeichnis betrifft.
+- Überprüfen Sie Ihre Spieldateien über den Launcher, wenn nach dem Ändern der Speicherdaten Probleme auftreten.
+</Callout>
+
+<Section icon={Map} title="Speicherstände finden">
+
+Die Verwaltung Ihrer Fortschrittsdaten ist wichtig für Spieler, die mit verschiedenen Missionsausgängen experimentieren oder verlorenen Fortschritt wiederherstellen möchten. In der PC-Version des Spiels ist die Verzeichnisstruktur relativ einfach.
+
+| Datentyp | Standard-Speicherort |
+| :--- | :--- |
+| Spiel-Stammverzeichnis | Steam/steamapps/common/Call of Duty Black Ops II |
+| Speicherordner | /players/ |
+| Konfiguration | /players/config.cfg |
+
+<Callout type="tip" title="Profi-Tipp">
+Wenn Sie den Ordner in Ihrem Steam-Verzeichnis nicht finden können, klicken Sie in Ihrer Steam-Bibliothek mit der rechten Maustaste auf das Spiel, wählen Sie „Verwalten“ und dann „Lokale Dateien durchsuchen“. Dies führt Sie direkt zum Stammverzeichnis, in dem sich der Ordner **players** befindet.
+</Callout>
+
+</Section>
+
+<Section icon={FolderDown} title="Installieren von benutzerdefinierten Spielständen">
+
+Wenn Sie einen 100%-Spielstand herunterladen, wie sie beispielsweise auf [Speedrun.com](https://www.speedrun.com/bo2/resources/q661l) zu finden sind, müssen Sie beim Ersetzen der Dateien vorsichtig vorgehen. Das Ersetzen Ihrer Dateien ermöglicht Ihnen den Zugriff auf alle Missionen und Herausforderungen, ist jedoch ein destruktiver Vorgang.
+
+**Schritte zur Installation:**
+
+<Steps>
+  <Step num="1" title="Aktuelle Daten sichern">
+    Navigieren Sie zu Ihrem Spiel-Stammverzeichnis, suchen Sie den Ordner „players“ und kopieren Sie ihn an einen sicheren Ort auf Ihrem Desktop.
+  </Step>
+  <Step num="2" title="Heruntergeladene Dateien entpacken">
+    Entpacken Sie den Inhalt der heruntergeladenen ZIP-Datei des Spielstands in einen temporären Ordner.
+  </Step>
+  <Step num="3" title="Verzeichnis ersetzen">
+    Verschieben oder kopieren Sie den neuen Ordner „players“ in das Stammverzeichnis Ihres Spiels und bestätigen Sie das Überschreiben.
+  </Step>
+  <Step num="4" title="Integrität überprüfen">
+    Starten Sie das Spiel, um sicherzustellen, dass Ihr neuer Speicherstatus im Kampagnenmenü korrekt angezeigt wird.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Wichtige Warnung">
+Beachten Sie, dass das Ersetzen Ihres Spielstands Ihren aktuellen Fortschritt überschreibt. Wenn Sie aktive Kampagnen-Entscheidungen haben, die Sie bewahren möchten, stellen Sie sicher, dass Ihr Backup außerhalb des Installationsverzeichnisses des Spiels gespeichert ist.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Auswirkungen von Spielständen verstehen">
+
+Es ist wichtig zu verstehen, was ein „100%-Spielstand“ tatsächlich ändert. Diese Dateien sind in der Regel für Spieler gedacht, die bestimmte Levels üben oder das mühsame Freischalten von Missionen auf dem Schwierigkeitsgrad „Veteran“ überspringen möchten.
+
+<CardGrid cols={3}>
+  <Card title="Freischaltungen">
+    - Alle Missionen verfügbar
+    - Alle Herausforderungen abgeschlossen
+    - Schwierigkeitsgrad „Veteran“ freigeschaltet
+  </Card>
+  <Card title="Story-Status">
+    - Fortschritt wird oft zurückgesetzt
+    - Spezifische Missionsentscheidungen variieren
+    - Erfordert erneutes Spielen für bestimmte Enden
+  </Card>
+  <Card title="Technischer Hinweis">
+    - Kann bestimmte Fehler enthalten
+    - Erfordert manuelle Pfadangabe
+    - Nicht für den kompetitiven Wettbewerb gedacht
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Leistungshinweis">
+Die Verwendung dieser Dateien ist im Allgemeinen sicher und löst in Offline-Kampagnenmodi keine Anti-Cheat-Systeme aus, was sie zu einer zuverlässigen Methode macht, um auf Inhalte für das Speedrun-Training zuzugreifen.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Fehlerbehebung bei häufigen Problemen">
+
+Manchmal kann es vorkommen, dass das Spiel nach dem Ändern des **Speicherorts von Call of Duty Black Ops II** die Dateien nicht erkennt oder auf die Standardeinstellungen zurücksetzt.
+
+| Problem | Mögliche Lösung |
+| :--- | :--- |
+| Spielstand nicht erkannt | Stellen Sie sicher, dass der Ordnername genau „players“ lautet |
+| Einstellungen zurückgesetzt | Überprüfen Sie, ob config.cfg überschrieben wurde |
+| Spiel stürzt ab | Überprüfen Sie die Spieldateien über Steam/Launcher |
+| Falscher Fortschritt | Kopieren Sie Ihr Backup erneut und überprüfen Sie die Dateiberechtigungen |
+
+<Callout type="info" title="Expertenrat">
+Wenn das Spiel das Laden Ihres manuellen Spielstands verweigert, prüfen Sie, ob in Ihrem System Schreibschutzberechtigungen („Schreibgeschützt“) für die Ordner aktiviert sind. Klicken Sie mit der rechten Maustaste auf den Ordner „players“, wählen Sie „Eigenschaften“ und deaktivieren Sie „Schreibgeschützt“, damit das Spiel Daten nach Bedarf schreiben kann.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Häufig gestellte Fragen">
+
+<FAQ items={[
+  {
+    question: "Wo genau befindet sich der Speicherort von Call of Duty Black Ops II?",
+    answer: "Er befindet sich im Ordner „players“ in Ihrem Hauptinstallationsverzeichnis des Spiels, das normalerweise in Ihrem Steam-Ordner „common apps“ zu finden ist."
+  },
+  {
+    question: "Verliere ich meine Statistiken, wenn ich einen 100%-Spielstand verwende?",
+    answer: "Ja, das Ersetzen des Ordners „players“ überschreibt Ihre lokalen Kampagnenstatistiken und Ihren Missionsfortschritt. Erstellen Sie immer zuerst ein Backup."
+  },
+  {
+    question: "Kann ich diese Spielstände für den Mehrspielermodus verwenden?",
+    answer: "Nein. Der Fortschritt im Mehrspielermodus wird auf den Servern des Spiels gespeichert, nicht in Ihrem lokalen Ordner „players“. Lokale Spielstände betreffen nur die Kampagnen- und Zombie-Modi."
+  },
+  {
+    question: "Was soll ich tun, wenn mein Spiel nach Dateiänderungen nicht startet?",
+    answer: "Wenn das Spiel nicht startet, löschen Sie den geänderten Ordner „players“, stellen Sie Ihr Backup wieder her oder verwenden Sie die Funktion „Spieldateien auf Fehler überprüfen“ Ihres Launchers."
+  }
+]} />
+
+</Section>

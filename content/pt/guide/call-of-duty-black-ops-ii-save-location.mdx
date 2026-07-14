@@ -1,0 +1,136 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, FolderDown } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Local de Salvamento do Call of Duty Black Ops II: Guia de Gerenciamento de Arquivos no PC",
+  description: "Localize e gerencie seus arquivos de salvamento do Call of Duty Black Ops II de forma eficaz com este guia completo para jogadores de PC.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/1e293b/fff?text=BO2+Save+Guide",
+  date: "2026-07-14",
+  author: "Equipe da Wiki do call of duty black ops ii"
+}
+
+<Callout type="info" title="Guia Rápido">
+- O **local de salvamento do call of duty black ops ii** é encontrado principalmente dentro da pasta raiz de instalação do jogo.
+- Sempre **faça um backup da sua pasta players atual** antes de substituir os arquivos para evitar a perda de dados.
+- Usar um **arquivo de salvamento de 100% de conclusão** substituirá o progresso da sua campanha atual e as missões desbloqueadas.
+- A colocação manual de arquivos é necessária para arquivos de salvamento personalizados, geralmente envolvendo o diretório **players**.
+- Verifique os arquivos do seu jogo através do inicializador se encontrar problemas após modificar os dados de salvamento.
+</Callout>
+
+<Section icon={Map} title="Localizando Seus Arquivos de Salvamento">
+
+Gerenciar seus dados de progressão é essencial para jogadores que desejam experimentar diferentes desfechos de missões ou restaurar o progresso perdido. Na versão para PC do jogo, a estrutura de diretórios é relativamente simples.
+
+| Tipo de Dado | Local Padrão |
+| :--- | :--- |
+| Raiz do Jogo | Steam/steamapps/common/Call of Duty Black Ops II |
+| Pasta de Salvamento | /players/ |
+| Configuração | /players/config.cfg |
+
+<Callout type="tip" title="Dica de Mestre">
+Se você não conseguir encontrar a pasta no seu diretório da Steam, clique com o botão direito no jogo em sua Biblioteca Steam, selecione 'Gerenciar' e escolha 'Explorar arquivos locais'. Isso levará você diretamente para a pasta raiz onde reside o diretório **players**.
+</Callout>
+
+</Section>
+
+<Section icon={FolderDown} title="Instalando Arquivos de Salvamento Personalizados">
+
+Ao baixar um arquivo de salvamento de 100% de conclusão, como os encontrados no [Speedrun.com](https://www.speedrun.com/bo2/resources/q661l), você deve lidar com a substituição do arquivo com cuidado. Substituir seus arquivos permite que você acesse todas as missões e desafios, mas é uma ação destrutiva.
+
+**Passos para Instalação:**
+
+<Steps>
+  <Step num="1" title="Fazer Backup dos Dados Atuais">
+    Navegue até a pasta raiz do seu jogo, encontre a pasta "players" e copie-a para um local seguro na sua área de trabalho.
+  </Step>
+  <Step num="2" title="Extrair Arquivos Baixados">
+    Extraia o conteúdo do arquivo zip de salvamento baixado em uma pasta temporária.
+  </Step>
+  <Step num="3" title="Substituir o Diretório">
+    Mova ou copie a nova pasta "players" para o diretório raiz do seu jogo, confirmando a solicitação de substituição.
+  </Step>
+  <Step num="4" title="Verificar Integridade">
+    Inicie o jogo para garantir que o seu novo status de salvamento seja refletido corretamente no menu da campanha.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Aviso Importante">
+Esteja ciente de que a substituição do seu arquivo de salvamento substituirá o seu progresso atual. Se você tiver escolhas de campanha ativas que deseja preservar, certifique-se de que seu backup seja armazenado fora do diretório de instalação do jogo.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Entendendo o Impacto do Arquivo de Salvamento">
+
+É importante entender o que um "salvamento de 100%" realmente altera. Esses arquivos geralmente são projetados para jogadores que desejam praticar níveis específicos ou pular a rotina de desbloquear missões na dificuldade Veterano.
+
+<CardGrid cols={3}>
+  <Card title="Desbloqueios">
+    - Todas as missões disponíveis
+    - Todos os desafios concluídos
+    - Dificuldade Veterano desbloqueada
+  </Card>
+  <Card title="Estado da História">
+    - O progresso é frequentemente reiniciado
+    - Escolhas específicas de missões variam
+    - Requer jogar novamente para finais específicos
+  </Card>
+  <Card title="Nota Técnica">
+    - Pode conter bugs específicos
+    - Requer direcionamento manual de caminhos
+    - Não se destina à integridade competitiva
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Nota de Desempenho">
+O uso desses arquivos geralmente é seguro e não aciona sistemas antitrapaça nos modos de campanha offline, tornando-se uma maneira confiável de acessar o conteúdo para a prática de speedrun.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Resolução de Problemas Comuns">
+
+Às vezes, após modificar o seu **local de salvamento do call of duty black ops ii**, o jogo pode falhar ao reconhecer os arquivos ou reverter para as configurações padrão.
+
+| Problema | Solução Potencial |
+| :--- | :--- |
+| Salvamento não detectado | Certifique-se de que o nome da pasta seja exatamente 'players' |
+| Configurações redefinidas | Verifique se o config.cfg foi substituído |
+| O jogo trava | Verifique os arquivos do jogo via Steam/Launcher |
+| Progresso incorreto | Copie novamente o seu backup e verifique as permissões do arquivo |
+
+<Callout type="info" title="Conselho de Especialista">
+Se o jogo se recusar a carregar o seu salvamento manual, verifique se o seu sistema tem permissões de 'Somente leitura' ativadas nas pastas. Clique com o botão direito na pasta 'players', selecione Propriedades e desmarque 'Somente leitura' para permitir que o jogo grave dados conforme necessário.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Perguntas Frequentes">
+
+<FAQ items={[
+  {
+    question: "Onde fica exatamente o local de salvamento do call of duty black ops ii?",
+    answer: "Ele está localizado na pasta 'players' dentro do diretório principal de instalação do jogo, normalmente encontrado na pasta common apps da Steam."
+  },
+  {
+    question: "Vou perder minhas estatísticas se usar um arquivo de salvamento de 100%?",
+    answer: "Sim, substituir a pasta 'players' substituirá as estatísticas da sua campanha local e o progresso das missões. Sempre crie um backup primeiro."
+  },
+  {
+    question: "Posso usar esses salvamentos para o modo Multijogador?",
+    answer: "Não. A progressão do modo Multijogador é armazenada nos servidores do jogo, não na sua pasta 'players' local. Os salvamentos locais afetam apenas os modos Campanha e Zumbis."
+  },
+  {
+    question: "O que devo fazer se meu jogo não iniciar após as alterações nos arquivos?",
+    answer: "Se o jogo falhar ao iniciar, exclua a pasta 'players' modificada, restaure o seu backup ou use o recurso 'Verificar Integridade dos Arquivos do Jogo' do inicializador do seu jogo."
+  }
+]} />
+
+</Section>
