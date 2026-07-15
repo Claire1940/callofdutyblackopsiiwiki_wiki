@@ -1,0 +1,175 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Call of Duty Black Ops II Killstreaks: 2026 Scorestreak-Rankings & Strategie",
+  description: "Meistern Sie das Killstreak-System von Call of Duty Black Ops II. Erfahren Sie alles über Punktkosten, taktische Strategien und die besten Scorestreak-Kombinationen für die Multiplayer-Dominanz im Jahr 2026.",
+  category: "Leitfaden",
+  image: "https://placehold.co/800x400/1a202c/fff?text=Killstreak+Strategy+Guide",
+  date: "2026-07-15",
+  author: "call of duty black ops ii Wiki-Team",
+  keywords: "Call of Duty, Black Ops II, Killstreaks, Scorestreaks, Strategie, Multiplayer, Drohne, Schwarm"
+}
+
+<Callout type="info" title="Kurzanleitung">
+- **Scorestreak-System**: In **Call of Duty Black Ops II Killstreaks** werden Belohnungen durch Punkte aus Abschüssen, Assists und Zielen verdient, anstatt nur durch reine Kills.
+- **Punkteschwellen**: Die Belohnungen reichen von der **Drohne (UAV) bei 350 Punkten** bis zum verheerenden **Schwarm bei 1900 Punkten**.
+- **Strategische Auswahl**: Sie können maximal **drei Belohnungen** gleichzeitig ausrüsten, die bei Tod zurückgesetzt werden.
+- **Looping-Mechanik**: Serien können mehrmals in einem Leben verdient werden, müssen aber verwendet werden, bevor der Zyklus neu startet, um nicht überschrieben zu werden.
+- **Priorität auf Ziele**: Das Einnehmen einer Flagge (200 Pkt) ist oft effizienter für das Erreichen von Serien als ein Standard-Abschuss (100 Pkt).
+</Callout>
+
+<Section icon={Target} title="Die Entwicklung der Scorestreaks verstehen">
+
+Der Übergang zum Scorestreak-System stellt eine der bedeutendsten mechanischen Änderungen im Franchise dar. Im Gegensatz zu traditionellen Titeln, bei denen nur Abschüsse Ihren Fortschritt vorantrieben, belohnen **Call of Duty Black Ops II Killstreaks** umfassendes Teamspiel. Dieses System motiviert Spieler dazu, Punkte einzunehmen, Positionen zu verteidigen und Unterstützung durch Assists zu leisten.
+
+Während beispielsweise ein Standard-Abschuss 100 Punkte gewährt, bringt der Beitrag zu einem Teamziel, wie das Einnehmen einer Flagge, 200 Punkte. Darüber hinaus gewähren aktive Unterstützungsserien wie die Drohne „Assist-Punkte“ jedes Mal, wenn ein Teammitglied einen Abschuss erzielt, während Ihr Radar aktiv ist. Dies schafft eine Rückkopplungsschleife, in der Unterstützungsspieler hohe Belohnungsstufen eher durch Nutzen als durch reine Kampfstärke erreichen können.
+
+| Aktionstyp | Punktebelohnung | Taktischer Vorteil |
+| :--- | :--- | :--- |
+| Standard-Abschuss | 100 Punkte | Basis-Fortschritt in Richtung Belohnungen |
+| Flaggeneroberung | 200 Punkte | Hochwertiges objektives Spiel |
+| Drohnen-Assist | 10 Punkte | Passives Einkommen während der Aktivität |
+| Ausrüstung zerstören | 50-100 Punkte | Verweigert dem Gegner Nutzen und bringt Punkte |
+| Großer Assist | 50 Punkte | Belohnt Teamarbeit und verursachten Schaden |
+
+<Callout type="tip" title="Effizienz durch Ziele">
+Wenn Sie Schwierigkeiten haben, High-Tier-Serien wie den Lodestar zu erreichen, konzentrieren Sie sich auf ertragreiche Ziele. Das Einnehmen eines einzelnen Punktes in Herrschaft entspricht zwei Abschüssen und beschleunigt Ihren Fortschritt zur nächsten Belohnungsstufe erheblich.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Low-Tier-Serien: Information und früher Druck">
+
+Low-Tier-Serien sind das Rückgrat jeder erfolgreichen Ausrüstung. Diese Belohnungen, die typischerweise zwischen 350 und 600 Punkten kosten, bieten wichtige Informationen auf dem Schlachtfeld oder schnelle Abschüsse mit geringem Risiko. Sie sind darauf ausgelegt, mehrmals pro Match verdient zu werden, um den Druck auf den Gegner konstant hochzuhalten.
+
+Die Drohne (UAV) bleibt das wichtigste Werkzeug im Spiel und bietet 30 Sekunden Radarabdeckung. Spieler müssen jedoch beachten, dass sie leicht durch Werfer oder die Konter-Drohne gekontert werden kann. Das RC-XD bietet einen direkteren offensiven Ansatz und ermöglicht die Fernsteuerung eines kleinen Sprengfahrzeugs, das durch enge Korridore navigieren kann, um versteckte Feinde zu finden.
+
+<CardGrid cols={3}>
+  <Card title="Drohne (350 Pkt)">
+    - **Typ**: Aufklärung
+    - **Dauer**: 30 Sekunden
+    - **Bestens für**: Teambewusstsein und Verfolgung von Flankierern.
+  </Card>
+  <Card title="RC-XD (450 Pkt)">
+    - **Typ**: Gesteuerter Sprengstoff
+    - **Steuerung**: Manuell
+    - **Bestens für**: Ausschalten von Campern in Zielräumen.
+  </Card>
+  <Card title="Jäger-Killer (525 Pkt)">
+    - **Typ**: Autonome Drohne
+    - **Zielerfassung**: Nächster Feind/Fahrzeug
+    - **Bestens für**: Sofortige „Fire-and-Forget“-Abschüsse.
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Gegenaufklärung">
+Behalten Sie immer den Himmel im Auge. Eine Konter-Drohne (600 Pkt) kann das Radar Ihres Teams für 30 Sekunden komplett lahmlegen, was Ihre Drohnen-Investition in diesem Zeitfenster wertlos macht.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Mid-Tier-Serien: Gebietsverweigerung und Präzisionsschläge">
+
+Mid-Tier **Call of Duty Black Ops II Killstreaks** schlagen die Brücke zwischen früher Unterstützung und Dominanz im späten Spiel. Diese Belohnungen, die von 650 bis 1100 Punkten reichen, konzentrieren sich darauf, bestimmte Zonen der Karte zu kontrollieren oder präzise Angriffe mit hohem Schaden auszuführen.
+
+Der Wächter (Guardian) ist herausragend für die Verteidigung von Zielen und projiziert ein Mikrowellenfeld, das Feinde verlangsamt und desorientiert. Für offensive Spieler bieten die Hellstorm-Rakete und der Blitzschlag die Möglichkeit, ganze Teams auszulöschen, die sich an einem Eroberungspunkt sammeln. Diese Serien erfordern ein taktischeres Timing als Low-Tier-Optionen, können aber das Momentum eines Matches sofort drehen.
+
+| Scorestreak | Kosten | Hauptfunktion | Steuerungsmethode |
+| :--- | :--- | :--- | :--- |
+| Wächter | 650 | Gebietsverweigerung / Mikrowellenfeld | Platzierbares Geschütz |
+| Hellstorm-Rakete | 700 | Präzisions-Luftschlag | Manuell (Streu-Option) |
+| Blitzschlag | 750 | Bombardierung von drei Orten | Kartenauswahl |
+| Geschütz | 800 | Automatisierte Verteidigung | Autonom oder manuell |
+| Todesmaschine | 850 | Hochleistungs-Minigun | Persönliche Waffe |
+| Dragonfire | 975 | Quadrocopter-Drohne | Manueller Flug |
+
+<Callout type="success" title="Persistenz von Waffen-Serien">
+Im Gegensatz zu den meisten Belohnungen bleiben die Todesmaschine und die Kriegsmaschine über den Tod hinaus bestehen. Wenn Sie sterben, während Sie eine davon halten, können Sie sie nach dem Respawn mit der verbleibenden Munition reaktivieren.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="High-Tier-Serien: Spielentscheidende Feuerkraft">
+
+Das Erreichen der höchsten Stufen der **Call of Duty Black Ops II Killstreaks** erfordert eine Kombination aus Geschicklichkeit, objektivem Spiel und Überlebenskunst. Diese Belohnungen, beginnend bei 1200 Punkten, sind darauf ausgelegt, überwältigend zu sein. Der Orbital-Satellit (VSAT) ist wohl die mächtigste Unterstützungsserie, da er Feinde in Echtzeit mit ihrer Blickrichtung anzeigt und zudem nicht abgeschossen werden kann.
+
+Ganz oben bieten die Hundestaffel (K9 Unit) und der Schwarm autonome Verwüstung. Der Schwarm ruft Dutzende von Jäger-Killer-Drohnen herbei, die jeden Feind auf der Karte gleichzeitig jagen, was oft zu einem kompletten Lockdown des gegnerischen Teams führt.
+
+<Steps>
+  <Step num="1" title="Sichern Sie den VSAT">
+    Erreichen Sie 1200 Punkte. Die Aktivierung des Orbital-Satelliten ist der Katalysator für höhere Serien, da er perfekte Informationen liefert, damit Ihr Team sicher weitere Punkte sammeln kann.
+  </Step>
+  <Step num="2" title="Luftunterstützung anfordern">
+    Nutzen Sie den Lodestar (1500) oder das VTOL-Kampfschiff (1600), um Feuer von oben regnen zu lassen. Diese manuell gesteuerten Fahrzeuge können in einem einzigen Einsatz über 10 Abschüsse erzielen.
+  </Step>
+  <Step num="3" title="Den Schwarm entfesseln">
+    Setzen Sie bei 1900 Punkten den Schwarm ein. Dies ist die ultimative „Siegbedingung“ im Multiplayer, da er Feinde konsequent tötet, sobald sie respawnen.
+  </Step>
+</Steps>
+
+<Callout type="info" title="VSAT-Überlegenheit">
+Der Orbital-Satellit ist die einzige Luftserie, die nicht durch Werfer oder EMPs zerstört werden kann. Er ist der zuverlässigste Weg, um sicherzustellen, dass Ihr Team die Kartenkontrolle behält.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Taktische Loadouts und Auswahlstrategie">
+
+Die Wahl der richtigen Kombination von Serien ist genauso wichtig wie das Verdienen derselben. Spieler fallen oft in die Falle, die drei teuersten Belohnungen zu wählen, was dazu führt, dass sie in vielen Spielen gar nichts verdienen. Ein ausgewogener Ansatz stellt sicher, dass Sie immer zum Match beitragen.
+
+Berücksichtigen Sie bei der Auswahl Ihres Loadouts Ihren Spielstil. Aggressive „Slayer“ bevorzugen vielleicht offensive High-Tier-Serien, während sich zielorientierte Spieler auf Unterstützung und Gebietsverweigerung konzentrieren sollten.
+
+| Loadout-Stil | Serie 1 | Serie 2 | Serie 3 |
+| :--- | :--- | :--- | :--- |
+| **Der Unterstützer** | Drohne (350) | Konter-Drohne (600) | Orbital-Satellit (1200) |
+| **Der Verteidiger** | Wächter (650) | Geschütz (800) | A.G.R. (1000) |
+| **Der Angreifer** | Hellstorm (700) | Blitzschlag (750) | Tarn-Heli (1100) |
+| **Der High Roller** | Orbital-Satellit (1200) | Hundestaffel (1700) | Schwarm (1900) |
+
+<Checklist
+  id="streak-selection"
+  title="Checkliste zur Scorestreak-Auswahl:"
+  items={[
+    "Schätzen Sie Ihre durchschnittlichen Punkte pro Leben ein, um realistische Ziele zu setzen",
+    "Integrieren Sie mindestens eine Serie zur Informationsbeschaffung (Drohne/VSAT)",
+    "Passen Sie Ihre Serien an den Spielmodus an (z. B. Wächter für Stellung)",
+    "Stellen Sie sicher, dass sich Ihre Serien nicht so überschneiden, dass Punkte verschwendet werden",
+    "Berücksichtigen Sie die Kartengröße, bevor Sie manuell gesteuerte Drohnen wählen"
+  ]}
+/>
+
+<Callout type="warning" title="Looping-Risiko">
+Denken Sie daran: Wenn Sie alle drei Serien verdient und nicht verwendet haben, überschreibt das erneute Verdienen der ersten Serie die nicht genutzte Belohnung. Setzen Sie Ihre Drohne oder Ihr RC-XD immer ein, bevor Sie kurz davor sind, sie ein zweites Mal zu verdienen.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Häufig gestellte Fragen">
+
+<FAQ items={[
+  {
+    question: "Werden Killstreaks zurückgesetzt, wenn ich in Black Ops II sterbe?",
+    answer: "Ja, Ihr Fortschritt zur nächsten Scorestreak-Belohnung wird bei Tod auf Null zurückgesetzt. Bestimmte waffenbasierte Serien wie die Todesmaschine und die Kriegsmaschine behalten jedoch ihre Munition über mehrere Leben hinweg bei."
+  },
+  {
+    question: "Kann ich dieselbe Scorestreak mehrmals in einem Leben verdienen?",
+    answer: "Ja, Sie können Ihre Serien „loopen“. Sobald Sie Ihre dritte ausgerüstete Belohnung verdient haben, beginnt der Zyklus von vorn. Sie müssen jedoch die Belohnungen aus dem ersten Zyklus verwenden, bevor Sie sie erneut verdienen, da sie sonst verschwendet werden."
+  },
+  {
+    question: "Was ist der schnellste Weg, um Punkte für Serien zu verdienen?",
+    answer: "Das Spielen von Zielen (Objectives) ist deutlich schneller als nur Abschüsse zu erzielen. In Modi wie Abschuss bestätigt oder Herrschaft bietet das Sammeln von Marken und das Einnehmen von Punkten massive Punkteschübe im Vergleich zum Standard-Team-Deathmatch."
+  },
+  {
+    question: "Kann der Orbital-Satellit (VSAT) abgeschossen werden?",
+    answer: "Nein. Im Gegensatz zur Drohne und Konter-Drohne befindet sich der Orbital-Satellit in einer hohen Umlaufbahn und kann von keiner spielergesteuerten Waffe oder Werfer anvisiert oder zerstört werden."
+  }
+]} />
+
+</Section>

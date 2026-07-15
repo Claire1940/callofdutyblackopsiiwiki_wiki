@@ -1,0 +1,182 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Call of Duty Black Ops II Kino der Toten: Überlebenshandbuch",
+  description: "Meistern Sie Kino der Toten in Call of Duty: Black Ops mit unserem Überlebenshandbuch. Erfahren Sie alles über die besten Waffen, Perks, Strategien und Easter Eggs.",
+  category: "Handbuch",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Kino+der+Toten+Survival+Guide",
+  date: "2026-07-15",
+  author: "call of duty black ops ii Wiki-Team",
+  keywords: "Kino der Toten, Call of Duty Zombies, Überlebensstrategie, Waffen, Perks, Easter Egg"
+}
+
+<Callout type="info" title="Schnellzugriff">
+- **Hauptfokus**: Lernen Sie, wie Sie Karten im Stil von **Call of Duty Black Ops II Kino der Toten** mit klassischen Überlebensgrundlagen dominieren.
+- **Kernmechanik**: Das Aktivieren des Stroms schaltet Fallen, den Pack-a-Punch-Teleporter und Lichtquellen ein.
+- **Beste Strategie**: Laufen Sie Trainingsrouten im Bühnenbereich des Theaters oder in der Gasse, um Horden zu gruppieren und zu vernichten.
+- **Wichtiger Tipp**: Priorisieren Sie den frühen Kauf von Juggernog, um aggressive Zombie-Treffer in hohen Runden zu überleben.
+- **Top-Wahl**: Die Thundergun ist die ultimative Waffe zur Massenkontrolle, um sich aus brenzligen Situationen zu befreien.
+</Callout>
+
+<Section icon={Map} title="Einführung in Kino der Toten">
+
+Ursprünglich in *Call of Duty: Black Ops* veröffentlicht und für *Call of Duty: Black Ops III* im Zombies Chronicles Pack remastert, bleibt Kino der Toten eine der ikonischsten kooperativen Überlebenskarten der Gaming-Geschichte. Angesiedelt in einer verlassenen Theateranlage der Gruppe 935 im Deutschland des Jahres 1963, fordert die Karte die Spieler heraus, unerbittliche Horden von Untoten abzuwehren.
+
+Egal, ob Sie die klassische Version oder die Remastered-Edition spielen, das Verständnis des Layouts und des Ablaufs der Karte ist entscheidend. Die Karte führt einzigartige Elemente wie Kriecher-Zombies ein, die beim Tod giftiges Gas freisetzen, sowie die Feuerfalle.
+
+| Edition | Schlüsselwaffen | Einzigartige Merkmale | Gegnertypen |
+|--- |--- |--- |--- |
+| **Black Ops** | M1911, MP40, Thundergun | Klassische Wandkäufe aus dem Kalten Krieg | Klassische Zombies, Kriecher, Höllenhunde |
+| **Black Ops III** | 1911, RK5, Kuda, Thundergun | GobbleGums, Wunderfizz, Überarbeitete KI | Aggressive Zombies, Kriecher, Höllenhunde |
+
+<Callout type="tip" title="Raumkontrolle">
+Vermeiden Sie es, die Tür von der Lobby zur Gasse zu früh zu öffnen. Bestimmte Wege geschlossen zu halten, hilft dabei, die Spawn-Richtungen zu kontrollieren und sicherere Fluchtwege zu schaffen.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Waffen-Tier-Liste und Wandkäufe">
+
+Das Überleben in hohen Runden erfordert ein solides Arsenal. Kino der Toten bietet verschiedene Startwaffen, Wandkäufe und exklusive Waffen aus der Mystery Box.
+
+### Startwaffen und Wandkäufe
+
+Wandkäufe bieten eine zuverlässige Möglichkeit, Munition während hoher Runden aufzufüllen, was sie zu einer exzellenten Wahl für den primären oder sekundären Waffenslot macht.
+
+| Waffe | Fundort | Kosten (Punkte) | Rang | Empfohlene Verwendung |
+|--- |--- |--- |--- |--- |
+| **MP40** | Foyer (Unten) | 1000 | **A** | Punkte sammeln und Überleben in mittleren Runden |
+| **M16** | Bühne | 1200 | **B** | Ordentlicher Schaden nach Pack-a-Punch |
+| **AK74u** | Gasse | 1200 | **B** | Gute Mobilität und Feuerrate |
+| **Bowie-Messer** | Theater | 3000 | **A** | Ein-Treffer-Nahkampf-Kills bis Runde 9 |
+| **Claymore** | Bühne | 1000 | **C** | Defensive Aufstellung in engen Fluren |
+
+### Mystery Box Waffen
+
+Die Mystery Box enthält die mächtigsten Waffen der Karte, einschließlich der legendären Thundergun.
+
+<CardGrid cols={3}>
+  <Card title="Thundergun (S-Tier)">
+    - **Unendliches Schadenspotenzial**
+    - Pustet ganze Horden weg
+    - Beste Rettungswaffe im Notfall
+  </Card>
+  <Card title="Ray Gun Mark II (A-Tier)">
+    - **Hochpräzises Feuerstöße**
+    - Exzellenter Schaden gegen Bosse/schwere Gegner
+    - Verfügbar in der Black Ops III Version
+  </Card>
+  <Card title="RPK / HK21 (B-Tier)">
+    - **Massive Munitionsreserven**
+    - Ideal zum Halten von Bereichen
+    - Verlangsamt die Bewegungsgeschwindigkeit
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Kriecher-Gefahr">
+Der Einsatz von explosiven Waffen wie der Ray Gun oder Mustang & Sally gegen Kriecher-Zombies kann Kriecher-Horden erzeugen, die Ihren Weg in engen Korridoren blockieren.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Priorisierung der Perk-a-Colas">
+
+Perks sind das Fundament jedes erfolgreichen Überlebenslaufs. Kino der Toten bietet klassische Automaten, die Ihre Gesundheit, Nachladegeschwindigkeit und Nützlichkeit verbessern.
+
+| Perk-a-Cola | Kosten (Punkte) | Priorität | Primärer Effekt |
+|--- |--- |--- |--- |
+| **Juggernog** | 2500 | **Essenziell** | Erhöht die Gesundheit von 2 auf 5 Treffer vor dem Niederschlag |
+| **Quick Revive** | 1500 (500 Solo) | **Essenziell** | Belebte Teammitglieder schneller wieder / Selbstwiederbelebung im Solo |
+| **Speed Cola** | 3000 | **Hoch** | Halbiert Nachladezeiten und Barrierenaufbau |
+| **Double Tap** | 2000 | **Mittel** | Erhöht Feuerrate und Kugelschaden (v2.0 in BO3) |
+| **Mule Kick** | 4000 | **Niedrig** | Ermöglicht das Tragen einer dritten Waffe |
+
+<Callout type="info" title="Wunderfizz Verfügbarkeit">
+In der *Black Ops III* Version der Karte ist der Der Wunderfizz-Automat für 1500 Punkte verfügbar, wodurch Sie Perks wie Widow's Wine und Stamin-Up erhalten können.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Schritt-für-Schritt Anleitung: Strom und Pack-a-Punch">
+
+Das Freischalten des Pack-a-Punch-Automaten ist Ihr Hauptziel in den frühen Runden. Folgen Sie diesen Schritten, um den Strom einzuschalten, den Teleporter zu verknüpfen und Ihre Waffen zu verbessern.
+
+<Steps>
+  <Step num="1" title="Punkte im Startbereich sammeln">
+    Bleiben Sie bis Runde 4 oder 5 in der Lobby. Schießen Sie Zombies 5-6 Mal mit der Pistole in die Beine, bevor Sie sie mit dem Messer erledigen, um die Punkte zu maximieren.
+  </Step>
+  <Step num="2" title="Weg zum Theater freimachen">
+    Öffnen Sie die oberen Türen durch den oberen Flur und die Garderobe oder nehmen Sie den unteren Weg durch die Bibliothek. Begeben Sie sich direkt zur Bühne.
+  </Step>
+  <Step num="3" title="Strom einschalten">
+    Suchen Sie den Stromschalter an der Metallwand in der Nähe des Bühnenvorhangs. Das Aktivieren öffnet den Vorhang, schaltet Fallen ein und aktiviert den Teleporter.
+  </Step>
+  <Step num="4" title="Teleporter verknüpfen">
+    Stellen Sie sich in den Teleporter auf der Bühne und starten Sie die Verknüpfung. Laufen Sie zurück zur Lobby (Spawn) und interagieren Sie mit der Startplattform auf dem Boden, um die Verbindung abzuschließen.
+  </Step>
+  <Step num="5" title="Pack-a-Punch und Flucht">
+    Nutzen Sie den verknüpften Teleporter, um zum Projektorraum zu reisen. Geben Sie 5000 Punkte aus, um Ihre Waffe zu verbessern. Sie haben etwa 30 Sekunden Zeit, bevor Sie zurückteleportiert werden.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Zufällige Filmrollen">
+Wenn Sie vom Projektorraum zurückteleportiert werden, landen Sie möglicherweise in einem zufälligen Raum (wie dem Zahnarztzimmer oder dem Konferenzraum). Durchsuchen Sie diese Räume schnell nach sammelbaren Filmrollen, die Sie in den Projektor einlegen können.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Meilensteine und Easter Eggs">
+
+Kino der Toten bietet mehrere verborgene Geheimnisse, darunter das ikonische musikalische Easter Egg, das den Song "115" von Elena Siegman abspielt. Nutzen Sie diese Checkliste, um Ihren Fortschritt zu verfolgen.
+
+<Checklist
+  id="kino-milestones"
+  title="Kino der Toten Ziele:"
+  items={[
+    "Stromschalter auf der Bühne aktivieren",
+    "Mit den 3 versteckten Meteoriten interagieren, um '115' abzuspielen",
+    "Teleporter verknüpfen und Primärwaffe verbessern",
+    "Juggernog und Speed Cola kaufen",
+    "Thundergun aus der Mystery Box erhalten",
+    "Alle vier zufälligen Teleporterräume besuchen"
+  ]}
+/>
+
+### Fundorte der Meteoriten für das musikalische Easter Egg
+
+Um den geheimen Song zu aktivieren, finden und interagieren Sie mit diesen drei versteckten Steinen:
+
+1. **Lobby (Startraum):** In der Ecke beim unteren Fenster, in einem Glasbehälter.
+2. **Garderobe:** Auf einem schwarzen Tisch in der Nähe des Fensters, versteckt hinter zwei Schaufensterpuppen.
+3. **Lagerraum:** In einem Metallregal neben einem der Barrierefenster.
+
+</Section>
+
+<Section icon={Swords} title="Häufig gestellte Fragen (FAQ)">
+
+<FAQ items={[
+  {
+    question: "Wie gehe ich mit den Kriecher-Zombies auf Kino der Toten um?",
+    answer: "Halten Sie Abstand beim Töten, da sie eine blendende Giftgaswolke freisetzen. Nahkampfwaffen wie das Bowie-Messer oder Sofort-Kill-Waffen wie die Thundergun können verhindern, dass sie explodieren."
+  },
+  {
+    question: "Was ist der beste Trainingsort auf der Karte?",
+    answer: "Die Bühne ist der beliebteste Trainingsort. Halten Sie den Weg zur Lobby geschlossen, gruppieren Sie die Zombies auf der Bühne und nutzen Sie die Feuerfalle oder die Thundergun, um sie auszuschalten."
+  },
+  {
+    question: "Wo befindet sich der Juggernog-Automat?",
+    answer: "Juggernog befindet sich im Theaterbereich, direkt neben dem Bowie-Messer-Wandkauf und dem Eingang zum Bühnenvorhang."
+  },
+  {
+    question: "Kann ich Kino der Toten auf Call of Duty Black Ops II spielen?",
+    answer: "Nein, die Karte ist nativ in Call of Duty: Black Ops enthalten und wurde in Call of Duty: Black Ops III remastert. Sie ist keine offizielle Karte in Call of Duty Black Ops II."
+  }
+]} />
+
+</Section>

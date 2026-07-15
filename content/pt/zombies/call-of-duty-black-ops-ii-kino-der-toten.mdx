@@ -1,0 +1,182 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Call of Duty Black Ops II Kino der Toten: Guia de Sobrevivência",
+  description: "Domine Kino der Toten em Call of Duty: Black Ops com nosso guia de sobrevivência. Aprenda sobre as melhores armas, vantagens, estratégias e Easter eggs.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Kino+der+Toten+Survival+Guide",
+  date: "2026-07-15",
+  author: "Equipe da Wiki de Call of Duty Black Ops II",
+  keywords: "kino der toten, call of duty black ops, guia de sobrevivência, zumbis, estratégias"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Palavra-chave principal**: Aprenda a dominar mapas no estilo **call of duty black ops ii kino der toten** com fundamentos clássicos de sobrevivência.
+- **Mecânica chave**: Ativar a energia liga as armadilhas, o teletransportador do Pack-a-Punch e as fontes de luz.
+- **Melhor estratégia**: Execute rotas de treinamento na área do palco do Teatro ou no Beco para agrupar e destruir hordas.
+- **Dica crítica**: Priorize a compra do Juggernog cedo para sobreviver a ataques agressivos de zumbis em rodadas altas.
+- **Melhor escolha**: A Thundergun é a arma definitiva de controle de grupo para se salvar de armadilhas em cantos.
+</Callout>
+
+<Section icon={Map} title="Introdução a Kino der Toten">
+
+Originalmente lançado em *Call of Duty: Black Ops* e remasterizado para *Call of Duty: Black Ops III* no pacote Zombies Chronicles, Kino der Toten (alemão para Cinema dos Mortos) continua sendo um dos mapas de sobrevivência cooperativa mais icônicos da história dos jogos. Ambientado em uma instalação de teatro abandonada do Grupo 935 na Alemanha de 1963, o mapa desafia os jogadores a lutar contra hordas implacáveis de mortos-vivos.
+
+Seja jogando a versão clássica ou a edição remasterizada, entender o layout e o fluxo do mapa é crítico. O mapa introduz elementos únicos como os Zumbis Crawler, que liberam gás tóxico ao morrer, e a armadilha de Fogo (Fire Pit).
+
+| Edição | Armas Principais | Recursos Únicos | Tipos de Inimigos |
+|--- |--- |--- |--- |
+| **Black Ops** | M1911, MP40, Thundergun | Compras de Parede Clássicas da Guerra Fria | Zumbis Clássicos, Crawlers, Hellhounds |
+| **Black Ops III** | 1911, RK5, Kuda, Thundergun | GobbleGums, Wunderfizz, IA Remasterizada | Zumbis Agressivos, Crawlers, Hellhounds |
+
+<Callout type="tip" title="Controle de Salas">
+Evite abrir a porta do Saguão (Lobby) para o Beco (Alley) muito cedo. Manter certos caminhos fechados ajuda a controlar as direções de surgimento e cria rotas de fuga mais seguras.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Tier List de Armas e Compras de Parede">
+
+Sobreviver a rodadas altas exige um arsenal sólido. Kino der Toten oferece várias armas iniciais, compras de parede e armas exclusivas da Caixa Misteriosa.
+
+### Armas Iniciais e de Compra de Parede
+
+As compras de parede fornecem reabastecimento confiável de munição durante as rodadas altas, tornando-as excelentes escolhas para armas primárias ou secundárias.
+
+| Arma | Localização | Custo (Pontos) | Nível | Uso Recomendado |
+|--- |--- |--- |--- |--- |
+| **MP40** | Saguão (Andar de Baixo) | 1000 | **A** | Farm de pontos e sobrevivência no meio da rodada |
+| **M16** | Palco | 1200 | **B** | Dano decente quando melhorada no Pack-a-Punch |
+| **AK74u** | Beco | 1200 | **B** | Boa mobilidade e cadência de tiro |
+| **Faca Bowie** | Teatro | 3000 | **A** | Eliminação corpo a corpo com um golpe até a Rodada 9 |
+| **Claymore** | Palco | 1000 | **C** | Configuração defensiva em corredores apertados |
+
+### Armas da Caixa Misteriosa
+
+A Caixa Misteriosa contém as armas mais poderosas do mapa, incluindo a lendária Thundergun.
+
+<CardGrid cols={3}>
+  <Card title="Thundergun (Nível S)">
+    - **Potencial de dano infinito**
+    - Explode hordas inteiras
+    - Melhor arma para salvamento de emergência
+  </Card>
+  <Card title="Ray Gun Mark II (Nível A)">
+    - **Tiro em rajada de alta precisão**
+    - Excelente dano contra chefes/pesados
+    - Disponível na versão de Black Ops III
+  </Card>
+  <Card title="RPK / HK21 (Nível B)">
+    - **Reservas massivas de munição**
+    - Ótima para defender áreas
+    - Diminui a velocidade de movimento do jogador
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Perigo dos Crawlers">
+Usar armas explosivas como a Ray Gun ou Mustang & Sally em Zumbis Crawler pode criar hordas de rastejadores que bloqueiam seu caminho em corredores apertados.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Priorização de Perk-a-Cola">
+
+Vantagens (Perks) são a base de qualquer tentativa de sobrevivência bem-sucedida. Kino der Toten apresenta máquinas clássicas que aumentam sua saúde, velocidade de recarga e utilidade.
+
+| Perk-a-Cola | Custo (Pontos) | Prioridade | Efeito Principal |
+|--- |--- |--- |--- |
+| **Juggernog** | 2500 | **Essencial** | Aumenta a saúde de 2 golpes para 5 golpes antes de cair |
+| **Quick Revive** | 1500 (500 Solo) | **Essencial** | Revive companheiros mais rápido / Auto-reanimação no Solo |
+| **Speed Cola** | 3000 | **Alta** | Corta os tempos de recarga e de reconstrução de barreiras pela metade |
+| **Double Tap** | 2000 | **Média** | Aumenta a cadência de tiro e o dano das balas (v2.0 no BO3) |
+| **Mule Kick** | 4000 | **Baixa** | Permite que os jogadores carreguem uma terceira arma |
+
+<Callout type="info" title="Disponibilidade da Wunderfizz">
+Na versão de *Black Ops III* do mapa, a máquina Der Wunderfizz está disponível por 1500 pontos, permitindo que você obtenha vantagens como Widow's Wine e Stamin-Up.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Guia Passo a Passo: Energia e Pack-a-Punch">
+
+Abrir a máquina Pack-a-Punch é seu objetivo principal durante as rodadas iniciais. Siga estes passos para ligar a energia, interligar o teletransportador e melhorar suas armas.
+
+<Steps>
+  <Step num="1" title="Acumule Pontos no Spawn">
+    Fique no Saguão (Lobby) até a Rodada 4 ou 5. Use sua pistola para atirar nas pernas dos zumbis 5-6 vezes antes de finalizá-los com a faca para maximizar os pontos.
+  </Step>
+  <Step num="2" title="Limpe o Caminho para o Teatro">
+    Abra as portas superiores pelo Hall Superior e Camarim, ou siga pela rota inferior através da Biblioteca. Vá diretamente para o Palco.
+  </Step>
+  <Step num="3" title="Ligue a Energia">
+    Localize o interruptor de energia na parede de metal perto da cortina do Palco. Ativá-lo abre a cortina, liga as armadilhas e ativa o teletransportador.
+  </Step>
+  <Step num="4" title="Interligue o Teletransportador">
+    Entre no Teletransportador no Palco e inicie a interligação (link). Corra de volta para o Saguão (Spawn) e interaja com a plataforma de lançamento no chão para completar a conexão.
+  </Step>
+  <Step num="5" title="Pack-a-Punch e Fuga">
+    Use o teletransportador interligado para viajar até a Sala do Projetor. Gaste 5000 pontos para melhorar sua arma. Você terá aproximadamente 30 segundos antes de ser teletransportado de volta.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Rolos de Filme de Salas Aleatórias">
+Ao ser teletransportado de volta da Sala do Projetor, você pode cair em uma sala aleatória (como a Sala do Dentista ou a Sala de Conferências). Vasculhe essas salas rapidamente em busca de rolos de filme colecionáveis para inserir no projetor.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Marcos do Mapa e Easter Eggs">
+
+Kino der Toten apresenta vários segredos ocultos, incluindo o icônico Easter Egg musical que toca a música "115" de Elena Siegman. Use esta lista para acompanhar seu progresso durante uma partida.
+
+<Checklist
+  id="kino-milestones"
+  title="Objetivos de Kino der Toten:"
+  items={[
+    "Ativar o interruptor de energia no Palco",
+    "Interagir com os 3 meteoritos escondidos para tocar '115'",
+    "Interligar o teletransportador e melhorar uma arma primária",
+    "Comprar Juggernog e Speed Cola",
+    "Adquirir a Thundergun da Caixa Misteriosa",
+    "Navegar por todas as quatro salas aleatórias do teletransportador"
+  ]}
+/>
+
+### Localizações dos Meteoritos do Easter Egg Musical
+
+Para ativar a música secreta, localize e interaja com estas três rochas escondidas:
+
+1. **Saguão (Sala de Spawn):** No canto perto da janela inferior, dentro de um pote de vidro.
+2. **Camarim (Dressing Room):** Em uma mesa preta perto da janela, escondido atrás de dois manequins.
+3. **Sala de Armazenamento (Storage Room):** Em uma prateleira de metal ao lado de uma das janelas de barreira.
+
+</Section>
+
+<Section icon={Swords} title="Perguntas Frequentes">
+
+<FAQ items={[
+  {
+    question: "Como lidar com os Zumbis Crawler em Kino der Toten?",
+    answer: "Mantenha distância ao matá-los, pois eles liberam uma nuvem de gás tóxico ofuscante. Armas corpo a corpo como a Faca Bowie ou armas de morte instantânea como a Thundergun podem evitar que eles explodam."
+  },
+  {
+    question: "Qual é o melhor local de treinamento no mapa?",
+    answer: "O Palco é o local de treinamento mais popular. Mantenha o caminho para o Saguão fechado, agrupe os zumbis no palco e use a armadilha de Fogo ou a Thundergun para eliminá-los."
+  },
+  {
+    question: "Onde está localizada a máquina Juggernog?",
+    answer: "O Juggernog está localizado na área do Teatro, logo ao lado da compra de parede da Faca Bowie e da entrada da cortina do palco."
+  },
+  {
+    question: "Posso jogar Kino der Toten no Call of Duty Black Ops II?",
+    answer: "Não, o mapa é nativo do Call of Duty: Black Ops e foi remasterizado no Call of Duty: Black Ops III. Não é um mapa oficial no Call of Duty Black Ops II."
+  }
+]} />
+
+</Section>
