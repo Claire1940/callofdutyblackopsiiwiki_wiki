@@ -1,0 +1,185 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Zap, Flame } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Call of Duty Black Ops 2 Nuketown: Guia de Sobrevivência e Estratégia em Zombies",
+  description: "Domine o Nuketown Zombies de Call of Duty Black Ops 2 com nosso guia de 2026. Aprenda locais de drop de vantagens, estatísticas de armas e Easter Eggs escondidos para sobreviver a rodadas altas.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/1a1a1a/f44336?text=Nuketown+Zombies+Guide",
+  date: "2026-07-16",
+  author: "Equipe da Wiki de Call of Duty Black Ops II"
+}
+
+<Callout type="info" title="Guia Rápido">
+- O modo Zombies de **Call of Duty Black Ops 2 Nuketown** apresenta uma mecânica única onde **Perk-a-Colas e o Pack-a-Punch** caem aleatoriamente do céu.
+- As **Facções de Sobrevivência** incluem a CIA e o CDC, embora suas diferenças sejam puramente estéticas para a jogabilidade.
+- A **Estratégia Chave** envolve usar a área central para "treinar" (agrupar) zumbis enquanto espera pelo drop do Juggernog.
+- **Itens Ocultos** como as Galvaknuckles podem ser encontrados dentro do caminhão vermelho por 3.000 pontos após abri-lo.
+- **Contexto da Lore**: O mapa se passa simultaneamente aos eventos de "Moon", apresentando a transição do controle de Samantha para Richtofen.
+</Callout>
+
+<Section icon={Map} title="Visão Geral do Nuketown Zombies em Call of Duty Black Ops 2">
+
+O modo Zombies de **Call of Duty Black Ops 2 Nuketown** é uma experiência de sobrevivência única ambientada após um teste nuclear. Diferente dos mapas tradicionais com locais fixos de vantagens, Nuketown introduz um elemento vertical de aleatoriedade. Como uma versão cicatrizada pela radiação do icônico mapa multiplayer, ele oferece um ambiente apertado e frenético que recompensa jogadores capazes de se adaptar aos recursos variáveis.
+
+O mapa é canonicamente ambientado em 13 de outubro de 2025. Após uma operação de perfuração da Broken Arrow que atingiu o Elemento 115, uma explosão nuclear nivelou o local. Os jogadores assumem o controle de agentes anônimos da CIA ou do CDC investigando as ruínas. Ao longo da partida, você pode ouvir a progressão do Grande Esquema de Richtofen a partir do mapa Moon, o que se reflete na mudança da cor dos olhos dos zumbis, de amarelo para azul.
+
+<CardGrid cols={2}>
+  <Card title="Agentes da CIA">
+    - **Facção**: Central Intelligence Agency
+    - **Aparência**: Terno e equipamento tático
+    - **Lore**: Enviados para investigar o sinal de socorro da base em Nevada.
+  </Card>
+  <Card title="Agentes do CDC">
+    - **Facção**: Center for Disease Control
+    - **Aparência**: Trajes Hazmat e respiradores
+    - **Lore**: Implantados para conter potenciais riscos biológicos no local de teste.
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Mecânica de Cor dos Olhos">
+Preste atenção nas cores dos olhos dos zumbis. Amarelo indica que Samantha Maxis está no controle, enquanto Azul significa que Edward Richtofen assumiu o Aether. Essa mudança altera a voz do narrador e as frases das melhorias.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Layout do Mapa e Locais Principais">
+
+Navegar pelo **Call of Duty Black Ops 2 Nuketown** exige um conhecimento profundo das duas casas principais e da "terra de ninguém" central. Escombros bloqueiam muitos caminhos, e os corredores estreitos das casas os tornam perigosos para acampar em rodadas altas.
+
+| Local | Principais Características | Valor Estratégico |
+| :--- | :--- | :--- |
+| **Casa Amarela** | Power-up no galpão, compra de M16A1 na parede | Alto risco, contém o galpão no quintal com power-ups rotativos. |
+| **Casa Verde** | Spawn de vantagem na garagem, compra de AK74u na parede | Bom para pontos iniciais; a garagem é um local comum de drop do Pack-a-Punch. |
+| **Área Central** | Caminhão vermelho, placa Nuketown, relógio | Melhor área para treinar zumbis em um padrão de "8" ao redor dos ônibus. |
+| **Bunker** | Esconderijo de Marlton Johnson | Puramente para lore e Easter Eggs; não pode ser acessado pelos jogadores. |
+
+A placa de Nuketown no centro funciona como um contador de mortes. Toda vez que o contador atinge um múltiplo de 100, o ponteiro do relógio se move. Este relógio governa o tempo dos drops aleatórios de Vantagens e Pack-a-Punch que caem do céu.
+
+<Callout type="warning" title="Perigo na Garagem">
+A garagem na Casa Verde é um espaço muito apertado. Se uma máquina de Vantagem ou o Pack-a-Punch cair aqui no meio da rodada, não tente usá-lo sem um Escudo Zumbi ou uma distração como as Monkey Bombs.
+</Callout>
+
+</Section>
+
+<Section icon={Zap} title="O Sistema Aleatório de Vantagens e Pack-a-Punch">
+
+A sobrevivência em **Call of Duty Black Ops 2 Nuketown** depende muito da ordem em que as vantagens chegam. Como as máquinas caem em intervalos aleatórios, um jogo onde o Juggernog chega na rodada 20 é significativamente mais difícil do que um onde ele chega na rodada 4.
+
+<Steps>
+  <Step num="1" title="Sobrevivência e Acúmulo de Pontos">
+    Foque em compras de parede como a M14 ou Olympia para ganhar pontos rapidamente. Não abra as casas até ter pelo menos 3.000 pontos.
+  </Step>
+  <Step num="2" title="Ouça a Sirene">
+    Uma sirene de alarme nuclear soará quando uma máquina estiver prestes a cair. Olhe para o céu para ver onde o meteoro está pousando.
+  </Step>
+  <Step num="3" title="Limpe as Zonas de Pouso">
+    Se uma máquina cair atrás de uma pilha de escombros, você deve pagar para limpar esses escombros antes de poder acessar a Vantagem ou o Pack-a-Punch.
+  </Step>
+  <Step num="4" title="Ative o Relógio">
+    Mortes no mapa incrementam o contador da placa. A cada 100 mortes, a chegada da próxima máquina é acelerada.
+  </Step>
+</Steps>
+
+| Máquina de Vantagem | Custo | Função |
+| :--- | :--- | :--- |
+| **Juggernog** | 2500 | Aumenta a saúde de 2 para 5 golpes. |
+| **Quick Revive** | 500/1500 | Auto-revive no Solo; revive mais rápido em equipe. |
+| **Speed Cola** | 3000 | Reduz o tempo de recarga pela metade e acelera reparos de barreiras. |
+| **Double Tap II** | 2000 | Aumenta a cadência de tiro e dobra o dano das balas. |
+| **Pack-a-Punch** | 5000 | Melhora armas com maior dano e acessórios exclusivos. |
+
+<Callout type="info" title="Sem Rodadas Especiais">
+Nuketown Zombies não possui rodadas de "Hellhound" ou "Max Ammo". Você deve depender de drops aleatórios dos zumbis ou do power-up do galpão para repor munição.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Armamento e Compras de Parede">
+
+Escolher o loadout certo em **Call of Duty Black Ops 2 Nuketown** é vital devido ao tamanho pequeno do mapa. Espingardas e submetralhadoras de alta mobilidade geralmente funcionam melhor do que metralhadoras pesadas (LMGs), que podem deixá-lo lento nos quintais apertados.
+
+### Compras de Parede Essenciais
+| Arma | Custo | Local | Recomendação |
+| :--- | :--- | :--- | :--- |
+| **B23R** | 1000 | Lateral do ônibus | Excelente para ganhar pontos nas rodadas iniciais. |
+| **MP5** | 1000 | Dentro da Casa Amarela | Arma confiável de meio de jogo com fácil acesso à munição. |
+| **AK74u** | 1200 | Dentro da Casa Verde | SMG de alto dano; ótima para treinar no centro. |
+| **Galvaknuckles**| 6000 | Dentro do Caminhão Vermelho | Morte com um golpe até a rodada 14; essencial para rodadas altas. |
+| **Bowie Knife** | 3000 | Cerca do quintal | Ótima para pontos se o Juggernog cair cedo. |
+
+### Destaques da Mystery Box
+A Mystery Box em Nuketown contém o arsenal padrão de Black Ops 2, mas a adição da **Ray Gun Mark II** (requer DLC Vengeance) mudou o meta deste mapa.
+
+- **Ray Gun Mark II**: A melhor arma para rodadas altas devido ao seu disparo explosivo e alta penetração.
+- **Monkey Bombs**: Crítico para reviver em momentos finais ou acessar o Pack-a-Punch em locais apertados.
+- **Galil / RPD**: Armas de alta capacidade que funcionam melhor quando você já possui Speed Cola.
+
+<Callout type="success" title="Estratégia das Galvaknuckles">
+O caminhão vermelho no centro custa 3.000 pontos para abrir. Lá dentro, você pode comprar as Galvaknuckles por 6.000. Embora caras, elas permitem nocautear zumbis facilmente e são a ferramenta de combate corpo a corpo mais eficaz disponível no mapa.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Easter Eggs e Recursos Secretos">
+
+Embora o **Call of Duty Black Ops 2 Nuketown** não tenha uma "Missão Principal" como TranZit ou Origins, ele está repleto de Easter Eggs menores que fornecem lore e benefícios de jogabilidade.
+
+<Checklist
+  id="nuketown-secrets"
+  title="Objetivos Ocultos:"
+  items={[
+    "Encontre os 3 Ursos de Pelúcia para tocar 'Samantha's Lullaby'",
+    "Atire na cabeça de todos os manequins para a faixa 8-bit 'Coming Home'",
+    "Golpeie a porta do bunker para ouvir o diálogo de Marlton Johnson",
+    "Chegue à rodada 5 para ouvir a buzina do ônibus de TranZit ao longe",
+    "Cronometre a rotação do power-up do galpão usando o relógio central"
+  ]}
+/>
+
+### Easter Eggs Musicais
+Existem duas músicas principais que você pode ativar. Elas proporcionam uma pausa agradável do som constante de explosões e sirenes.
+
+| Música | Requisito de Ativação |
+| :--- | :--- |
+| **Samantha's Lullaby** | Interaja com 3 Ursos de Pelúcia encontrados no ônibus, nas casas e no quintal. |
+| **Coming Home (8-bit)** | Atire na cabeça de todos os manequins no mapa dentro de um curto espaço de tempo. |
+
+<Callout type="tip" title="A Conexão com Marlton">
+Marlton Johnson, um membro da equipe Victis, está canonicamente escondido no bunker de Nuketown durante este mapa. Ao golpear a porta, você pode ouvi-lo reclamar do barulho e da radiação, confirmando sua sobrevivência antes dos eventos de TranZit.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Perguntas Frequentes">
+
+<FAQ items={[
+  {
+    question: "Como faço para o Juggernog cair mais cedo no Nuketown Zombies?",
+    answer: "Os drops são aleatórios, mas você pode acelerar o processo aumentando sua contagem de mortes. A cada 100 mortes, o relógio avança, acionando o próximo drop de máquina aleatória."
+  },
+  {
+    question: "Posso entrar no bunker em Call of Duty Black Ops 2 Nuketown?",
+    answer: "Não, o bunker é inacessível aos jogadores. Ele serve como um elemento de lore onde Marlton Johnson se esconde para sobreviver à explosão nuclear."
+  },
+  {
+    question: "Qual é a melhor estratégia para rodadas altas neste mapa?",
+    answer: "A estratégia de rodadas altas mais eficaz é 'treinar' na área central entre os dois ônibus. Use as Galvaknuckles para pontos no início e faça a transição para a Ray Gun Mark II e uma arma de parede melhorada no Pack-a-Punch, como a MP5, para sustentabilidade de munição."
+  },
+  {
+    question: "As facções CIA e CDC têm estatísticas diferentes?",
+    answer: "Não, as facções são puramente cosméticas. Os jogadores são designados aleatoriamente para a CIA ou CDC no início da partida, mas saúde, velocidade e habilidades permanecem idênticas."
+  }
+]} />
+
+<Callout type="info" title="Veredito Final">
+O **Call of Duty Black Ops 2 Nuketown** continua sendo um favorito dos fãs devido à sua natureza acelerada e à tensão criada pelo sistema de vantagens aleatórias. Seja você um caçador de lore ouvindo Marlton ou um sobrevivente de rodadas altas treinando no centro, ele oferece uma experiência de Zombies destilada que é fácil de aprender, mas difícil de dominar.
+</Callout>
+
+</Section>
