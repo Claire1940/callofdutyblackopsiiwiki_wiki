@@ -2,6 +2,10 @@
   "de": {
     "campaign": [
       {
+        "slug": "call-of-duty-black-ops-2-endings",
+        "file": "call-of-duty-black-ops-2-endings"
+      },
+      {
         "slug": "call-of-duty-black-ops-ii-best-ending",
         "file": "call-of-duty-black-ops-ii-best-ending"
       },
@@ -12,6 +16,14 @@
       {
         "slug": "call-of-duty-black-ops-ii-campaign",
         "file": "call-of-duty-black-ops-ii-campaign"
+      },
+      {
+        "slug": "call-of-duty-black-ops-ii-cordis-die",
+        "file": "call-of-duty-black-ops-ii-cordis-die"
+      },
+      {
+        "slug": "call-of-duty-black-ops-ii-harper",
+        "file": "call-of-duty-black-ops-ii-harper"
       },
       {
         "slug": "call-of-duty-black-ops-ii-mission-list",
@@ -28,6 +40,14 @@
         "file": "call-of-duty-black-ops-ii-apocalypse"
       },
       {
+        "slug": "call-of-duty-black-ops-ii-north-america-pack",
+        "file": "call-of-duty-black-ops-ii-north-america-pack"
+      },
+      {
+        "slug": "call-of-duty-black-ops-ii-revolution-dlc",
+        "file": "call-of-duty-black-ops-ii-revolution-dlc"
+      },
+      {
         "slug": "call-of-duty-black-ops-ii-revolution",
         "file": "call-of-duty-black-ops-ii-revolution"
       },
@@ -40,8 +60,16 @@
         "file": "call-of-duty-black-ops-ii-uprising"
       },
       {
+        "slug": "call-of-duty-black-ops-ii-vengeance-dlc",
+        "file": "call-of-duty-black-ops-ii-vengeance-dlc"
+      },
+      {
         "slug": "call-of-duty-black-ops-ii-vengeance",
         "file": "call-of-duty-black-ops-ii-vengeance"
+      },
+      {
+        "slug": "call-of-duty-black-ops-ii-weaponized-115-pack",
+        "file": "call-of-duty-black-ops-ii-weaponized-115-pack"
       }
     ],
     "editions": [
@@ -64,16 +92,32 @@
       {
         "slug": "call-of-duty-black-ops-ii-hardened-edition",
         "file": "call-of-duty-black-ops-ii-hardened-edition"
+      },
+      {
+        "slug": "call-of-duty-black-ops-ii-zombies-chronicles-edition",
+        "file": "call-of-duty-black-ops-ii-zombies-chronicles-edition"
       }
     ],
     "guide": [
+      {
+        "slug": "call-of-duty-black-ops-2-intel-locations",
+        "file": "call-of-duty-black-ops-2-intel-locations"
+      },
       {
         "slug": "call-of-duty-black-ops-ii-beginner-guide",
         "file": "call-of-duty-black-ops-ii-beginner-guide"
       },
       {
+        "slug": "call-of-duty-black-ops-ii-change-language",
+        "file": "call-of-duty-black-ops-ii-change-language"
+      },
+      {
         "slug": "call-of-duty-black-ops-ii-controls",
         "file": "call-of-duty-black-ops-ii-controls"
+      },
+      {
+        "slug": "call-of-duty-black-ops-ii-fatal-error",
+        "file": "call-of-duty-black-ops-ii-fatal-error"
       },
       {
         "slug": "call-of-duty-black-ops-ii-game-size",
@@ -84,11 +128,27 @@
         "file": "call-of-duty-black-ops-ii-how-long-to-beat"
       },
       {
+        "slug": "call-of-duty-black-ops-ii-save-location",
+        "file": "call-of-duty-black-ops-ii-save-location"
+      },
+      {
         "slug": "call-of-duty-black-ops-ii-system-requirements",
         "file": "call-of-duty-black-ops-ii-system-requirements"
+      },
+      {
+        "slug": "call-of-duty-black-ops-ii-timeline",
+        "file": "call-of-duty-black-ops-ii-timeline"
+      },
+      {
+        "slug": "call-of-duty-black-ops-ii-trophy-guide",
+        "file": "call-of-duty-black-ops-ii-trophy-guide"
       }
     ],
     "legacy": [
+      {
+        "slug": "call-of-duty-black-ops-ii-plutonium",
+        "file": "call-of-duty-black-ops-ii-plutonium"
+      },
       {
         "slug": "call-of-duty-black-ops-ii-reddit",
         "file": "call-of-duty-black-ops-ii-reddit"
@@ -96,6 +156,14 @@
       {
         "slug": "call-of-duty-black-ops-ii-release-date",
         "file": "call-of-duty-black-ops-ii-release-date"
+      },
+      {
+        "slug": "call-of-duty-black-ops-ii-remake",
+        "file": "call-of-duty-black-ops-ii-remake"
+      },
+      {
+        "slug": "call-of-duty-black-ops-ii-remastered",
+        "file": "call-of-duty-black-ops-ii-remastered"
       },
       {
         "slug": "call-of-duty-black-ops-ii-review",
@@ -112,8 +180,24 @@
     ],
     "multiplayer": [
       {
+        "slug": "call-of-duty-black-ops-2-nuketown",
+        "file": "call-of-duty-black-ops-2-nuketown"
+      },
+      {
+        "slug": "call-of-duty-black-ops-ii-crossplay",
+        "file": "call-of-duty-black-ops-ii-crossplay"
+      },
+      {
+        "slug": "call-of-duty-black-ops-ii-killstreaks",
+        "file": "call-of-duty-black-ops-ii-killstreaks"
+      },
+      {
         "slug": "call-of-duty-black-ops-ii-local-multiplayer",
         "file": "call-of-duty-black-ops-ii-local-multiplayer"
+      },
+      {
+        "slug": "call-of-duty-black-ops-ii-multiplayer-maps",
+        "file": "call-of-duty-black-ops-ii-multiplayer-maps"
       },
       {
         "slug": "call-of-duty-black-ops-ii-multiplayer",
@@ -134,12 +218,20 @@
     ],
     "platforms": [
       {
+        "slug": "call-of-duty-black-ops-ii-game-pass",
+        "file": "call-of-duty-black-ops-ii-game-pass"
+      },
+      {
         "slug": "call-of-duty-black-ops-ii-pc",
         "file": "call-of-duty-black-ops-ii-pc"
       },
       {
         "slug": "call-of-duty-black-ops-ii-port",
         "file": "call-of-duty-black-ops-ii-port"
+      },
+      {
+        "slug": "call-of-duty-black-ops-ii-ps3",
+        "file": "call-of-duty-black-ops-ii-ps3"
       },
       {
         "slug": "call-of-duty-black-ops-ii-ps4",
@@ -150,11 +242,59 @@
         "file": "call-of-duty-black-ops-ii-ps5"
       },
       {
+        "slug": "call-of-duty-black-ops-ii-rpcs3",
+        "file": "call-of-duty-black-ops-ii-rpcs3"
+      },
+      {
+        "slug": "call-of-duty-black-ops-ii-steam",
+        "file": "call-of-duty-black-ops-ii-steam"
+      },
+      {
+        "slug": "call-of-duty-black-ops-ii-wii-u",
+        "file": "call-of-duty-black-ops-ii-wii-u"
+      },
+      {
+        "slug": "call-of-duty-black-ops-ii-winlator",
+        "file": "call-of-duty-black-ops-ii-winlator"
+      },
+      {
         "slug": "call-of-duty-black-ops-ii-xbox-360",
         "file": "call-of-duty-black-ops-ii-xbox-360"
+      },
+      {
+        "slug": "call-of-duty-black-ops-ii-xbox-series-x",
+        "file": "call-of-duty-black-ops-ii-xbox-series-x"
+      },
+      {
+        "slug": "call-of-duty-black-ops-ii-xenia",
+        "file": "call-of-duty-black-ops-ii-xenia"
       }
     ],
     "zombies": [
+      {
+        "slug": "call-of-duty-black-ops-ii-buried",
+        "file": "call-of-duty-black-ops-ii-buried"
+      },
+      {
+        "slug": "call-of-duty-black-ops-ii-juggernog",
+        "file": "call-of-duty-black-ops-ii-juggernog"
+      },
+      {
+        "slug": "call-of-duty-black-ops-ii-kino-der-toten",
+        "file": "call-of-duty-black-ops-ii-kino-der-toten"
+      },
+      {
+        "slug": "call-of-duty-black-ops-ii-nuketown-zombies",
+        "file": "call-of-duty-black-ops-ii-nuketown-zombies"
+      },
+      {
+        "slug": "call-of-duty-black-ops-ii-origins",
+        "file": "call-of-duty-black-ops-ii-origins"
+      },
+      {
+        "slug": "call-of-duty-black-ops-ii-tranzit",
+        "file": "call-of-duty-black-ops-ii-tranzit"
+      },
       {
         "slug": "call-of-duty-black-ops-ii-zombies-buried",
         "file": "call-of-duty-black-ops-ii-zombies-buried"
@@ -180,6 +320,10 @@
   "en": {
     "campaign": [
       {
+        "slug": "call-of-duty-black-ops-2-endings",
+        "file": "call-of-duty-black-ops-2-endings"
+      },
+      {
         "slug": "call-of-duty-black-ops-ii-best-ending",
         "file": "call-of-duty-black-ops-ii-best-ending"
       },
@@ -190,6 +334,14 @@
       {
         "slug": "call-of-duty-black-ops-ii-campaign",
         "file": "call-of-duty-black-ops-ii-campaign"
+      },
+      {
+        "slug": "call-of-duty-black-ops-ii-cordis-die",
+        "file": "call-of-duty-black-ops-ii-cordis-die"
+      },
+      {
+        "slug": "call-of-duty-black-ops-ii-harper",
+        "file": "call-of-duty-black-ops-ii-harper"
       },
       {
         "slug": "call-of-duty-black-ops-ii-mission-list",
@@ -206,6 +358,14 @@
         "file": "call-of-duty-black-ops-ii-apocalypse"
       },
       {
+        "slug": "call-of-duty-black-ops-ii-north-america-pack",
+        "file": "call-of-duty-black-ops-ii-north-america-pack"
+      },
+      {
+        "slug": "call-of-duty-black-ops-ii-revolution-dlc",
+        "file": "call-of-duty-black-ops-ii-revolution-dlc"
+      },
+      {
         "slug": "call-of-duty-black-ops-ii-revolution",
         "file": "call-of-duty-black-ops-ii-revolution"
       },
@@ -218,8 +378,16 @@
         "file": "call-of-duty-black-ops-ii-uprising"
       },
       {
+        "slug": "call-of-duty-black-ops-ii-vengeance-dlc",
+        "file": "call-of-duty-black-ops-ii-vengeance-dlc"
+      },
+      {
         "slug": "call-of-duty-black-ops-ii-vengeance",
         "file": "call-of-duty-black-ops-ii-vengeance"
+      },
+      {
+        "slug": "call-of-duty-black-ops-ii-weaponized-115-pack",
+        "file": "call-of-duty-black-ops-ii-weaponized-115-pack"
       }
     ],
     "editions": [
@@ -242,16 +410,36 @@
       {
         "slug": "call-of-duty-black-ops-ii-hardened-edition",
         "file": "call-of-duty-black-ops-ii-hardened-edition"
+      },
+      {
+        "slug": "call-of-duty-black-ops-ii-zombies-chronicles-edition",
+        "file": "call-of-duty-black-ops-ii-zombies-chronicles-edition"
       }
     ],
     "guide": [
+      {
+        "slug": "call-of-duty-black-ops-2-intel-locations",
+        "file": "call-of-duty-black-ops-2-intel-locations"
+      },
       {
         "slug": "call-of-duty-black-ops-ii-beginner-guide",
         "file": "call-of-duty-black-ops-ii-beginner-guide"
       },
       {
+        "slug": "call-of-duty-black-ops-ii-change-language",
+        "file": "call-of-duty-black-ops-ii-change-language"
+      },
+      {
+        "slug": "call-of-duty-black-ops-ii-characters",
+        "file": "call-of-duty-black-ops-ii-characters"
+      },
+      {
         "slug": "call-of-duty-black-ops-ii-controls",
         "file": "call-of-duty-black-ops-ii-controls"
+      },
+      {
+        "slug": "call-of-duty-black-ops-ii-fatal-error",
+        "file": "call-of-duty-black-ops-ii-fatal-error"
       },
       {
         "slug": "call-of-duty-black-ops-ii-game-size",
@@ -262,11 +450,31 @@
         "file": "call-of-duty-black-ops-ii-how-long-to-beat"
       },
       {
+        "slug": "call-of-duty-black-ops-ii-save-location",
+        "file": "call-of-duty-black-ops-ii-save-location"
+      },
+      {
         "slug": "call-of-duty-black-ops-ii-system-requirements",
         "file": "call-of-duty-black-ops-ii-system-requirements"
+      },
+      {
+        "slug": "call-of-duty-black-ops-ii-timeline",
+        "file": "call-of-duty-black-ops-ii-timeline"
+      },
+      {
+        "slug": "call-of-duty-black-ops-ii-trophy-guide",
+        "file": "call-of-duty-black-ops-ii-trophy-guide"
       }
     ],
     "legacy": [
+      {
+        "slug": "call-of-duty-black-ops-ii-mods",
+        "file": "call-of-duty-black-ops-ii-mods"
+      },
+      {
+        "slug": "call-of-duty-black-ops-ii-plutonium",
+        "file": "call-of-duty-black-ops-ii-plutonium"
+      },
       {
         "slug": "call-of-duty-black-ops-ii-reddit",
         "file": "call-of-duty-black-ops-ii-reddit"
@@ -274,6 +482,14 @@
       {
         "slug": "call-of-duty-black-ops-ii-release-date",
         "file": "call-of-duty-black-ops-ii-release-date"
+      },
+      {
+        "slug": "call-of-duty-black-ops-ii-remake",
+        "file": "call-of-duty-black-ops-ii-remake"
+      },
+      {
+        "slug": "call-of-duty-black-ops-ii-remastered",
+        "file": "call-of-duty-black-ops-ii-remastered"
       },
       {
         "slug": "call-of-duty-black-ops-ii-review",
@@ -290,8 +506,24 @@
     ],
     "multiplayer": [
       {
+        "slug": "call-of-duty-black-ops-2-nuketown",
+        "file": "call-of-duty-black-ops-2-nuketown"
+      },
+      {
+        "slug": "call-of-duty-black-ops-ii-crossplay",
+        "file": "call-of-duty-black-ops-ii-crossplay"
+      },
+      {
+        "slug": "call-of-duty-black-ops-ii-killstreaks",
+        "file": "call-of-duty-black-ops-ii-killstreaks"
+      },
+      {
         "slug": "call-of-duty-black-ops-ii-local-multiplayer",
         "file": "call-of-duty-black-ops-ii-local-multiplayer"
+      },
+      {
+        "slug": "call-of-duty-black-ops-ii-multiplayer-maps",
+        "file": "call-of-duty-black-ops-ii-multiplayer-maps"
       },
       {
         "slug": "call-of-duty-black-ops-ii-multiplayer",
@@ -308,9 +540,17 @@
       {
         "slug": "call-of-duty-black-ops-ii-splitscreen-4-players",
         "file": "call-of-duty-black-ops-ii-splitscreen-4-players"
+      },
+      {
+        "slug": "call-of-duty-black-ops-ii-weapons",
+        "file": "call-of-duty-black-ops-ii-weapons"
       }
     ],
     "platforms": [
+      {
+        "slug": "call-of-duty-black-ops-ii-game-pass",
+        "file": "call-of-duty-black-ops-ii-game-pass"
+      },
       {
         "slug": "call-of-duty-black-ops-ii-pc",
         "file": "call-of-duty-black-ops-ii-pc"
@@ -318,6 +558,10 @@
       {
         "slug": "call-of-duty-black-ops-ii-port",
         "file": "call-of-duty-black-ops-ii-port"
+      },
+      {
+        "slug": "call-of-duty-black-ops-ii-ps3",
+        "file": "call-of-duty-black-ops-ii-ps3"
       },
       {
         "slug": "call-of-duty-black-ops-ii-ps4",
@@ -328,11 +572,67 @@
         "file": "call-of-duty-black-ops-ii-ps5"
       },
       {
+        "slug": "call-of-duty-black-ops-ii-rpcs3",
+        "file": "call-of-duty-black-ops-ii-rpcs3"
+      },
+      {
+        "slug": "call-of-duty-black-ops-ii-steam",
+        "file": "call-of-duty-black-ops-ii-steam"
+      },
+      {
+        "slug": "call-of-duty-black-ops-ii-wii-u",
+        "file": "call-of-duty-black-ops-ii-wii-u"
+      },
+      {
+        "slug": "call-of-duty-black-ops-ii-winlator",
+        "file": "call-of-duty-black-ops-ii-winlator"
+      },
+      {
         "slug": "call-of-duty-black-ops-ii-xbox-360",
         "file": "call-of-duty-black-ops-ii-xbox-360"
+      },
+      {
+        "slug": "call-of-duty-black-ops-ii-xbox-series-x",
+        "file": "call-of-duty-black-ops-ii-xbox-series-x"
+      },
+      {
+        "slug": "call-of-duty-black-ops-ii-xenia",
+        "file": "call-of-duty-black-ops-ii-xenia"
       }
     ],
     "zombies": [
+      {
+        "slug": "call-of-duty-black-ops-ii-buried",
+        "file": "call-of-duty-black-ops-ii-buried"
+      },
+      {
+        "slug": "call-of-duty-black-ops-ii-die-rise",
+        "file": "call-of-duty-black-ops-ii-die-rise"
+      },
+      {
+        "slug": "call-of-duty-black-ops-ii-juggernog",
+        "file": "call-of-duty-black-ops-ii-juggernog"
+      },
+      {
+        "slug": "call-of-duty-black-ops-ii-kino-der-toten",
+        "file": "call-of-duty-black-ops-ii-kino-der-toten"
+      },
+      {
+        "slug": "call-of-duty-black-ops-ii-mob-of-the-dead",
+        "file": "call-of-duty-black-ops-ii-mob-of-the-dead"
+      },
+      {
+        "slug": "call-of-duty-black-ops-ii-nuketown-zombies",
+        "file": "call-of-duty-black-ops-ii-nuketown-zombies"
+      },
+      {
+        "slug": "call-of-duty-black-ops-ii-origins",
+        "file": "call-of-duty-black-ops-ii-origins"
+      },
+      {
+        "slug": "call-of-duty-black-ops-ii-tranzit",
+        "file": "call-of-duty-black-ops-ii-tranzit"
+      },
       {
         "slug": "call-of-duty-black-ops-ii-zombies-buried",
         "file": "call-of-duty-black-ops-ii-zombies-buried"
@@ -358,6 +658,10 @@
   "es": {
     "campaign": [
       {
+        "slug": "call-of-duty-black-ops-2-endings",
+        "file": "call-of-duty-black-ops-2-endings"
+      },
+      {
         "slug": "call-of-duty-black-ops-ii-best-ending",
         "file": "call-of-duty-black-ops-ii-best-ending"
       },
@@ -368,6 +672,14 @@
       {
         "slug": "call-of-duty-black-ops-ii-campaign",
         "file": "call-of-duty-black-ops-ii-campaign"
+      },
+      {
+        "slug": "call-of-duty-black-ops-ii-cordis-die",
+        "file": "call-of-duty-black-ops-ii-cordis-die"
+      },
+      {
+        "slug": "call-of-duty-black-ops-ii-harper",
+        "file": "call-of-duty-black-ops-ii-harper"
       },
       {
         "slug": "call-of-duty-black-ops-ii-mission-list",
@@ -384,6 +696,14 @@
         "file": "call-of-duty-black-ops-ii-apocalypse"
       },
       {
+        "slug": "call-of-duty-black-ops-ii-north-america-pack",
+        "file": "call-of-duty-black-ops-ii-north-america-pack"
+      },
+      {
+        "slug": "call-of-duty-black-ops-ii-revolution-dlc",
+        "file": "call-of-duty-black-ops-ii-revolution-dlc"
+      },
+      {
         "slug": "call-of-duty-black-ops-ii-revolution",
         "file": "call-of-duty-black-ops-ii-revolution"
       },
@@ -396,8 +716,16 @@
         "file": "call-of-duty-black-ops-ii-uprising"
       },
       {
+        "slug": "call-of-duty-black-ops-ii-vengeance-dlc",
+        "file": "call-of-duty-black-ops-ii-vengeance-dlc"
+      },
+      {
         "slug": "call-of-duty-black-ops-ii-vengeance",
         "file": "call-of-duty-black-ops-ii-vengeance"
+      },
+      {
+        "slug": "call-of-duty-black-ops-ii-weaponized-115-pack",
+        "file": "call-of-duty-black-ops-ii-weaponized-115-pack"
       }
     ],
     "editions": [
@@ -420,16 +748,32 @@
       {
         "slug": "call-of-duty-black-ops-ii-hardened-edition",
         "file": "call-of-duty-black-ops-ii-hardened-edition"
+      },
+      {
+        "slug": "call-of-duty-black-ops-ii-zombies-chronicles-edition",
+        "file": "call-of-duty-black-ops-ii-zombies-chronicles-edition"
       }
     ],
     "guide": [
+      {
+        "slug": "call-of-duty-black-ops-2-intel-locations",
+        "file": "call-of-duty-black-ops-2-intel-locations"
+      },
       {
         "slug": "call-of-duty-black-ops-ii-beginner-guide",
         "file": "call-of-duty-black-ops-ii-beginner-guide"
       },
       {
+        "slug": "call-of-duty-black-ops-ii-change-language",
+        "file": "call-of-duty-black-ops-ii-change-language"
+      },
+      {
         "slug": "call-of-duty-black-ops-ii-controls",
         "file": "call-of-duty-black-ops-ii-controls"
+      },
+      {
+        "slug": "call-of-duty-black-ops-ii-fatal-error",
+        "file": "call-of-duty-black-ops-ii-fatal-error"
       },
       {
         "slug": "call-of-duty-black-ops-ii-game-size",
@@ -440,11 +784,27 @@
         "file": "call-of-duty-black-ops-ii-how-long-to-beat"
       },
       {
+        "slug": "call-of-duty-black-ops-ii-save-location",
+        "file": "call-of-duty-black-ops-ii-save-location"
+      },
+      {
         "slug": "call-of-duty-black-ops-ii-system-requirements",
         "file": "call-of-duty-black-ops-ii-system-requirements"
+      },
+      {
+        "slug": "call-of-duty-black-ops-ii-timeline",
+        "file": "call-of-duty-black-ops-ii-timeline"
+      },
+      {
+        "slug": "call-of-duty-black-ops-ii-trophy-guide",
+        "file": "call-of-duty-black-ops-ii-trophy-guide"
       }
     ],
     "legacy": [
+      {
+        "slug": "call-of-duty-black-ops-ii-plutonium",
+        "file": "call-of-duty-black-ops-ii-plutonium"
+      },
       {
         "slug": "call-of-duty-black-ops-ii-reddit",
         "file": "call-of-duty-black-ops-ii-reddit"
@@ -452,6 +812,14 @@
       {
         "slug": "call-of-duty-black-ops-ii-release-date",
         "file": "call-of-duty-black-ops-ii-release-date"
+      },
+      {
+        "slug": "call-of-duty-black-ops-ii-remake",
+        "file": "call-of-duty-black-ops-ii-remake"
+      },
+      {
+        "slug": "call-of-duty-black-ops-ii-remastered",
+        "file": "call-of-duty-black-ops-ii-remastered"
       },
       {
         "slug": "call-of-duty-black-ops-ii-review",
@@ -468,8 +836,24 @@
     ],
     "multiplayer": [
       {
+        "slug": "call-of-duty-black-ops-2-nuketown",
+        "file": "call-of-duty-black-ops-2-nuketown"
+      },
+      {
+        "slug": "call-of-duty-black-ops-ii-crossplay",
+        "file": "call-of-duty-black-ops-ii-crossplay"
+      },
+      {
+        "slug": "call-of-duty-black-ops-ii-killstreaks",
+        "file": "call-of-duty-black-ops-ii-killstreaks"
+      },
+      {
         "slug": "call-of-duty-black-ops-ii-local-multiplayer",
         "file": "call-of-duty-black-ops-ii-local-multiplayer"
+      },
+      {
+        "slug": "call-of-duty-black-ops-ii-multiplayer-maps",
+        "file": "call-of-duty-black-ops-ii-multiplayer-maps"
       },
       {
         "slug": "call-of-duty-black-ops-ii-multiplayer",
@@ -490,12 +874,20 @@
     ],
     "platforms": [
       {
+        "slug": "call-of-duty-black-ops-ii-game-pass",
+        "file": "call-of-duty-black-ops-ii-game-pass"
+      },
+      {
         "slug": "call-of-duty-black-ops-ii-pc",
         "file": "call-of-duty-black-ops-ii-pc"
       },
       {
         "slug": "call-of-duty-black-ops-ii-port",
         "file": "call-of-duty-black-ops-ii-port"
+      },
+      {
+        "slug": "call-of-duty-black-ops-ii-ps3",
+        "file": "call-of-duty-black-ops-ii-ps3"
       },
       {
         "slug": "call-of-duty-black-ops-ii-ps4",
@@ -506,11 +898,59 @@
         "file": "call-of-duty-black-ops-ii-ps5"
       },
       {
+        "slug": "call-of-duty-black-ops-ii-rpcs3",
+        "file": "call-of-duty-black-ops-ii-rpcs3"
+      },
+      {
+        "slug": "call-of-duty-black-ops-ii-steam",
+        "file": "call-of-duty-black-ops-ii-steam"
+      },
+      {
+        "slug": "call-of-duty-black-ops-ii-wii-u",
+        "file": "call-of-duty-black-ops-ii-wii-u"
+      },
+      {
+        "slug": "call-of-duty-black-ops-ii-winlator",
+        "file": "call-of-duty-black-ops-ii-winlator"
+      },
+      {
         "slug": "call-of-duty-black-ops-ii-xbox-360",
         "file": "call-of-duty-black-ops-ii-xbox-360"
+      },
+      {
+        "slug": "call-of-duty-black-ops-ii-xbox-series-x",
+        "file": "call-of-duty-black-ops-ii-xbox-series-x"
+      },
+      {
+        "slug": "call-of-duty-black-ops-ii-xenia",
+        "file": "call-of-duty-black-ops-ii-xenia"
       }
     ],
     "zombies": [
+      {
+        "slug": "call-of-duty-black-ops-ii-buried",
+        "file": "call-of-duty-black-ops-ii-buried"
+      },
+      {
+        "slug": "call-of-duty-black-ops-ii-juggernog",
+        "file": "call-of-duty-black-ops-ii-juggernog"
+      },
+      {
+        "slug": "call-of-duty-black-ops-ii-kino-der-toten",
+        "file": "call-of-duty-black-ops-ii-kino-der-toten"
+      },
+      {
+        "slug": "call-of-duty-black-ops-ii-nuketown-zombies",
+        "file": "call-of-duty-black-ops-ii-nuketown-zombies"
+      },
+      {
+        "slug": "call-of-duty-black-ops-ii-origins",
+        "file": "call-of-duty-black-ops-ii-origins"
+      },
+      {
+        "slug": "call-of-duty-black-ops-ii-tranzit",
+        "file": "call-of-duty-black-ops-ii-tranzit"
+      },
       {
         "slug": "call-of-duty-black-ops-ii-zombies-buried",
         "file": "call-of-duty-black-ops-ii-zombies-buried"
@@ -536,6 +976,10 @@
   "pt": {
     "campaign": [
       {
+        "slug": "call-of-duty-black-ops-2-endings",
+        "file": "call-of-duty-black-ops-2-endings"
+      },
+      {
         "slug": "call-of-duty-black-ops-ii-best-ending",
         "file": "call-of-duty-black-ops-ii-best-ending"
       },
@@ -546,6 +990,14 @@
       {
         "slug": "call-of-duty-black-ops-ii-campaign",
         "file": "call-of-duty-black-ops-ii-campaign"
+      },
+      {
+        "slug": "call-of-duty-black-ops-ii-cordis-die",
+        "file": "call-of-duty-black-ops-ii-cordis-die"
+      },
+      {
+        "slug": "call-of-duty-black-ops-ii-harper",
+        "file": "call-of-duty-black-ops-ii-harper"
       },
       {
         "slug": "call-of-duty-black-ops-ii-mission-list",
@@ -562,6 +1014,14 @@
         "file": "call-of-duty-black-ops-ii-apocalypse"
       },
       {
+        "slug": "call-of-duty-black-ops-ii-north-america-pack",
+        "file": "call-of-duty-black-ops-ii-north-america-pack"
+      },
+      {
+        "slug": "call-of-duty-black-ops-ii-revolution-dlc",
+        "file": "call-of-duty-black-ops-ii-revolution-dlc"
+      },
+      {
         "slug": "call-of-duty-black-ops-ii-revolution",
         "file": "call-of-duty-black-ops-ii-revolution"
       },
@@ -574,8 +1034,16 @@
         "file": "call-of-duty-black-ops-ii-uprising"
       },
       {
+        "slug": "call-of-duty-black-ops-ii-vengeance-dlc",
+        "file": "call-of-duty-black-ops-ii-vengeance-dlc"
+      },
+      {
         "slug": "call-of-duty-black-ops-ii-vengeance",
         "file": "call-of-duty-black-ops-ii-vengeance"
+      },
+      {
+        "slug": "call-of-duty-black-ops-ii-weaponized-115-pack",
+        "file": "call-of-duty-black-ops-ii-weaponized-115-pack"
       }
     ],
     "editions": [
@@ -598,16 +1066,32 @@
       {
         "slug": "call-of-duty-black-ops-ii-hardened-edition",
         "file": "call-of-duty-black-ops-ii-hardened-edition"
+      },
+      {
+        "slug": "call-of-duty-black-ops-ii-zombies-chronicles-edition",
+        "file": "call-of-duty-black-ops-ii-zombies-chronicles-edition"
       }
     ],
     "guide": [
+      {
+        "slug": "call-of-duty-black-ops-2-intel-locations",
+        "file": "call-of-duty-black-ops-2-intel-locations"
+      },
       {
         "slug": "call-of-duty-black-ops-ii-beginner-guide",
         "file": "call-of-duty-black-ops-ii-beginner-guide"
       },
       {
+        "slug": "call-of-duty-black-ops-ii-change-language",
+        "file": "call-of-duty-black-ops-ii-change-language"
+      },
+      {
         "slug": "call-of-duty-black-ops-ii-controls",
         "file": "call-of-duty-black-ops-ii-controls"
+      },
+      {
+        "slug": "call-of-duty-black-ops-ii-fatal-error",
+        "file": "call-of-duty-black-ops-ii-fatal-error"
       },
       {
         "slug": "call-of-duty-black-ops-ii-game-size",
@@ -618,11 +1102,27 @@
         "file": "call-of-duty-black-ops-ii-how-long-to-beat"
       },
       {
+        "slug": "call-of-duty-black-ops-ii-save-location",
+        "file": "call-of-duty-black-ops-ii-save-location"
+      },
+      {
         "slug": "call-of-duty-black-ops-ii-system-requirements",
         "file": "call-of-duty-black-ops-ii-system-requirements"
+      },
+      {
+        "slug": "call-of-duty-black-ops-ii-timeline",
+        "file": "call-of-duty-black-ops-ii-timeline"
+      },
+      {
+        "slug": "call-of-duty-black-ops-ii-trophy-guide",
+        "file": "call-of-duty-black-ops-ii-trophy-guide"
       }
     ],
     "legacy": [
+      {
+        "slug": "call-of-duty-black-ops-ii-plutonium",
+        "file": "call-of-duty-black-ops-ii-plutonium"
+      },
       {
         "slug": "call-of-duty-black-ops-ii-reddit",
         "file": "call-of-duty-black-ops-ii-reddit"
@@ -630,6 +1130,14 @@
       {
         "slug": "call-of-duty-black-ops-ii-release-date",
         "file": "call-of-duty-black-ops-ii-release-date"
+      },
+      {
+        "slug": "call-of-duty-black-ops-ii-remake",
+        "file": "call-of-duty-black-ops-ii-remake"
+      },
+      {
+        "slug": "call-of-duty-black-ops-ii-remastered",
+        "file": "call-of-duty-black-ops-ii-remastered"
       },
       {
         "slug": "call-of-duty-black-ops-ii-review",
@@ -646,8 +1154,24 @@
     ],
     "multiplayer": [
       {
+        "slug": "call-of-duty-black-ops-2-nuketown",
+        "file": "call-of-duty-black-ops-2-nuketown"
+      },
+      {
+        "slug": "call-of-duty-black-ops-ii-crossplay",
+        "file": "call-of-duty-black-ops-ii-crossplay"
+      },
+      {
+        "slug": "call-of-duty-black-ops-ii-killstreaks",
+        "file": "call-of-duty-black-ops-ii-killstreaks"
+      },
+      {
         "slug": "call-of-duty-black-ops-ii-local-multiplayer",
         "file": "call-of-duty-black-ops-ii-local-multiplayer"
+      },
+      {
+        "slug": "call-of-duty-black-ops-ii-multiplayer-maps",
+        "file": "call-of-duty-black-ops-ii-multiplayer-maps"
       },
       {
         "slug": "call-of-duty-black-ops-ii-multiplayer",
@@ -668,12 +1192,20 @@
     ],
     "platforms": [
       {
+        "slug": "call-of-duty-black-ops-ii-game-pass",
+        "file": "call-of-duty-black-ops-ii-game-pass"
+      },
+      {
         "slug": "call-of-duty-black-ops-ii-pc",
         "file": "call-of-duty-black-ops-ii-pc"
       },
       {
         "slug": "call-of-duty-black-ops-ii-port",
         "file": "call-of-duty-black-ops-ii-port"
+      },
+      {
+        "slug": "call-of-duty-black-ops-ii-ps3",
+        "file": "call-of-duty-black-ops-ii-ps3"
       },
       {
         "slug": "call-of-duty-black-ops-ii-ps4",
@@ -684,11 +1216,59 @@
         "file": "call-of-duty-black-ops-ii-ps5"
       },
       {
+        "slug": "call-of-duty-black-ops-ii-rpcs3",
+        "file": "call-of-duty-black-ops-ii-rpcs3"
+      },
+      {
+        "slug": "call-of-duty-black-ops-ii-steam",
+        "file": "call-of-duty-black-ops-ii-steam"
+      },
+      {
+        "slug": "call-of-duty-black-ops-ii-wii-u",
+        "file": "call-of-duty-black-ops-ii-wii-u"
+      },
+      {
+        "slug": "call-of-duty-black-ops-ii-winlator",
+        "file": "call-of-duty-black-ops-ii-winlator"
+      },
+      {
         "slug": "call-of-duty-black-ops-ii-xbox-360",
         "file": "call-of-duty-black-ops-ii-xbox-360"
+      },
+      {
+        "slug": "call-of-duty-black-ops-ii-xbox-series-x",
+        "file": "call-of-duty-black-ops-ii-xbox-series-x"
+      },
+      {
+        "slug": "call-of-duty-black-ops-ii-xenia",
+        "file": "call-of-duty-black-ops-ii-xenia"
       }
     ],
     "zombies": [
+      {
+        "slug": "call-of-duty-black-ops-ii-buried",
+        "file": "call-of-duty-black-ops-ii-buried"
+      },
+      {
+        "slug": "call-of-duty-black-ops-ii-juggernog",
+        "file": "call-of-duty-black-ops-ii-juggernog"
+      },
+      {
+        "slug": "call-of-duty-black-ops-ii-kino-der-toten",
+        "file": "call-of-duty-black-ops-ii-kino-der-toten"
+      },
+      {
+        "slug": "call-of-duty-black-ops-ii-nuketown-zombies",
+        "file": "call-of-duty-black-ops-ii-nuketown-zombies"
+      },
+      {
+        "slug": "call-of-duty-black-ops-ii-origins",
+        "file": "call-of-duty-black-ops-ii-origins"
+      },
+      {
+        "slug": "call-of-duty-black-ops-ii-tranzit",
+        "file": "call-of-duty-black-ops-ii-tranzit"
+      },
       {
         "slug": "call-of-duty-black-ops-ii-zombies-buried",
         "file": "call-of-duty-black-ops-ii-zombies-buried"

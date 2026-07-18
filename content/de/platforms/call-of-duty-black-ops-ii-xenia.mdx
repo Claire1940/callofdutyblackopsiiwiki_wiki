@@ -1,0 +1,146 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Settings } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Call of Duty Black Ops II Xenia: Installations- & Performance-Leitfaden 2026",
+  description: "Erfahren Sie in dieser Schritt-für-Schritt-Anleitung, wie Sie Call of Duty Black Ops II auf dem Xenia Canary Emulator optimieren.",
+  category: "Anleitung",
+  image: "https://placehold.co/800x400/1e293b/fff?text=BO2+Xenia+Guide",
+  date: "2026-07-19",
+  author: "call of duty black ops ii Wiki-Team",
+  keywords: "Call of Duty Black Ops II, Xenia Canary, Emulator, Setup, Performance, Guide, Deutsch"
+}
+
+<Callout type="info" title="Kurzanleitung">
+- **Call of Duty Black Ops II** kann auf **Xenia Canary** mit spezifischen Konfigurationsanpassungen gespielt werden.
+- Sie müssen eine **gepatchte Executable** verwenden, um schwarze Bildschirme beim ersten Laden zu umgehen.
+- **Kernel-Kommandozeilen-Anpassungen** sind erforderlich, um Spielmodelle korrekt darzustellen.
+- Die Performance übertrifft oft die Original-Hardware, wenn moderne High-End-PC-Komponenten verwendet werden.
+- Stellen Sie immer sicher, dass Ihr **Patches-Ordner** korrekt benannt und im Basisverzeichnis platziert ist.
+</Callout>
+
+<Section icon={Settings} title="Erstkonfiguration und Einrichtung">
+
+Das Ausführen von Call of Duty Black Ops II auf dem Xenia Canary Emulator erfordert eine sorgfältige Vorbereitung Ihrer Umgebung. Da sich der Emulator noch in der aktiven Entwicklung befindet, reichen die Standardeinstellungen normalerweise nicht aus, um Rendering-Probleme oder Abstürze beim Start zu vermeiden.
+
+**Video-Highlights:**
+- Herunterladen des neuesten Xenia Canary Netplay-Builds.
+- Konfigurieren der Datei `xenia-canary-netplay.config.toml`.
+- Anwenden spezifischer Kernel-Befehle zur Behebung des Modell-Renderings.
+
+<YouTubeEmbed videoId="H5eEqNO3PKg" title="How To Play Black Ops 2 DLC 5 On Xenia!" />
+
+Um das Spiel zum Laufen zu bringen, müssen Sie zuerst den Emulator initialisieren, um die erforderliche Konfigurationsdatei zu erstellen. Sobald diese erstellt ist, müssen Sie die Kernel-Einstellungen ändern, um sicherzustellen, dass die Game-Engine korrekt mit Ihrer GPU kommuniziert.
+
+| Komponente | Status/Aktion | Anforderung |
+| :--- | :--- | :--- |
+| Emulator | Xenia Canary | Aktuellster Build |
+| Konfigurationsdatei | .toml-Format | Mit VS Code bearbeiten |
+| Patch-Ordner | /patches | Muss kleingeschrieben sein |
+| Spiel-Datei | .iso oder .xex | Sauberer Dump erforderlich |
+
+<Callout type="warning" title="Wichtige Anforderung">
+Stellen Sie sicher, dass der Ordner `patches` im Stammverzeichnis Ihrer Xenia-Installation mit ausschließlich Kleinbuchstaben erstellt wurde. Ohne diese spezifische Ordnerstruktur kann das Spiel die erforderlichen Logik-Patches nicht laden.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Kernel-Befehle anwenden">
+
+Die größte Hürde bei der Emulation dieses Titels ist das Rendering von Szenen-Entitäten und Modellen. Standardmäßig können diese dazu führen, dass der GPU-Code hängen bleibt. Sie können dies umgehen, indem Sie den Abschnitt `kernel` in Ihrer Konfigurationsdatei bearbeiten.
+
+<Steps>
+  <Step num="1" title="Konfiguration öffnen">
+    Suchen Sie die Datei `xenia-canary-netplay.config.toml` in Ihrem Emulator-Ordner und öffnen Sie diese mit einem Texteditor.
+  </Step>
+  <Step num="2" title="Kernel-Zeile finden">
+    Suchen Sie den Abschnitt `kernel`, normalerweise um Zeile 323, und halten Sie Ausschau nach dem Parameter `cl` (Kommandozeile).
+  </Step>
+  <Step num="3" title="Befehle eingeben">
+    Fügen Sie die folgenden Argumente hinzu: `draw scene models`, `draw skinned models` und `draw scene entities`.
+  </Step>
+  <Step num="4" title="Speichern und Neustarten">
+    Speichern Sie die Datei und starten Sie den Emulator neu, um die neuen Rendering-Anweisungen anzuwenden.
+  </Step>
+</Steps>
+
+<Callout type="tip">
+Wenn Sie die Konfigurationsdatei nicht wiederholt bearbeiten möchten, können Sie diese Einstellungen über das In-Game-Debug-Menü umschalten, indem Sie gleichzeitig die Tasten **Start** und **Tab** auf Ihrem Controller drücken.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Performance und Map-Kompatibilität">
+
+Sobald das Spiel läuft, werden Sie feststellen, dass einige Karten über das Standardmenü aufgrund fehlender Sound-Trigger oder Skriptfehler nicht zugänglich sind. Die Verwendung von Entwickler-Map-Befehlen ist der zuverlässigste Weg, um diese menübasierten Freezes zu umgehen.
+
+| Map-Name | Lademethode | Stabilitätsbewertung |
+| :--- | :--- | :--- |
+| Origins | Menüauswahl | Hoch |
+| Kino der Toten | Dev-Map-Befehl | Mittel |
+| Shangri-La | Dev-Map-Befehl | Mittel |
+| Basis-Maps | Standard-Start | Ausgezeichnet |
+
+<CardGrid cols={3}>
+  <Card title="Hardware-Skalierung">
+    Moderne CPUs wie der 5800X3D bieten im Vergleich zur ursprünglichen Xbox 360-Hardware deutlich höhere Bildraten.
+  </Card>
+  <Card title="Debug-Tools">
+    Nutzen Sie das integrierte Menü, um den Gott-Modus, unendlich Munition und Power-Ups zu Testzwecken zu aktivieren.
+  </Card>
+  <Card title="Visuelle Bugs">
+    Erwarten Sie kleinere grafische Artefakte, wie unsichtbare View-Modelle oder Skybox-Glitches, die in aktuellen Builds häufig vorkommen.
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Profi-Performance-Tipp">
+Für ein flüssigeres Erlebnis nutzen Sie den Befehl `+devmap` gefolgt vom Map-Namen in Ihren Kommandozeilenargumenten, um direkt ins Geschehen zu springen und problematische Menüsequenzen zu umgehen.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Wichtige Wartungs-Checkliste">
+
+Die Sauberkeit Ihrer Emulationsumgebung ist der Schlüssel zu langfristiger Stabilität. Folgen Sie dieser Checkliste, um sicherzustellen, dass Ihr Setup funktionsfähig bleibt, wenn neue Updates für den Emulator veröffentlicht werden.
+
+<Checklist
+  id="xenia-maintenance"
+  title="Routinemäßige Wartungsaufgaben:"
+  items={[
+    "Überprüfen, ob die Emulator-Build-Version mit dem neuesten GitHub-Release übereinstimmt",
+    "Shader-Cache regelmäßig leeren, um Ruckler zu vermeiden",
+    "Sicherstellen, dass der Hash der Patch-Datei mit Ihrer Spiel-Executable übereinstimmt",
+    "Sichern Sie Ihre Konfigurationsdateien vor größeren Updates"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Map} title="FAQ">
+
+<FAQ items={[
+  {
+    question: "Warum friert das Spiel beim schwarzen Bildschirm ein?",
+    answer: "Dies wird normalerweise durch einen fehlenden oder falsch angewendeten Executable-Patch verursacht. Stellen Sie sicher, dass Ihre Patch-Datei im korrekten kleingeschriebenen Verzeichnis 'patches' liegt."
+  },
+  {
+    question: "Kann ich meine originalen Xbox 360 Spielstände verwenden?",
+    answer: "Ja, Xenia unterstützt Standard-Speicherdateiformate. Sie können Ihre vorhandenen Spielstände in den Content-Speicherordner des Emulators verschieben."
+  },
+  {
+    question: "Ist Call of Duty Black Ops II vollständig spielbar?",
+    answer: "Die meisten Inhalte sind spielbar, obwohl einige spezifische Missionsskripte oder Kartenmenüs Entwicklerkonsole-Befehle erfordern könnten, um Fehler zu umgehen."
+  },
+  {
+    question: "Benötige ich dafür eine gemoddete Konsole?",
+    answer: "Nein, Sie benötigen keine gemoddete Konsole oder ein Devkit. Der Xenia Canary Emulator bildet die Umgebung auf Ihrem PC nach."
+  }
+]} />
+
+</Section>

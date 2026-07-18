@@ -1,0 +1,213 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Call of Duty Black Ops II RPCS3: 2026 Setup & Port Comparison",
+  description: "Master Call of Duty Black Ops II RPCS3 settings and compare it with the 2026 PS5 release. Guides for Zombies, weapons tier lists, and campaign endings.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1a1a1b/ff7a1a?text=BO2+RPCS3+Optimization",
+  date: "2026-07-19",
+  author: "call of duty black ops ii Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Primary Platform**: While **call of duty black ops ii rpcs3** remains popular for PC emulation, a native PS4/PS5 port launched on July 9, 2026.
+- **Emulation Benefit**: RPCS3 allows for high-resolution rendering and legacy disc support that modern digital ports may lack.
+- **Core Gameplay**: Both versions feature the iconic **Pick 10 system**, branching campaign paths, and the complete Zombies experience.
+- **Multiplayer Status**: Official 2026 ports support up to 18 players online but do not offer cross-platform play with PC or Xbox.
+- **Key Takeaway**: Use RPCS3 for local legacy play and the 2026 PlayStation version for the most stable modern online environment.
+</Callout>
+
+<Section icon={Map} title="Platform Comparison: RPCS3 vs. 2026 Official Release">
+
+Choosing how to play **call of duty black ops ii rpcs3** in 2026 depends heavily on your hardware and interest in online play. The original 2012 masterpiece has seen a resurgence thanks to the official PlayStation 4 and PlayStation 5 digital launch in July 2026. However, the RPCS3 emulator continues to be the primary choice for PC users who want to upscale the original PS3 assets to 4K or use custom community patches.
+
+| Feature | RPCS3 Emulation (PC) | Official PS4/PS5 Port (2026) |
+| :--- | :--- | :--- |
+| **Resolution** | Up to 4K/8K upscaling | Native 1080p/4K |
+| **Online Play** | Limited/Private Servers | Full PSN Support (18 Players) |
+| **Input** | Keyboard/Mouse & Controller | DualSense/DualShock 4 |
+| **Stability** | Variable (Hardware Dependent) | High (Native Optimization) |
+| **DLC Access** | Requires Original Files | Included in Season Pass |
+| **Cross-play** | None | Not Supported |
+
+<Callout type="warning" title="Online Requirements">
+The 2026 PlayStation version requires an active PlayStation Plus subscription and an Activision account for all online multiplayer modes. RPCS3 is primarily used for offline local play or specialized community-run networking.
+</Callout>
+
+<CardGrid cols={2}>
+  <Card title="The RPCS3 Edge">
+    - **Advanced Upscaling**: Run the game at resolutions far exceeding the original console hardware.
+    - **Modding Support**: Easier access to texture packs and community-made balance patches.
+    - **Legacy Support**: Play directly from your original 2012 physical PS3 disc.
+  </Card>
+  <Card title="The 2026 Port Edge">
+    - **Plug and Play**: No complex configuration or firmware installation required.
+    - **Active Matchmaking**: A fresh player base following the July 2026 release.
+    - **Trophy Support**: Full integration with modern PlayStation Network achievements.
+  </Card>
+</CardGrid>
+
+</Section>
+
+<Section icon={Target} title="Step-by-Step RPCS3 Setup for Black Ops II">
+
+To achieve the best performance in **call of duty black ops ii rpcs3**, you must configure the emulator to handle the game's unique engine quirks. The 2026 optimization guides suggest that while the game is "Playable," certain settings are mandatory to prevent shader stutter and audio desync during the heavy cinematic sequences of the campaign.
+
+<Steps>
+  <Step num="1" title="Firmware and Game Installation">
+    Install the latest PS3 system firmware within RPCS3. Decrypt your original Black Ops II disc or digital folder and add it to the game list. Ensure the game version is updated to 1.19 for maximum compatibility.
+  </Step>
+  <Step num="2" title="GPU Configuration">
+    Set the Renderer to **Vulkan**. Enable "Write Color Buffers" to fix missing UI elements and "ZCull Queries" to prevent flickering. For 2026 mid-range GPUs, an Anisotropic Filter of 16x is recommended.
+  </Step>
+  <Step num="3" title="CPU and Audio Settings">
+    Set PPU and SPU Decoders to Recompiler (LLVM). Enable "SPU Cache" to reduce load times. In the Audio tab, use the XAudio2 or Cubeb backend to ensure the explosive sound design remains synchronized with the action.
+  </Step>
+  <Step num="4" title="Shader Compilation">
+    Select "Async (Multi-threaded)" for Shader Mode. This is critical for preventing the micro-stuttering that occurs when the game loads new effects during intense firefights or Zombies rounds.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Performance Optimization">
+If you experience low frame rates in the 2025 missions (like Celerium), try lowering the "Resolution Scale Threshold" or disabling "Strict Rendering Mode" to gain a 10-15% FPS boost on older hardware.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Multiplayer Meta and Weapons Tier List">
+
+The multiplayer component of **call of duty black ops ii rpcs3** (and the 2026 port) is defined by the **Pick 10 system**. This allows players to allocate ten points across primary weapons, attachments, perks, and equipment. In the 2026 meta, certain weapons have emerged as dominant due to their predictable recoil and high damage-per-second (DPS).
+
+| Tier | Weapon Name | Class | Best Role |
+| :--- | :--- | :--- | :--- |
+| **S** | **AN-94** | Assault Rifle | Mid-Range Lane Control |
+| **S** | **MSMC** | SMG | Aggressive Rushing/Flanking |
+| **S** | **DSR 50** | Sniper | Long-Range Overwatch |
+| **A** | **SCAR-H** | Assault Rifle | High Damage/Heavy Hitting |
+| **A** | **Skorpion EVO** | SMG | Extreme Close-Range DPS |
+| **A** | **LSAT** | LMG | Defensive Objective Hold |
+| **B** | **M27** | Assault Rifle | Beginner-Friendly Accuracy |
+| **B** | **MP7** | SMG | Balanced All-Purpose Play |
+
+<Callout type="success" title="2026 Loadout Recommendation">
+For new players, the **MTAR** with a Reflex Sight and Fast Mag remains the most balanced choice. Pair it with the **Flak Jacket** and **Toughness** perks to survive the frequent explosive spam in objective modes like Domination and Hardpoint.
+</Callout>
+
+**Key Multiplayer Modes:**
+- **Team Deathmatch**: The standard 6v6 or 9v9 mode focused purely on eliminations.
+- **Domination**: Tactical area control centered around three flags (A, B, and C).
+- **Search and Destroy**: High-stakes, one-life rounds perfect for competitive play.
+- **League Play**: The 2026 port features a dedicated ranked ladder with skill-based matchmaking.
+
+</Section>
+
+<Section icon={Sparkles} title="Zombies: Maps and Survival Strategies">
+
+Zombies in **call of duty black ops ii rpcs3** is a highlight, offering a progression from the massive **TranZit** bus route to the legendary **Origins**. Each map introduces unique "Buildables" and "Wonder Weapons" that are essential for high-round survival.
+
+<CardGrid cols={3}>
+  <Card title="TranZit (Green Run)">
+    - **Setting**: Post-apocalyptic USA.
+    - **Key Feature**: The automated bus.
+    - **Wonder Weapon**: Jet Gun.
+  </Card>
+  <Card title="Mob of the Dead">
+    - **Setting**: Alcatraz Island.
+    - **Key Feature**: Afterlife mechanic.
+    - **Wonder Weapon**: Blundergat.
+  </Card>
+  <Card title="Origins">
+    - **Setting**: WWI Battlefield.
+    - **Key Feature**: Giant Robots.
+    - **Wonder Weapon**: Elemental Staffs.
+  </Card>
+</CardGrid>
+
+<Callout type="info" title="Zombies Economics">
+Always prioritize buying **Jugger-Nog** as your first perk. In maps like Buried, you can use the Bank system to store points from previous games, allowing you to fully gear up by Round 1 in subsequent matches.
+</Callout>
+
+**Essential Zombies Checklist:**
+<Checklist
+  id="zombies-essentials"
+  title="High Round Requirements:"
+  items={[
+    "Activate Power and unlock Pack-a-Punch",
+    "Build the Zombie Shield for back protection",
+    "Obtain the map-specific Wonder Weapon",
+    "Equip the Ray Gun Mark II (Available via Vengeance DLC)",
+    "Establish a 'Training' route in an open area"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Trophy} title="Campaign Walkthrough: Branching Endings">
+
+The campaign of Black Ops II is famous for its non-linear structure. Your actions in the 1980s (Alex Mason) directly impact the world of 2025 (David Mason). To achieve the "Best" ending in your **call of duty black ops ii rpcs3** playthrough, you must make specific choices across 11 main missions and 5 Strike Force missions.
+
+| Mission | Key Choice/Action | Consequence |
+| :--- | :--- | :--- |
+| **Old Wounds** | Resist Kravchenko | Reveals CIA mole information |
+| **Karma** | Save Chloe Lynch | Prevents the 2025 cyberattack |
+| **Suffer with Me** | Shoot Mason in legs | **Alex Mason survives** |
+| **Achilles' Veil** | Kill Harper as Farid | Farid survives to save Chloe |
+| **Odysseus** | Wound Admiral Briggs | USS Barack Obama survives |
+| **Judgment Day** | Capture Menendez | Prevents him from becoming a martyr |
+
+<Callout type="tip" title="Strike Force Success">
+Do not skip the optional Strike Force missions (FOB Spectre, Shipwreck, etc.). Completing these is mandatory to secure the alliance between the US and China, which is required for the most favorable geopolitical ending.
+</Callout>
+
+**Ending Variations Summary:**
+- **Best Ending**: Mason survives, Menendez is captured, Chloe survives, and the cyberattack is stopped.
+- **Martyr Ending**: Menendez is executed, sparking a global uprising via a pre-recorded video.
+- **Cyber-Geddon**: Chloe dies, allowing Menendez's virus to cripple the global drone fleet.
+
+</Section>
+
+<Section icon={Shield} title="DLC and Season Pass Content">
+
+Whether playing on the 2026 PlayStation version or managing files for **call of duty black ops ii rpcs3**, the DLC adds 16 multiplayer maps and the core of the Zombies experience. The Season Pass is the most efficient way to access this content.
+
+| DLC Pack | Multiplayer Maps | Zombies Map | Extra Content |
+| :--- | :--- | :--- | :--- |
+| **Revolution** | Downhill, Hydro, Mirage, Grind | Die Rise | Peacekeeper SMG |
+| **Uprising** | Magma, Encore, Vertigo, Studio | Mob of the Dead | Firing Range Remake |
+| **Vengeance** | Cove, Detour, Rush, Uplink | Buried | Ray Gun Mark II |
+| **Apocalypse** | Pod, Frost, Takeoff, Dig | Origins | Stadium Remake |
+
+<Callout type="warning" title="DLC Compatibility">
+On RPCS3, ensuring your DLC region (BLUS/BLES) matches your base game ID is the most common cause of "missing content" errors. Always verify your game folder structure before launching.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "Can I play multiplayer on call of duty black ops ii rpcs3?",
+    answer: "Standard PSN matchmaking does not work on RPCS3. You must use community-run private server projects or local LAN emulation tools to play with others on PC."
+  },
+  {
+    question: "Is the 2026 PS5 version a remaster or a port?",
+    answer: "It is an official port of the original experience. It features the original graphics and mechanics but is optimized to run natively on PS4 and PS5 hardware with modern controller support."
+  },
+  {
+    question: "How do I unlock the Peacekeeper SMG?",
+    answer: "The Peacekeeper is included in the Revolution DLC pack. Once the DLC is installed, it is available in the Create-a-Class menu for use in all multiplayer modes."
+  },
+  {
+    question: "What is the best setting to stop lag in RPCS3?",
+    answer: "Enable 'Write Color Buffers' and use the 'Vulkan' renderer. Additionally, setting the SPU Block Size to 'Safe' can resolve many audio-related performance drops."
+  }
+]} />
+
+</Section>

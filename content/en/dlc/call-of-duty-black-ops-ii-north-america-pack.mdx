@@ -1,0 +1,184 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "call of duty black ops ii north america pack: Setup Guide",
+  description: "Configure and optimize the Call of Duty Black Ops II North America Pack on Xbox Series X/S and Xbox One. Learn regional matchmaking and DLC steps.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/111827/e11d48?text=North+America+Pack+Guide",
+  date: "2026-07-19",
+  author: "call of duty black ops ii Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Primary Setup**: The **call of duty black ops ii north america pack** provides regional access to the base game and essential multiplayer DLCs.
+- **Regional Settings**: Configure your console region to match the **North American Xbox Store** to prevent licensing conflicts.
+- **Free Add-ons**: Download the free **Zombies Pack** and **Pack-A-Punch Pack** to access bonus cooperative content.
+- **Performance Optimization**: Enable backward compatibility features on **Xbox Series X|S** or **Xbox One** for stable 60 FPS gameplay.
+</Callout>
+
+<Section icon={Shield} title="Overview and Compatibility">
+
+Call of Duty: Black Ops II remains a landmark title in the first-person shooter genre. Developed by Treyarch and published by Activision, this entry introduced players to a branching campaign story, pick-10 loadout systems, and highly competitive multiplayer maps. When purchasing or redeeming the regional digital version, ensuring compatibility across modern hardware platforms is crucial for a smooth experience.
+
+The game is fully playable on modern Xbox consoles through backward compatibility. This regional edition ensures players connect to the correct matchmaking servers, minimizing latency during multiplayer matches. The standard digital edition is regularly priced at $39.99 on the Xbox Store, though frequent publisher sales often reduce the price to $19.99.
+
+| Platform | Resolution | Target Framerate | Compatibility Type |
+|---|---|---|---|
+| Xbox Series X | 1080p (Upscaled) | 60 FPS | Backward Compatible (Auto HDR) |
+| Xbox Series S | 1080p (Upscaled) | 60 FPS | Backward Compatible (Auto HDR) |
+| Xbox One X | 1080p | 60 FPS | Backward Compatible |
+| Xbox One | 720p | 60 FPS | Backward Compatible |
+| Xbox 360 | 720p | 60 FPS | Native |
+
+<Callout type="info" title="Regional Matchmaking Notice">
+The North American version is specifically optimized for NTSC region matchmaking, ensuring lower latency when connecting to servers located in East and West US.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Installing the call of duty black ops ii north america pack">
+
+Setting up your game requires following a structured installation process to ensure all regional assets and multiplayer packages align correctly. If you are using a physical disc or a digital license code from the North American region, your console settings must match the region of origin to avoid download errors.
+
+Follow these step-by-step instructions to configure your console and complete the installation process.
+
+<Steps>
+  <Step num="1" title="Set Console Region">
+    Navigate to Settings, select System, and choose Language & Location. Set your location to United States or Canada to access the North American marketplace.
+  </Step>
+  <Step num="2" title="Purchase or Redeem Code">
+    Go to the Xbox Store, search for the game, and complete your purchase or redeem your digital code.
+  </Step>
+  <Step num="3" title="Download Base Game">
+    Initiate the download for the base game. The download requires approximately 16 GB of storage space on your console.
+  </Step>
+  <Step num="4" title="Claim Free Add-ons">
+    Navigate to the game's add-on section. Search for the free Zombies Pack and Pack-A-Punch Pack, then add them to your queue.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Regional Licensing Warning">
+Ensure your payment method matches your console's region settings. A mismatch can result in transaction errors or temporary account locks.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Content Comparison and Add-ons">
+
+The multiplayer and Zombies modes in Black Ops II are highly dependent on additional content packages. The base game offers a robust selection of maps, but expanding your library with DLC packs changes the matchmaking pools. The game features four major DLC expansions alongside smaller cosmetic and utility packages.
+
+Understanding what is included in each package helps you decide which add-ons to prioritize for your multiplayer setup.
+
+<CardGrid cols={2}>
+  <Card title="Revolution DLC">
+    - **Multiplayer Maps**: Hydro, Downhill, Grind, Mirage
+    - **Zombies Map**: Die Rise
+    - **Weapon**: Peacekeeper SMG
+  </Card>
+  <Card title="Uprising DLC">
+    - **Multiplayer Maps**: Studio, Vertigo, Magma, Encore
+    - **Zombies Map**: Mob of the Dead
+    - **Weapon**: None
+  </Card>
+  <Card title="Vengeance DLC">
+    - **Multiplayer Maps**: Cove, Detour, Rush, Uplink
+    - **Zombies Map**: Buried
+    - **Weapon**: Ray Gun Mark II
+  </Card>
+  <Card title="Apocalypse DLC">
+    - **Multiplayer Maps**: Pod, Frost, Takeoff, Dig
+    - **Zombies Map**: Origins
+    - **Weapon**: None
+  </Card>
+</CardGrid>
+
+| DLC Pack | Multiplayer Maps | Zombies Map | Weapon Included |
+|---|---|---|---|
+| Revolution | Hydro, Downhill, Grind, Mirage | Die Rise | Peacekeeper SMG |
+| Uprising | Studio, Vertigo, Magma, Encore | Mob of the Dead | None |
+| Vengeance | Cove, Detour, Rush, Uplink | Buried | Ray Gun Mark II |
+| Apocalypse | Pod, Frost, Takeoff, Dig | Origins | None |
+
+<Callout type="tip" title="DLC Purchasing Tip">
+Purchasing the Season Pass is often more economical than buying each DLC pack individually if you plan to play all multiplayer and Zombies maps.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Multiplayer Matchmaking and Network Optimization">
+
+To find active lobbies quickly in the North American region, your network settings must be optimized. Because the game relies on a hybrid server and peer-to-peer system, your Network Address Translation (NAT) type determines how easily you can connect to other players.
+
+Having a restricted NAT type will limit your matchmaking pool, resulting in long search times or connection failures.
+
+| NAT Type | Matchmaking Speed | Player Connectivity | Recommended Actions |
+|---|---|---|---|
+| Open | Fast | Connects to all players | None. Ideal configuration. |
+| Moderate | Moderate | Connects to Open/Moderate | Enable UPnP on router. |
+| Strict | Slow | Connects to Open only | Forward ports 3074 (UDP/TCP). |
+
+To achieve an Open NAT status, you may need to access your router settings and configure port forwarding rules specifically for Xbox Live and Activision servers.
+
+| Protocol | Port Number | Traffic Type | Purpose |
+|---|---|---|---|
+| TCP | 3074 | Game Data | Xbox Live Connectivity |
+| UDP | 3074 | Voice & Matchmaking | Peer-to-Peer Connection |
+| UDP | 88 | System Data | Xbox Live Core Services |
+| UDP | 500 | Security | IPsec Tunneling |
+
+<Callout type="success" title="Instant Open NAT Method">
+Setting your router's DMZ to your console's static IP address is a quick way to achieve an Open NAT type instantly.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Goals and Checklist">
+
+Before launching the game to play online, complete this checklist to ensure your console is fully optimized for the best possible experience.
+
+<Checklist
+  id="setup-milestones"
+  title="Optimal Setup Checklist:"
+  items={[
+    "Verify console location is set to North America in system settings",
+    "Install the base Call of Duty: Black Ops II game to internal storage",
+    "Download the free Zombies Pack and Pack-A-Punch Pack add-ons",
+    "Configure router ports to achieve Open NAT status for multiplayer",
+    "Enable Auto HDR in the Xbox compatibility options for improved visuals"
+  ]}
+/>
+
+<Callout type="info" title="System Updates">
+Keep your system firmware updated to the latest version to ensure backward compatibility features function correctly.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "Can I play the call of duty black ops ii north america pack on Xbox Series X?",
+    answer: "Yes, the game is fully backward compatible on both Xbox Series X and Xbox Series S, offering stable 60 FPS performance and faster loading times."
+  },
+  {
+    question: "Are the Zombies and Pack-A-Punch packs free to download?",
+    answer: "Yes, these specific add-ons are available as free downloads on the Xbox Store for all owners of the base game."
+  },
+  {
+    question: "How do I fix regional matchmaking issues with this pack?",
+    answer: "Ensure your console region is set to United States or Canada, and configure your router to open port 3074 for optimal peer-to-peer connections."
+  }
+]} />
+
+<Callout type="tip" title="Matchmaking Troubleshooting">
+If matchmaking takes too long, try disabling DLC map packs in the game options to search in the larger base-game player pool.
+</Callout>
+
+</Section>

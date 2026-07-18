@@ -1,0 +1,214 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Call of Duty Black Ops II RPCS3: 2026 Einrichtung & Port-Vergleich",
+  description: "Meistern Sie die RPCS3-Einstellungen für Call of Duty Black Ops II und vergleichen Sie es mit dem PS5-Release von 2026. Guides für Zombies, Waffen-Tier-Listen und Kampagnen-Enden.",
+  category: "Leitfaden",
+  image: "https://placehold.co/800x400/1a1a1b/ff7a1a?text=BO2+RPCS3+Optimization",
+  date: "2026-07-19",
+  author: "call of duty black ops ii Wiki-Team",
+  keywords: "Call of Duty, Black Ops 2, RPCS3, Einrichtung, Guide, PS5 Port, Zombies, Mehrspieler"
+}
+
+<Callout type="info" title="Kurzanleitung">
+- **Hauptplattform**: Während **call of duty black ops ii rpcs3** weiterhin beliebt für die PC-Emulation ist, wurde am 9. Juli 2026 ein nativer PS4/PS5-Port veröffentlicht.
+- **Vorteil der Emulation**: RPCS3 ermöglicht Rendering in hoher Auflösung und die Unterstützung alter Discs, die modernen digitalen Ports möglicherweise fehlt.
+- **Kern-Gameplay**: Beide Versionen bieten das ikonische **Pick-10-System**, verzweigte Kampagnenpfade und das vollständige Zombies-Erlebnis.
+- **Multiplayer-Status**: Die offiziellen Ports von 2026 unterstützen bis zu 18 Spieler online, bieten jedoch kein Crossplay mit PC oder Xbox.
+- **Wichtigste Erkenntnis**: Nutzen Sie RPCS3 für das lokale Spielen von Klassikern und die PlayStation-Version von 2026 für die stabilste moderne Online-Umgebung.
+</Callout>
+
+<Section icon={Map} title="Plattform-Vergleich: RPCS3 vs. Offizieller Release 2026">
+
+Die Entscheidung, wie man **call of duty black ops ii rpcs3** im Jahr 2026 spielt, hängt stark von Ihrer Hardware und Ihrem Interesse am Online-Spiel ab. Das ursprüngliche Meisterwerk von 2012 erlebt dank des offiziellen digitalen Starts für PlayStation 4 und PlayStation 5 im Juli 2026 eine Renaissance. Dennoch bleibt der RPCS3-Emulator die erste Wahl für PC-Nutzer, die die ursprünglichen PS3-Assets auf 4K hochskalieren oder benutzerdefinierte Community-Patches verwenden möchten.
+
+| Feature | RPCS3-Emulation (PC) | Offizieller PS4/PS5-Port (2026) |
+| :--- | :--- | :--- |
+| **Auflösung** | Bis zu 4K/8K Upscaling | Natives 1080p/4K |
+| **Online-Spiel** | Begrenzt/Private Server | Volle PSN-Unterstützung (18 Spieler) |
+| **Eingabe** | Tastatur/Maus & Controller | DualSense/DualShock 4 |
+| **Stabilität** | Variabel (Hardwareabhängig) | Hoch (Native Optimierung) |
+| **DLC-Zugriff** | Erfordert Originaldateien | Im Season Pass enthalten |
+| **Crossplay** | Keine | Nicht unterstützt |
+
+<Callout type="warning" title="Online-Anforderungen">
+Die PlayStation-Version von 2026 erfordert ein aktives PlayStation Plus-Abonnement und ein Activision-Konto für alle Online-Mehrspielermodi. RPCS3 wird primär für das Offline-Lokalspiel oder spezialisierte, von der Community betriebene Netzwerke genutzt.
+</Callout>
+
+<CardGrid cols={2}>
+  <Card title="Der RPCS3-Vorteil">
+    - **Erweitertes Upscaling**: Lassen Sie das Spiel in Auflösungen laufen, die die ursprüngliche Konsolenhardware weit übertreffen.
+    - **Modding-Unterstützung**: Einfacherer Zugriff auf Texture-Packs und von der Community erstellte Balance-Patches.
+    - **Legacy-Unterstützung**: Spielen Sie direkt von Ihrer physischen Original-PS3-Disc aus dem Jahr 2012.
+  </Card>
+  <Card title="Der Vorteil des 2026-Ports">
+    - **Plug and Play**: Keine komplexe Konfiguration oder Firmware-Installation erforderlich.
+    - **Aktives Matchmaking**: Eine frische Spielerbasis nach der Veröffentlichung im Juli 2026.
+    - **Trophäen-Unterstützung**: Volle Integration in die modernen Erfolge des PlayStation Network.
+  </Card>
+</CardGrid>
+
+</Section>
+
+<Section icon={Target} title="Schritt-für-Schritt RPCS3-Einrichtung für Black Ops II">
+
+Um die beste Leistung in **call of duty black ops ii rpcs3** zu erzielen, müssen Sie den Emulator so konfigurieren, dass er mit den einzigartigen Eigenheiten der Engine des Spiels umgehen kann. Die Optimierungsleitfäden von 2026 deuten darauf hin, dass das Spiel zwar als „spielbar“ gilt, bestimmte Einstellungen jedoch zwingend erforderlich sind, um Shader-Ruckler und Audio-Desynchronisation während der intensiven Filmsequenzen der Kampagne zu verhindern.
+
+<Steps>
+  <Step num="1" title="Firmware- und Spielinstallation">
+    Installieren Sie die neueste PS3-Systemfirmware in RPCS3. Entschlüsseln Sie Ihre originale Black Ops II-Disc oder Ihren digitalen Ordner und fügen Sie ihn der Spieleliste hinzu. Stellen Sie sicher, dass die Spielversion für maximale Kompatibilität auf 1.19 aktualisiert ist.
+  </Step>
+  <Step num="2" title="GPU-Konfiguration">
+    Stellen Sie den Renderer auf **Vulkan**. Aktivieren Sie „Write Color Buffers“, um fehlende UI-Elemente zu beheben, und „ZCull Queries“, um Flackern zu verhindern. Für Mittelklasse-GPUs von 2026 wird ein anisotroper Filter von 16x empfohlen.
+  </Step>
+  <Step num="3" title="CPU- und Audio-Einstellungen">
+    Stellen Sie PPU- und SPU-Decoder auf Recompiler (LLVM). Aktivieren Sie den „SPU Cache“, um Ladezeiten zu verkürzen. Verwenden Sie im Audio-Tab das XAudio2- oder Cubeb-Backend, um sicherzustellen, dass das explosive Sounddesign synchron mit der Action bleibt.
+  </Step>
+  <Step num="4" title="Shader-Kompilierung">
+    Wählen Sie „Async (Multi-threaded)“ für den Shader-Modus. Dies ist entscheidend, um die Mikroruckler zu verhindern, die auftreten, wenn das Spiel während intensiver Feuergefechte oder Zombies-Runden neue Effekte lädt.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Leistungsoptimierung">
+Wenn Sie niedrige Bildraten in den Missionen von 2025 (wie Celerium) erleben, versuchen Sie, den „Resolution Scale Threshold“ zu senken oder den „Strict Rendering Mode“ zu deaktivieren, um auf älterer Hardware einen FPS-Boost von 10-15 % zu erzielen.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Mehrspieler-Meta und Waffen-Tier-Liste">
+
+Die Mehrspieler-Komponente von **call of duty black ops ii rpcs3** (und dem 2026-Port) wird durch das **Pick-10-System** definiert. Dies ermöglicht es Spielern, zehn Punkte auf Primärwaffen, Aufsätze, Extras und Ausrüstung zu verteilen. In der Meta von 2026 haben sich bestimmte Waffen aufgrund ihres vorhersehbaren Rückstoßes und ihres hohen Schadens pro Sekunde (DPS) als dominant erwiesen.
+
+| Tier | Waffenname | Klasse | Beste Rolle |
+| :--- | :--- | :--- | :--- |
+| **S** | **AN-94** | Sturmgewehr | Lane-Kontrolle auf mittlere Distanz |
+| **S** | **MSMC** | MP | Aggressives Stürmen/Flankieren |
+| **S** | **DSR 50** | Scharfschützengewehr | Fernkampf-Überwachung |
+| **A** | **SCAR-H** | Sturmgewehr | Hoher Schaden/Schwerfällig |
+| **A** | **Skorpion EVO** | MP | Extremer Nahkampf-DPS |
+| **A** | **LSAT** | LMG | Defensive Objektiv-Verteidigung |
+| **B** | **M27** | Sturmgewehr | Einsteigerfreundliche Präzision |
+| **B** | **MP7** | MP | Ausgewogenes Allzweck-Spiel |
+
+<Callout type="success" title="Loadout-Empfehlung 2026">
+Für neue Spieler bleibt das **MTAR** mit Reflexvisier und Schnelles Magazin die ausgewogenste Wahl. Kombinieren Sie es mit den Extras **Kugelsichere Weste** und **Zähigkeit**, um den häufigen explosiven Spam in Objektiv-Modi wie Herrschaft und Stellung zu überleben.
+</Callout>
+
+**Wichtige Mehrspielermodi:**
+- **Team-Deathmatch**: Der Standard-6v6- oder 9v9-Modus, der sich rein auf Eliminierungen konzentriert.
+- **Herrschaft**: Taktische Gebietskontrolle rund um drei Flaggen (A, B und C).
+- **Suchen & Zerstören**: Runden mit hohem Einsatz und nur einem Leben, perfekt für kompetitives Spiel.
+- **Ligaspiel**: Der 2026-Port verfügt über eine dedizierte Rangliste mit fähigkeitsbasiertem Matchmaking.
+
+</Section>
+
+<Section icon={Sparkles} title="Zombies: Karten und Überlebensstrategien">
+
+Zombies in **call of duty black ops ii rpcs3** ist ein Highlight und bietet eine Entwicklung von der riesigen **TranZit**-Busroute bis hin zum legendären **Origins**. Jede Karte führt einzigartige „Buildables“ (baubare Gegenstände) und „Wunderwaffen“ ein, die für das Überleben in hohen Runden unerlässlich sind.
+
+<CardGrid cols={3}>
+  <Card title="TranZit (Green Run)">
+    - **Schauplatz**: Postapokalyptische USA.
+    - **Besonderheit**: Der automatisierte Bus.
+    - **Wunderwaffe**: Jet Gun.
+  </Card>
+  <Card title="Mob of the Dead">
+    - **Schauplatz**: Insel Alcatraz.
+    - **Besonderheit**: Afterlife-Mechanik.
+    - **Wunderwaffe**: Blundergat.
+  </Card>
+  <Card title="Origins">
+    - **Schauplatz**: Schlachtfeld des 1. Weltkriegs.
+    - **Besonderheit**: Riesige Roboter.
+    - **Wunderwaffe**: Elementar-Stäbe.
+  </Card>
+</CardGrid>
+
+<Callout type="info" title="Zombies-Ökonomie">
+Priorisieren Sie immer den Kauf von **Jugger-Nog** als Ihr erstes Extra. Auf Karten wie Buried können Sie das Banksystem nutzen, um Punkte aus vorherigen Spielen zu speichern, sodass Sie sich in nachfolgenden Matches bereits in Runde 1 voll ausrüsten können.
+</Callout>
+
+**Essentielle Zombies-Checkliste:**
+<Checklist
+  id="zombies-essentials"
+  title="Anforderungen für hohe Runden:"
+  items={[
+    "Strom aktivieren und Pack-a-Punch freischalten",
+    "Den Zombie-Schild für Rückenschutz bauen",
+    "Die kartenspezifische Wunderwaffe erhalten",
+    "Die Ray Gun Mark II ausrüsten (verfügbar über Vengeance DLC)",
+    "Eine 'Training'-Route in einem offenen Bereich etablieren"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Trophy} title="Kampagnen-Walkthrough: Verzweigte Enden">
+
+Die Kampagne von Black Ops II ist berühmt für ihre nicht-lineare Struktur. Ihre Handlungen in den 1980er Jahren (Alex Mason) wirken sich direkt auf die Welt von 2025 (David Mason) aus. Um das „beste“ Ende in Ihrem **call of duty black ops ii rpcs3**-Durchgang zu erreichen, müssen Sie in 11 Hauptmissionen und 5 Eingreiftrupp-Missionen spezifische Entscheidungen treffen.
+
+| Mission | Wichtige Entscheidung/Aktion | Konsequenz |
+| :--- | :--- | :--- |
+| **Alte Wunden** | Kravchenko widerstehen | Enthüllt Informationen über den CIA-Maulwurf |
+| **Karma** | Chloe Lynch retten | Verhindert den Cyberangriff von 2025 |
+| **Leide mit mir** | Mason in die Beine schießen | **Alex Mason überlebt** |
+| **Achilles-Schleier** | Harper als Farid töten | Farid überlebt, um Chloe zu retten |
+| **Odysseus** | Admiral Briggs verwunden | USS Barack Obama überlebt |
+| **Tag der Abrechnung** | Menendez gefangen nehmen | Verhindert, dass er zum Märtyrer wird |
+
+<Callout type="tip" title="Erfolg der Eingreiftrupps">
+Überspringen Sie nicht die optionalen Eingreiftrupp-Missionen (FOB Spectre, Schiffbruch usw.). Der Abschluss dieser Missionen ist zwingend erforderlich, um das Bündnis zwischen den USA und China zu sichern, was für das günstigste geopolitische Ende erforderlich ist.
+</Callout>
+
+**Zusammenfassung der End-Variationen:**
+- **Bestes Ende**: Mason überlebt, Menendez wird gefangen genommen, Chloe überlebt und der Cyberangriff wird gestoppt.
+- **Märtyrer-Ende**: Menendez wird hingerichtet, was über ein vorab aufgezeichnetes Video einen weltweiten Aufstand auslöst.
+- **Cyber-Geddon**: Chloe stirbt, wodurch Menendez' Virus die globale Drohnenflotte lahmlegen kann.
+
+</Section>
+
+<Section icon={Shield} title="DLC und Season Pass Inhalte">
+
+Egal, ob Sie auf der PlayStation-Version von 2026 spielen oder Dateien für **call of duty black ops ii rpcs3** verwalten, die DLCs fügen 16 Mehrspielerkarten und den Kern des Zombies-Erlebnisses hinzu. Der Season Pass ist der effizienteste Weg, um auf diese Inhalte zuzugreifen.
+
+| DLC-Pack | Mehrspielerkarten | Zombies-Karte | Zusatzinhalt |
+| :--- | :--- | :--- | :--- |
+| **Revolution** | Downhill, Hydro, Mirage, Grind | Die Rise | Peacekeeper MP |
+| **Uprising** | Magma, Encore, Vertigo, Studio | Mob of the Dead | Firing Range Remake |
+| **Vengeance** | Cove, Detour, Rush, Uplink | Buried | Ray Gun Mark II |
+| **Apocalypse** | Pod, Frost, Takeoff, Dig | Origins | Stadium Remake |
+
+<Callout type="warning" title="DLC-Kompatibilität">
+Bei RPCS3 ist die Sicherstellung, dass Ihre DLC-Region (BLUS/BLES) mit Ihrer Basisspiel-ID übereinstimmt, die häufigste Ursache für Fehler wie „fehlende Inhalte“. Überprüfen Sie vor dem Start immer Ihre Spielordnerstruktur.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Häufig gestellte Fragen">
+
+<FAQ items={[
+  {
+    question: "Kann ich im Mehrspielermodus auf call of duty black ops ii rpcs3 spielen?",
+    answer: "Das Standard-PSN-Matchmaking funktioniert nicht auf RPCS3. Sie müssen von der Community betriebene private Serverprojekte oder lokale LAN-Emulations-Tools verwenden, um mit anderen auf dem PC zu spielen."
+  },
+  {
+    question: "Ist die PS5-Version von 2026 ein Remaster oder ein Port?",
+    answer: "Es handelt sich um einen offiziellen Port des ursprünglichen Erlebnisses. Er bietet die ursprüngliche Grafik und Mechanik, ist aber so optimiert, dass er nativ auf PS4- und PS5-Hardware mit moderner Controller-Unterstützung läuft."
+  },
+  {
+    question: "Wie schalte ich die Peacekeeper MP frei?",
+    answer: "Die Peacekeeper ist im Revolution DLC-Pack enthalten. Sobald der DLC installiert ist, ist sie im Menü 'Klasseneditor' für die Verwendung in allen Mehrspielermodi verfügbar."
+  },
+  {
+    question: "Was ist die beste Einstellung, um Lag in RPCS3 zu stoppen?",
+    answer: "Aktivieren Sie 'Write Color Buffers' und verwenden Sie den 'Vulkan'-Renderer. Zusätzlich kann das Einstellen der SPU-Blockgröße auf 'Safe' viele audiobezogene Leistungseinbrüche beheben."
+  }
+]} />
+
+</Section>

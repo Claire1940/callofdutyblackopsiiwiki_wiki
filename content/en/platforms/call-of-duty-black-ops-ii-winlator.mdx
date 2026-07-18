@@ -1,0 +1,190 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Call of Duty Black Ops II Winlator: Setup Guide & Settings",
+  description: "Learn how to set up and optimize Call of Duty: Black Ops II on Android using the Winlator emulator. Get the best settings, requirements, and steps.",
+  category: "Tutorial",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Winlator+Setup+Guide",
+  date: "2026-07-19",
+  author: "call of duty black ops ii Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Emulator Setup**: Run **call of duty black ops ii winlator** configurations using container settings optimized for Snapdragon or MediaTek processors.
+- **Hardware Target**: Aim for a **Snapdragon 8 Gen 2** or equivalent chipset to maintain a stable 60 FPS experience.
+- **Input Profiles**: Create custom **virtual controller layouts** to map keyboard and mouse bindings to touch screen overlays.
+- **Graphics Tweak**: Lower **in-game resolution** and disable shadows to prevent thermal throttling during extended sessions.
+- **Game Modes**: Enjoy the complete campaign, local multiplayer maps, and the classic **Zombies mode** directly on your mobile device.
+</Callout>
+
+<Section icon={Sparkles} title="Introduction to Mobile Emulation">
+
+Running high-performance PC titles on mobile hardware has transitioned from a novel experiment to a highly viable gaming method. By utilizing compatibility layers like Winlator, Android users can run classic desktop games directly on their smartphones. Among the most popular targets for this emulation is Treyarch's classic first-person shooter, offering intense action, branching campaigns, and highly replayable cooperative modes.
+
+To achieve a playable framerate, you must configure the emulator environment to match the demanding rendering pipeline of the game. This setup guide outlines the precise configuration parameters, hardware requirements, and optimization steps needed to run the game smoothly.
+
+<CardGrid cols={3}>
+  <Card title="Portability">
+    - **Play anywhere** without a PC
+    - Full campaign access
+    - Local offline gameplay
+  </Card>
+  <Card title="Performance">
+    - Custom driver support
+    - Variable resolution scaling
+    - Up to **60 FPS** on flagship chips
+  </Card>
+  <Card title="Controls">
+    - Virtual gamepad mapping
+    - Bluetooth controller support
+    - Customizable touch layouts
+  </Card>
+</CardGrid>
+
+<Callout type="info" title="Emulation Overview">
+Winlator acts as a translation layer, converting Windows x86 system calls and DirectX instructions into formats that Android's ARM architecture and Vulkan graphics drivers can interpret. This process requires significant CPU and GPU overhead, making hardware selection crucial.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Hardware and System Requirements">
+
+Before attempting to configure the environment, ensure your Android device possesses the necessary processing power. Emulating a 3D title of this scale requires robust thermal management and a modern system-on-chip (SoC). Devices powered by Qualcomm Snapdragon processors generally offer superior compatibility due to mature Turnip graphics drivers.
+
+The table below outlines the minimum and recommended hardware specifications for running the game via emulation, compared to the original desktop requirements.
+
+| Specification | Desktop Minimum | Android Minimum (Winlator) | Android Recommended (Winlator) |
+|---|---|---|---|
+| **Graphics** | NVIDIA GeForce 8800 GT | Adreno 640 or equivalent | Adreno 740 or equivalent |
+| **Processor** | Intel Core 2 Duo E8200 | Snapdragon 855 / Dimensity 8100 | Snapdragon 8 Gen 2 / Dimensity 9200 |
+| **RAM** | 2 GB | 6 GB | 8 GB or higher |
+| **Storage** | 16 GB | 16 GB (High-speed UFS) | 16 GB (UFS 4.0 storage) |
+
+Performance varies significantly depending on your specific processor architecture. The table below details expected performance ranges across common mobile chipsets.
+
+| Chipset Tier | Processor Example | Expected Framerate | Recommended Resolution |
+|---|---|---|---|
+| **High-End** | Snapdragon 8 Gen 2 / Gen 3 | **45-60 FPS** | 1280x720 (HD) |
+| **Mid-Range** | Snapdragon 870 / Dimensity 8100 | **30-40 FPS** | 800x600 (SVGA) |
+| **Entry-Level** | Snapdragon 720G / Helio G96 | **15-25 FPS** | 640x480 (VGA) |
+
+<Callout type="warning" title="Thermal Management">
+Extended emulation sessions generate significant heat. To prevent thermal throttling and sudden frame drops, consider using an external phone cooler or reducing the container resolution.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Step-by-Step Winlator Setup Guide">
+
+Setting up the emulation environment requires preparing the game files on a PC and transferring them to your Android device. Follow these steps to initialize the container and configure the runtime environment.
+
+<Steps>
+  <Step num="1" title="Prepare Game Files">
+    Install the game on your PC. Locate the installation directory and copy the entire game folder to your Android device's internal storage, preferably in the **Download** directory for easy access.
+  </Step>
+  <Step num="2" title="Create a Container in Winlator">
+    Open the emulator and tap the "+" icon to create a new container. Set the container name, select your screen resolution (start with **800x600** for optimal performance), and choose the appropriate graphics driver.
+  </Step>
+  <Step num="3" title="Configure DXVK and Wine Settings">
+    In the container settings, navigate to the DXVK tab. Choose **DXVK 1.10.3** or newer. Set the Wine registry settings to emulate a 64-bit Windows environment, and assign all available CPU cores to the container.
+  </Step>
+  <Step num="4" title="Set Up Input Controls">
+    Navigate to the Input Controls menu. Create a new profile and map virtual keys to match the game's default layout (WASD for movement, mouse click for firing, and spacebar for jumping). Save the profile.
+  </Step>
+  <Step num="5" title="Launch and Optimize">
+    Start the container, navigate to the game folder via the built-in file manager, and run the primary executable. Once the game launches, immediately open the options menu to adjust internal settings.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Driver Selection">
+For Snapdragon devices, always select the **Turnip (Adreno)** graphics driver in the container settings. This driver provides the most stable Vulkan translation layer and prevents graphical artifacts.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Graphics Optimization and Settings">
+
+To maintain a steady framerate during intensive combat sequences, you must balance the container settings and the in-game options. Sub-optimal configurations can lead to memory leaks, crashes, or severe stuttering.
+
+The table below highlights the recommended container configuration within the emulator interface.
+
+| Setting Category | Recommended Option | Purpose |
+|---|---|---|
+| **Graphics Driver** | Turnip (Adreno) | Maximizes rendering compatibility |
+| **DXVK Version** | DXVK 1.10.3 | Stabilizes DirectX 9/11 translation |
+| **Audio Driver** | ALSA / PulseAudio | Minimizes audio latency and crackling |
+| **CPU Affinity** | Select all cores except Core 0 | Prevents system UI lockups |
+| **Box64 Preset** | Compatibility / Intermediate | Balances execution speed and stability |
+
+Once inside the game, adjust the video settings to reduce the load on the emulated GPU. Use the settings recommended below for the best balance of visual clarity and performance.
+
+| In-Game Setting | Recommended Value | Impact on Performance |
+|---|---|---|
+| **Resolution** | 800x600 or 1024x768 | **High** - Drastically reduces pixel fill rate |
+| **Texture Quality** | Medium | **Medium** - Saves VRAM allocation |
+| **Shadow Quality** | Low / Off | **High** - Minimizes complex lighting calculations |
+| **Anti-Aliasing** | Off | **High** - Prevents edge-smoothing overhead |
+| **Depth of Field** | Off | **Low** - Improves visibility on small screens |
+
+<Callout type="success" title="Performance Gain">
+Disabling shadows and reducing the resolution to 800x600 can improve overall frame stability by up to **35%** on mid-range chipsets.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Stability and Gameplay Checklist">
+
+To ensure a smooth gaming experience without unexpected crashes during critical missions, verify your setup against this operational checklist before starting a long play session.
+
+<Checklist
+  id="stability-checklist"
+  title="Pre-Game Optimization Steps:"
+  items={[
+    "Enable Do Not Disturb mode to prevent system notifications from interrupting the emulator.",
+    "Close all background applications to free up system memory (RAM).",
+    "Verify that the Turnip driver version is updated to the latest compatible release.",
+    "Ensure your device has at least 15% battery charge, or connect it to a charger with bypass charging support.",
+    "Load the custom input profile in Winlator before launching the executable."
+  ]}
+/>
+
+<Callout type="info" title="External Controllers">
+Connecting a physical Bluetooth controller (such as an Xbox or PlayStation controller) bypasses the need for virtual touch controls, freeing up screen real estate and improving response times.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Frequently Asked Questions">
+
+For more detailed information regarding game mechanics and official updates, you can refer to the [Winlator Official Page](https://winlator.me/game/c/call-of-duty-black-ops-ii/) for compatibility reports.
+
+<FAQ items={[
+  {
+    question: "Why does the game crash during the loading screen on Winlator?",
+    answer: "This is often caused by insufficient RAM allocation or an incompatible DXVK version. Try switching the DXVK version in your container settings to 1.10.3 and ensure all background apps are closed."
+  },
+  {
+    question: "How can I fix audio stuttering and lag?",
+    answer: "Open the container settings and switch the audio driver from PulseAudio to ALSA, or vice versa. Additionally, reducing the Box64 CPU preset to a more stable configuration can resolve audio desync."
+  },
+  {
+    question: "Can I play multiplayer matches using this setup?",
+    answer: "Local offline multiplayer with bots works perfectly. However, official online matchmaking servers are generally inaccessible due to anti-cheat limitations and network translation layers within the emulator."
+  },
+  {
+    question: "What is the best processor for call of duty black ops ii winlator?",
+    answer: "Qualcomm Snapdragon processors, specifically the Snapdragon 8 Gen 2 or newer, are ideal because they support the Turnip graphics driver, which offers the best performance and compatibility."
+  }
+]} />
+
+<Callout type="tip" title="Troubleshooting Tip">
+If you encounter graphical glitches like missing textures or black screens, try changing the Wine version in the container settings or switching the renderer from Vulkan to OpenGL.
+</Callout>
+
+</Section>

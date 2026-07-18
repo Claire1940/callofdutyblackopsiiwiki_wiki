@@ -1,0 +1,192 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "call of duty black ops ii mods: 2026 Setup Guide & Best Tools",
+  description: "Set up call of duty black ops ii mods safely in 2026. Discover the best mod menus, custom Zombies maps, and Plutonium client installation steps.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=BO2+Mods+Guide",
+  date: "2026-07-19",
+  author: "call of duty black ops ii Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **call of duty black ops ii mods** are safest and most active on custom clients like Plutonium in 2026.
+- **Custom Zombies maps** require clean base game files from Steam to load textures correctly.
+- **Mod menus** like GSC Studio must be restricted to private matches to protect your account.
+- **Backup procedures** are mandatory for your game folders before applying any custom files.
+</Callout>
+
+<Section icon={Sparkles} title="The Landscape of call of duty black ops ii mods">
+
+The community surrounding **call of duty black ops ii mods** has evolved dramatically. While the original game launched over a decade ago, custom modding frameworks, dedicated third-party clients, and passionate developers have kept the multiplayer and Zombies experiences incredibly active in 2026. Modding this classic title allows players to experience custom maps, enhanced high-resolution textures, modified gameplay rulesets, and dedicated server configurations that are completely absent from the base Steam matchmaking.
+
+To mod the game successfully, players must first understand the differences between modding platforms. Running mods directly through the standard Steam executable is possible but carries a high risk of Valve Anti-Cheat (VAC) bans if done online. Consequently, the modern modding community relies heavily on custom clients that bypass official servers, providing built-in mod loaders and dedicated server browsers.
+
+| Platform | Target Audience | Key Features | Safety Level |
+|---|---|---|---|
+| Steam Version | Offline/Solo players | Original match files, basic offline scripts | Medium |
+| Plutonium T6 | Active multiplayer/Zombies | Dedicated servers, custom anticheat, high-res textures | High |
+| Redacted Client | LAN/Offline modders | No internet required, local mod testing | High |
+
+<Callout type="warning" title="Anti-Cheat Warning">
+Never attempt to join public matchmaking lobbies on the official Steam server while you have active mod menus or custom .gsc scripts loaded. Doing so will trigger an automated VAC ban on your Steam account. Always use custom offline clients or private password-protected lobbies for safety.
+</Callout>
+
+Using these custom clients not only protects your primary gaming accounts but also unlocks optimization features. These include unlocked frame rates, adjustable field-of-view (FOV) settings beyond console limits, and improved controller support, making the 2026 modding experience smoother than ever before.
+
+</Section>
+
+<Section icon={Map} title="How to Install Custom Mod Clients">
+
+Setting up custom clients is the most reliable way to load custom maps and scripts. The Plutonium T6 client is the gold standard for the community, offering a unified launcher that handles updates, server connections, and mod directory pathing automatically. Follow this structured process to get your client and mods running without errors.
+
+<Steps>
+  <Step num="1" title="Acquire Clean Base Game Files">
+    Ensure you have a legal copy of the game installed via Steam. The mod clients require the original assets, zone files, and sound banks to load custom content. Verify the integrity of your game files through Steam before proceeding.
+  </Step>
+  <Step num="2" title="Download the Client Launcher">
+    Visit the official Plutonium website to download their custom launcher. Create a free community account on their platform, as these credentials are required to log into the client and access the dedicated server browser.
+  </Step>
+  <Step num="3" title="Configure the Game Directory Path">
+    Open the launcher, navigate to the T6 (Black Ops II) section, and select the setup option. Point the launcher directly to your main installation directory, which is typically located within your Steam library folder structure.
+  </Step>
+  <Step num="4" title="Create the Mod Dedicated Folders">
+    Navigate to your local AppData folder under your Windows user profile. Locate the Plutonium storage directory for T6 and manually create folders named `scripts` and `images` to house your custom GSC files and texture mods.
+  </Step>
+</Steps>
+
+Before downloading massive custom map packs or texture overhauls, ensure your PC meets the storage and hardware overhead required to render modded assets. Custom textures and expanded map boundaries increase memory consumption significantly compared to the unmodded 2012 release.
+
+| Requirement | Minimum Spec | Recommended Spec | Note |
+|---|---|---|---|
+| Storage | 16 GB | 30 GB | Extra space needed for custom textures |
+| RAM | 4 GB | 8 GB | Modded maps require more memory allocation |
+| Graphics | DX9 Compatible | GTX 1050 or higher | Custom shaders run better on modern GPUs |
+
+<Callout type="tip" title="Directory Naming Tip">
+When selecting or creating folders for your custom mods, avoid using special characters, non-English symbols, or spaces in the directory path. The older game engine struggles to parse complex file paths, which frequently results in instant crashes on launch.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Zombies Mod Overhauls and Custom Maps">
+
+The Zombies community has produced some of the most impressive creations. From simple quality-of-life adjustments to complete map overhauls, modders have expanded the survival mode far beyond its original limits. Players can now load entirely custom maps created by the community, complete with unique Easter eggs, custom buyable weapons, and additional perk machines.
+
+<CardGrid cols={3}>
+  <Card title="Origins Expanded">
+    - **Enhanced staff upgrades**
+    - Extra perk slots
+    - Custom boss spawns
+  </Card>
+  <Card title="Town Reimagined">
+    - **Expanded map boundaries**
+    - Wall-buy weapon swaps
+    - Day/Night cycle toggle
+  </Card>
+  <Card title="Super Mario 64 Zombies">
+    - **Fully custom level geometry**
+    - Retro sound effects
+    - Unique coin-based economy
+  </Card>
+</CardGrid>
+
+These mods are usually distributed as compiled GSC scripts or custom map folders. GSC (Game Script Code) is the proprietary scripting language used by the game engine. By placing these scripts into your client's directory, you can alter zombie health scaling, change starting points, or add custom weapons to the Mystery Box.
+
+| Mod Utility Name | Main Feature | Ideal Playstyle | Co-op Support |
+|---|---|---|---|
+| Serious' Custom Perks | Adds 5+ custom perk machines | High-round survival | Fully Supported |
+| Origins Expanded | Unlocks extra staff upgrades | Hardcore easter egg hunters | Fully Supported |
+| Town Survival Reimagined | Expands map boundaries | Casual defense | Fully Supported |
+
+<Callout type="success" title="Co-op Compatibility">
+Custom clients like Plutonium fully support co-op play on custom Zombies maps. As long as the host has the map files installed and the joining players have the identical version of the files in their local directories, you can play together seamlessly.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Multiplayer Customization and Mod Menus">
+
+Multiplayer modding focuses on visual customization, custom lobby rules, and mod menus for private matches. Mod menus allow lobby hosts to spawn objects, change gravity, edit player speeds, and host unique mini-games like Prop Hunt or Hide and Seek with friends.
+
+For visual modding, texture replacement is highly popular. Players can replace default weapon camouflages, reticles, glove textures, and even HUD elements with high-definition custom designs. These texture mods are entirely client-side, meaning only you can see them, making them completely safe to use on any server.
+
+| Mod Category | Visual Impact | Performance Hit | File Type |
+|---|---|---|---|
+| Custom Weapon Camos | High | Extremely Low | .iwi / .dds |
+| Redesigned HUDs | Medium | None | .iwi |
+| Animated Menu Backgrounds | Low | Low | .bik |
+
+To ensure your modding remains safe, fun, and stable, always adhere to the community-established safety checklist before launching modded multiplayer lobbies.
+
+<Checklist
+  id="modding-safety"
+  title="Lobby Safety Requirements:"
+  items={[
+    "Verify that your mod client is fully updated to the latest version",
+    "Disable all gameplay-altering mod menus before joining public servers",
+    "Ensure custom texture files are placed strictly in the images subdirectory",
+    "Keep a clean, unmodded backup of your game folder on an external drive"
+  ]}
+/>
+
+<Callout type="info" title="Texture Modding Info">
+Custom client-side texture mods do not alter weapon statistics, fire rates, or hitboxes. They are purely cosmetic replacements designed to modernize the visual feedback of your favorite loadouts.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Troubleshooting Common Mod Errors">
+
+Modding older game engines inevitably leads to stability issues, conflict errors, or startup crashes. Because the game engine was not originally built to handle dynamic mod loading on modern operating systems, minor file path errors or script conflicts can prevent the game from launching.
+
+Fortunately, the community has documented almost every potential error code. Most issues stem from outdated runtime packages, missing DirectX files, or conflicting script variables within your custom directory.
+
+| Error Message / Issue | Likely Cause | Proven Resolution |
+|---|---|---|
+| Crash on Startup | Corrupted zone files | Verify Steam cache or redownload zone folder |
+| Missing DLL Error | Direct X or VC Redist outdated | Install standard DirectX 9.0c runtime packages |
+| UI Error 20000 | Mod script conflict | Remove conflicting GSC files from scripts directory |
+
+<Callout type="warning" title="File Backup Warning">
+Always create a physical backup of your `zone` and `players` folders before installing any mod that overwrites existing files. If a custom script corrupts these directories, your player progress, campaign saves, and key bindings could be permanently lost.
+</Callout>
+
+If you experience persistent crashes after installing a new mod, the best practice is to remove all files from your custom `scripts` and `images` directories, then add them back one by one to isolate the conflicting file.
+
+</Section>
+
+<Section icon={Trophy} title="Modding Frequently Asked Questions">
+
+Navigating the world of game modifications can be confusing for beginners. This section answers the most common questions regarding safety, compatibility, and software requirements.
+
+<FAQ items={[
+  {
+    question: "Are call of duty black ops ii mods safe to use in 2026?",
+    answer: "Yes, they are highly safe as long as you use dedicated community clients like Plutonium. These clients operate on isolated servers with custom anti-cheat systems, protecting your official Steam account from VAC bans."
+  },
+  {
+    question: "Can I play custom Zombies maps with friends online?",
+    answer: "Absolutely. When using a custom client, you can host a private match or dedicated server. Ensure all participating players have downloaded and installed the exact same custom map files beforehand."
+  },
+  {
+    question: "Do I need to own the game on Steam to use mod clients?",
+    answer: "Yes, you must have the official game files installed. Custom launchers do not provide the game for free; they require the original licensed assets, audio files, and map packages to function."
+  },
+  {
+    question: "Will using client-side texture mods get me banned?",
+    answer: "No. Client-side texture modifications, such as custom weapon camos or HUD overlays, are completely safe because they do not alter gameplay mechanics or communicate with official matchmaking servers."
+  }
+]} />
+
+<Callout type="tip" title="Community Support">
+If you encounter unique errors not covered in this guide, join the official community forums or dedicated Discord servers for your chosen client. The active developer communities provide real-time support and updated mod files regularly.
+</Callout>
+
+</Section>

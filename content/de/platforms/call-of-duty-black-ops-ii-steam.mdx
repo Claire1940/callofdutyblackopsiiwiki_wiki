@@ -1,0 +1,220 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, AlertTriangle, Monitor, HardDrive } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Call of Duty Black Ops II Steam: Sicherheits- & Setup-Leitfaden 2026",
+  description: "Ist Call of Duty Black Ops II auf Steam im Jahr 2026 sicher? Erfahren Sie mehr über die Sicherheit im Mehrspielermodus, Spielerzahlen, den Zombie-Modus und die Plutonium T6-Alternative.",
+  category: "Leitfaden",
+  image: "https://placehold.co/800x400/1a1a1a/ffffff?text=Black+Ops+II+Steam+Guide",
+  date: "2026-07-19",
+  author: "call of duty black ops ii Wiki-Team"
+}
+
+<Callout type="info" title="Schnellstart-Anleitung">
+- **Aktuelle Sicherheit**: Das Spielen des Mehrspielermodus von **Call of Duty Black Ops II auf Steam** birgt aufgrund unbehobener Exploits erhebliche Sicherheitsrisiken.
+- **Spielerbasis**: Der Mehrspielermodus verzeichnet durchschnittlich 100–150 tägliche Spieler; der Zombie-Modus ist mit rund 400 Spielern aktiver.
+- **Beste Plattform**: Obwohl die Steam-Version für den Besitz erforderlich ist, bevorzugen viele Spieler den Plutonium T6-Client für eine bessere Sicherheit.
+- **Preise**: Das Spiel kostet auf Steam weiterhin regulär 59,99 $, sofern es nicht im Angebot ist; die Deluxe-Version kostet 99,99 $.
+- **Zombie-Modus**: Gilt allgemein als sicherer als der Mehrspielermodus und bleibt im Jahr 2026 die beliebteste Spielweise.
+</Callout>
+
+<Section icon={Shield} title="Aktueller Sicherheitsstatus von Black Ops II auf Steam">
+
+Die größte Sorge für jeden, der im Jahr 2026 **Call of Duty Black Ops II auf Steam** spielen möchte, ist die digitale Sicherheit. Seit Jahren ist die PC-Version berüchtigt für Sicherheitslücken, die es böswilligen Akteuren ermöglichen, mit Ihrem System zu interagieren. Dabei handelt es sich nicht nur um herkömmliche In-Game-„Cheats“, sondern um Schwachstellen für Remotecodeausführung (RCE), die potenziell Ihren gesamten PC gefährden können.
+
+**Video-Highlights:**
+- Detaillierte Analyse der aktuellen RCE-Risiken (Remotecodeausführung) in der Steam-Version.
+- Analyse der Spielerzahlen und aktiven Lobbys im Jahr 2026.
+- Vergleich zwischen den offiziellen Steam-Servern und von der Community betriebenen Alternativen.
+
+<YouTubeEmbed videoId="voTaYNyM5FQ" title="Lohnt es sich, Black Ops 2 (Steam) im Jahr 2026 zu spielen?" />
+
+Obwohl einige Community-Mitglieder behaupten, das Spiel habe kleinere Stabilitätsupdates erhalten, bleibt das grundlegende Risiko, dass Hacker auf Ihren PC zugreifen oder Befehle ausführen, Realität. Aufgrund der fehlenden aktiven Unterstützung durch den Entwickler werden diese Sicherheitslücken selten behoben, was die offiziellen Matchmaking-Server in einem prekären Zustand zurücklässt.
+
+| Risikostufe | Bedrohungstyp | Beschreibung |
+| :--- | :--- | :--- |
+| **Kritisch** | **RCE-Exploits** | Hacker können potenziell Code über den Spiel-Client auf Ihrem PC ausführen. |
+| **Hoch** | **IP-Lecks** | Ihre öffentliche IP-Adresse ist für andere Spieler in einer Lobby leicht sichtbar. |
+| **Mittel** | **Absturz zum Desktop** | Böswillige Nutzer können das Schließen oder Einfrieren Ihres Spiels erzwingen. |
+| **Niedrig** | **Statistik-Reset** | Hacker können Ihren Rang zurücksetzen oder alles ohne Ihre Zustimmung freischalten. |
+
+<Callout type="warning" title="Sicherheitswarnung">
+Spielen Sie den offiziellen Steam-Mehrspielermodus niemals ohne ein hochwertiges VPN und spezielle, von der Community entwickelte Sicherheits-Patches. Selbst dann ist das Risiko auf offiziellen Servern niemals gleich null.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Zustand des Mehrspielermodus und Matchmaking">
+
+Der Mehrspielermodus von **Call of Duty Black Ops II auf Steam** ist nur noch ein Schatten seiner selbst. Obwohl man immer noch Spiele finden kann, wird das Erlebnis oft durch technische Hürden und eine schwindende Spielerbasis getrübt. Die meiste Aktivität konzentriert sich auf das Standard-Team-Deathmatch, während andere Modi wie Herrschaft oder Suchen & Zerstören außerhalb der europäischen Hauptverkehrszeiten fast unmöglich zu finden sind.
+
+| Funktion | Status | Beobachtungen 2026 |
+| :--- | :--- | :--- |
+| **Tägliche Spieler** | **100 - 150** | Hauptverkehrszeiten liegen meist in den Nachmittagsstunden in Europa. |
+| **Matchmaking-Geschwindigkeit** | **Schnell** | Lobbys füllen sich aufgrund des kleinen, konzentrierten Spielerpools schnell. |
+| **Serverstabilität** | **Schlecht** | Häufige Fehler wie „Teamverbindung fehlgeschlagen“ oder „Autorisierung fehlgeschlagen“. |
+| **Kartenabstimmung** | **Defekt** | Das Abstimmungssystem setzt sich oft zurück oder lädt die gewählte Karte nicht. |
+
+Das Matchmaking basiert hauptsächlich auf Peer-to-Peer (P2P), was bedeutet, dass ein Spieler in der Lobby als Host fungiert. Dies trägt zu den zuvor erwähnten Sicherheitsrisiken bei und führt oft zu hohen Latenzen (Lag) für Spieler in Südamerika, Asien oder Ozeanien, da die meisten aktiven Lobbys in Europa oder Nordamerika gehostet werden.
+
+<CardGrid cols={2}>
+  <Card title="Mehrspieler-Vorteile">
+    - **Schnelles Matchmaking** für Team-Deathmatch.
+    - Das ursprüngliche Fortschrittssystem ist weiterhin intakt.
+    - Klassische Karten wie Raid und Standoff sind immer noch in der Rotation.
+  </Card>
+  <Card title="Mehrspieler-Nachteile">
+    - **Schwere Sicherheitslücken**.
+    - Hohe Frequenz von Hackern und Moddern.
+    - Instabile Server führen zu häufigen Kicks.
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Profi-Tipp">
+Wenn Sie auf den Fehler „Team-Autorisierung fehlgeschlagen“ stoßen, lässt sich das Problem in der Regel vorübergehend beheben, indem Sie Ihren Steam-Client neu starten und die Integrität der Spieldateien überprüfen.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Zombie-Modus: Der sicherste Weg zu spielen">
+
+Glücklicherweise ist der Zombie-Modus in einem viel besseren Zustand als der Mehrspielermodus. Er bleibt der am meisten gespielte Teil von **Call of Duty Black Ops II auf Steam**, mit durchschnittlich 400 aktiven Spielern täglich. Da Zombies oft solo oder mit einer kleinen Gruppe von Freunden gespielt wird, ist das Risiko, auf böswillige Hacker zu treffen, erheblich geringer.
+
+| Kartenname | Beliebtheit | Bestens geeignet für |
+| :--- | :--- | :--- |
+| **Town** | ★★★★★ | Schnelle Überlebensspiele und Gelegenheitsspiele. |
+| **Origins** | ★★★★★ | Komplexe Easter Eggs und langfristigen Fortschritt. |
+| **Mob of the Dead** | ★★★★☆ | Atmosphärisches Gameplay und einzigartige Mechaniken. |
+| **Buried** | ★★★☆☆ | Entspanntes Gameplay mit mächtigen baubaren Objekten. |
+| **Die Rise** | ★★☆☆☆ | Vertikalität und risikoreiche Bewegung. |
+
+Die Zombie-Community ist in den Steam-Foren und auf Discord aktiv, sodass es relativ einfach ist, Gruppen für High-Round-Versuche oder das Abschließen von Easter Eggs zu finden. Die meisten Spieler bevorzugen die DLC-Karten, daher wird der Besitz des Season Pass oder der Deluxe Edition für das volle Erlebnis dringend empfohlen.
+
+<Callout type="success" title="Empfehlung für sicheres Spielen">
+Der Zombie-Modus gilt auf Steam im Allgemeinen als sicher, insbesondere in privaten Spielen mit Freunden. Da er P2P-Netzwerke nutzt, eliminiert das Spielen mit vertruswürdigen Personen die meisten Sicherheitsbedenken.
+</Callout>
+
+</Section>
+
+<Section icon={Monitor} title="Plutonium T6: Die empfohlene Alternative">
+
+Für diejenigen, die **Call of Duty Black Ops II auf Steam** ohne die ständige Angst vor Sicherheitsverletzungen erleben möchten, ist der von der Community entwickelte Plutonium T6-Client der Goldstandard. Plutonium bietet einen benutzerdefinierten Launcher, der auf Ihren vorhandenen Steam-Dateien aufbaut, aber dedizierte Server und verbesserte Sicherheitsprotokolle nutzt.
+
+<Steps>
+  <Step num="1" title="Spiel kaufen">
+    Stellen Sie sicher, dass Sie das Hauptspiel auf Steam besitzen. Plutonium benötigt die originalen Spieldateien, um legal und ordnungsgemäß zu funktionieren.
+  </Step>
+  <Step num="2" title="Plutonium herunterladen">
+    Besuchen Sie die offizielle Plutonium-Website und laden Sie den Launcher herunter. Folgen Sie der Installationsanleitung, um den Launcher auf Ihren Steam-Installationsordner zu verweisen.
+  </Step>
+  <Step num="3" title="Konfiguration">
+    Konfigurieren Sie Ihre Einstellungen im Spiel. Plutonium ermöglicht ein höheres Sichtfeld (FOV) und unbegrenzte Bildraten, die in der standardmäßigen Steam-Version fehlen.
+  </Step>
+  <Step num="4" title="Einem Server beitreten">
+    Nutzen Sie den integrierten Server-Browser, um moderierte, dedizierte Server zu finden. Diese sind weitaus sicherer als das offizielle P2P-Matchmaking.
+  </Step>
+</Steps>
+
+| Funktion | Offizielles Steam | Plutonium T6 |
+| :--- | :--- | :--- |
+| **Sicherheit** | Niedrig (RCE-gefährdet) | Hoch (Dedizierter Anti-Cheat) |
+| **Server** | P2P-Matchmaking | Dedizierter Server-Browser |
+| **Spieleranzahl** | Niedrig | Hoch (Aktive Community) |
+| **Eigene Inhalte** | Nicht unterstützt | Unterstützt eigene Karten/Mods |
+| **Controller-Unterstützung** | Nativ | Verbessert durch Zielhilfe-Anpassungen |
+
+<Callout type="info" title="Warum Plutonium?">
+Plutonium bietet ein „Konsolen“-Erlebnis auf dem PC, einschließlich Zielhilfe für Controller und der Möglichkeit, offline zu spielen – Funktionen, die in der offiziellen Steam-Version entweder defekt sind oder ganz fehlen.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Preise und Wert im Jahr 2026">
+
+Eine der größten Hürden für neue Spieler ist der Preis. Obwohl das Spiel über ein Jahrzehnt alt ist, behält Activision ein hohes Preisniveau für die Black Ops-Reihe bei.
+
+<CardGrid cols={3}>
+  <Card title="Standard Edition">
+    - **Preis**: 59,99 $
+    - Enthält das Hauptspiel
+    - Enthält Nuketown 2025
+    - **Fazit**: Schlechtes Preis-Leistungs-Verhältnis, außer im Angebot.
+  </Card>
+  <Card title="Digital Deluxe">
+    - **Preis**: 99,99 $
+    - Enthält World at War
+    - Enthält alle DLCs
+    - **Fazit**: Der beste Weg, um alle Zombie-Karten zu erhalten.
+  </Card>
+  <Card title="Season Pass">
+    - **Preis**: 49,99 $
+    - Enthält 4 Kartenpakete
+    - Benötigt das Hauptspiel
+    - **Fazit**: Nur bei einem Rabatt von 50 % oder mehr kaufen.
+  </Card>
+</CardGrid>
+
+Das Spiel ist häufig für etwa 19,79 $ für die Basisversion und 29,99 $ für die Deluxe-Version im Angebot. Es wird dringend empfohlen, vor dem Kauf auf einen saisonalen Steam-Sale zu warten.
+
+| Shop | Typischer Angebotspreis | Häufigkeit |
+| :--- | :--- | :--- |
+| **Steam Sommer-Sale** | 19,99 $ | Jährlich (Juni/Juli) |
+| **Steam Winter-Sale** | 19,99 $ | Jährlich (Dezember) |
+| **Activision Publisher-Sale** | 19,99 $ | Zufällig (2–3 Mal/Jahr) |
+
+<Callout type="tip" title="Kaufberatung">
+Zahlen Sie im Jahr 2026 keine 60 $ für dieses Spiel. Setzen Sie es auf Ihre Steam-Wunschliste und warten Sie auf eine Benachrichtigung. Die „Deluxe“-Version ist die einzige, die sich lohnt, wenn Sie ein Zombie-Fan sind.
+</Callout>
+
+</Section>
+
+<Section icon={HardDrive} title="Vorbereitungs-Checkliste">
+
+Bevor Sie auf Steam auf „Spielen“ klicken, stellen Sie sicher, dass Sie diese Schritte durchgeführt haben, um Ihre Hardware zu schützen und Ihr Spielerlebnis zu verbessern.
+
+<Checklist
+  id="bo2-setup-checklist"
+  title="Voraussetzungen vor dem Spiel:"
+  items={[
+    "Spieldateien über die Steam-Eigenschaften überprüfen",
+    "Ein seriöses VPN installieren, um Ihre IP-Adresse zu maskieren",
+    "„Anderen den Beitritt erlauben“ in privaten Zombie-Lobbys deaktivieren",
+    "Den Plutonium-Launcher für einen sichereren Mehrspielermodus herunterladen",
+    "Sicherstellen, dass Ihre Firewall aktiv ist und die ausführbare Datei des Spiels überwacht"
+  ]}
+/>
+
+<Callout type="warning" title="Letzte Erinnerung">
+Wenn Sie sich entscheiden, auf offiziellen Steam-Servern zu spielen, bleiben Sie niemals in einer Lobby, wenn Sie jemanden mit einem „Mod-Menü“ sehen oder wenn sich das Spiel seltsam verhält (z. B. wenn sich Ihr Rang plötzlich ändert).
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="FAQ">
+
+<FAQ items={[
+  {
+    question: "Ist es sicher, Call of Duty Black Ops II im Jahr 2026 auf Steam zu spielen?",
+    answer: "Im Allgemeinen nein. Die offiziellen Mehrspieler-Server weisen unkorrigierte RCE-Sicherheitslücken auf. Der Zombie-Modus ist sicherer, insbesondere in privaten Spielen, aber der Plutonium T6-Client ist der einzige wirklich sichere Weg, um den Mehrspielermodus zu spielen."
+  },
+  {
+    question: "Warum kostet Black Ops II auf Steam immer noch 60 $?",
+    answer: "Activision hält die Preise für ältere Call of Duty-Titel hoch, um Spieler dazu zu bewegen, die neueren Live-Service-Teile zu kaufen. Rabatte für ältere Spiele gibt es meist nur während der großen Steam-Sales."
+  },
+  {
+    question: "Kann ich auf Steam gesperrt werden, wenn ich Plutonium benutze?",
+    answer: "Es gibt keine bekannten Fälle, in denen Nutzer auf Steam wegen der Verwendung von Plutonium durch VAC gesperrt wurden, da es als separater Client läuft. Sie sollten das Spiel jedoch immer auf Steam besitzen, um die Entwickler zu unterstützen und rechtliche Probleme zu vermeiden."
+  },
+  {
+    question: "Hat die Steam-Version von Black Ops II Controller-Unterstützung?",
+    answer: "Ja, sie verfügt über native Controller-Unterstützung. Viele Spieler finden jedoch, dass die Zielhilfe und das allgemeine Spielgefühl auf dem Plutonium-Client aufgrund moderner Optimierungen besser sind."
+  }
+]} />
+
+</Section>

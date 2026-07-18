@@ -1,0 +1,191 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Guía de Configuración y Ajustes de Call of Duty Black Ops II en Winlator",
+  description: "Aprende cómo configurar y optimizar Call of Duty: Black Ops II en Android usando el emulador Winlator. Obtén los mejores ajustes, requisitos y pasos.",
+  category: "Tutorial",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Winlator+Setup+Guide",
+  date: "2026-07-19",
+  author: "Equipo de la Wiki de Call of Duty Black Ops II",
+  keywords: "winlator, call of duty black ops ii, configuración android, emulación, ajustes gráficos"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Configuración del Emulador**: Ejecuta las configuraciones de **call of duty black ops ii winlator** utilizando ajustes de contenedor optimizados para procesadores Snapdragon o MediaTek.
+- **Objetivo de Hardware**: Apunta a un chipset **Snapdragon 8 Gen 2** o equivalente para mantener una experiencia estable de 60 FPS.
+- **Perfiles de Entrada**: Crea **diseños de controlador virtual** personalizados para mapear las teclas del teclado y el ratón a las superposiciones de la pantalla táctil.
+- **Ajuste Gráfico**: Reduce la **resolución interna del juego** y desactiva las sombras para evitar el estrangulamiento térmico durante sesiones prolongadas.
+- **Modos de Juego**: Disfruta de la campaña completa, mapas de multijugador local y el clásico **modo Zombies** directamente en tu dispositivo móvil.
+</Callout>
+
+<Section icon={Sparkles} title="Introducción a la Emulación Móvil">
+
+Ejecutar títulos de PC de alto rendimiento en hardware móvil ha pasado de ser un experimento novedoso a un método de juego muy viable. Al utilizar capas de compatibilidad como Winlator, los usuarios de Android pueden ejecutar juegos de escritorio clásicos directamente en sus teléfonos inteligentes. Entre los objetivos más populares para esta emulación se encuentra el clásico shooter en primera persona de Treyarch, que ofrece acción intensa, campañas ramificadas y modos cooperativos altamente rejugables.
+
+Para lograr una tasa de fotogramas jugable, debes configurar el entorno del emulador para que coincida con la exigente canalización de renderizado del juego. Esta guía de configuración describe los parámetros de configuración precisos, los requisitos de hardware y los pasos de optimización necesarios para ejecutar el juego sin problemas.
+
+<CardGrid cols={3}>
+  <Card title="Portabilidad">
+    - **Juega en cualquier lugar** sin necesidad de un PC
+    - Acceso a la campaña completa
+    - Jugabilidad local sin conexión
+  </Card>
+  <Card title="Rendimiento">
+    - Soporte de controladores personalizados
+    - Escalado de resolución variable
+    - Hasta **60 FPS** en chips de gama alta
+  </Card>
+  <Card title="Controles">
+    - Mapeo de gamepad virtual
+    - Soporte para controladores Bluetooth
+    - Diseños táctiles personalizables
+  </Card>
+</CardGrid>
+
+<Callout type="info" title="Resumen de la Emulación">
+Winlator actúa como una capa de traducción, convirtiendo las llamadas al sistema x86 de Windows y las instrucciones de DirectX en formatos que la arquitectura ARM de Android y los controladores de gráficos Vulkan pueden interpretar. Este proceso requiere una sobrecarga significativa de CPU y GPU, lo que hace que la selección de hardware sea crucial.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Requisitos de Hardware y del Sistema">
+
+Antes de intentar configurar el entorno, asegúrate de que tu dispositivo Android posea la potencia de procesamiento necesaria. Emular un título 3D de esta escala requiere una gestión térmica robusta y un sistema en chip (SoC) moderno. Los dispositivos equipados con procesadores Qualcomm Snapdragon suelen ofrecer una compatibilidad superior debido a los controladores de gráficos Turnip maduros.
+
+La siguiente tabla resume las especificaciones de hardware mínimas y recomendadas para ejecutar el juego mediante emulación, en comparación con los requisitos originales de escritorio.
+
+| Especificación | Mínimo en Escritorio | Mínimo en Android (Winlator) | Recomendado en Android (Winlator) |
+|---|---|---|---|
+| **Gráficos** | NVIDIA GeForce 8800 GT | Adreno 640 o equivalente | Adreno 740 o equivalente |
+| **Procesador** | Intel Core 2 Duo E8200 | Snapdragon 855 / Dimensity 8100 | Snapdragon 8 Gen 2 / Dimensity 9200 |
+| **RAM** | 2 GB | 6 GB | 8 GB o superior |
+| **Almacenamiento** | 16 GB | 16 GB (UFS de alta velocidad) | 16 GB (Almacenamiento UFS 4.0) |
+
+El rendimiento varía significativamente según la arquitectura específica de tu procesador. La tabla a continuación detalla los rangos de rendimiento esperados en los chipsets móviles comunes.
+
+| Nivel de Chipset | Ejemplo de Procesador | FPS Esperados | Resolución Recomendada |
+|---|---|---|---|
+| **Gama Alta** | Snapdragon 8 Gen 2 / Gen 3 | **45-60 FPS** | 1280x720 (HD) |
+| **Gama Media** | Snapdragon 870 / Dimensity 8100 | **30-40 FPS** | 800x600 (SVGA) |
+| **Gama de Entrada** | Snapdragon 720G / Helio G96 | **15-25 FPS** | 640x480 (VGA) |
+
+<Callout type="warning" title="Gestión Térmica">
+Las sesiones de emulación prolongadas generan un calor significativo. Para evitar el estrangulamiento térmico y las caídas repentinas de fotogramas, considera usar un enfriador de teléfono externo o reducir la resolución del contenedor.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Guía de Configuración Paso a Paso de Winlator">
+
+Configurar el entorno de emulación requiere preparar los archivos del juego en un PC y transferirlos a tu dispositivo Android. Sigue estos pasos para inicializar el contenedor y configurar el entorno de ejecución.
+
+<Steps>
+  <Step num="1" title="Preparar los Archivos del Juego">
+    Instala el juego en tu PC. Localiza el directorio de instalación y copia la carpeta completa del juego al almacenamiento interno de tu dispositivo Android, preferiblemente en el directorio **Download** para un fácil acceso.
+  </Step>
+  <Step num="2" title="Crear un Contenedor en Winlator">
+    Abre el emulador y toca el icono "+" para crear un nuevo contenedor. Establece el nombre del contenedor, selecciona la resolución de pantalla (comienza con **800x600** para un rendimiento óptimo) y elige el controlador de gráficos adecuado.
+  </Step>
+  <Step num="3" title="Configurar Ajustes de DXVK y Wine">
+    En los ajustes del contenedor, navega a la pestaña DXVK. Elige **DXVK 1.10.3** o superior. Configura los ajustes del registro de Wine para emular un entorno de Windows de 64 bits y asigna todos los núcleos de CPU disponibles al contenedor.
+  </Step>
+  <Step num="4" title="Configurar Controles de Entrada">
+    Navega al menú de Controles de Entrada. Crea un nuevo perfil y mapea las teclas virtuales para que coincidan con el diseño predeterminado del juego (WASD para movimiento, clic del ratón para disparar y barra espaciadora para saltar). Guarda el perfil.
+  </Step>
+  <Step num="5" title="Iniciar y Optimizar">
+    Inicia el contenedor, navega a la carpeta del juego a través del administrador de archivos integrado y ejecuta el ejecutable principal. Una vez que el juego se inicie, abre inmediatamente el menú de opciones para ajustar la configuración interna.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Selección de Controladores">
+Para dispositivos Snapdragon, selecciona siempre el controlador de gráficos **Turnip (Adreno)** en los ajustes del contenedor. Este controlador proporciona la capa de traducción Vulkan más estable y evita artefactos gráficos.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Optimización Gráfica y Ajustes">
+
+Para mantener una tasa de fotogramas constante durante secuencias de combate intensas, debes equilibrar los ajustes del contenedor y las opciones internas del juego. Las configuraciones subóptimas pueden provocar fugas de memoria, bloqueos o tirones graves.
+
+La tabla a continuación destaca la configuración recomendada del contenedor dentro de la interfaz del emulador.
+
+| Categoría de Ajuste | Opción Recomendada | Propósito |
+|---|---|---|
+| **Controlador Gráfico** | Turnip (Adreno) | Maximiza la compatibilidad de renderizado |
+| **Versión de DXVK** | DXVK 1.10.3 | Estabiliza la traducción de DirectX 9/11 |
+| **Controlador de Audio** | ALSA / PulseAudio | Minimiza la latencia de audio y los chasquidos |
+| **Afinidad de CPU** | Seleccionar todos excepto el Núcleo 0 | Evita bloqueos en la interfaz del sistema |
+| **Preajuste Box64** | Compatibility / Intermediate | Equilibra la velocidad de ejecución y la estabilidad |
+
+Una vez dentro del juego, ajusta la configuración de video para reducir la carga en la GPU emulada. Usa los ajustes recomendados a continuación para obtener el mejor equilibrio entre claridad visual y rendimiento.
+
+| Ajuste en el Juego | Valor Recomendado | Impacto en el Rendimiento |
+|---|---|---|
+| **Resolución** | 800x600 o 1024x768 | **Alto** - Reduce drásticamente la tasa de relleno de píxeles |
+| **Calidad de Texturas** | Media | **Medio** - Ahorra asignación de VRAM |
+| **Calidad de Sombras** | Baja / Desactivado | **Alto** - Minimiza cálculos de iluminación complejos |
+| **Anti-Aliasing** | Desactivado | **Alto** - Evita la sobrecarga de suavizado de bordes |
+| **Profundidad de Campo** | Desactivado | **Bajo** - Mejora la visibilidad en pantallas pequeñas |
+
+<Callout type="success" title="Mejora de Rendimiento">
+Desactivar las sombras y reducir la resolución a 800x600 puede mejorar la estabilidad general de los fotogramas hasta en un **35%** en chipsets de gama media.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Lista de Verificación de Estabilidad y Jugabilidad">
+
+Para garantizar una experiencia de juego fluida sin bloqueos inesperados durante misiones críticas, verifica tu configuración con esta lista operativa antes de comenzar una sesión de juego larga.
+
+<Checklist
+  id="stability-checklist"
+  title="Pasos de Optimización Previos al Juego:"
+  items={[
+    "Activa el modo No Molestar para evitar que las notificaciones del sistema interrumpan el emulador.",
+    "Cierra todas las aplicaciones en segundo plano para liberar memoria del sistema (RAM).",
+    "Verifica que la versión del controlador Turnip esté actualizada a la última versión compatible.",
+    "Asegúrate de que tu dispositivo tenga al menos un 15% de carga de batería o conéctalo a un cargador con soporte de carga bypass.",
+    "Carga el perfil de entrada personalizado en Winlator antes de lanzar el ejecutable."
+  ]}
+/>
+
+<Callout type="info" title="Mandos Externos">
+Conectar un controlador Bluetooth físico (como uno de Xbox o PlayStation) elimina la necesidad de controles táctiles virtuales, liberando espacio en pantalla y mejorando los tiempos de respuesta.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Preguntas Frecuentes">
+
+Para obtener información más detallada sobre la mecánica del juego y las actualizaciones oficiales, puedes consultar la [Página Oficial de Winlator](https://winlator.me/game/c/call-of-duty-black-ops-ii/) para informes de compatibilidad.
+
+<FAQ items={[
+  {
+    question: "¿Por qué el juego se bloquea en la pantalla de carga en Winlator?",
+    answer: "Esto suele deberse a una asignación de RAM insuficiente o a una versión de DXVK incompatible. Intenta cambiar la versión de DXVK en los ajustes de tu contenedor a 1.10.3 y asegúrate de cerrar todas las aplicaciones en segundo plano."
+  },
+  {
+    question: "¿Cómo puedo solucionar el tartamudeo y el retraso del audio?",
+    answer: "Abre los ajustes del contenedor y cambia el controlador de audio de PulseAudio a ALSA, o viceversa. Además, reducir el preajuste de CPU Box64 a una configuración más estable puede resolver la desincronización de audio."
+  },
+  {
+    question: "¿Puedo jugar partidas multijugador usando esta configuración?",
+    answer: "El multijugador local sin conexión con bots funciona perfectamente. Sin embargo, los servidores de emparejamiento oficiales en línea suelen ser inaccesibles debido a las limitaciones del sistema antitrampas y las capas de traducción de red dentro del emulador."
+  },
+  {
+    question: "¿Cuál es el mejor procesador para call of duty black ops ii winlator?",
+    answer: "Los procesadores Qualcomm Snapdragon, específicamente el Snapdragon 8 Gen 2 o más reciente, son ideales porque admiten el controlador gráfico Turnip, que ofrece el mejor rendimiento y compatibilidad."
+  }
+]} />
+
+<Callout type="tip" title="Consejo de Solución de Problemas">
+Si encuentras fallos gráficos como texturas faltantes o pantallas negras, intenta cambiar la versión de Wine en los ajustes del contenedor o cambiar el renderizador de Vulkan a OpenGL.
+</Callout>
+
+</Section>
